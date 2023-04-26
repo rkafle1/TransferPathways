@@ -2,6 +2,8 @@ import os
 import urllib.request
 import json 
 from collections import defaultdict
+from pdfextractor import PDFExtractor
+
 
 class DatabaseMaker():
     def __init__(self, school_name, major_code, id_to_key):

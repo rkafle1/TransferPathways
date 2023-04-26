@@ -2,7 +2,7 @@ import re
 import sys
 import os
 import pdfrw
-from pdfminer.high_level import extract_text
+from pdfminer import extract_text
 
 
 class PDFExtractor:
