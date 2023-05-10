@@ -1,11 +1,13 @@
 import re
 import sys
 import os
-import pdfrw
+from pdfrw import PdfReader, PageMerge
+# import pdfrw
 from pdfminer import extract_text
 
 
 class PDFExtractor:
+
     def __init__(self, file_name):
         self.file_name = file_name
         self.num_pages = 0
@@ -16,14 +18,15 @@ class PDFExtractor:
         return req_to_equiv
 
     def process_file(self):
-        writer = pdfrw.PdfWriter()
-        for page in pdfrw.PdfReader(self.file_name).pages:
+        # writer = PdfWriter()
+        f = open("Practice File", "w")
+        for page in PdfReader(self.file_name).pages:
             self.num_pages += 1
             for x in [0, 0.5]:
-                new_page = pdfrw.PageMerge()
+                new_page = PageMerge()
                 new_page.add(page, viewrect=(x, 0, 0.5, 1))
-                writer.addpages([new_page.render()])
-        writer.write('output.pdf')
+        #         writer.addpages([new_page.render()])
+        # writer.write('output.pdf')
 
     def dict_from_text(self):
         req_to_equiv = {}
