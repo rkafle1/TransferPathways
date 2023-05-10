@@ -45,9 +45,12 @@ class PDFGrabber():
             key_val = key['key']
             school_id = key['school_id']
             id_to_key[school_id] = key_val
+            # set pdf url
             pdf_url = f'https://assist.org/api/artifacts/{key_val}'
+            # write to new file the contents of pdf file
             file_name = f'agreements/report_{self.school_id}_{school_id}_{self.major_code}.pdf'
-            with open(file_name, 'wb') as f:
-                f.write(urllib.request.urlopen(pdf_url).read())
+            f = open(file_name, 'wb')
+            f.write(urllib.request.urlopen(pdf_url).read())
+            f.close()
             time.sleep(self.delay)
         return id_to_key
