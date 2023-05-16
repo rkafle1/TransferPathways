@@ -1,6 +1,7 @@
 from PDFGrabber import PDFGrabber
 from AssistAPIInformationGetter import *
 from pdfextractor import PDFExtractor
+from databasemaker import *
 # Dictionary which consists of the CS major name for the specific university
 # Todo: Put this data into a CSV file and create dictionary using that instead.
 CollegeCSMajor = {"University of California, San Diego": "Computer Science B.S.", "University of California, Irvine": "Computer Science, B.S.",
@@ -15,9 +16,11 @@ CollegeCSMajor = {"University of California, San Diego": "Computer Science B.S."
 #                  'CS', 0.2)
 # id_to_key = grabber.get_pdfs()
 
-extractor = PDFExtractor('report_128_150_CS.pdf')
-
-# reqs_to_equivs = extractor.process_page()
+# maker = DatabaseMaker('UCI', 'CS', id_to_key)
+# maker.add_classes()
+extractor =  PDFExtractor('agreements/report_120_3_CS.pdf')
+reqs_to_equivs = extractor.dict_from_file()
+print(reqs_to_equivs)
 
 
 # get all pdf agreements for every combination of uc and cc

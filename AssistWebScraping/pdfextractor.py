@@ -2,7 +2,8 @@ import re
 import sys
 import os
 import pdfrw
-from pdfminer import extract_text
+
+from pdfminer.high_level import extract_text
 
 
 class PDFExtractor:
@@ -16,6 +17,7 @@ class PDFExtractor:
         return req_to_equiv
 
     def process_file(self):
+        print("processing file")
         writer = pdfrw.PdfWriter()
         for page in pdfrw.PdfReader(self.file_name).pages:
             self.num_pages += 1
@@ -23,14 +25,19 @@ class PDFExtractor:
                 new_page = pdfrw.PageMerge()
                 new_page.add(page, viewrect=(x, 0, 0.5, 1))
                 writer.addpages([new_page.render()])
+        print(self.num_pages)
         writer.write('output.pdf')
 
     def dict_from_text(self):
+        print("dict from text starting")
         req_to_equiv = {}
+        print(self.num_pages)
         for page in range(self.num_pages):
             page_num = 2 * page
             text = extract_text('output.pdf', page_numbers=[page_num])
+            print(text)
             req_to_equiv = self.process_page(req_to_equiv, text)
+
         return req_to_equiv
 
     def process_page(self, req_to_equivs_old, text):
@@ -43,6 +50,7 @@ class PDFExtractor:
         req_to_equivs = req_to_equivs_old
         req = ''
         equiv = ''
+        print(outs)
         for item in outs:
             if 'Same-As' in item:
                 item = item.replace('--- Or ---', ' *OR* ').replace('--- And ---', ' *AND* ') \
@@ -119,6 +127,7 @@ class PDFExtractor:
                 break
 
         if req != '' and equiv != '':
+            print(req, equiv)
             req_to_equivs[req] = equiv
 
         return req_to_equivs

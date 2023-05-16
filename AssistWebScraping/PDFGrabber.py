@@ -49,8 +49,11 @@ class PDFGrabber():
             pdf_url = f'https://assist.org/api/artifacts/{key_val}'
             # write to new file the contents of pdf file
             file_name = f'agreements/report_{self.school_id}_{school_id}_{self.major_code}.pdf'
-            f = open(file_name, 'wb')
-            f.write(urllib.request.urlopen(pdf_url).read())
-            f.close()
-            time.sleep(self.delay)
+            # f = open(file_name, 'w')
+            # f.write(urllib.request.urlopen(pdf_url).read())
+            # f.close()
+            # time.sleep(self.delay)
+            with open(file_name, 'wb') as f:
+                f.write(urllib.request.urlopen(pdf_url).read())
+            time.sleep(self.delay)    
         return id_to_key

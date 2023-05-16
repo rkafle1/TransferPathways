@@ -2,7 +2,7 @@ import os
 import urllib.request
 import json 
 from collections import defaultdict
-from pdfextractor import PDFExtractor
+from pdfextractor import *
 
 
 class DatabaseMaker():
@@ -30,13 +30,13 @@ class DatabaseMaker():
             info = file_name.replace('.pdf', '').split('_')
             to_school_id = info[1]
             from_school_id = int(info[2])
-            extractor = PDF_Extractor(f'agreements/{file_name}')
+            extractor = PDFExtractor(f'agreements/{file_name}')
             classes = extractor.dict_from_file()
             for to_class in classes.keys():
                 from_class = {'school_id': from_school_id,
                               'from_school': self.names[from_school_id],
                               'equiv': classes[to_class],
-                              'key': id_to_key[from_school_id]}
+                              'key': self.id_to_key[from_school_id]}
                 self.database[to_class].append(from_class)
         self.database = self.alphabetize_class_dict(self.database)
         json_name = f'agreements/{self.school_name}/{self.major_code}.json'
