@@ -25,17 +25,17 @@ class PDFExtractor:
                 new_page = pdfrw.PageMerge()
                 new_page.add(page, viewrect=(x, 0, 0.5, 1))
                 writer.addpages([new_page.render()])
-        print(self.num_pages)
+        # print(self.num_pages)
         writer.write('output.pdf')
 
     def dict_from_text(self):
-        print("dict from text starting")
+        # print("dict from text starting")
         req_to_equiv = {}
-        print(self.num_pages)
+        # print(self.num_pages)
         for page in range(self.num_pages):
             page_num = 2 * page
-            text = extract_text('output.pdf', page_numbers=[page_num])
-            print(text)
+            text = extract_text(self.file_name)
+            # print(text)
             req_to_equiv = self.process_page(req_to_equiv, text)
 
         return req_to_equiv
