@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style-sections.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Vina+Sans&display=swap" rel="stylesheet">
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="index1-sections.js" type="module"></script>
+
+    <title>Sections- Adm. Requirements </title>
+</head>
+
+<body>
+<br>
+<h1>Admission requirements</h1>
+<br>
+<form id="school-form">
+  <label for="school-select">Select a School:</label>
+  <select id="school-select">
+    <option value="UC San Diego CSE B.S.">UCSD</option>
+    <option value="UC Santa Barbara CS B.S.">UCSB</option>
+    <option value="UC Irvine B.S CSE @ The Henry Samueli School of Engineering" >UCI CSE op1 </option>
+    <option value="UC Irvine B.S CSE @ Donald Bren School of Information and Computer Sciences" >UCI CSE op2 </option>
+    <option value="UC Irvine B.S Computer Science @ Donald Bren School of Information and Computer Sciences">UCI CS</option>
+    <option value="UC Riverside B.S Computer Science" >UC Riverside</option>
+    <option value="UC Davis B.S. Computer Science @ College of Letters and Science" >UC Davis CS</option>
+    <option value="UC Davis B.S CSE @ College of Engineering" >UC Davis CSE</option>
+    <option value="UC Merced B.S CSE" >UC Merced CSE</option>
+    <option value="UC Santa Cruz B.S Computer Science" >UCSC B.S CS</option>
+    <option value="UC Santa Cruz B.A Computer Science" >UCSC B.A CS</option>
+    <option value="UCLA B.S Computer Science" >UCLA B.S CS</option>
+    <option value="UCLA B.S CSE" >UCLA B.S CSE</option>
+    <option value="UC Berkeley B.S EECS" >UCB B.S EECS</option>
+
+    <!-- Add more options as needed -->
+  </select>
+  <button type="submit">Submit</button>
+</form>
+
+    <!-- School name -->
+    <h2 id="school-name-subtitle"></h2>
+
+    <!-- Minimum GPA  -->
+    <!-- <h3 >Minimum GPA: <span id ="mimimum-GPA"></span></h3> -->
+    <h4 id ="minimum-GPA"></h4> <br>
+
+    <!-- Required -->
+    <section class="require">
+        <summary>Required Courses: </summary>
+        <!-- <ul id="required-courses"></ul> -->
+        <ul id="required-courses">
+        <ul id ="math-courses"></ul> <br>
+        <ul id ="cse-courses"></ul> <br>
+        <ul id ="science-courses"></ul> <br>
+        <ul id ="option-courses"></ul>
+    </ul>
+
+    <br>
+    <!-- Recommended -->
+    <section class = "recom">
+        <summary>Recommended Courses: </summary>
+        <ul id="recommended-courses">
+        </ul>
+    </section>
+
+    <footer>
+      <br><br><br>
+    </footer>
+
+</body>
+
+</html>

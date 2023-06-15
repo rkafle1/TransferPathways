@@ -1,0 +1,165 @@
+/* this is the color for the complete section of math/science/cse requirements  */
+#math-courses{
+    background-color: rgb(168, 188, 224);
+    --border-radius: 13px 13px 0px 0px; 
+    border-radius: 13px; 
+}
+#science-courses{
+    border-radius: 13px; 
+    background-color: rgb(158, 204, 158);
+}
+#cse-courses{
+    border-radius: 13px; 
+    background-color: rgb(228, 183, 216);
+}
+#option-courses{
+    border-radius: 13px; 
+    background-color: rgb(223, 214, 240);
+
+}
+.hidden {
+    display: none;
+}
+.math-title-style{
+    /* border: 1px solid black ; */
+    border-radius: 13px 13px 0px 0px; 
+    padding: 10px;
+    background-color: rgb(103, 140, 209);
+    text-align: center;
+}
+.science-title-style{
+    /* border: 1px solid black ; */
+    border-radius: 13px 13px 0px 0px; 
+    padding: 10px;
+    background-color: rgb(80, 165, 80);
+    text-align: center;
+}
+.cs-title-style{
+    border-radius: 13px 13px 0px 0px; 
+    /* border: 1px solid black ; */
+    padding: 10px;
+    --background-color: rgb(224, 56, 182);
+    background-color: rgb(223, 109, 194);
+    text-align: center;
+
+}
+.options-title-style{
+    /* border: 1px solid black ; */
+    border-radius: 13px 13px 0px 0px; 
+    padding: 10px;
+    background-color: rgb(178, 115, 221);
+    text-align: center;
+    
+}
+
+/* from previos css file:  */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.and {
+    color: red;
+    font-weight: bold;
+}
+
+.or {
+    color: blue;
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#title, #school-name-subtitle {
+    margin: 1.5rem;
+    text-align: center;
+}
+
+#school-form {
+    text-align: center;
+}
+
+html, body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    /* border: 2px solid orange; */
+}
+
+ul #required-courses {
+    text-align: left;
+}
+li{
+    padding: 10px;
+    border-bottom: 1px solid rgb(226, 216, 228);
+    /* background-color: rgb(168, 168, 206); */
+}
+.sublist li{
+    border-bottom: 0px solid green;
+}
+ul#required-courses li:last-child, ul#recommended-courses li:last-child {
+        border-bottom: 0px ;
+}
+
+.sublist {
+    padding-left: 20px;
+}
+
+section{
+      /* border: 4px solid black; */
+    /* width: 90%; */
+    width: 600px;
+}
+summary{
+    color:rgb(84, 32, 114);
+    font-size: 1.6rem;
+    padding: 10px;
+    text-align: center;
+}
+/* //coment this one for the sections 
+#required-courses{
+    --background-color: rgb(230, 221, 247);
+    background-color: rgb(223, 214, 240);
+    border-radius: 20px; 
+} */
+
+
+#recommended-courses{
+    background-color: rgba(166, 154, 189, 0.767);
+    border-radius: 20px; 
+}
+/* mimimum gpa list element */
+h4 li {
+    border-bottom: 0px;
+    list-style-type: none;
+    font-size: 1rem;
+    background-color : rgb(223, 231, 109);
+    border-radius: 12px ;
+}
+/*this is for the amth requirements title */
+.subject {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* for short screens  */
+@media (max-width: 600px) {
+    section{
+      width: 80%;
+        
+    }
+}
