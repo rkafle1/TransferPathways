@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../graduationReqs/gradReqs.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Vina+Sans&display=swap" rel="stylesheet">
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="../graduationReqs/gradReqs.js" type="module"></script>
+
+    <title>Test GoogleAPI</title>
+</head>
+<body>
+
+  <main>
+    <h1 id="title">Graduation requirements</h1>
+
+    <form id="school-form">
+      <label for="school-select">Select a School:</label>
+      <select id="school-select">
+        <option value="UC San Diego CSE B.S.">UCSD</option>
+        <option value="UC Los Angeles CS B.S.">UCLA</option>
+        <option value="UC Berkley CS B.A.">UCB B.A.</option>
+        <option value="UC Berkley EECS B.S.">UCB B.S.</option>
+        <option value="UC Irvine CS B.S.">UCI</option>
+        <option value="UC Davis CSE B.S.">UCD</option>
+        <option value="UC Riverside CS B.S.">UCR</option>
+        <option value="UC Merced CSE B.S.">UCM</option>
+        <!-- Add more options as needed -->
+      </select>
+      <button type="submit">Submit</button>
+    </form>
+    
+    <!-- School name -->
+    <h2 id="school-name-subtitle"></h2>
+
+    <div class="hidden" id="main-content">
+
+      <!-- Links to catalog and other useful info -->
+      <h3 class="info-h3">For more information visit: </h3>
+      <section id="more-info">
+
+      </section>
+
+      <!-- Lower Division -->
+      <section class="division">
+        <details class="details-list">
+          <summary>Lower Division</summary>
+          <ul id="lower-division">
+            
+          </ul>
+        </details>
+      </section>
+    
+      <!-- Upper Division -->
+      <section class="division">
+        <details class="details-list">
+          <summary>Upper Division</summary>
+          <ul id="upper-division">
+            
+          </ul>
+        </details>
+      </section>
+    
+      <!-- Total Math Courses -->
+      <h2 class="subtitle">Required Math Courses</h2>
+      <section id="total-math">
+
+      </section>
+
+      <!-- Total Science Courses -->
+      <h2 class="subtitle">Required Science Courses</h2>
+      <section id="total-science">
+        
+      </section>
+  </div>
+  </main>
+</body>
+
+</html>
