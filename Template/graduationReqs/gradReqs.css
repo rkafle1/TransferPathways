@@ -57,6 +57,7 @@ body {
     margin: 1rem;
     font-size: 1.1rem;
     text-align: center;
+    text-decoration: underline;
 }
 
 #school-form {
@@ -99,7 +100,7 @@ body {
 }
 
 .details-list > ul li > ul li {
-    list-style: disc;
+    list-style: none;
     list-style-position: inside;
 }
 
@@ -107,7 +108,7 @@ body {
     margin-left: 2rem;
 }
 
-.course-name {
+.course-number {
     font-weight: 500;
 }
 
