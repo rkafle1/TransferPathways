@@ -58,17 +58,18 @@ function parseSheet() {
             
             // upper division courses in column 3
             let upper = data[i][3];
-
-            // links to catalog and other useful info
-            let catalog = data[i][4];
-
-            // if this program is not already a key in the map, make it one
+            
+            // If this program is not already a key in the map, make it one
             if (visited.indexOf(programName) == -1) {
                 schoolMap.set(programName, {Lower: [], Upper: [], Catalog: {Name: [], Link: []} });
-
+                
+                // hyperlinks for catalog and other useful info
+                let catalog = data[i][4];
+                
                 // put all links in the cell in an array. Each link is separated by a new line
                 let links = catalog.split("\n");
                 
+                // Parse links
                 for (let i = 0; i < links.length; i++) {
                     // The substring containing the name of the link.
                     let name = links[i].substring(0, links[i].indexOf('http'));
@@ -83,7 +84,7 @@ function parseSheet() {
                     schoolMap.get(programName).Catalog.Name.push(name);
                     schoolMap.get(programName).Catalog.Link.push(link);
                 }
-                // mark program as visited to avoid duplicate keys
+                // mark program as visited to avoid duplicating keys
                 visited.push(programName);
             }
             // If the values are NOT undefined (an empty cell), add to courselist
@@ -100,92 +101,80 @@ function parseSheet() {
 if (DEBUG)
     console.log(schoolMap);
 
-function parseSubList(sublistData, list, subtitleHTML) {
-            let sublist = document.createElement('ul');
-            sublist.classList.add('sublist');
-            
-            // To change the style of the 'title' of the sublist, get the first line break <br> in the
-            // sublist data, and wrap the 'title' in a <span>
-            let br = sublistData.indexOf('<br>') + 4;
-            let ttl = '<span class="bold">' + sublistData.substring(0, br) + '</span>';
-            // Append to the HTML of the list. If there was a '^^' found earlier, append the subtitle as well as
-            // the title of the sublist. Set subtitleHTML to '' so not to append the subtitle more than once
-            list.innerHTML += subtitleHTML + ttl;
-            subtitleHTML = '';
-            
-            // Content of sublist data without the title. This will be put into <li> tags
-            let content = sublistData.substring(br, sublistData.length);
-            
-            // Find all the line breaks in the cell. Each line of data will have its own <li> element
-            let indices = [...content.matchAll(new RegExp('<br>', 'gi'))].map(a => a.index);
-        
-            let prev = 0;
-            indices.forEach(function(index) {
-                let sublistItem = document.createElement('li');
-                sublistItem.innerHTML = content.substring(prev, index);
-                
-                // If the current line of text is supposed to be a sublist
-                if (sublistItem.innerHTML.indexOf('--') !== -1) return;
-                // If nothing was read
-                if (sublistItem.innerHTML == '') return;
-                sublist.appendChild(sublistItem);
-                prev = index + 4; // +4 since '<br>' is 4 characters and we don't want to start at <br>
-            });
-            // If loop above does not reach last course
-            let sublistItem = document.createElement('li');
-            sublistItem.innerHTML = content.substring(prev, content.length);
-            if (sublistItem.innerHTML.length > 0)
-                sublist.appendChild(sublistItem);
-            list.appendChild(sublist);
-}
+function parseCellText(cell) {
 
-// TODO - split courses by new line like how we did for Catalog links.
+    let lines = cell.split('<br>');
+    let inSublist = false;
+
+    for (let i = 0; i < lines.length; i++) {
+
+        let indx = lines[i].indexOf(":");
+        // If there's a colon and the line does NOT start with ^^ or --, add a span for styling
+        if (indx !== -1 && !lines[i].startsWith("^^") && !lines[i].startsWith("--")) {
+            let courseNum = `<span class="course-number">` + lines[i].substring(0, indx) + `</span>`;
+            lines[i] = courseNum + lines[i].substring(indx, lines[i].length);
+        }
+
+        // There are 'hints' added in the Google sheet to inform of a style change
+        // The hint ^^ means that the text following is a subtitle. Subtitles have unique styling
+        if (lines[i].startsWith("^^"))
+            lines[i] = '<span class="subject">' + lines[i].substring(2, lines[i].length) + '</span><br>';
+
+        if (inSublist && lines[i].startsWith("--") !== true)
+            lines[i] = `<li>` + lines[i] + `</li>`;
+
+        if (!inSublist)
+            lines[i] = lines[i] + `<br>`;
+
+        // The hint '--' indicates a sublist (a list within a list).
+        if (lines[i].startsWith("--")) {
+
+            // If we're already in a sublist, close it with </ul> and open a new one
+            if (inSublist)
+                lines[i] = `</ul><span class="bold">` + lines[i].substring(2, lines[i].length) + `</span><ul class="sublist">`;
+            else
+                lines[i] = `<span class="bold">` + lines[i].substring(2, lines[i].length) + `</span><ul class="sublist">`;
+
+            inSublist = true;
+        }
+    }
+    // Close the <ul> tag if we made sublists in the loop above
+    if (inSublist)
+        lines[lines.length-1] = lines[lines.length-1] + `</ul>`;
+
+    // Don't join array with commas
+    return lines.join("");
+}
 
 // Parses the data in the school map
 function parseMapData(schoolData, listTag, division) {
 
     let divisionList = document.getElementById(listTag);
     divisionList.innerHTML = '';
-
+    
     for (let course of schoolData[division]) {
-        let list = document.createElement('li');
         
         // Highlight OR and AND, and replace special characters like \n with their respective HTML tags
-        let replaceOR = course.replace(/OR/g, '<span class="or">OR</span>');
-        let replaceAND = replaceOR.replace(/AND/g, '<span class="and">AND</span>');
-        let replaceNL = replaceAND.replace(/\n/g, '<br>');
+        course = course.replace(/OR/g, '<span class="or">OR</span>');
+        course = course.replace(/AND/g, '<span class="and">AND</span>');
+        course = course.replace(/\n/g, '<br>');
         
-        // this is the text of the content of the cell after the above changes
-        let text = replaceNL;
+        let li = document.createElement('li');
+        li.innerHTML = parseCellText(course);
         
-        let subtitleHTML = '';
-
-        // There are 'hints' added in the Google sheet to inform of a style change
-        // The hint ^^ means that the text following is a subtitle. Subtitles have unique styling
-        let subtitleIndex = replaceNL.indexOf('^^');
-
-        // If '^^' is found, wrap the subtitle in a <span> element with the class "subject".
-        if (subtitleIndex !== -1) {
-            // It will read up until the first new line. In the Google sheet, the subtitles are on their own line
-            let subttl = replaceNL.substring(2, replaceNL.indexOf('<br>'));
-
-            // Put the subtitle in a span tag with the class "subject". Add a line break at the end
-            subtitleHTML = '<span class="subject">' + subttl + '</span><br>';
-
-            // Add this change to the text. (i don't like how strings in JavaScript are immutable)
-            text = replaceNL.substring(replaceNL.indexOf('<br>') + 4, replaceNL.length);
-        }
+        divisionList.appendChild(li);
 
         /* if cell has substring 'math' and is NOT in a sentence. 
-          There are some cells that have sentence descriptions of required coursework.
-          We don't want to include those in the list
+        There are some cells that have sentence descriptions of required coursework.
+        We don't want to include those in the list
         */
-        if ( ( text.includes('Math')  || text.includes('MATH') // MAT because Davis uses MAT and not MATH
+        let text = li.innerHTML;
+        if ( ( text.includes('Math')  || text.includes('MATH') || text.includes('MAT ') // MAT because Davis uses MAT and not MATH
             || text.includes('Stat')  || text.includes('STAT') )
             && !text.includes('.') ) {
             // Append courses to math section in the HTML file
             let ul = document.createElement('ul');
-            ul.innerHTML = `<li>` + text + `</li>`;
+            ul.innerHTML = text;
             totalMathSection.appendChild(ul);
         }
         // TODO - see why UCI does not mention physics requirement
@@ -194,27 +183,9 @@ function parseMapData(schoolData, listTag, division) {
             && !text.includes('.')) {
             // Append courses to math section in the HTML
             let ul = document.createElement('ul');
-            ul.innerHTML = `<li>` + text + `</li>`;
+            ul.innerHTML = text;
             totalScienceSection.appendChild(ul);
         }
-        
-        // The hint '--' indicates a sublist (a list within a list).
-        // startSubLists contains the starting indices of every sublist in the cell
-        let startSubLists = [...text.matchAll(new RegExp('--', 'gi'))].map(a => a.index);
-
-        // If there are substring hints in the cell
-        if (startSubLists.length > 0) {
-            for (let i = 0; i < startSubLists.length; i++) {
-                // sublistData contains the content from the current sublist to the start of the next
-                //                                                + 2 to disclude the '--' from the string
-                let sublistData = text.substring(startSubLists[i] + 2, startSubLists[i + 1]);
-                parseSubList(sublistData, list, subtitleHTML);
-            }
-        }
-        else
-            list.innerHTML = subtitleHTML + text;
-
-        divisionList.appendChild(list);
     }
 }
 
@@ -229,7 +200,6 @@ function handleFormSubmit(event) {
     // Add selected schools name as the subtitle of the page
     let subTitle = document.getElementById('school-name-subtitle');
     subTitle.innerText = selectedSchool;
-    
     
     // Clear the sections inner HTML
     totalMathSection.innerHTML = '';
