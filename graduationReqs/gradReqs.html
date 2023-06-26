@@ -1,0 +1,135 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../graduationReqs/gradReqs.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Vina+Sans&display=swap" rel="stylesheet">
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="../graduationReqs/gradReqs.js" type="module"></script>
+
+    <title>Graduation Requirements</title>
+</head>
+<body>
+  <header>
+    <section class="header">
+      <h1 class="grid-item" id="title">Graduation requirements</h1>
+      <section class="grid-item form-container">
+        
+        <form id="school-form">
+          <label for="school-select">Select a School:</label>
+          <div class="custom-select">
+            <select id="school-select">
+              <!-- The option values are the first colomn values in the Google Sheet -->
+              
+              <!-- UC -->
+              <optgroup label="UC">
+                <option value="UC San Diego CSE B.S.">UC San Diego</option>
+                <option value="UC Los Angeles CS B.S.">UC Los Angeles</option>
+                <option value="UC Berkeley CS B.A.">UC Berkeley B.A.</option>
+                <option value="UC Berkeley EECS B.S.">UC Berkeley B.S.</option>
+                <option value="UC Irvine CS B.S.">UC Irvine</option>
+                <option value="UC Davis CSE B.S.">UC Davis</option>
+                <option value="UC Riverside CS B.S.">UC Riverside</option>
+                <option value="UC Merced CSE B.S.">UC Merced</option>
+                <option value="UC Santa Barbara CS B.S.">UC Santa Barbara</option>
+                <option value="UC Santa Cruz CSE B.A.">UC Santa Cruz B.A.</option>
+                <option value="UC Santa Cruz CSE B.S.">UC Santa Cruz B.S.</option>
+              </optgroup>
+            
+              <!-- CSU -->
+              <optgroup label="CSU">
+                <option value="CSU Los Angeles CS B.S.">CSU Los Angeles</option>
+                <option value="CSU Fullerton CS B.S.">CSU Fullerton</option>
+                <option value="CSU Bakersfield CS B.S.">CSU Bakersfield</option>
+                <option value="CSU Channel Islands CS B.S.">CSU Channel Islands</option>
+                <option value="CSU East Bay CS B.S.">CSU East Bay</option>
+                <option value="CSU Long Beach CS B.S.">CSU Long Beach</option>
+                <option value="CSU Monterey Bay CS B.S.">CSU Monterey Bay</option>
+                <option value="CSU Northridge CS B.S.">CSU Northridge</option>
+                <option value="CSU San Marcos CS B.S.">CSU San Marcos</option>
+                <option value="CSU San Bernardino CS B.S.">CSU San Bernardino</option>
+                <option value="Cal Poly Pomona CS B.S.">Cal Poly Pomona</option>
+                <option value="Cal Poly San Luis Obispo CS B.S.">Cal Poly San Luis Obispo</option>
+                <option value="Cal Poly Humboldt CS B.S.">Cal Poly Humboldt</option>
+                <option value="San Francisco State CS B.S.">San Francisco State</option>
+                <option value="San Diego State CS B.S.">San Diego State</option>
+                <option value="San Jose State CS B.S.">San Jose State</option>
+                <option value="Sacramento State CS B.S.">Sacramento State</option>
+                <option value="Chino State CS B.S.">Chino State</option>
+                <option value="Fresno State CS B.S.">Fresno State</option>
+                <option value="Sonoma State CS B.S.">Sonoma State</option>
+                <option value="Stanislaus State CS B.S.">Stanislaus State</option>
+              </optgroup>
+            </select>
+          </div>
+          <span class="light-color">UC or CSU</span> 
+          <br>
+          <button class="submit-btn" type="submit">View Requirements</button>
+        </form>
+      </section>
+    </section>
+  </header>
+  <main id="grad-main">
+    <!-- School name -->
+    <h2 id="school-name-subtitle">Select a School</h2>
+    <div class="hidden" id="main-content">
+
+      <!-- Links to catalog and other useful info -->
+      <section id="more-info">
+        <h3 class="info-h3">For more information visit: </h3>
+
+      </section>
+
+      <!-- Lower Division -->
+      <section class="division">
+        <details class="details-list">
+          <summary id="lower-div-summary">Lower Division</summary>
+          <ul id="lower-division">
+            
+          </ul>
+        </details>
+      </section>
+    
+      <!-- Upper Division -->
+      <section class="division">
+        <details class="details-list">
+          <summary id="upper-div-summary">Upper Division</summary>
+          <ul id="upper-division">
+            
+          </ul>
+        </details>
+      </section>
+    
+      <!-- Total Math Courses -->
+      <section>
+        <!-- <h2 class="subtitle">Required Math Courses</h2> -->
+        <details class="details-list requirement-list">
+          <summary>Required Math Courses</summary>
+          <ul id="total-math">
+            
+          </ul>
+        </details>
+      </section>
+
+      <!-- Total Science Courses -->
+      <section>
+        <!-- <h2 class="subtitle">Required Science Courses</h2> -->
+        <details class="details-list requirement-list">
+          <summary>Required Science Courses</summary>
+          <ul id="total-science">
+            
+          </ul>
+        </details>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    Copyright @ Simone, Richa, Christa, Yaya :&#41;
+  </footer>
+</body>
+
+</html>
