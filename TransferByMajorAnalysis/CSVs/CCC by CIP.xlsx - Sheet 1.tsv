@@ -1,0 +1,160 @@
+Campus	cip_cd_fmy_cd	2 digit name	CIP 4 digit	4 digit name	2017-18	2018-19	2019-20	2020-21	2021-22	2022-23*
+UCB	09	COMMUNICATION, JOURNALISM, AND RELATED PROGRAMS	09.01	Communication and Media Studies					1	
+	14	ENGINEERING	14.10	Electrical, Electronics, and Communications Engineering						1
+			14.23	Nuclear Engineering						1
+	16	FOREIGN LANGUAGES, LITERATURES, AND LINGUISTICS	16.09	Romance Languages, Literatures, and Linguistics			1	2		
+	23	ENGLISH LANGUAGE AND LITERATURE/LETTERS	23.01	English Language and Literature, General				1		2
+	27	MATHEMATICS AND STATISTICS	27.01	Mathematics	2			1		
+	30	MULTI/INTERDISCIPLINARY STUDIES	30.22	Classical and Ancient Studies				1		
+	40	PHYSICAL SCIENCES	40.05	Chemistry					1	1
+			40.08	Physics		1			1	
+	44	PUBLIC ADMINISTRATION AND SOCIAL SERVICE PROFESSIONS	44.07	Social Work		1				
+	45	SOCIAL SCIENCES	45.02	Anthropology		1			1	
+			45.06	Economics	1					1
+			45.07	Geography and Cartography	1					
+			45.10	Political Science and Government			1	1	1	
+			45.11	Sociology		1	1			1
+	50	VISUAL AND PERFORMING ARTS	50.06	Film/Video and Photographic Arts		1				1
+	52	BUSINESS, MANAGEMENT, MARKETING, AND RELATED SUPPORT SERVICES	52.02	Business Administration, Management and Operations	1					
+UCD	01	AGRICULTURAL/ANIMAL/PLANT/VETERINARY SCIENCE AND RELATED FIELDS	01.03	Agricultural Production Operations			1			
+			01.09	Animal Sciences		1		2	1	
+			01.10	Food Science and Technology	1			1		
+			01.11	Plant Sciences	1					1
+	03	NATURAL RESOURCES AND CONSERVATION	03.01	Natural Resources Conservation and Research				2		
+			03.06	Wildlife and Wildlands Science and Management						1
+	04	ARCHITECTURE AND RELATED SERVICES	04.03	City/Urban, Community, and Regional Planning				1		
+	09	COMMUNICATION, JOURNALISM, AND RELATED PROGRAMS	09.01	Communication and Media Studies	1					
+	19	FAMILY AND CONSUMER SCIENCES/HUMAN SCIENCES	19.07	Human Development, Family Studies, and Related Services					1	
+	23	ENGLISH LANGUAGE AND LITERATURE/LETTERS	23.01	English Language and Literature, General		1	1			
+	26	BIOLOGICAL AND BIOMEDICAL SCIENCES	26.01	Biology, General	2		1	1	2	
+			26.02	Biochemistry, Biophysics and Molecular Biology		1		2		1
+			26.03	Botany/Plant Biology		1				
+			26.04	Cell/Cellular Biology and Anatomical Sciences						1
+			26.09	Physiology, Pathology and Related Sciences	1					
+			26.12	Biotechnology		1				
+	30	MULTI/INTERDISCIPLINARY STUDIES	30.25	Cognitive Science	1			1		1
+	38	PHILOSOPHY AND RELIGIOUS STUDIES	38.01	Philosophy				1		
+	45	SOCIAL SCIENCES	45.06	Economics					1	1
+			45.09	International Relations and National Security Studies				1		
+			45.10	Political Science and Government	3				1	
+			45.11	Sociology					2	
+	51	HEALTH PROFESSIONS AND RELATED PROGRAMS	51.20	Pharmacy, Pharmaceutical Sciences, and Administration	1					
+	52	BUSINESS, MANAGEMENT, MARKETING, AND RELATED SUPPORT SERVICES	52.13	Management Sciences and Quantitative Methods			1			
+UCI	09	COMMUNICATION, JOURNALISM, AND RELATED PROGRAMS	09.04	Journalism		1				
+	11	COMPUTER AND INFORMATION SCIENCES AND SUPPORT SERVICES	11.08	Computer Software and Media Applications			1			
+	13	EDUCATION	13.01	Education, General	1					
+	14	ENGINEERING	14.09	Computer Engineering	1					
+	23	ENGLISH LANGUAGE AND LITERATURE/LETTERS	23.01	English Language and Literature, General			2			
+	26	BIOLOGICAL AND BIOMEDICAL SCIENCES	26.01	Biology, General				1		1
+	27	MATHEMATICS AND STATISTICS	27.01	Mathematics		1				
+	30	MULTI/INTERDISCIPLINARY STUDIES	30.20	International/Globalization Studies		1			1	
+	40	PHYSICAL SCIENCES	40.05	Chemistry						1
+			40.08	Physics						1
+	45	SOCIAL SCIENCES	45.04	Criminology		1		2	2	1
+			45.11	Sociology		1				
+	50	VISUAL AND PERFORMING ARTS	50.05	Drama/Theatre Arts and Stagecraft			1	1		2
+			50.06	Film/Video and Photographic Arts					1	
+			50.07	Fine and Studio Arts				1	1	
+	52	BUSINESS, MANAGEMENT, MARKETING, AND RELATED SUPPORT SERVICES	52.06	Business/Managerial Economics				1		
+	54	HISTORY	54.01	History				2		
+UCLA	05	AREA, ETHNIC, CULTURAL, GENDER, AND GROUP STUDIES	05.02	Ethnic, Cultural Minority, Gender, and Group Studies		2				
+	14	ENGINEERING	14.07	Chemical Engineering			1			
+	16	FOREIGN LANGUAGES, LITERATURES, AND LINGUISTICS	16.01	Linguistic, Comparative, and Related Language Studies and Services		1				
+			16.09	Romance Languages, Literatures, and Linguistics		1	1		1	
+	23	ENGLISH LANGUAGE AND LITERATURE/LETTERS	23.01	English Language and Literature, General					1	
+	26	BIOLOGICAL AND BIOMEDICAL SCIENCES	26.01	Biology, General		2				2
+			26.05	Microbiological Sciences and Immunology					1	
+	40	PHYSICAL SCIENCES	40.05	Chemistry						1
+	42	PSYCHOLOGY	42.01	Psychology, General		2		3	2	
+	45	SOCIAL SCIENCES	45.07	Geography and Cartography	1					
+			45.10	Political Science and Government		1	1		2	
+			45.11	Sociology	1			1		
+UCM	14	ENGINEERING	14.09	Computer Engineering					1	
+	30	MULTI/INTERDISCIPLINARY STUDIES	30.99	Multi/Interdisciplinary Studies, Other		1		1		
+	42	PSYCHOLOGY	42.01	Psychology, General				1	1	
+UCR	05	AREA, ETHNIC, CULTURAL, GENDER, AND GROUP STUDIES	05.02	Ethnic, Cultural Minority, Gender, and Group Studies						1
+	11	COMPUTER AND INFORMATION SCIENCES AND SUPPORT SERVICES	11.07	Computer Science	1			1		
+	13	EDUCATION	13.09	Social and Philosophical Foundations of Education					1	
+	14	ENGINEERING	14.05	Biomedical/Medical Engineering		1				
+			14.07	Chemical Engineering			1			
+			14.19	Mechanical Engineering	1					
+	16	FOREIGN LANGUAGES, LITERATURES, AND LINGUISTICS	16.01	Linguistic, Comparative, and Related Language Studies and Services	1					
+			16.09	Romance Languages, Literatures, and Linguistics				1		
+	24	LIBERAL ARTS AND SCIENCES, GENERAL STUDIES AND HUMANITIES	24.01	Liberal Arts and Sciences, General Studies and Humanities			1			
+	26	BIOLOGICAL AND BIOMEDICAL SCIENCES	26.01	Biology, General			1	1	1	
+			26.05	Microbiological Sciences and Immunology					1	
+	42	PSYCHOLOGY	42.01	Psychology, General	1					
+			42.27	Research and Experimental Psychology		1			1	
+	45	SOCIAL SCIENCES	45.10	Political Science and Government				1		
+			45.11	Sociology	1					3
+			45.99	Social Sciences, Other			1			
+	50	VISUAL AND PERFORMING ARTS	50.07	Fine and Studio Arts			1			
+	52	BUSINESS, MANAGEMENT, MARKETING, AND RELATED SUPPORT SERVICES	52.02	Business Administration, Management and Operations		1	2			
+	54	HISTORY	54.01	History		1				
+UCSB	03	NATURAL RESOURCES AND CONSERVATION	03.01	Natural Resources Conservation and Research					1	
+	09	COMMUNICATION, JOURNALISM, AND RELATED PROGRAMS	09.01	Communication and Media Studies	1	1	2	1	1	1
+	11	COMPUTER AND INFORMATION SCIENCES AND SUPPORT SERVICES	11.07	Computer Science		1				1
+	14	ENGINEERING	14.07	Chemical Engineering		1				
+			14.10	Electrical, Electronics, and Communications Engineering					1	
+	16	FOREIGN LANGUAGES, LITERATURES, AND LINGUISTICS	16.01	Linguistic, Comparative, and Related Language Studies and Services						1
+			16.09	Romance Languages, Literatures, and Linguistics		2		3		
+			16.12	Classics and Classical Languages, Literatures, and Linguistics			1			
+	23	ENGLISH LANGUAGE AND LITERATURE/LETTERS	23.01	English Language and Literature, General	2	1	4	1	2	1
+	26	BIOLOGICAL AND BIOMEDICAL SCIENCES	26.01	Biology, General	3	7	1	3	2	2
+	27	MATHEMATICS AND STATISTICS	27.01	Mathematics	2	1	1	1		
+	30	MULTI/INTERDISCIPLINARY STUDIES	30.20	International/Globalization Studies	1		1			
+	40	PHYSICAL SCIENCES	40.05	Chemistry		1	1			
+			40.06	Geological and Earth Sciences/Geosciences						1
+			40.08	Physics		1	2			1
+	42	PSYCHOLOGY	42.27	Research and Experimental Psychology	3	2		6	2	
+	45	SOCIAL SCIENCES	45.02	Anthropology	1			1		1
+			45.06	Economics		4	4	2	5	
+			45.10	Political Science and Government	1	2		4		2
+			45.11	Sociology	3	8	7	4	7	2
+	50	VISUAL AND PERFORMING ARTS	50.05	Drama/Theatre Arts and Stagecraft	1		1			
+			50.06	Film/Video and Photographic Arts	2		1		1	1
+			50.07	Fine and Studio Arts	1	1	1	1		2
+	52	BUSINESS, MANAGEMENT, MARKETING, AND RELATED SUPPORT SERVICES	52.13	Management Sciences and Quantitative Methods			2		1	
+	54	HISTORY	54.01	History		2		2		2
+UCSC	03	NATURAL RESOURCES AND CONSERVATION	03.01	Natural Resources Conservation and Research						1
+	05	AREA, ETHNIC, CULTURAL, GENDER, AND GROUP STUDIES	05.02	Ethnic, Cultural Minority, Gender, and Group Studies	1					
+	11	COMPUTER AND INFORMATION SCIENCES AND SUPPORT SERVICES	11.01	Computer and Information Sciences, General			1			
+	16	FOREIGN LANGUAGES, LITERATURES, AND LINGUISTICS	16.01	Linguistic, Comparative, and Related Language Studies and Services				1		
+	23	ENGLISH LANGUAGE AND LITERATURE/LETTERS	23.99	English Language and Literature/Letters, Other				1		2
+	26	BIOLOGICAL AND BIOMEDICAL SCIENCES	26.01	Biology, General		1	1	1		
+			26.04	Cell/Cellular Biology and Anatomical Sciences	2					
+			26.13	Ecology, Evolution, Systematics, and Population Biology			1			
+	30	MULTI/INTERDISCIPLINARY STUDIES	30.99	Multi/Interdisciplinary Studies, Other			3			
+	42	PSYCHOLOGY	42.01	Psychology, General		2		1	3	
+	44	PUBLIC ADMINISTRATION AND SOCIAL SERVICE PROFESSIONS	44.02	Community Organization and Advocacy			1	1		
+	45	SOCIAL SCIENCES	45.02	Anthropology		2			1	
+			45.06	Economics			2			
+			45.10	Political Science and Government	1	2	1		1	
+			45.11	Sociology		1	1		2	
+	50	VISUAL AND PERFORMING ARTS	50.04	Design and Applied Arts					1	
+			50.06	Film/Video and Photographic Arts			1			
+			50.07	Fine and Studio Arts	1					
+	52	BUSINESS, MANAGEMENT, MARKETING, AND RELATED SUPPORT SERVICES	52.06	Business/Managerial Economics						1
+	54	HISTORY	54.01	History			1	1	1	
+UCSD			 				1			
+	09	COMMUNICATION, JOURNALISM, AND RELATED PROGRAMS	09.01	Communication and Media Studies	1		1	1		
+	14	ENGINEERING	14.19	Mechanical Engineering		1				
+	26	BIOLOGICAL AND BIOMEDICAL SCIENCES	26.01	Biology, General			1		1	
+			26.02	Biochemistry, Biophysics and Molecular Biology	1					
+			26.04	Cell/Cellular Biology and Anatomical Sciences	1	1	1			1
+	27	MATHEMATICS AND STATISTICS	27.01	Mathematics	1					
+	30	MULTI/INTERDISCIPLINARY STUDIES	30.20	International/Globalization Studies					1	
+			30.25	Cognitive Science	1				1	
+	40	PHYSICAL SCIENCES	40.05	Chemistry						1
+			40.08	Physics					1	
+			40.99	Physical Sciences, Other			1			
+	42	PSYCHOLOGY	42.01	Psychology, General		1				2
+			42.28	Clinical, Counseling and Applied Psychology	1					
+	45	SOCIAL SCIENCES	45.02	Anthropology	1					
+			45.06	Economics	1	1		1		
+			45.10	Political Science and Government			1			1
+			45.11	Sociology	1					
+	50	VISUAL AND PERFORMING ARTS	50.05	Drama/Theatre Arts and Stagecraft	1					
+	51	HEALTH PROFESSIONS AND RELATED PROGRAMS	51.22	Public Health	1					
+	52	BUSINESS, MANAGEMENT, MARKETING, AND RELATED SUPPORT SERVICES	52.13	Management Sciences and Quantitative Methods			1			
+Grand Total					62	76	70	73	67	54
