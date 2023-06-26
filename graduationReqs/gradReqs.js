@@ -32,24 +32,24 @@ let totalMathSection = document.getElementById('total-math');
 let totalScienceSection = document.getElementById('total-science');
 
 let data; // Global variable to store the data
-const schoolMap = new Map();
+const schoolMap = new Map(); // Holds the data for each school
 
-// Reads and gathers data from the Google sheet.
+// Reads and gathers data from the Google sheet. Puts the data in a map
 function parseSheet() {
     //Read data from the google sheets
     gapi.client.sheets.spreadsheets.values.get({
         //this id is unique for every sheet (is on the link)
         //NOTE:Google sheet has to be public *** you can also change the range 
         spreadsheetId: SHEET_ID,
-        range: 'Sheet1!A1:E82',
+        range: 'Sheet1!A2:E401',
     }).then(response => {
         data = response.result.values;
 
         // array of visited programs to avoid duplicates in map
         let visited = []; 
 
-        // Loop through rows and add data to map starting at row 1 (row 0 is the column titles, so ignore)
-        for (let i = 1; i < data.length; i++) {
+        // Loop through rows and add data to map
+        for (let i = 0; i < data.length; i++) {
             // school + program (e.g. UC Irvine + CS B.S.)
             let programName = data[i][0] + ' ' + data[i][1];
 
@@ -66,7 +66,7 @@ function parseSheet() {
                 // hyperlinks for catalog and other useful info
                 let catalog = data[i][4];
                 
-                // put all links in the cell in an array. Each link is separated by a new line
+                // put all links in the cell in an array. Each link is separated by a new line \n
                 let links = catalog.split("\n");
                 
                 // Parse links
@@ -76,7 +76,7 @@ function parseSheet() {
 
                     // If there is NOT a new line \n at the end of the text, make the end posiotion of the link
                     // the last index of the text.
-                    let delimIndex = catalog.indexOf('\n') != -1 ? catalog.indexOf('\n') : catalog.length;
+                    let delimIndex = links[i].indexOf('\n') != -1 ? links[i].indexOf('\n') : links[i].length;
 
                     // The substring containing the link.
                     let link = links[i].substring(links[i].indexOf('http'), delimIndex);
@@ -96,42 +96,59 @@ function parseSheet() {
     }).catch(error => {
         console.error('Error reading data:', error);
     });
+    localStorage.setItem("data", schoolMap);
 }
 
 if (DEBUG)
     console.log(schoolMap);
 
-function parseCellText(cell) {
+// Parces and handles the text from each individual cell in the Google sheet
+function parseCell(cell) {
 
-    let lines = cell.split('<br>');
     let inSublist = false;
 
+    // Split the cell by line breal <br> and put each line into array
+    let lines = cell.split('<br>');
+    // Parse each line of the cell
     for (let i = 0; i < lines.length; i++) {
+
+        // There are 'hints' added in the Google sheet to inform of a style change
+        // The hint ^^ means that the text following is a subtitle. Subtitles have unique styling
+        // The hint -- indicates a sublist (a list within the main list).
+        // The hint ** means the line needs to be bold
+        let bold = lines[i].startsWith("**");
+        let sublist = lines[i].startsWith("--");
+        let title = lines[i].startsWith("^^");
 
         let indx = lines[i].indexOf(":");
         // If there's a colon and the line does NOT start with ^^ or --, add a span for styling
-        if (indx !== -1 && !lines[i].startsWith("^^") && !lines[i].startsWith("--")) {
+        if (indx !== -1 && !title && !sublist && !bold) {
             let courseNum = `<span class="course-number">` + lines[i].substring(0, indx) + `</span>`;
             lines[i] = courseNum + lines[i].substring(indx, lines[i].length);
         }
 
-        // There are 'hints' added in the Google sheet to inform of a style change
-        // The hint ^^ means that the text following is a subtitle. Subtitles have unique styling
-        if (lines[i].startsWith("^^"))
-            lines[i] = '<span class="subject">' + lines[i].substring(2, lines[i].length) + '</span><br>';
+        if (bold)
+            lines[i] = '<span class="bold">' + lines[i].substring(2, lines[i].length) + '</span>';
 
-        if (inSublist && lines[i].startsWith("--") !== true)
+        if (title) {
+            lines[i] = '<span class="subject">' + lines[i].substring(2, lines[i].length) + '</span>';
+            if (inSublist) {
+                // close sublist and add line break
+                lines[i] = `</ul><br>` + lines[i];
+                inSublist = false;
+            }
+        }
+
+        if (inSublist && sublist === false)
             lines[i] = `<li>` + lines[i] + `</li>`;
 
         if (!inSublist)
             lines[i] = lines[i] + `<br>`;
 
-        // The hint '--' indicates a sublist (a list within a list).
-        if (lines[i].startsWith("--")) {
-
+        if (sublist) {
             // If we're already in a sublist, close it with </ul> and open a new one
             if (inSublist)
-                lines[i] = `</ul><span class="bold">` + lines[i].substring(2, lines[i].length) + `</span><ul class="sublist">`;
+                lines[i] = `</ul><br><span class="bold">` + lines[i].substring(2, lines[i].length) + `</span><ul class="sublist">`;
             else
                 lines[i] = `<span class="bold">` + lines[i].substring(2, lines[i].length) + `</span><ul class="sublist">`;
 
@@ -155,36 +172,36 @@ function parseMapData(schoolData, listTag, division) {
     for (let course of schoolData[division]) {
         
         // Highlight OR and AND, and replace special characters like \n with their respective HTML tags
-        course = course.replace(/OR/g, '<span class="or">OR</span>');
-        course = course.replace(/AND/g, '<span class="and">AND</span>');
+        course = course.replace(/OR /g, '<span class="or">OR</span> ');    // added space so words with OR are not highlighted (e.g. CORE) *find better way
+        course = course.replace(/AND /g, '<span class="and">AND</span> '); // added space so words with AND are not highlighted (e.g. LAND)
         course = course.replace(/\n/g, '<br>');
         
         let li = document.createElement('li');
-        li.innerHTML = parseCellText(course);
+
+        li.innerHTML = parseCell(course);
         
         divisionList.appendChild(li);
 
-        /* if cell has substring 'math' and is NOT in a sentence. 
-        There are some cells that have sentence descriptions of required coursework.
-        We don't want to include those in the list
-        */
+        // If cell has substring 'math' and is NOT in a sentence. 
+        // There are some cells that have sentence descriptions of required coursework.
+        // We don't want to include those in the list
+        
         let text = li.innerHTML;
         if ( ( text.includes('Math')  || text.includes('MATH') || text.includes('MAT ') // MAT because Davis uses MAT and not MATH
-            || text.includes('Stat')  || text.includes('STAT') )
+            || text.includes('Stat')  || text.includes('STAT ') || text.includes('STATS '))
             && !text.includes('.') ) {
             // Append courses to math section in the HTML file
-            let ul = document.createElement('ul');
-            ul.innerHTML = text;
-            totalMathSection.appendChild(ul);
+            let item = document.createElement('li');
+            item.innerHTML = text;
+            totalMathSection.appendChild(item);
         }
-        // TODO - see why UCI does not mention physics requirement
-        if ( ( text.includes('Phy')  || text.includes('PHY') 
-            || text.includes('Chem') || text.includes('CHEM'))
+        else if ( ( text.includes('Phy ')  || text.includes('PHY ') || text.includes('Physics') 
+            || text.includes('Chem') || text.includes('CHEM ') || text.includes('Biol') || text.includes('BIO'))
             && !text.includes('.')) {
             // Append courses to math section in the HTML
-            let ul = document.createElement('ul');
-            ul.innerHTML = text;
-            totalScienceSection.appendChild(ul);
+            let item = document.createElement('li');
+            item.innerHTML = text;
+            totalScienceSection.appendChild(item);
         }
     }
 }
@@ -193,7 +210,7 @@ function handleFormSubmit(event) {
     event.preventDefault(); // Prevent form submission
 
     let selectElement = document.querySelector('#school-select');
-    let selectedSchool = selectElement.value; //this is the value form the options tag
+    let selectedSchool = selectElement.value; //this is the value from the options tag
 
     let schoolData = schoolMap.get(selectedSchool);
 
@@ -210,7 +227,7 @@ function handleFormSubmit(event) {
     for (let i = 0; i < schoolData.Catalog.Name.length; i++) {
         let moreInfo_p = document.createElement('p');
 
-        let link = `<a href="` + schoolData.Catalog.Link[i] + `">` + "LINK" + `</a>`;
+        let link = `<a target="_blank" rel="noopener noreferrer" href="` + schoolData.Catalog.Link[i] + `">` + "LINK" + `</a>`;
         moreInfo_p.innerHTML = schoolData.Catalog.Name[i] + link;
         moreInfo.appendChild(moreInfo_p);
     }
@@ -219,10 +236,51 @@ function handleFormSubmit(event) {
         let hidden = document.getElementById('main-content');
         hidden.classList.remove('hidden');
 
+        //let main = document.getElementById('grad-main');
+        //main.style.background = 'none';
+
+        let lowerSummary = document.getElementById('lower-div-summary');
+        let upperSummary = document.getElementById('upper-div-summary');
+
+        // Some schools do not give explicit Lower/Upper div course details.
+        // Change the names of the drop down menus
+        if (selectedSchool === 'Cal Poly Pomona CS B.S.') {
+            lowerSummary.innerText = 'Major Required';
+            upperSummary.innerText = 'Major Electives';
+        }
+        else if (selectedSchool === 'CSU Monterey Bay CS B.S.') {
+            lowerSummary.innerText = 'Required Courses';
+            upperSummary.innerText = 'Concentrations';
+        }
+        else if (selectedSchool === 'Cal Poly San Luis Obispo CS B.S.') {
+            let note = `This tool could only display certain information for requirements of the CS major at this school.
+                        For more information on articulation requirements and what courses to take to be a competitive applicant,
+                        visit the ADMISSIONS page on this website.
+                        It is imperative that you review the resources below for more information about this major.`
+            moreInfo.innerHTML = note + moreInfo.innerHTML;
+            lowerSummary.innerText = 'Major Courses';
+            upperSummary.innerText = 'Support Courses';
+        }
+        else {
+            lowerSummary.innerText = 'Lower Division';
+            upperSummary.innerText = 'Upper Division';
+        }
+
         parseMapData(schoolData, 'lower-division', 'Lower');
         parseMapData(schoolData, 'upper-division', 'Upper');
 
+        if (totalMathSection.innerHTML === '') {
+            let item = document.createElement('li');
+            item.innerHTML = "none";
+            totalMathSection.appendChild(item);
+        }
+        if (totalScienceSection.innerHTML === '') {
+            let item = document.createElement('li');
+            item.innerHTML = "none";
+            totalScienceSection.appendChild(item);
+        }
+
     } else {
-        console.log('No data found for the selected school.');
+        console.error('No data found for the selected school.');
     }
 }
