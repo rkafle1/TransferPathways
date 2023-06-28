@@ -32,3 +32,15 @@ def getCCIdList():
         if data[i].get("isCommunityCollege"):
             CCids.append(data[i].get("id"))
     return CCids       
+
+
+def getSchoolFromID(id):
+    data = getAPIData("institutions")
+    # find the id and then get the institution
+    for i in range(len(data)):
+        if id == data[i].get("id"):
+            NamesList = data[i].get("names")
+            return NamesList[0].get('name')
+             
+    return -1
+
