@@ -15,5 +15,5 @@ grabber = PDFGrabber(getSchoolID("University of California, Irvine"), Requiremen
 id_to_key = grabber.get_pdfs()
 
 # articulations will be the dictionary with the articulation mappings which is written to a csv in csvs/agreements directory
-articulations = CreateDictfromtxtUCI('agreements/report_120_3_CS.pdf', Requirements.IrvineReq)
+articulations = CreateDictfromtxtIrvine('agreements/report_120_3_CS.pdf', Requirements.IrvineReq)
 generateCSVfromAgreement(articulations, "csvs/agreements/report_120_3_CS.csv")

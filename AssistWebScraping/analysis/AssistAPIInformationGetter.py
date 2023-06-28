@@ -32,3 +32,5 @@ def getCCIdList():
         if data[i].get("isCommunityCollege"):
             CCids.append(data[i].get("id"))
     return CCids       
+
+

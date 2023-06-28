@@ -17,7 +17,7 @@ def isArticulation(str):
     if "Please refer to additional important General Information" in str or  "section above" in str or str in "(4.00)":
         return False
     if "No Course Articulated" in str:
-        return True
+        return False
     return True
 # checks if a string should be added to Requiredclasses
 def isvalidstr(str):
@@ -61,12 +61,12 @@ def getClassTextIrvine(file):
         if isvalidstr(splitByNewln[i]) and isCourse(splitByNewln[i]):
             Requiredclasses.append(splitByNewln[i].replace('\u200b', ' '))
 
-    # print(Requiredclasses)
+    print(Requiredclasses)
     return Requiredclasses
 '''
 Things to notice: each <- marks a new articulation. if a CC course follows a <- element then it must refer to the same element
 '''
-def CreateDictfromtxtUCI(file, reqdict):
+def CreateDictfromtxtIrvine(file, reqdict):
     Articulations = {}
     # queues that will be used to group requirements with articulations
     reqqueue = []
@@ -162,51 +162,5 @@ def CreateDictfromtxtUCSD(file, reqdict):
         Articulations[reqToString(i)] = artqueue[0]
         artqueue.remove(artqueue[0])
     return Articulations
+    
 
-def CreateDictfromtxtUCD(file, reqdict):
-    Articulations = {}
-    # queues that will be used to group requirements with articulations
-    reqqueue = []
-    artqueue = []
-    RequiredClasses = getClassTextIrvine(file)
-    for i in range(len(RequiredClasses)):
-        RequiredClasses[i] = RequiredClasses[i].replace('  ', ' ')
-        if '←' in RequiredClasses[i]:
-            artqueue.append([[RequiredClasses[i].replace('← ', '')]])
-            continue
-        cscourse = False
-        
-        for j in reqdict["cs"]:
-            # if it is in the jth cs requirement add all these requirements into the reqqueue
-            # print(RequiredClasses[i])
-            # print(j)
-            if RequiredClasses[i] in j:
-                cscourse = True
-                if j not in reqqueue:
-
-                    reqqueue.append(j)
-                continue
-        if cscourse == False:
-            for j in reqdict["math"]:
-                if RequiredClasses[i] in j and j not in reqqueue:
-                    reqqueue.append(j)
-                continue  
-        # handle case of it is an articulation that goes with another ariticulation in artqueue
-        # artqueue: [ [(req1)[opt 1], [opt 2], ]]
-        if isArticulation(RequiredClasses[i]) and isReqCourse(RequiredClasses[i], reqdict) == False:
-            if "--- Or ---" in RequiredClasses[i - 1] or "--- Or ---" in RequiredClasses[i + 1]:
-               
-                artqueue[len(artqueue) - 1].append([RequiredClasses[i]])
-                continue
-            if "--- And ---" in RequiredClasses[i - 1]:
-                index = len(artqueue[len(artqueue) - 1]) - 1
-                artqueue[len(artqueue) - 1][index].append(RequiredClasses[i])
-                continue
-            if "--- And ---" in RequiredClasses[i + 1]:
-                index = len(artqueue[len(artqueue) - 1]) - 1
-                artqueue[len(artqueue) - 1][index].append(RequiredClasses[i])
-                continue
-    for i in reqqueue:
-        Articulations[reqToString(i)] = artqueue[0]
-        artqueue.remove(artqueue[0])
-    return Articulations
