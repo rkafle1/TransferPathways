@@ -253,10 +253,10 @@ function handleFormSubmit(event) {
             upperSummary.innerText = 'Concentrations';
         }
         else if (selectedSchool === 'Cal Poly San Luis Obispo CS B.S.') {
-            let note = `This tool could only display certain information for requirements of the CS major at this school.
+            let note = `<p>This tool could only display certain information for requirements of the CS major at this school.<br>
                         For more information on articulation requirements and what courses to take to be a competitive applicant,
-                        visit the ADMISSIONS page on this website.
-                        It is imperative that you review the resources below for more information about this major.`
+                        visit the ADMISSIONS page on this website.<br><br>
+                        It is imperative that you review the resources below for more information about this major.</p>`
             moreInfo.innerHTML = note + moreInfo.innerHTML;
             lowerSummary.innerText = 'Major Courses';
             upperSummary.innerText = 'Support Courses';
