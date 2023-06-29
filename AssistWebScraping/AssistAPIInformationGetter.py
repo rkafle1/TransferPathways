@@ -44,3 +44,13 @@ def getSchoolFromID(id):
              
     return -1
 
+def getCCListWithAggreements(UniName):
+    URL = "https://assist.org/api/institutions/" + str(getSchoolID(UniName)) + "/agreements"
+    data = requests.get(URL).json()
+    CClst = []
+    for cc in data:
+        if cc["isCommunityCollege"] and 73 in cc["sendingYearIds"]:
+            CClst.append(cc["institutionName"])
+    return CClst
+
+

@@ -6,7 +6,7 @@ import urllib.request
 import json 
 
 class PDFGrabber():
-    def __init__(self, school_id=120, major='Game Design & Interactive Media, B.S.', major_code='GDIM', delay=0.5):
+    def __init__(self, school_id, major, major_code='GDIM', delay=0.5):
         self.school_id = school_id
         self.major = major
         self.major_code = major_code
@@ -30,7 +30,7 @@ class PDFGrabber():
         for agreement in agreement_list:
             time.sleep(self.delay)
             school_id, year = agreement['id'], agreement['year']
-            with urllib.request.urlopen(f'https://assist.org/api/agreements?receivingInstitutionId={self.school_id}&sendingInstitutionId={school_id}&academicYearId={year}&categoryCode=major') as url:
+            with urllib.request.urlopen(f'https://assist.org/api/agreements?receivingInstitutionId={self.school_id}&sendingInstitutionId={school_id}&academicYearId={73}&categoryCode=major') as url:
                 data = json.loads(url.read().decode())
             data = data['reports']
             for report in list(data):
@@ -40,6 +40,10 @@ class PDFGrabber():
     
     def get_pdfs(self):
         keys = self.get_keys()
+        if len(keys) == 0:
+            print("no keys")
+            return
+        
         id_to_key = {} #kluge to add keys to the final dictionary
         for key in keys:
             key_val = key['key']
@@ -49,10 +53,7 @@ class PDFGrabber():
             pdf_url = f'https://assist.org/api/artifacts/{key_val}'
             # write to new file the contents of pdf file
             file_name = f'agreements/report_{self.school_id}_{school_id}_{self.major_code}.pdf'
-            # f = open(file_name, 'w')
-            # f.write(urllib.request.urlopen(pdf_url).read())
-            # f.close()
-            # time.sleep(self.delay)
+
             with open(file_name, 'wb') as f:
                 f.write(urllib.request.urlopen(pdf_url).read())
             time.sleep(self.delay)    

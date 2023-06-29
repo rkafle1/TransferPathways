@@ -13,7 +13,7 @@ UCDReq = {"cs": [["ECS 020 - Discrete Mathematics For Computer Science(4.00)"], 
                  ["ECS 050 - Computer Organization & Machine-Dependent Programming (4.00)"]], 
         "math": [["MAT 021A - Calculus (4.00)"], ["MAT 021B - Calculus (4.00)"], ["MAT 021C - Calculus (4.00) "]]}
 
-UCLAReq = {"cs": [], "math": [["MATH 31A - Differentialand Integral Calculus (4.00)"], ["MATH 31B - Integration and InfiniteSeries (4.00) "]
+UCLAReq = {"cs": [], "math": [["MATH 31A - Differentialand Integral Calculus (4.00)"], ["MATH 31B - Integration and InfiniteSeries (4.00) "],
         ["MATH 32A - Calculus ofSeveral Variables (4.00)"], ["MATH 32B - Calculus ofSeveral Variables (4.00)"], ["MATH 33A - Linear Algebra and Applications (4.00)"],
         ["MATH 33B - DifferentialEquations (4.00) "]], "Science": [["PHYSICS 1A+ 1B+1C+ 4AL or 4BL"]], "Other": [["ENGCOMP 3 - English Composition, Rhetoric, and Language(5.00)"]]}
 
@@ -42,7 +42,10 @@ UCBReq = {"cs": [["COMPSCI 61A - TheStructureand Interpretation of Computer Prog
 
 SDSUReq = {"cs": [["CS 150 - Introduction to Computer Programming (3.00)", "CS 150L - Introductory Computer Programming Laboratory (1.00)"], 
                 ["CS 160 - Intermediate Computer Programming (3.00)", "CS 160L - Intermediate Computer Programming Laboratory (1.00)"], ["CS 200 - Introduction to Data Scienceand Python (4.00)"],
-                ["CS 210 - Data Structures (3.00)"], ["CS 240 - Computer Organization (3.00)"]]}
+                ["CS 210 - Data Structures (3.00)"], ["CS 240 - Computer Organization (3.00)"], ["CS 250 - Introduction to Software Systems (3.00)"]], 
+        "math": [["MATH 150 - Calculus I (4.00)"], ["MATH 151 - Calculus II (4.00)"], ["MATH 245 - Discrete Mathematics (3.00)"], ["MATH 254 - Introduction to Linear Algebra (3.00)"],
+                ["STAT 250 - Statistical Principles and Practices (3.00)"]],
+        "science":[["PHYS 195 - Principles of Physics (3.00)", "PHYS 195L - Principles of Physics Laboratory (1.00)"], ["PHYS 196 - Principles of Physics (3.00)", "PHYS 196L - Principles of Physics Laboratory (1.00)"]]}
 
 CSUSMReq = {"cs": [["CS 240 - Computer Organization (3.00)"], ["CS 211 - Computer ScienceII (4.00)"], ["CS 231 - Assembly Languageand Digital Circuits (4.00)"]],
             "math": [["MATH 160 - Calculus with Applications, I (5.00)"], ["MATH 162 - Calculus with Applications, II (4.00)"], ["MATH 270 - Basic Discrete Mathematics (3.00)"],

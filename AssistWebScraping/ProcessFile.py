@@ -1,5 +1,5 @@
 from pdfminer.high_level import extract_text
-
+from AssistAPIInformationGetter import *
 # checks if a string contains a course or somthing needed to link requirements
 def isCourse(str):
     if str == '' or str == ' ':
@@ -16,8 +16,12 @@ def isArticulation(str):
         return False
     if "Please refer to additional important General Information" in str or  "section above" in str or str in "(4.00)":
         return False
-    if "No Course Articulated" in str:
+    if "PREPARATION FOR THE MAJOR" in str:
         return False
+    # if "No Course Articulated" in str:
+    #     return True
+    # if isReqCourse(str, reqdict):
+    #     return False
     return True
 # checks if a string should be added to Requiredclasses
 def isvalidstr(str):
@@ -27,20 +31,21 @@ def isvalidstr(str):
 
 # checks if a str is a university required course
 def isReqCourse(str, reqdict):
-    for i in reqdict['cs']:
-        if str in i:
-            return True
-    for i in reqdict['math']:
-        if str in i:
-            return True
+    for key in reqdict.keys():
+        for i in reqdict[key]:
+            if str in i:
+                return True
     return False
 
 def reqToString(lst):
     str = ""
     for i in lst:
         str = str + i + " & "
-    return str
+    return str[:len(str) - 3]
 
+
+
+# UCI
 def getClassTextIrvine(file):
     text = extract_text(file)
     splitByNewln = text.split('\n')
@@ -66,12 +71,70 @@ def getClassTextIrvine(file):
 '''
 Things to notice: each <- marks a new articulation. if a CC course follows a <- element then it must refer to the same element
 '''
-def CreateDictfromtxtIrvine(file, reqdict):
+def CreateDictfromtxtIrvine(UniversityName, CCName, reqdict):
     Articulations = {}
     # queues that will be used to group requirements with articulations
     reqqueue = []
     artqueue = []
+    file = "agreements/report_" + str(getSchoolID(UniversityName)) +"_" + str(getSchoolID(CCName))+"_CS.pdf"
     RequiredClasses = getClassTextIrvine(file)
+    for i in range(len(RequiredClasses)):
+        RequiredClasses[i] = RequiredClasses[i].replace('  ', ' ')
+        if '←' in RequiredClasses[i]:
+            artqueue.append([[RequiredClasses[i].replace('← ', '')]])
+            continue
+        cscourse = False
+        
+        for j in reqdict["cs"]:
+            # if it is in the jth cs requirement add all these requirements into the reqqueue
+            # print(RequiredClasses[i])
+            # print(j)
+            if RequiredClasses[i] in j:
+                cscourse = True
+                if j not in reqqueue:
+
+                    reqqueue.append(j)
+                continue
+        if cscourse == False:
+            for j in reqdict["math"]:
+                if RequiredClasses[i] in j and j not in reqqueue:
+                    reqqueue.append(j)
+                continue  
+        # handle case of it is an articulation that goes with another ariticulation in artqueue
+        # artqueue: [ [(req1)[opt 1], [opt 2], ]]
+        if isArticulation(RequiredClasses[i]) and isReqCourse(RequiredClasses[i], reqdict) == False:
+            if "--- Or ---" in RequiredClasses[i - 1] or "--- Or ---" in RequiredClasses[i + 1]:
+               
+                artqueue[len(artqueue) - 1].append([RequiredClasses[i]])
+                continue
+            if "--- And ---" in RequiredClasses[i - 1]:
+                index = len(artqueue[len(artqueue) - 1]) - 1
+                artqueue[len(artqueue) - 1][index].append(RequiredClasses[i])
+                continue
+            if "--- And ---" in RequiredClasses[i + 1]:
+                index = len(artqueue[len(artqueue) - 1]) - 1
+                artqueue[len(artqueue) - 1][index].append(RequiredClasses[i])
+                continue
+    for i in reqqueue:
+        if len(artqueue) == 0:
+            print("uh oh there aren't enough articulations. the requirement is " + reqToString(i))
+            print("this is the cc:" + CCName)
+        Articulations[reqToString(i)] = artqueue[0]
+        artqueue.remove(artqueue[0])
+    return Articulations
+
+# ------------------------------------------------------------------------------------------------------------------------------------------------   
+
+# UCD
+
+def CreateDictfromtxtUCD(UniversityName, CCName, reqdict):
+    Articulations = {}
+    # queues that will be used to group requirements with articulations
+    reqqueue = []
+    artqueue = []
+    file = "agreements/report_" + str(getSchoolID(UniversityName)) +"_" + str(getSchoolID(CCName))+"_CS.pdf"
+    RequiredClasses = getClassTextIrvine(file)
+
     for i in range(len(RequiredClasses)):
         RequiredClasses[i] = RequiredClasses[i].replace('  ', ' ')
         if '←' in RequiredClasses[i]:
@@ -113,36 +176,54 @@ def CreateDictfromtxtIrvine(file, reqdict):
         Articulations[reqToString(i)] = artqueue[0]
         artqueue.remove(artqueue[0])
     return Articulations
-    
 
-def CreateDictfromtxtUCSD(file, reqdict):
+#------------------------------------------------------------------------------------------------------------------------------------------------------   
+
+# SDSU
+def getCoursesSDSU(reqdict, splitlist):
+
+    Courses = []
+    start = 0
+    for i in range(len(splitlist)):
+        if "PREPARATION FOR THE MAJOR" in splitlist[i]:
+            start = i + 1
+            break
+    for i in range(start, len(splitlist)):
+        if (isArticulation(splitlist[i]) or isReqCourse(splitlist[i], reqdict) or "And" in splitlist[i] or "Or" in splitlist[i]) and splitlist[i] != ' ':
+            Courses.append(splitlist[i].replace('\u200b', ' ').replace('  ', ' '))
+    return Courses
+
+def DictFromTxtSDSU(UniversityName, CCName, reqdict):
     Articulations = {}
     # queues that will be used to group requirements with articulations
     reqqueue = []
     artqueue = []
-    RequiredClasses = getClassTextIrvine(file)
+    file = "agreements/report_" + str(getSchoolID(UniversityName)) +"_" + str(getSchoolID(CCName))+"_CS.pdf"
+    text = extract_text("agreements/palomarToSDSU.pdf")
+    RequiredClasses = text.split('\n')
+    RequiredClasses = getCoursesSDSU(reqdict, RequiredClasses)
+    # print(RequiredClasses)
     for i in range(len(RequiredClasses)):
+        if "END OF AGREEMENT" in RequiredClasses[i]:
+            break
         RequiredClasses[i] = RequiredClasses[i].replace('  ', ' ')
         if '←' in RequiredClasses[i]:
             artqueue.append([[RequiredClasses[i].replace('← ', '')]])
             continue
-        cscourse = False
+       
         
-        for j in reqdict["cs"]:
+        for key in reqdict.keys():
             # if it is in the jth cs requirement add all these requirements into the reqqueue
             # print(RequiredClasses[i])
             # print(j)
-            if RequiredClasses[i] in j:
-                cscourse = True
-                if j not in reqqueue:
+            for j in reqdict[key]:
+                if RequiredClasses[i] in j:
+                    
+                    if j not in reqqueue:
 
-                    reqqueue.append(j)
-                continue
-        if cscourse == False:
-            for j in reqdict["math"]:
-                if RequiredClasses[i] in j and j not in reqqueue:
-                    reqqueue.append(j)
-                continue  
+                        reqqueue.append(j)
+                    continue
+        
         # handle case of it is an articulation that goes with another ariticulation in artqueue
         # artqueue: [ [(req1)[opt 1], [opt 2], ]]
         if isArticulation(RequiredClasses[i]) and isReqCourse(RequiredClasses[i], reqdict) == False:
@@ -163,4 +244,4 @@ def CreateDictfromtxtUCSD(file, reqdict):
         artqueue.remove(artqueue[0])
     return Articulations
     
-
+#-------------------------------------------------------------------------------------------------------------------------------------------------
