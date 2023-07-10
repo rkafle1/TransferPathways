@@ -16,11 +16,15 @@ def generateCSVfromAgreement(dict, UniversityName, CCName):
 
 
 def MergeUniversityCSVs(UniName, CCList):
-    with open("csvs/" + UniName + ".csv", 'a') as f:
-        writer = csv.writer(f)
-        for cc in CCList:
-            fileName = "csvs/agreements/from" + cc + "to" + UniName + ".csv"
-            with open(fileName, 'r') as aggreement:
-                reader = csv.reader(aggreement)
-                for row in reader:
-                    writer.writerow(row)
+    try:
+        with open("csvs/" + UniName + ".csv", 'a') as f:
+            writer = csv.writer(f)
+            for cc in CCList:
+                fileName = "csvs/agreements/from" + cc + "to" + UniName + ".csv"
+                with open(fileName, 'r') as aggreement:
+                    reader = csv.reader(aggreement)
+                    for row in reader:
+                        writer.writerow(row)
+    except FileNotFoundError:
+    
+        return

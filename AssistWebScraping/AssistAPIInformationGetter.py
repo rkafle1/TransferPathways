@@ -49,7 +49,7 @@ def getCCListWithAggreements(UniName):
     data = requests.get(URL).json()
     CClst = []
     for cc in data:
-        if cc["isCommunityCollege"] and 73 in cc["sendingYearIds"]:
+        if cc["isCommunityCollege"] and 73 in cc["sendingYearIds"] and cc["institutionName"] not in CClst:
             CClst.append(cc["institutionName"])
     return CClst
 

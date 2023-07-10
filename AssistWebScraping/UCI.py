@@ -1,6 +1,6 @@
 from PDFGrabber import PDFGrabber
 from AssistAPIInformationGetter import *
-from pdfextractor import PDFExtractor
+from ScrapePDFAPI import *
 from ProcessFile import *
 from writeToCSV import *
 from ProcessFile import *
@@ -12,10 +12,6 @@ from Requirements import *
 #                  'CS', 0.2)
 # id_to_key = grabber.get_pdfs()
 
-CCList = getCCIdList()
+CSVForAllAggreements("University of California, Irvine")
+MergeCSVs("University of California, Irvine")
 
-# for cc in CCList:
-#     articulations = CreateDictfromtxtIrvine("University of California, Irvine",getSchoolFromID(cc), UCIReq)
-#     generateCSVfromAgreement(articulations, "University of California, Irvine",getSchoolFromID(cc))
-
-MergeUniversityCSVs("University of California, Irvine", CCList)
