@@ -66,5 +66,4 @@ function parseSheet() {
     }).catch(error => {
         console.error('Error reading data:', error);
     });
-    localStorage.setItem("data", schoolMap);
 }
