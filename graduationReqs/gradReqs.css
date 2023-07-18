@@ -307,6 +307,9 @@ select, .custom-select::after {
         margin-bottom: 2rem;
         text-align: center;
     }
+    #school-select {
+        text-align: center;
+    }
     .form-container {
         margin: auto;
     }

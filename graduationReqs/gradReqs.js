@@ -6,6 +6,11 @@ const API_KEY = '';
 const CLIENT_ID = '';
 const SHEET_ID = '';
 
+function handleClientLoad() {
+    // Load the Google API client library
+    gapi.load('client', initClient);
+}
+
 function initClient() {
     // Initialize the Google Sheets API client
     gapi.client.init({
@@ -17,11 +22,6 @@ function initClient() {
     }).catch(error => {
         console.error('Error initializing API client:', error);
     });
-}
-
-function handleClientLoad() {
-    // Load the Google API client library
-    gapi.load('client', initClient);
 }
 
 let formElement = document.getElementById('school-form');
