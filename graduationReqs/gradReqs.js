@@ -7,6 +7,11 @@ const CLIENT_ID = '964029012495-khufmlfdkqe6qd5c6snnql5h1v22euo4.apps.googleuser
 const SHEET_ID = '1_s_TiZGaR-WHfAV5KpKr4BJq0r61UTCsEcCQJuy_OSk';
 
 
+function handleClientLoad() {
+    // Load the Google API client library
+    gapi.load('client', initClient);
+}
+
 function initClient() {
     // Initialize the Google Sheets API client
     gapi.client.init({
@@ -18,11 +23,6 @@ function initClient() {
     }).catch(error => {
         console.error('Error initializing API client:', error);
     });
-}
-
-function handleClientLoad() {
-    // Load the Google API client library
-    gapi.load('client', initClient);
 }
 
 let formElement = document.getElementById('school-form');
