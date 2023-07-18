@@ -2,9 +2,10 @@ window.onload = handleClientLoad;
 
 let DEBUG = true;
 
-const API_KEY = '';
-const CLIENT_ID = '';
-const SHEET_ID = '';
+const API_KEY = 'AIzaSyBgdJG0I6zU8elZzB7Bsl79Jhyls7fsT9U';
+const CLIENT_ID = '964029012495-khufmlfdkqe6qd5c6snnql5h1v22euo4.apps.googleusercontent.com';
+const SHEET_ID = '1_s_TiZGaR-WHfAV5KpKr4BJq0r61UTCsEcCQJuy_OSk';
+
 
 function initClient() {
     // Initialize the Google Sheets API client
