@@ -1,2 +1,15 @@
-University, Requirement courses, Grad name
-UCI, [['I&C SCI 31 - Introduction to Programming (4.00)', 'I&C SCI 32 - Programming with Software Libraries (4.00)', 'I&C SCI 33 - Intermediate Programming (4.00)']]
+University, Requirement courses
+UCSD, [['CSE 8A - Introduction to Programming and Computational Problem Solving I (4.00)', 'CSE 8B - Introduction to Programming and Computational Problem Solving II (4.00)'], ['CSE 11 - Introduction to Programming and Computational Problem Solving - Accelerated Pace (4.00)']]
+UCSD, [['CSE 12 - Basic Data Structures and Object-Oriented Design (4.00)']]
+UCSD, [['CSE 15L - Software Tools and Techniques Laboratory (2.00)']]
+UCSD, [['CSE 20 - Discrete Mathematics (4.00)']]
+UCSD, [['CSE 21 - Mathematics for Algorithms and Systems (4.00)']]
+UCSD, [['CSE 30 - Computer Organization and Systems Programming (4.00)']]
+UCSD, [['
+UCB, [['COMPSCI 61A - The Structure and Interpretation of Computer Programs (4.00)']]
+UCB, [['COMPSCI 61B - Data Structures (4.00)']]
+UCB, [['COMPSCI 61C - Machine Structures (4.00)']]
+UCB, [['COMPSCI 70 - Discrete Mathematics and Probability Theory (4.00)']]
+UCB, [['MATH 1A - Calculus (4.00)']]
+UCB, [['MATH 1B - Calculus (4.00)']]
+UCB, [['EECS 16A - Designing Information Devices and Systems I (4.00)'], ['MATH 54 - Linear Algebra and Differential Equations (4.00)']]
