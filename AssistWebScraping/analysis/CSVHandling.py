@@ -2,7 +2,7 @@ import csv
 
 
 # deletes unnessary rows(does special things for different schools)
-def deletebadrows(uniName, CSVFileName):
+def FixCSV(uniName, CSVFileName):
 
     if uniName == 'UCI':
         return 0
@@ -10,7 +10,7 @@ def deletebadrows(uniName, CSVFileName):
 
 # Fixes the format of the csv to capture full requirements
 # relList format: [[cse 8A, CSE 8B], [CSE 11]]
-def FixCSV(CSVFileName, relList, UniName):
+def ConvertToGradReqs(CSVFileName, relList, UniName):
     # create a new CSV file for the final sheet
     AddedFromrelList = []
     with open(CSVFileName + "_Final.csv", 'w') as csvfinal:
