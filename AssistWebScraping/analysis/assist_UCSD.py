@@ -11,6 +11,7 @@ import pandas as pd
 import numpy as np
 import math
 keyterms = ['']
+
 renamedcolleges=['']
 #A is known as B
 #A

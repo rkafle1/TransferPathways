@@ -13,7 +13,7 @@ import math
 
 import re
 import ast
-df = pd.read_csv("./csvs/Assist_UCSD.csv", header=None)
+df = pd.read_csv("./csvs/csvs/Assist PDF scraped agreements - CSUEB.csv", header=None)
 row = df.shape[0]
 
 #makes sure that all of them is of type string
@@ -36,7 +36,6 @@ def isValid(element):
             "d": "c"
         }
     list1 = ["(", "[", "]", ")" ]
-    list2 = ["1'1", "2'2", "1\"1", "2\"2"]
     s = ""
     countsingle = 0
     countdouble = 0
@@ -87,7 +86,7 @@ def iterate(df, row):
             if (x == False):
                 print("Not valid on index " + str(i)+ ". The message is " + y)
             #if element has units for a class
-            if 'No Course Articulated' not in element:
+            if 'No Course Articulated' not in element and 'This course must be taken at the university after transfer' not in element and 'Course(s) Denied' not in element and 'Not Articulated' not in element and 'No Comparable Course' not in element and 'No Articulation Established' not in element:
                 #then check if it has units
                 try:
                     # Convert the string back into a list of lists

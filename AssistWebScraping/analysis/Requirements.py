@@ -13,7 +13,7 @@ UCDReq = {"cs": [["ECS 020 - Discrete Mathematics For Computer Science(4.00)"], 
                  ["ECS 050 - Computer Organization & Machine-Dependent Programming (4.00)"]], 
         "math": [["MAT 021A - Calculus (4.00)"], ["MAT 021B - Calculus (4.00)"], ["MAT 021C - Calculus (4.00) "]]}
 
-UCLAReq = {"cs": [], "math": [["MATH 31A - Differentialand Integral Calculus (4.00)"], ["MATH 31B - Integration and InfiniteSeries (4.00) "]
+UCLAReq = {"cs": [], "math": [["MATH 31A - Differentialand Integral Calculus (4.00)"], ["MATH 31B - Integration and InfiniteSeries (4.00)"],
         ["MATH 32A - Calculus ofSeveral Variables (4.00)"], ["MATH 32B - Calculus ofSeveral Variables (4.00)"], ["MATH 33A - Linear Algebra and Applications (4.00)"],
         ["MATH 33B - DifferentialEquations (4.00) "]], "Science": [["PHYSICS 1A+ 1B+1C+ 4AL or 4BL"]], "Other": [["ENGCOMP 3 - English Composition, Rhetoric, and Language(5.00)"]]}
 
