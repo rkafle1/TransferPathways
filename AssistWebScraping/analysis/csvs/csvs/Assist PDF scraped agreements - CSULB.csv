@@ -1,8 +1,8 @@
-Evergreen Valley College,CECS 105 - Introduction to Computer Engineering and Computer Science (1.00),[['No Course Articulated']
+Evergreen Valley College,CECS 105 - Introduction to Computer Engineering and Computer Science (1.00),[['No Course Articulated']]
 ,,
-Evergreen Valley College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['COMSC 020 - Introduction to Programming Concepts and Methodologies (3.00)'], ['COMSC 075 - Computer Science I: Introduction to Program Structures (3.00)']]"
+Evergreen Valley College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['COMSC 020 - Introduction to Programming Concepts and Methodologies (3.00)'], ['COMSC 075 - Computer Science I: Introduction to Program Structures (3.00)']]"
 ,,
-Evergreen Valley College,CECS 225 - Digital Logic and Assembly Programming (3.00),[['No Course Articulated']
+Evergreen Valley College,CECS 225 - Digital Logic and Assembly Programming (3.00),[['No Course Articulated']]
 ,,
 Evergreen Valley College,CECS 228 - Discrete Structures with Computing Applications (3.00),"[['COMSC 080 - DiscreteStructures (3.00)'], ['MATH 070 - Discrete Mathematics (4.00)']]"
 ,,
@@ -64,7 +64,7 @@ College of Marin,MATH 123 - Calculus II (4.00),[['MATH 124 - Analytic Geometry a
 ,,
 College of San Mateo,CECS 105 - Introduction to Computer Engineering and Computer Science (1.00),[['No Course Articulated']]
 ,,
-College of San Mateo,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CIS 255 - (CS1) Programming Methods: Java (4.00)'], ['CIS 278 - (CS1)Programming Methods I: C++ (4.00)']]"
+College of San Mateo,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CIS 255 - (CS1) Programming Methods: Java (4.00)'], ['CIS 278 - (CS1)Programming Methods I: C++ (4.00)']]"
 ,,
 College of San Mateo,CECS 225 - Digital Logic and Assembly Programming (3.00),[['No Course Articulated']]
 ,,
@@ -86,7 +86,7 @@ College of San Mateo,MATH 123 - Calculus II (4.00),[['MATH 252 - Calculus with A
 ,,
 College of the Sequoias,CECS 105 - Introduction to Computer Engineering and Computer Science (1.00),[['No Course Articulated']]
 ,,
-College of the Sequoias,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CSCI 001 - Programming Concepts/Method 1 (4.00)'], ['COMP 006 - Programming Fundamentals (3.00)']]"
+College of the Sequoias,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CSCI 001 - Programming Concepts/Method 1 (4.00)'], ['COMP 006 - Programming Fundamentals (3.00)']]"
 ,,
 College of the Sequoias,CECS 225 - Digital Logic and Assembly Programming (3.00),[['No Course Articulated']]
 ,,
@@ -150,7 +150,7 @@ Cerro Coso Community College,MATH 123 - Calculus II (4.00),[['MATH C152 - Analyt
 ,,
 Columbia College,CECS 105 - Introduction to Computer Engineering and Computer Science (1.00),[['No Course Articulated']]
 ,,
-Columbia College,CECS 174 - Introduction to Programming and Problem Solving (3.00),[['COMP 11P - Programming Concepts and Methodology I (Python)']]
+Columbia College,CECS 174 - Introduction to Programming and Problem Solving (3.00),[['COMP 11P - Programming Concepts and Methodology I (Python) (4.00)']]
 ,,
 Columbia College,CECS 225 - Digital Logic and Assembly Programming (3.00),[['No Course Articulated']]
 ,,
@@ -158,7 +158,7 @@ Columbia College,CECS 228 - Discrete Structures with Computing Applications (3.0
 ,,
 Columbia College,CECS 229 - Discrete Structures with Computing Applications II (3.00),[['No Course Articulated']]
 ,,
-Columbia College,CECS 274 - Data Structures (3.00),[['COMP 12P - Programming Concepts and Methodology II (Python)']]
+Columbia College,CECS 274 - Data Structures (3.00),[['COMP 12P - Programming Concepts and Methodology II (Python) (4.00)']]
 ,,
 Columbia College,CECS 277 - Object Oriented Application Development (3.00),[['No Course Articulated']]
 ,,
@@ -190,28 +190,6 @@ Merritt College,MATH 122 - Calculus I (4.00),[['MATH 3A - Calculus I (5.00)']]
 ,,
 Merritt College,MATH 123 - Calculus II (4.00),[['MATH 3B - Calculus II (5.00)']]
 ,,
-Rancho Santiago College,CECS 105 - Introduction to Computer Engineering and Computer Science (1.00),[['No Course Articulated']]
-,,
-Rancho Santiago College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CMPR 112 - JAVA Programming (3.00)'], ['CMPR 120 - Introduction to Programming (3.00)']]"
-,,
-Rancho Santiago College,CECS 225 - Digital Logic and Assembly Programming (3.00),[['CMPR 129 - Introduction to Computer Organization (4.00)']]
-,,
-Rancho Santiago College,CECS 228 - Discrete Structures with Computing Applications (3.00),[['CMPR 140 - Discrete Structures for Computer Science (3.00)']]
-,,
-Rancho Santiago College,CECS 229 - Discrete Structures with Computing Applications II (3.00),[['MATH 287 - Introduction to Linear Algebra and Differential Equations']]
-,,
-Rancho Santiago College,CECS 274 - Data Structures (3.00),[['CMPR 131 - Data Structures Concepts (3.00)']]
-,,
-Rancho Santiago College,CECS 277 - Object Oriented Application Development (3.00),[['CMPR 113 - Advanced Java (3.00)']]
-,,
-Rancho Santiago College,ENGR 101 - Introduction to Engineering Profession (1.00),[['No Course Articulated']]
-,,
-Rancho Santiago College,ENGR 102 - Academic Success Skills (1.00),[['ENGR 100B - Introduction to Civil Engineering (2.00)']]
-,,
-Rancho Santiago College,MATH 122 - Calculus I (4.00),[['MATH 180 - Single Variable Calculus I (4.00)']]
-,,
-Rancho Santiago College,MATH 123 - Calculus II (4.00),[['MATH 185 - Single Variable Calculus II (4.00)']]
-,,
 Santa Ana College,CECS 105 - Introduction to Computer Engineering and Computer Science (1.00),[['No Course Articulated']]
 ,,
 Santa Ana College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CMPR 112 - JAVA Programming (3.00)'], ['CMPR 120 - Introduction to Programming (3.00)']]"
@@ -220,7 +198,7 @@ Santa Ana College,CECS 225 - Digital Logic and Assembly Programming (3.00),[['CM
 ,,
 Santa Ana College,CECS 228 - Discrete Structures with Computing Applications (3.00),[['CMPR 140 - Discrete Structures for Computer Science (3.00)']]
 ,,
-Santa Ana College,CECS 229 - Discrete Structures with Computing Applications II (3.00),[['MATH 287 - Introduction to Linear Algebra and Differential Equations']]
+Santa Ana College,CECS 229 - Discrete Structures with Computing Applications II (3.00),[['MATH 287 - Introduction to Linear Algebra and Differential Equations (5.00)']]
 ,,
 Santa Ana College,CECS 274 - Data Structures (3.00),[['CMPR 131 - Data Structures Concepts (3.00)']]
 ,,
@@ -236,7 +214,7 @@ Santa Ana College,MATH 123 - Calculus II (4.00),[['MATH 185 - Single Variable Ca
 ,,
 Cuesta College,CECS 105 - Introduction to Computer Engineering and Computer Science (1.00),[['No Course Articulated']]
 ,,
-Cuesta College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CIS 231 - Fundamentals of Computer Science I (4.00)'], ['CIS 201 - Introduction to Computer Science(3.00)']]"
+Cuesta College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CIS 231 - Fundamentals of Computer Science I (4.00)'], ['CIS 201 - Introduction to Computer Science(3.00)']]"
 ,,
 Cuesta College,CECS 225 - Digital Logic and Assembly Programming (3.00),[['No Course Articulated']]
 ,,
@@ -478,7 +456,7 @@ City College of San Francisco,CECS 228 - Discrete Structures with Computing Appl
 ,,
 City College of San Francisco,CECS 229 - Discrete Structures with Computing Applications II (3.00),[['No Course Articulated']]
 ,,
-City College of San Francisco,CECS 274 - Data Structures (3.00),"[['CS 110C - Data Structures and Algorithms: C++ (4.00)'], ['CS 111C - Data Structures and Algorithms: Java (4.00)']]"
+City College of San Francisco,CECS 274 - Data Structures (3.00),"[['CS 110C - Data Structures and Algorithms: C++ (4.00)'], ['CS 111C - Data Structures and Algorithms: Java (4.00)']]"
 ,,
 City College of San Francisco,CECS 277 - Object Oriented Application Development (3.00),[['No Course Articulated']]
 ,,
@@ -532,28 +510,6 @@ Fresno City College,MATH 122 - Calculus I (4.00),[['MATH 5A - Mathematical Analy
 ,,
 Fresno City College,MATH 123 - Calculus II (4.00),[['MATH 5B - Mathematical Analysis II (4.00)']]
 ,,
-Kings River College,CECS 105 - Introduction to Computer Engineering and Computer Science (1.00),[['No Course Articulated']]
-,,
-Kings River College,CECS 174 - Introduction to Programming and Problem Solving (3.00),[['CSCI 40 - Programming Concepts and Methodology I (4.00)']]
-,,
-Kings River College,CECS 225 - Digital Logic and Assembly Programming (3.00),[['No Course Articulated']]
-,,
-Kings River College,CECS 228 - Discrete Structures with Computing Applications (3.00),[['CSCI 26 - Discrete Mathematics for Computer Science (4.00)']]
-,,
-Kings River College,CECS 229 - Discrete Structures with Computing Applications II (3.00),[['No Course Articulated']]
-,,
-Kings River College,CECS 274 - Data Structures (3.00),[['CSCI 41 - Programming Concepts and Methodology II (4.00)']]
-,,
-Kings River College,CECS 277 - Object Oriented Application Development (3.00),[['No Course Articulated']]
-,,
-Kings River College,ENGR 101 - Introduction to Engineering Profession (1.00),[['ENGR 10 - Introduction to Engineering (2.00)']]
-,,
-Kings River College,ENGR 102 - Academic Success Skills (1.00),[['COUN 53 - College and Life Management (3.00)']]
-,,
-Kings River College,MATH 122 - Calculus I (4.00),[['MATH 5A - Calculus I (5.00)']]
-,,
-Kings River College,MATH 123 - Calculus II (4.00),[['MATH 5B - Calculus II (4.00)']]
-,,
 Reedley College,CECS 105 - Introduction to Computer Engineering and Computer Science (1.00),[['No Course Articulated']]
 ,,
 Reedley College,CECS 174 - Introduction to Programming and Problem Solving (3.00),[['CSCI 40 - Programming Concepts and Methodology I (4.00)']]
@@ -598,7 +554,7 @@ Shasta College,MATH 123 - Calculus II (4.00),[['MATH 3B - Calculus 3B (4.00)']]
 ,,
 Lake Tahoe Community College,CECS 105 - Introduction to Computer Engineering and Computer Science (1.00),[['No Course Articulated']]
 ,,
-Lake Tahoe Community College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CIS 120A - Computer Programming I (4.00)', 'CIS 120B - Computer Programming II (4.00)']]"
+Lake Tahoe Community College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CIS 120A - Computer Programming I (4.00)', 'CIS 120B - Computer Programming II (4.00)']]"
 ,,
 Lake Tahoe Community College,CECS 225 - Digital Logic and Assembly Programming (3.00),[['No Course Articulated']]
 ,,
@@ -614,13 +570,13 @@ Lake Tahoe Community College,ENGR 101 - Introduction to Engineering Profession (
 ,,
 Lake Tahoe Community College,ENGR 102 - Academic Success Skills (1.00),[['No Course Articulated']]
 ,,
-Lake Tahoe Community College,MATH 122 - Calculus I (4.00),"[['MAT 105 - Calculus and Analytic Geometry (Part I) (5.00)', 'MAT 106 - Calculus and Analytic Geometry (Part II) (5.00)', 'MAT 107 - Calculus and Analytic Geometry (Part III) (5.00)']]"
+Lake Tahoe Community College,MATH 122 - Calculus I (4.00),"[['MAT 105 - Calculus and Analytic Geometry (Part I) (5.00)', 'MAT 106 - Calculus and Analytic Geometry (Part II) (5.00)', 'MAT 107 - Calculus and Analytic Geometry (Part III) (5.00)']]"
 ,,
-Lake Tahoe Community College,MATH 123 - Calculus II (4.00),"[['MAT 105 - Calculus and Analytic Geometry (Part I) (5.00)', 'MAT 106 - Calculus and Analytic Geometry (Part II) (5.00)', 'MAT 107 - Calculus and Analytic Geometry (Part III) (5.00)']]"
+Lake Tahoe Community College,MATH 123 - Calculus II (4.00),"[['MAT 105 - Calculus and Analytic Geometry (Part I) (5.00)', 'MAT 106 - Calculus and Analytic Geometry (Part II) (5.00)', 'MAT 107 - Calculus and Analytic Geometry (Part III) (5.00)']]"
 ,,
 Cabrillo College,CECS 105 - Introduction to Computer Engineering and Computer Science (1.00),[['No Course Articulated']]
 ,,
-Cabrillo College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CS 11 - Introduction to Programming Concepts and Methodology,'], ['CS 12GP - Introduction to Programming Using Games and Simulations (4.00)'],  ['CS 12J - Introduction to Programming Concepts & Methodology, JAVA (4.00)']]"
+Cabrillo College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CS 11 - Introduction to Programming Concepts and Methodology, C++ (4.00)'], ['CS 12GP - Introduction to Programming Using Games and Simulations (4.00)'],  ['CS 12J - Introduction to Programming Concepts & Methodology, JAVA (4.00)']]"
 ,,
 Cabrillo College,CECS 225 - Digital Logic and Assembly Programming (3.00),[['No Course Articulated']]
 ,,
@@ -658,7 +614,7 @@ Glendale Community College,ENGR 101 - Introduction to Engineering Profession (1.
 ,,
 Glendale Community College,ENGR 102 - Academic Success Skills (1.00),[['No Course Articulated']]
 ,,
-Glendale Community College,MATH 122 - Calculus I (4.00),"[['MATH 103E - Calculus and Analytic Geometry I (5.00)'], ['MATH 103EH - Honors Calculus and Analytic Geometry I (5.00)']]"
+Glendale Community College,MATH 122 - Calculus I (4.00),"[['MATH 103E - Calculus and Analytic Geometry I (5.00)'], ['MATH 103EH - Honors Calculus and Analytic Geometry I (5.00)']]"
 ,,
 Glendale Community College,MATH 123 - Calculus II (4.00),"[['MATH 104E - Calculus and Analytic Geometry II (5.00)'], ['MATH 104EH - Honors Calculus and Analytic Geometry II (5.00)']]"
 ,,
@@ -752,13 +708,13 @@ Pasadena City College,CECS 105 - Introduction to Computer Engineering and Comput
 ,,
 Pasadena City College,CECS 174 - Introduction to Programming and Problem Solving (3.00),[['CS 003B - Fundamentals of Computer Science (JAVA) (4.00)']]
 ,,
-Pasadena City College,CECS 228 - Discrete Structures with Computing Applications (3.00),"[['CS 045 - Discrete Structures with Computer Science Applications'], ['MATH 022 - Discrete Mathematics (4.00)']]"
+Pasadena City College,CECS 228 - Discrete Structures with Computing Applications (3.00),"[['CS 045 - Discrete Structures with Computer Science Applications (5.00)'], ['MATH 022 - Discrete Mathematics (4.00)']]"
 ,,
 Pasadena City College,CECS 225 - Digital Logic and Assembly Programming (3.00),[['No Course Articulated']]
 ,,
 Pasadena City College,CECS 229 - Discrete Structures with Computing Applications II (3.00),[['MATH 010 - Linear Algebra and Applications (4.00)']]
 ,,
-Pasadena City College,CECS 274 - Data Structures (3.00),[['CS 008 - Fundamentals of Computer Science III-Data Structures']]
+Pasadena City College,CECS 274 - Data Structures (3.00),[['CS 008 - Fundamentals of Computer Science III-Data Structures (4.00)']]
 ,,
 Pasadena City College,CECS 277 - Object Oriented Application Development (3.00),[['No Course Articulated']]
 ,,
@@ -772,7 +728,7 @@ Pasadena City College,MATH 123 - Calculus II (4.00),[['MATH 005B - Single Variab
 ,,
 Foothill College,CECS 105 - Introduction to Computer Engineering and Computer Science (1.00),[['No Course Articulated']]
 ,,
-Foothill College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CS 1A - Object-Oriented Programming Methodologies in JAVA'], ['CS 2A - Object-Oriented Programming Methodologies in C++ (4.50)']]"
+Foothill College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CS 1A - Object-Oriented Programming Methodologies in JAVA(4.50)'], ['CS 2A - Object-Oriented Programming Methodologies in C++ (4.50)']]"
 ,,
 Foothill College,CECS 225 - Digital Logic and Assembly Programming (3.00),[['No Course Articulated']]
 ,,
@@ -788,9 +744,9 @@ Foothill College,ENGR 101 - Introduction to Engineering Profession (1.00),[['No 
 ,,
 Foothill College,ENGR 102 - Academic Success Skills (1.00),[['No Course Articulated']]
 ,,
-Foothill College,MATH 122 - Calculus I (4.00),"[['MATH 1A - Calculus (5.00)'], ['MATH 1B - Calculus (5.00)']]"
+Foothill College,MATH 122 - Calculus I (4.00),"[['MATH 1A - Calculus (5.00)'], ['MATH 1B - Calculus (5.00)']]"
 ,,
-Foothill College,MATH 123 - Calculus II (4.00),"[['MATH 1B - Calculus (5.00)', 'MATH 1C - Calculus (5.00)']]"
+Foothill College,MATH 123 - Calculus II (4.00),"[['MATH 1B - Calculus (5.00)', 'MATH 1C - Calculus (5.00)']]"
 ,,
 Modesto Junior College,CECS 105 - Introduction to Computer Engineering and Computer Science (1.00),[['No Course Articulated']]
 ,,
@@ -910,7 +866,7 @@ Santa Rosa Junior College,CECS 228 - Discrete Structures with Computing Applicat
 ,,
 Santa Rosa Junior College,CECS 229 - Discrete Structures with Computing Applications II (3.00),[['No Course Articulated']]
 ,,
-Santa Rosa Junior College,CECS 274 - Data Structures (3.00),"[['CS 10A - Introduction to Programming Concepts and', 'CS 10B - Programming Concepts and Methodologies 1 (4.00)', 'CS 10C - Programming Concepts and Methodologies 2 (4.00)']]"
+Santa Rosa Junior College,CECS 274 - Data Structures (3.00),"[['CS 10A - Introduction to Programming Concepts and Methodologies (4.00)', 'CS 10B - Programming Concepts and Methodologies 1 (4.00)', 'CS 10C - Programming Concepts and Methodologies 2 (4.00)']]"
 ,,
 Santa Rosa Junior College,CECS 277 - Object Oriented Application Development (3.00),[['No Course Articulated']]
 ,,
@@ -1110,7 +1066,7 @@ West Hills College Coalinga,ENGR 102 - Academic Success Skills (1.00),[['No Cour
 ,,
 West Hills College Coalinga,MATH 122 - Calculus I (4.00),[['MATH 001A - Introduction to Calculus (5.00)']]
 ,,
-West Hills College Coalinga,MATH 123 - Calculus II (4.00),"[['MATH 001B - Calculus With Applications (5.00)']]"
+West Hills College Coalinga,MATH 123 - Calculus II (4.00),[['MATH 001B - Calculus With Applications (5.00)']]
 ,,
 Canada College,CECS 105 - Introduction to Computer Engineering and Computer Science (1.00),[['No Course Articulated']]
 ,,
@@ -1180,7 +1136,7 @@ Crafton Hills College,MATH 123 - Calculus II (4.00),[['MATH 251 - Single Variabl
 ,,
 Cypress College,CECS 105 - Introduction to Computer Engineering and Computer Science (1.00),[['No Course Articulated']]
 ,,
-Cypress College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CIS 226 C - Java Programming (3.00)'], ['CIS 247 C - Python Programming (3.00)'], ['CSCI 123 C - Introduction to Programming Concepts in C++ (3.00)']]"
+Cypress College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CIS 226 C - Java Programming (3.00)'], ['CIS 247 C - Python Programming (3.00)'], ['CSCI 123 C - Introduction to Programming Concepts in C++ (3.00)']]"
 ,,
 Cypress College,CECS 225 - Digital Logic and Assembly Programming (3.00),[['CSCI 242 C - Computer Architecture and Organization (3.00)']]
 ,,
@@ -1188,7 +1144,7 @@ Cypress College,CECS 228 - Discrete Structures with Computing Applications (3.00
 ,,
 Cypress College,CECS 229 - Discrete Structures with Computing Applications II (3.00),[['MATH 250BC - Linear Algebra and Differential Equations (5.00)']]
 ,,
-Cypress College,CECS 274 - Data Structures (3.00),"[['CIS 234 C - Advanced Java Programming (3.00)'], ['CIS 275 C - Advanced Python Programming (3.00)'], ['CSCI 133 C - Data Structures in C++ (3.00)']]"
+Cypress College,CECS 274 - Data Structures (3.00),"[['CIS 234 C - Advanced Java Programming (3.00)'], ['CIS 275 C - Advanced Python Programming (3.00)'], ['CSCI 133 C - Data Structures in C++ (3.00)']]"
 ,,
 Cypress College,CECS 277 - Object Oriented Application Development (3.00),[['No Course Articulated']]
 ,,
@@ -1202,7 +1158,7 @@ Cypress College,MATH 123 - Calculus II (4.00),[['MATH 150BC - Calculus II (4.00)
 ,,
 Gavilan College,CECS 105 - Introduction to Computer Engineering and Computer Science (1.00),[['No Course Articulated']]
 ,,
-Gavilan College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CSIS 24 - Java Programming I (3.00)'], ['CSIS 42 - Python Programming (4.00)'], ['CSIS 45 - C++ Programming I (3.00)'], ['ENGR 5 - Engineering Programming and Problem Solving (3.00)']]"
+Gavilan College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CSIS 24 - Java Programming I (3.00)'], ['CSIS 42 - Python Programming (4.00)'], ['CSIS 45 - C++ Programming I (3.00)'], ['ENGR5 - Engineering Programming and Problem Solving (3.00)']]"
 ,,
 Gavilan College,CECS 225 - Digital Logic and Assembly Programming (3.00),[['No Course Articulated']]
 ,,
@@ -1246,11 +1202,11 @@ Napa Valley College,MATH 123 - Calculus II (4.00),[['MATH 121 - Calculus II (5.0
 ,,
 Orange Coast College,CECS 105 - Introduction to Computer Engineering and Computer Science (1.00),[['No Course Articulated']]
 ,,
-Orange Coast College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CS A131 - Python Programming 1 (4.00)'], ['CS A150 - C++ Programming Language 1 (4.00)'], ['CS A170 - Java Programming 1 (4.00)']]"
+Orange Coast College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CS A131 - Python Programming 1 (4.00)'], ['CS A150 - C++ Programming Language 1 (4.00)'], ['CS A170 - Java Programming 1 (4.00)']]"
 ,,
 Orange Coast College,CECS 225 - Digital Logic and Assembly Programming (3.00),[['CS A216 - Computer Architecture (4.00)']]
 ,,
-Orange Coast College,CECS 228 - Discrete Structures with Computing Applications (3.00),"[['CS A262 - Discrete Structures (3.00)'], ['MATH A230 - Introduction to Discrete Mathematics (5.00)']]"
+Orange Coast College,CECS 228 - Discrete Structures with Computing Applications (3.00),"[['CS A262 - Discrete Structures (3.00)'], ['MATH A230 - Introduction to Discrete Mathematics (5.00)']]"
 ,,
 Orange Coast College,CECS 229 - Discrete Structures with Computing Applications II (3.00),"[['MATH A235 - Applied Linear Algebra (3.00)'], ['MATH A285 - Introduction to Linear Algebra and Differential Equations (4.00)'], ['MATH A285H - Honors Introduction to Linear Algebra and Differential Equations (5.00)']]"
 ,,
@@ -1432,7 +1388,7 @@ Oxnard College,ENGR 102 - Academic Success Skills (1.00),[['No Course Articulate
 ,,
 Oxnard College,MATH 122 - Calculus I (4.00),[['MATH R120 - Calculus with Analytic Geometry I (5.00)']]
 ,,
-Oxnard College,MATH 123 - Calculus II (4.00),"[['MATH R121 - Calculus with Analytic Geometry II (5.00)']]"
+Oxnard College,MATH 123 - Calculus II (4.00),[['MATH R121 - Calculus with Analytic Geometry II (5.00)']]
 ,,
 Yuba College,CECS 105 - Introduction to Computer Engineering and Computer Science (1.00),[['No Course Articulated']]
 ,,
@@ -1612,7 +1568,7 @@ Cuyamaca College,CECS 228 - Discrete Structures with Computing Applications (3.0
 ,,
 Cuyamaca College,CECS 229 - Discrete Structures with Computing Applications II (3.00),[['No Course Articulated']]
 ,,
-Cuyamaca College,CECS 274 - Data Structures (3.00),"[['CS 281 - Intermediate C++ Programming and Fundamental Data'], ['CS 282 - Intermediate Java Programming and Fundamental Data Structures (4.00)']]"
+Cuyamaca College,CECS 274 - Data Structures (3.00),"[['CS 281 - Intermediate C++ Programming and Fundamental Data Structures (4.00)'], ['CS 282 - Intermediate Java Programming and Fundamental Data Structures (4.00)']]"
 ,,
 Cuyamaca College,CECS 277 - Object Oriented Application Development (3.00),[['No Course Articulated']]
 ,,
@@ -1692,13 +1648,15 @@ College of the Siskiyous,MATH 123 - Calculus II (4.00),[['MATH 1500 - Calculus a
 ,,
 El Camino College,CECS 105 - Introduction to Computer Engineering and Computer Science (1.00),[['No Course Articulated']]
 ,,
-El Camino College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['COMP SCI 1 - Problem Solving and Program Design Using C++ (4.00)'], ['COMP SCI 3 - Computer Object Oriented Programming in Java (4.00)'], ['COMP SCI 14 - Introduction to Programming with Python (4.00)']]"
-,CECS 225 - Digital Logicand Assembly Programming (3.00) ,"[[''COMP SCI 16 - Assembly Language Programming for the x86 (IBM PC) Processors (4.00)']]"
+El Camino College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['COMP SCI 1 - Problem Solving and Program Design Using C++ (4.00)'], ['COMP SCI 3 - Computer Object Oriented Programming in Java (4.00)'], ['COMP SCI 14 - Introduction to Programming with Python (4.00)']]"
+,,
+El Camino College,CECS 225 - Digital Logicand Assembly Programming (3.00) ,[['COMP SCI 16 - Assembly Language Programming for the x86 (IBM PC) Processors (4.00)']]
+,,
 El Camino College,CECS 228 - Discrete Structures with Computing Applications (3.00),[['MATH 210 - Introduction to DiscreteStructures (5.00)']]
 ,,
 El Camino College,CECS 229 - Discrete Structures with Computing Applications II (3.00),[['MATH 270 - DifferentialEquations with Linear Algebra (5.00)']]
 ,,
-El Camino College,CECS 274 - Data Structures (3.00),[['COMP SCI 2 - Introduction to Data Structures (5.00']]
+El Camino College,CECS 274 - Data Structures (3.00),[['COMP SCI 2 - Introduction to Data Structures (5.00)']]
 ,,
 El Camino College,CECS 277 - Object Oriented Application Development (3.00),[['No Course Articulated']]
 ,,
@@ -1708,13 +1666,13 @@ El Camino College,ENGR 102 - Academic Success Skills (1.00),[['No Course Articul
 ,,
 El Camino College,MATH 122 - Calculus I (4.00),[['MATH 190 - Single Variable Calculus and Analytic Geometry I (5.00)']]
 ,,
-El Camino College,MATH 123 - Calculus II (4.00),"[['MATH 191 - Single Variable Calculus and Analytic Geometry II (5.00)']]"
+El Camino College,MATH 123 - Calculus II (4.00),[['MATH 191 - Single Variable Calculus and Analytic Geometry II (5.00)']]
 ,,
 Cerritos College,CECS 105 - Introduction to Computer Engineering and Computer Science (1.00),[['No Course Articulated']]
 ,,
-Cerritos College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CIS 180 - Programming in C/C++ (3.50)'], ['CIS 181 - Python Programming (3.50)'], ['CIS 183 - Java Programming (3.50)']]"
+Cerritos College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CIS 180 - Programming in C/C++ (3.50)'], ['CIS 181 - Python Programming (3.50)'], ['CIS 183 - Java Programming (3.50)']]"
 ,,
-Cerritos College,CECS 225 - Digital Logic and Assembly Programming (3.00),[['CIS 231 - Computer Organization and Assembly Language']]
+Cerritos College,CECS 225 - Digital Logic and Assembly Programming (3.00),[['CIS 231 - Computer Organization and Assembly Language Programming (3.50)']]
 ,,
 Cerritos College,CECS 228 - Discrete Structures with Computing Applications (3.00),[['CIS 185 - Discrete Structures (3.00)']]
 ,,
@@ -1734,7 +1692,7 @@ Cerritos College,MATH 123 - Calculus II (4.00),[['MATH 190 - Analytic Geometry a
 ,,
 Coastline Community College,CECS 105 - Introduction to Computer Engineering and Computer Science (1.00),[['No Course Articulated']]
 ,,
-Coastline Community College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CIS C155 - Introduction to Programming using Java (3.00)'], ['CIS C157 - Introduction to Python Programming (3.00)']]"
+Coastline Community College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CIS C155 - Introduction to Programming using Java (3.00)'], ['CIS C157 - Introduction to Python Programming (3.00)']]"
 ,,
 Coastline Community College,CECS 225 - Digital Logic and Assembly Programming (3.00),[['No Course Articulated']]
 ,,
@@ -1756,7 +1714,7 @@ Coastline Community College,MATH 123 - Calculus II (4.00),[['MATH C185 - Calculu
 ,,
 Grossmont College,CECS 105 - Introduction to Computer Engineering and Computer Science (1.00),[['No Course Articulated']]
 ,,
-Grossmont College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CSIS 296 - Introduction to C++ Programming (4.00)'], ['CSIS 293 - Introduction to Java Programming (4.00)']]"
+Grossmont College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CSIS 296 - Introduction to C++ Programming (4.00)'], ['CSIS 293 - Introduction to Java Programming (4.00)']]"
 ,,
 Grossmont College,CECS 225 - Digital Logic and Assembly Programming (3.00),[['No Course Articulated']]
 ,,
@@ -1820,7 +1778,7 @@ MiraCosta College,MATH 123 - Calculus II (4.00),"[['MATH 155 - Calculus and Anal
 ,,
 San Joaquin Delta College,CECS 105 - Introduction to Computer Engineering and Computer Science (1.00),[['No Course Articulated']]
 ,,
-San Joaquin Delta College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CSP 17 - Introduction to Programming Concepts and Methodologies'], ['CSP 31B - C++ Programming II (3.00)']]"
+San Joaquin Delta College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CSP 17 - Introduction to Programming Concepts and Methodologies (3.00)'], ['CSP 31B - C++ Programming II (3.00)']]"
 ,,
 San Joaquin Delta College,CECS 225 - Digital Logic and Assembly Programming (3.00),[['No Course Articulated']]
 ,,
@@ -1952,7 +1910,7 @@ East Los Angeles College,CECS 105 - Introduction to Computer Engineering and Com
 ,,
 East Los Angeles College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CS 113 - Programming in JAVA (3.00)'], ['CS 116 - Programming in C++ (3.00)'], ['CS 119 - Programming in Python (3.00)'], ['ENG GEN 121 - Programming for Engineers: C++ (4.00)'], ['MATH 173 - Object-Oriented Programming and Design (4.00)']]"
 ,,
-East Los Angeles College,CECS 225 - Digital Logic and Assembly Programming (3.00),[['CS 130 - Introduction to Computer Architecture and Organization']]
+East Los Angeles College,CECS 225 - Digital Logic and Assembly Programming (3.00),[['CS 130 - Introduction to Computer Architecture and Organization (3.00)']]
 ,,
 East Los Angeles College,CECS 228 - Discrete Structures with Computing Applications (3.00),"[['CS 131 - Discrete Structures for Computer Science (3.00)'], ['MATH 272 - Methods of Discrete Mathematics (5.00)']]"
 ,,
@@ -1962,7 +1920,7 @@ East Los Angeles College,CECS 274 - Data Structures (3.00),[['No Course Articula
 ,,
 East Los Angeles College,CECS 277 - Object Oriented Application Development (3.00),[['No Course Articulated']]
 ,,
-East Los Angeles College,ENGR 101 - Introduction to Engineering Profession (1.00),[['ENG GEN 101 - Introduction to Science - Engineering and Technology']]
+East Los Angeles College,ENGR 101 - Introduction to Engineering Profession (1.00),[['ENG GEN 101 - Introduction to Science - Engineering and Technology (2.00)']]
 ,,
 East Los Angeles College,ENGR 102 - Academic Success Skills (1.00),[['No Course Articulated']]
 ,,
@@ -2034,7 +1992,7 @@ Feather River College,MATH 123 - Calculus II (4.00),[['MATH 220 - Single Variabl
 ,,
 Hartnell College,CECS 105 - Introduction to Computer Engineering and Computer Science (1.00),[['No Course Articulated']]
 ,,
-Hartnell College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CSS 1 - Intro to Computer Science & Programming Fundamentals'], ['CSS 2A - Object Oriented Programming (4.00)']]"
+Hartnell College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CSS 1 - Intro to Computer Science & Programming Fundamentals (4.00)'], ['CSS 2A - Object Oriented Programming (4.00)']]"
 ,,
 Hartnell College,CECS 225 - Digital Logic and Assembly Programming (3.00),[['No Course Articulated']]
 ,,
@@ -2098,7 +2056,7 @@ Porterville College,MATH 123 - Calculus II (4.00),[['MATH P104 - Calculus II wit
 ,,
 Sacramento City College,CECS 105 - Introduction to Computer Engineering and Computer Science (1.00),[['No Course Articulated']]
 ,,
-Sacramento City College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CISP 360 - Introduction to Structured Programming (4.00)'], ['CISP 400 - Object Oriented Programming with C++ (4.00)']]"
+Sacramento City College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CISP 360 - Introduction to Structured Programming (4.00)'], ['CISP 400 - Object Oriented Programming with C++ (4.00)']]"
 ,,
 Sacramento City College,CECS 225 - Digital Logic and Assembly Programming (3.00),[['No Course Articulated']]
 ,,
@@ -2130,7 +2088,7 @@ Skyline College,CECS 229 - Discrete Structures with Computing Applications II (3
 ,,
 Skyline College,CECS 274 - Data Structures (3.00),"[['COMP 286 - Data Structures: Java (3.00)'], ['COMP 252 - Data Structures: C++ (3.00)']]"
 ,,
-Skyline College,CECS 277 - Object Oriented Application Development (3.00),[['COMP 284 - Introduction to Object-Oriented Programming: Java']]
+Skyline College,CECS 277 - Object Oriented Application Development (3.00),[['COMP 284 - Introduction to Object-Oriented Programming: Java (4.00)']]
 ,,
 Skyline College,ENGR 101 - Introduction to Engineering Profession (1.00),[['ENGR 100 - Introduction to Engineering (3.00)']]
 ,,
@@ -2186,7 +2144,7 @@ San Bernardino Valley College,MATH 123 - Calculus II (4.00),[['MATH 251 - Single
 ,,
 Monterey Peninsula College,CECS 105 - Introduction to Computer Engineering and Computer Science (1.00),[['No Course Articulated']]
 ,,
-Monterey Peninsula College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CSIS 10A - Programming Methods I: JAVA (4.00)'], ['CSIS 9 - Programming Fundamentals: Python (3.00)']]"
+Monterey Peninsula College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CSIS 10A - Programming Methods I: JAVA (4.00)'], ['CSIS 9 - Programming Fundamentals: Python (3.00)']]"
 ,,
 Monterey Peninsula College,CECS 225 - Digital Logic and Assembly Programming (3.00),[['No Course Articulated']]
 ,,
@@ -2210,7 +2168,7 @@ Fullerton College,CECS 105 - Introduction to Computer Engineering and Computer S
 ,,
 Fullerton College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CIS 226 F - Java Programming I (4.00)'], ['CIS 228 F - Java Programming II (4.00)'], ['CSCI 123 F - Introduction to Programming Concepts in C++ (4.00)']]"
 ,,
-Fullerton College,CECS 225 - Digital Logic and Assembly Programming (3.00),[['CSCI 241 F - Computer Organization and Assembly Language']]
+Fullerton College,CECS 225 - Digital Logic and Assembly Programming (3.00),[['CSCI 241 F - Computer Organization and Assembly Language Programming (4.00)']]
 ,,
 Fullerton College,CECS 228 - Discrete Structures with Computing Applications (3.00),[['MATH 170 F - Discrete Structures (4.00)']]
 ,,
@@ -2274,7 +2232,7 @@ San Jose City College,MATH 123 - Calculus II (4.00),[['MATH 072 - Calculus II wi
 ,,
 Santa Monica College,CECS 105 - Introduction to Computer Engineering and Computer Science (1.00),[['No Course Articulated']]
 ,,
-Santa Monica College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CS 52 - C++ Programming (3.00)'], ['CS 55 - JAVA Programming (3.00)'], ['CS 87A - Python (3.00)']]"
+Santa Monica College,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CS 52 - C++ Programming (3.00)'], ['CS 55 - JAVA Programming (3.00)'], ['CS 87A - Python (3.00)']]"
 ,,
 Santa Monica College,CECS 225 - Digital Logic and Assembly Programming (3.00),[['CS 17 - Assembly Language Programming (3.00)']]
 ,,
@@ -2340,7 +2298,7 @@ Moorpark College,MATH 123 - Calculus II (4.00),[['MATH M25B - Calculus with Anal
 ,,
 College of the Canyons,CECS 105 - Introduction to Computer Engineering and Computer Science (1.00),[['No Course Articulated']]
 ,,
-College of the Canyons,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CMPSCI 111 - Introduction to Computer Algorithms and Programming/JAVA (3.00)'], ['CMPSCI 236 - C++ Object Oriented Programming (3.00)']]"
+College of the Canyons,CECS 174 - Introduction to Programming and Problem Solving (3.00),"[['CMPSCI 111 - Introduction to Computer Algorithms and Programming/JAVA (3.00)'], ['CMPSCI 236 - C++ Object Oriented Programming (3.00)']]"
 ,,
 College of the Canyons,CECS 225 - Digital Logic and Assembly Programming (3.00),[['No Course Articulated']]
 ,,
@@ -2422,7 +2380,7 @@ West Hills College Lemoore,ENGR 102 - Academic Success Skills (1.00),[['No Cours
 ,,
 West Hills College Lemoore,MATH 122 - Calculus I (4.00),[['MATH 001A - Introduction to Calculus (5.00)']]
 ,,
-West Hills College Lemoore,MATH 123 - Calculus II (4.00),[[MATH 001B - Calculus with Applications (5.00)']]
+West Hills College Lemoore,MATH 123 - Calculus II (4.00),[['MATH 001B - Calculus with Applications (5.00)']]
 ,,
 Woodland Community College,CECS 105 - Introduction to Computer Engineering and Computer Science (1.00),[['No Course Articulated']]
 ,,

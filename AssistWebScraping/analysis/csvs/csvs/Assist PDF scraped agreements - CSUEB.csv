@@ -26,7 +26,7 @@ Los Angeles City College,CS 201 - Computer Science II (4.00),[['CS 216 - Object-
 ,,
 Los Angeles City College,CS 211 - DISCRETE STRUCTURES (3.00),[['MATH 272 - Methods of Discrete Mathematics (5.00)']]
 ,,
-Los Angeles City College,CS 221 - Assembly Language and Computer Architecture (3.00),[['CS 130 - Introduction To Computer Architecture and Organization']]
+Los Angeles City College,CS 221 - Assembly Language and Computer Architecture (3.00),[['CS 130 - Introduction To Computer Architecture and Organization(3.0)']]
 ,,
 Los Angeles City College,CS 230 - Computing and Social Responsibility (3.00),[['No Course Articulated']]
 ,,
@@ -46,7 +46,7 @@ College of Marin,CS 201 - Computer Science II (4.00),[['COMP 235 - Advanced Prog
 ,,
 College of Marin,CS 211 - DISCRETE STRUCTURES (3.00),[['MATH 117 - Discrete Mathematics (3.00)']]
 ,,
-College of Marin,CS 221 - Assembly Language and Computer Architecture (3.00),[['COMP 160 - Computer Organization: An Assembly Language']]
+College of Marin,CS 221 - Assembly Language and Computer Architecture (3.00),[['COMP 160 - Computer Organization: An Assembly Language Perspective(3.00)']]
 ,,
 College of Marin,CS 230 - Computing and Social Responsibility (3.00),[['No Course Articulated']]
 ,,
@@ -138,11 +138,11 @@ Cerro Coso Community College,MATH 225 - Numerical Algorithms and Linear Algebra 
 ,,
 Cerro Coso Community College,PHYS 135 - Physics for Scientists and Engineers I (4.00),[['PHYS C111 - Mechanics (5.00)']]
 ,,
-Columbia College,CS 101 - Computer Science I (4.00) & CS 201 - Computer Science II (4.00),"[['COMP 11J - Programming Concepts and Methodology I (Java)', ' (4.00)', 'COMP 12J - Programming Concepts and Methodology II (Java) (4.00)'], ['COMP 11P - Programming Concepts and Methodology I (Python) (4.00)', 'COMP 12P - Programming Concepts and Methodology II (Python) (4.00)']]"
+Columbia College,CS 101 - Computer Science I (4.00) & CS 201 - Computer Science II (4.00),"[['COMP 11J - Programming Concepts and Methodology I (Java) (4.00)', 'COMP 12J - Programming Concepts and Methodology II (Java) (4.00)'], ['COMP 11P - Programming Concepts and Methodology I (Python) (4.00)', 'COMP 12P - Programming Concepts and Methodology II (Python) (4.00)']]"
 ,,
 Columbia College,CS 101 - Computer Science I (4.00),"[['COMP 11J - Programming Concepts and Methodology I (Java) (4.00)'], ['COMP 11P - Programming Concepts and Methodology I (Python) (4.00)']]"
 ,,
-Columbia College,CS 201 - Computer Science II (4.00),"[['COMP 12J - Programming Concepts and Methodology II (Java)'], ['COMP 12P - Programming Concepts and Methodology II (Python) (4.00)']]"
+Columbia College,CS 201 - Computer Science II (4.00),"[['COMP 12J - Programming Concepts and Methodology II (Java) (4.00)'], ['COMP 12P - Programming Concepts and Methodology II (Python) (4.00)']]"
 ,,
 Columbia College,CS 211 - DISCRETE STRUCTURES (3.00),[['No Course Articulated']]
 ,,
@@ -266,7 +266,7 @@ Las Positas College,CS 201 - Computer Science II (4.00),[['CS 2 - Computing Fund
 ,,
 Las Positas College,CS 211 - DISCRETE STRUCTURES (3.00),[['CS 17 - Discrete Mathematical Structures (4.00)']]
 ,,
-Las Positas College,CS 221 - Assembly Language and Computer Architecture (3.00),[['CS 21 - Computer Organization and Assembly Language']]
+Las Positas College,CS 221 - Assembly Language and Computer Architecture (3.00),[['CS 21 - Computer Organization and Assembly Language Programming (4.00)']]
 ,,
 Las Positas College,CS 230 - Computing and Social Responsibility (3.00),[['No Course Articulated']]
 ,,
@@ -306,7 +306,7 @@ Barstow Community College,CS 201 - Computer Science II (4.00),[['No Course Artic
 ,,
 Barstow Community College,CS 211 - DISCRETE STRUCTURES (3.00),[['CSIS 18 - Discrete Structures (3.00)']]
 ,,
-Barstow Community College,CS 221 - Assembly Language and Computer Architecture (3.00),[['CSIS 10 - Computer Architecture and Organization with Assembly']]
+Barstow Community College,CS 221 - Assembly Language and Computer Architecture (3.00),[['CSIS 10 - Computer Architecture and Organization with Assembly Programming (3.00)']]
 ,,
 Barstow Community College,CS 230 - Computing and Social Responsibility (3.00),[['No Course Articulated']]
 ,,
@@ -346,7 +346,7 @@ American River College,CS 201 - Computer Science II (4.00),[['CISP 430 - Data St
 ,,
 American River College,CS 211 - DISCRETE STRUCTURES (3.00),[['CISP 440 - Discrete Structures for Computer Science (3.00)']]
 ,,
-American River College,CS 221 - Assembly Language and Computer Architecture (3.00),[['CISP 310 - Assembly Language Programming for Microcomputers']]
+American River College,CS 221 - Assembly Language and Computer Architecture (3.00),[['CISP 310 - Assembly Language Programming for Microcomputers(4.00)']]
 ,,
 American River College,CS 230 - Computing and Social Responsibility (3.00),[['No Course Articulated']]
 ,,
@@ -366,7 +366,7 @@ Contra Costa College,CS 201 - Computer Science II (4.00),"[['COMP 210 - Program 
 ,,
 Contra Costa College,CS 211 - DISCRETE STRUCTURES (3.00),"[['MATH 185 - Discrete Mathematics (3.00)'], ['COMP 280 - Computer Structure and Organization (4.00)']]"
 ,,
-Contra Costa College,CS 221 - Assembly Language and Computer Architecture (3.00),[['COMP 265 - Assembly Language Programming/Computer']]
+Contra Costa College,CS 221 - Assembly Language and Computer Architecture (3.00),[['COMP 265 - Assembly Language Programming/Computer Organization (4.00)']]
 ,,
 Contra Costa College,CS 230 - Computing and Social Responsibility (3.00),[['No Course Articulated']]
 ,,
@@ -426,7 +426,7 @@ Mission College,CS 201 - Computer Science II (4.00),[['CIS 040 - C++ Programming
 ,,
 Mission College,CS 211 - DISCRETE STRUCTURES (3.00),[['MAT 019 - Discrete Mathematics (4.00)']]
 ,,
-Mission College,CS 221 - Assembly Language and Computer Architecture (3.00),[['CIS 039 - Introduction to Computer Systems and Assembly']]
+Mission College,CS 221 - Assembly Language and Computer Architecture (3.00),[['CIS 039 - Introduction to Computer Systems and Assembly Language(4.00)']]
 ,,
 Mission College,CS 230 - Computing and Social Responsibility (3.00),[['No Course Articulated']]
 ,,
@@ -498,26 +498,6 @@ Fresno City College,MATH 225 - Numerical Algorithms and Linear Algebra for Compu
 ,,
 Fresno City College,PHYS 135 - Physics for Scientists and Engineers I (4.00),[['PHYS 4A - Physics for Scientists and Engineers (4.00)']]
 ,,
-Kings River College,CS 101 - Computer Science I (4.00) & CS 201 - Computer Science II (4.00),"[['CSCI 40 - Programming Concepts and Methodology I (4.00)', 'CSCI 41 - Programming Concepts and Methodology II (4.00)']]"
-,,
-Kings River College,CS 101 - Computer Science I (4.00),[['CSCI 40 - Programming Concepts and Methodology I (4.00)']]
-,,
-Kings River College,CS 201 - Computer Science II (4.00),[['CSCI 41 - Programming Concepts and Methodology II (4.00)']]
-,,
-Kings River College,CS 211 - DISCRETE STRUCTURES (3.00),[['CSCI 26 - Discrete Mathematics for Computer Science (4.00)']]
-,,
-Kings River College,CS 221 - Assembly Language and Computer Architecture (3.00),[['CSCI 45 - Computer Organization and Assembly Language']]
-,,
-Kings River College,CS 230 - Computing and Social Responsibility (3.00),[['No Course Articulated']]
-,,
-Kings River College,MATH 130 - CALCULUS I (4.00),[['MATH 5A - Calculus I (5.00)']]
-,,
-Kings River College,MATH 131 - CALCULUS II (3.00),[['MATH 5B - Calculus II (4.00)']]
-,,
-Kings River College,MATH 225 - Numerical Algorithms and Linear Algebra for Computer Science (3.00),[['No Course Articulated']]
-,,
-Kings River College,PHYS 135 - Physics for Scientists and Engineers I (4.00),[['PHYS 4A - Physics for Scientists and Engineers (4.00)']]
-,,
 Reedley College,CS 101 - Computer Science I (4.00) & CS 201 - Computer Science II (4.00),"[['CSCI 40 - Programming Concepts and Methodology I (4.00)', 'CSCI 41 - Programming Concepts and Methodology II (4.00)']]"
 ,,
 Reedley College,CS 101 - Computer Science I (4.00),[['CSCI 40 - Programming Concepts and Methodology I (4.00)']]
@@ -526,7 +506,7 @@ Reedley College,CS 201 - Computer Science II (4.00),[['CSCI 41 - Programming Con
 ,,
 Reedley College,CS 211 - DISCRETE STRUCTURES (3.00),[['CSCI 26 - Discrete Mathematics for Computer Science (4.00)']]
 ,,
-Reedley College,CS 221 - Assembly Language and Computer Architecture (3.00),[['CSCI 45 - Computer Organization and Assembly Language']]
+Reedley College,CS 221 - Assembly Language and Computer Architecture (3.00),[['CSCI 45 - Computer Organization and Assembly Language Programming (4.00)']]
 ,,
 Reedley College,CS 230 - Computing and Social Responsibility (3.00),[['No Course Articulated']]
 ,,
@@ -626,7 +606,7 @@ Los Angeles Valley College,CS 201 - Computer Science II (4.00),[['CS 117 - Inter
 ,,
 Los Angeles Valley College,CS 211 - DISCRETE STRUCTURES (3.00),[['No Course Articulated']]
 ,,
-Los Angeles Valley College,CS 221 - Assembly Language and Computer Architecture (3.00),[['CS 130 - Introduction to Computer Architecture and Organization']]
+Los Angeles Valley College,CS 221 - Assembly Language and Computer Architecture (3.00),[['CS 130 - Introduction to Computer Architecture and Organization(3.00)']]
 ,,
 Los Angeles Valley College,CS 230 - Computing and Social Responsibility (3.00),[['No Course Articulated']]
 ,,
@@ -846,7 +826,7 @@ Santa Rosa Junior College,CS 201 - Computer Science II (4.00),[['CS 10C - Progra
 ,,
 Santa Rosa Junior College,CS 211 - DISCRETE STRUCTURES (3.00),[['MATH 4 - Discrete Mathematics (4.00)']]
 ,,
-Santa Rosa Junior College,CS 221 - Assembly Language and Computer Architecture (3.00),[['CS 12 - Assembly Language Programming/Computer Architecture']]
+Santa Rosa Junior College,CS 221 - Assembly Language and Computer Architecture (3.00),[['CS 12 - Assembly Language Programming/Computer Architecture(4.00)']]
 ,,
 Santa Rosa Junior College,CS 230 - Computing and Social Responsibility (3.00),[['No Course Articulated']]
 ,,
@@ -1010,7 +990,7 @@ Santiago Canyon College,CS 221 - Assembly Language and Computer Architecture (3.
 ,,
 Santiago Canyon College,CS 230 - Computing and Social Responsibility (3.00),[['No Course Articulated']]
 ,,
-Santiago Canyon College,MATH 130 - CALCULUS I (4.00),"[['MATH 180 - Single Variable Calculus I (4.00)'], ['MATH 180H - Honors Single Variable Calculus I (4.00)']]"
+Santiago Canyon College,MATH 130 - CALCULUS I (4.00),"[['MATH 180 - Single Variable Calculus I (4.00)'], ['MATH 180H - Honors Single Variable Calculus I (4.00)']]"
 ,,
 Santiago Canyon College,MATH 131 - CALCULUS II (3.00),[['MATH 185 - Single Variable Calculus II (4.00)']]
 ,,
@@ -1302,11 +1282,11 @@ Los Angeles Pierce College,CS 101 - Computer Science I (4.00) & CS 201 - Compute
 ,,
 Los Angeles Pierce College,CS 101 - Computer Science I (4.00),[['No Course Articulated']]
 ,,
-Los Angeles Pierce College,CS 201 - Computer Science II (4.00),[['CS 236 - Advanced Data Structures and Introduction to Databases']]
+Los Angeles Pierce College,CS 201 - Computer Science II (4.00),[['CS 236 - Advanced Data Structures and Introduction to Databases(3.0)']]
 ,,
 Los Angeles Pierce College,CS 211 - DISCRETE STRUCTURES (3.00),[['No Course Articulated']]
 ,,
-Los Angeles Pierce College,CS 221 - Assembly Language and Computer Architecture (3.00),[['CS 130 - Introduction to Computer Architecture and Organization']]
+Los Angeles Pierce College,CS 221 - Assembly Language and Computer Architecture (3.00),[['CS 130 - Introduction to Computer Architecture and Organization(3.0)']]
 ,,
 Los Angeles Pierce College,CS 230 - Computing and Social Responsibility (3.00),[['No Course Articulated']]
 ,,
@@ -1338,7 +1318,7 @@ Oxnard College,MATH 225 - Numerical Algorithms and Linear Algebra for Computer S
 ,,
 Oxnard College,PHYS 135 - Physics for Scientists and Engineers I (4.00),[['PHYS R131 - Physics for Scientists and Engineers 1 (5.00)']]
 ,,
-Yuba College,CS 101 - Computer Science I (4.00) & CS 201 - Computer Science II (4.00),"[['COMSC 2 - Computer Assembly Language (3.00)', 'COMSC 9B - Data Structures (4.00)']]"
+Yuba College,CS 101 - Computer Science I (4.00) & CS 201 - Computer Science II (4.00),"[['COMSC 2 - Computer Assembly Language (3.00)', 'COMSC 9B - Data Structures (4.00)']]"
 ,,
 Yuba College,CS 101 - Computer Science I (4.00),[['COMSC 9A - C++ Programming (4.00)']]
 ,,
@@ -1346,7 +1326,7 @@ Yuba College,CS 201 - Computer Science II (4.00),[['COMSC 9B - Data Structures (
 ,,
 Yuba College,CS 211 - DISCRETE STRUCTURES (3.00),[['No Course Articulated']]
 ,,
-Yuba College,CS 221 - Assembly Language and Computer Architecture (3.00),"['COMSC 2 - Computer Assembly Language(3.00)']"
+Yuba College,CS 221 - Assembly Language and Computer Architecture (3.00),[['COMSC 2 - Computer Assembly Language(3.00)']]
 ,,
 Yuba College,CS 230 - Computing and Social Responsibility (3.00),[['No Course Articulated']]
 ,,
@@ -1406,7 +1386,7 @@ Sierra College,CS 201 - Computer Science II (4.00),[['CSCI 13 - Programming Conc
 ,,
 Sierra College,CS 211 - DISCRETE STRUCTURES (3.00),"[['MATH 15 - Discrete Mathematics (4.00)'], ['CSCI 26 - DiscreteStructures for Computer Science(3.00)']]"
 ,,
-Sierra College,CS 221 - Assembly Language and Computer Architecture (3.00),[['CSCI 39 - Introduction to Computer Architecture and Assembly']]
+Sierra College,CS 221 - Assembly Language and Computer Architecture (3.00),[['CSCI 39 - Introduction to Computer Architecture and Assembly Language(3.00)']]
 ,,
 Sierra College,CS 230 - Computing and Social Responsibility (3.00),[['No Course Articulated']]
 ,,
@@ -1576,11 +1556,11 @@ College of the Siskiyous,MATH 131 - CALCULUS II (3.00),[['MATH 1500 - Calculus a
 ,,
 College of the Siskiyous,MATH 225 - Numerical Algorithms and Linear Algebra for Computer Science (3.00),[['No Course Articulated']]
 ,,
-College of the Siskiyous,PHYS 135 - Physics for Scientists and Engineers I (4.00),[['PHYS 2105 - Calculus-Based Physics for Scientists and Engineers: A']]
+College of the Siskiyous,PHYS 135 - Physics for Scientists and Engineers I (4.00),[['PHYS 2105 - Calculus-Based Physics for Scientists and Engineers: A (4.0)']]
 ,,
-El Camino College,CS 101 - Computer Science I (4.00) & CS 201 - Computer Science II (4.00),"[['Articulates as Course-to-Course Only']]"
+El Camino College,CS 101 - Computer Science I (4.00) & CS 201 - Computer Science II (4.00),[['Articulates as Course-to-Course Only']]
 ,,
-El Camino College,CS 101 - Computer Science I (4.00),"[['COMP SCI 1 - Problem Solving and Program Design Using C++ (4.00)']]"
+El Camino College,CS 101 - Computer Science I (4.00),[['COMP SCI 1 - Problem Solving and Program Design Using C++ (4.00)']]
 ,,
 El Camino College,CS 201 - Computer Science II (4.00),[[' COMP SCI 2 - Introduction to Data Structures (5.00)']]
 ,,
@@ -1606,7 +1586,7 @@ Cerritos College,CS 201 - Computer Science II (4.00),"[['CIS 280X - Object-Orien
 ,,
 Cerritos College,CS 211 - DISCRETE STRUCTURES (3.00),[['No Course Articulated']]
 ,,
-Cerritos College,CS 221 - Assembly Language and Computer Architecture (3.00),[['CIS 231 - Computer Organization and Assembly Language']]
+Cerritos College,CS 221 - Assembly Language and Computer Architecture (3.00),[['CIS 231 - Computer Organization and Assembly Language Programming (3.50)']]
 ,,
 Cerritos College,CS 230 - Computing and Social Responsibility (3.00),[['No Course Articulated']]
 ,,
@@ -1726,7 +1706,7 @@ Allan Hancock College,CS 201 - Computer Science II (4.00),[['No Course Articulat
 ,,
 Allan Hancock College,CS 211 - DISCRETE STRUCTURES (3.00),[['CS 161 - Discrete Structures (3.00)']]
 ,,
-Allan Hancock College,CS 221 - Assembly Language and Computer Architecture (3.00),"[['CS 131 - Computer Organization (3.00)']]"
+Allan Hancock College,CS 221 - Assembly Language and Computer Architecture (3.00),[['CS 131 - Computer Organization (3.00)']]
 ,,
 Allan Hancock College,CS 230 - Computing and Social Responsibility (3.00),[['No Course Articulated']]
 ,,
@@ -1906,7 +1886,7 @@ Hartnell College,CS 201 - Computer Science II (4.00),[['CSS 2B - Data Structures
 ,,
 Hartnell College,CS 211 - DISCRETE STRUCTURES (3.00),[['CSS 7 - Discrete Structures (4.00)']]
 ,,
-Hartnell College,CS 221 - Assembly Language and Computer Architecture (3.00),[['CSS 3 - Computer Architecture and Assembly Language']]
+Hartnell College,CS 221 - Assembly Language and Computer Architecture (3.00),[['CSS 3 - Computer Architecture and Assembly Language Programming (4.00)']]
 ,,
 Hartnell College,CS 230 - Computing and Social Responsibility (3.00),[['No Course Articulated']]
 ,,
@@ -2066,7 +2046,7 @@ Fullerton College,CS 201 - Computer Science II (4.00),[['CSCI 133 F - Data Struc
 ,,
 Fullerton College,CS 211 - DISCRETE STRUCTURES (3.00),[['MATH 171 F - Discrete Mathematics (4.00)']]
 ,,
-Fullerton College,CS 221 - Assembly Language and Computer Architecture (3.00),[['CSCI 241 F - Computer Organization and Assembly Language']]
+Fullerton College,CS 221 - Assembly Language and Computer Architecture (3.00),[['CSCI 241 F - Computer Organization and Assembly Language Programming (4.00)']]
 ,,
 Fullerton College,CS 230 - Computing and Social Responsibility (3.00),[['No Course Articulated']]
 ,,
@@ -2110,7 +2090,7 @@ San Jose City College,CS 221 - Assembly Language and Computer Architecture (3.00
 ,,
 San Jose City College,CS 230 - Computing and Social Responsibility (3.00),[['No Course Articulated']]
 ,,
-San Jose City College,MATH 130 - CALCULUS I (4.00),"[['MATH 071 - Calculus I with Analytic Geometry (5.00)'], ['MATH 071H - Honors Calculus I with Analytic Geometry (5.00)']]"
+San Jose City College,MATH 130 - CALCULUS I (4.00),"[['MATH 071 - Calculus I with Analytic Geometry (5.00)'], ['MATH 071H - Honors Calculus I with Analytic Geometry (5.00)']]"
 ,,
 San Jose City College,MATH 131 - CALCULUS II (3.00),[['MATH 072 - Calculus II with Analytic Geometry (5.00)']]
 ,,
@@ -2226,7 +2206,7 @@ Folsom Lake College,CS 201 - Computer Science II (4.00),[['CISP 430 - Data Struc
 ,,
 Folsom Lake College,CS 211 - DISCRETE STRUCTURES (3.00),[['CISP 440 - Discrete Structures for Computer Science (3.00)']]
 ,,
-Folsom Lake College,CS 221 - Assembly Language and Computer Architecture (3.00),[['CISP 310 - Assembly Language Programming for Microcomputers']]
+Folsom Lake College,CS 221 - Assembly Language and Computer Architecture (3.00),[['CISP 310 - Assembly Language Programming for Microcomputers(4.00)']]
 ,,
 Folsom Lake College,CS 230 - Computing and Social Responsibility (3.00),[['No Course Articulated']]
 ,,

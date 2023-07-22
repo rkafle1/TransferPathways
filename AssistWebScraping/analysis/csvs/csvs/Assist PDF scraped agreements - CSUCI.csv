@@ -1,6 +1,6 @@
 Evergreen Valley College,COMP 150 - Object-oriented Programming (4.00),[['COMSC 075 - Computer ScienceI: Introduction to Program Structures (3.00)']]
 ,,
-Evergreen Valley College,COMP 151 -  Data Structures and Program Design (4.00),"[['COMSC 076 - Computer ScienceII: Introduction to Data Structures(3.00)']]"
+Evergreen Valley College,COMP 151 -  Data Structures and Program Design (4.00),[['COMSC 076 - Computer ScienceII: Introduction to Data Structures(3.00)']]
 ,,
 Evergreen Valley College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['COMSC 077 - Introduction to Computer Systems (3.00)']]
 ,,
@@ -26,7 +26,7 @@ Los Angeles City College,COMP 150 - Object-oriented Programming (4.00),[['No Com
 ,,
 Los Angeles City College,COMP 151 - Data Structures and Program Design (4.00) ,[['No Comparable Course']]
 ,,
-Los Angeles City College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CS 130 - Introduction To Computer Architecture and Organization']]
+Los Angeles City College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CS 130 - Introduction To Computer Architecture and Organization(3.00)']]
 ,,
 Los Angeles City College,COMP 232 - Programming Languages (3.00),[['No Comparable Course']]
 ,,
@@ -46,11 +46,11 @@ Los Angeles City College,CSU GE Area: B2 - Life Science,[['ANTHRO 101 - Human Bi
 ,,
 Los Angeles City College,MATH 300 - Discrete Mathematics (3.00),[['CS 131 - Discrete Structures For Computer Science (3.00)']]
 ,,
-College of Marin,COMP 150 - Object-oriented Programming (4.00) ,"[['COMP 130 - Introduction to Computer Programming Using C++(4.00)'], ['COMP 135 - Introduction to Computer Programming Using Java(4.00)']]"
+College of Marin,COMP 150 - Object-oriented Programming (4.00) ,"[['COMP 130 - Introduction to Computer Programming Using C++(4.00)'], ['COMP 135 - Introduction to Computer Programming Using Java(4.00)']]"
 ,,
-College of Marin,COMP 151 - Data Structures and Program Design (4.00),"[['COMP 232 - Advanced Programming in JAVA (4.00)'],['COMP 235 - Advanced Programming in C++ (4.00)']]"
+College of Marin,COMP 151 - Data Structures and Program Design (4.00),"[['COMP 232 - Advanced Programming in JAVA (4.00)'],['COMP 235 - Advanced Programming in C++ (4.00)']]"
 ,,
-College of Marin,COMP 162 - Computer Architecture and Assembly Language (3.00),[['COMP 160 - Computer Organization: An Assembly Language']]
+College of Marin,COMP 162 - Computer Architecture and Assembly Language (3.00),[['COMP 160 - Computer Organization: An Assembly Language Perspective(3.00)']]
 ,,
 College of Marin,COMP 232 - Programming Languages (3.00),[['No Comparable Course']]
 ,,
@@ -72,9 +72,9 @@ College of Marin,MATH 300 - Discrete Mathematics (3.00),"[['COMP 117 - Discrete 
 ,,
 College of San Mateo,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CIS 264 - Computer Organization and Systems Programming (4.00)']]
 ,,
-College of San Mateo,COMP 150 - Object-oriented Programming (4.00),"[['CIS 255 - (CS1) Programming Methods: Java (4.00)'], ['COMP 235 - Advanced Programming in C++ (4.00)']]"
+College of San Mateo,COMP 150 - Object-oriented Programming (4.00),"[['CIS 255 - (CS1) Programming Methods: Java (4.00)'], ['COMP 235 - Advanced Programming in C++ (4.00)']]"
 ,,
-College of San Mateo,COMP 151 - Data Structures and Program Design (4.00),"[['CIS 256 - (CS2) Data Structures: Java (4.00)'], ['CIS 279 - (CS2) Data Structures: C ++ (4.00)']]"
+College of San Mateo,COMP 151 - Data Structures and Program Design (4.00),"[['CIS 256 - (CS2) Data Structures: Java (4.00)'], ['CIS 279 - (CS2) Data Structures: C ++ (4.00)']]"
 ,,
 College of San Mateo,COMP 232 - Programming Languages (3.00),[['No Comparable Course']]
 ,,
@@ -94,7 +94,7 @@ College of San Mateo,CSU GE Area: B2 - Life Science,[['BIOL 184 - Wildlife Biolo
 ,,
 College of San Mateo,MATH 300 - Discrete Mathematics (3.00),[['CIS 262 - Discrete Mathematics for Computer Science (3.00)']]
 ,,
-College of the Sequoias,COMP 150 - Object-oriented Programming (4.00),"[['CSCI 001 - Programming Concepts/Method 1 (4.00)']]"
+College of the Sequoias,COMP 150 - Object-oriented Programming (4.00),[['CSCI 001 - Programming Concepts/Method 1 (4.00)']]
 ,,
 College of the Sequoias,COMP 151 - Data Structures and Program Design (4.00),[['CSCI 002 - Programming Concepts/Method 2 (4.00)']]
 ,,
@@ -112,9 +112,9 @@ College of the Sequoias,MATH 240 - Linear Algebra (3.00),[['MATH 080 - Linear Al
 ,,
 College of the Sequoias,PHYS 200 - General Physics I (4.00),[['PHYS 055 - Physics 1: Mechanics & Waves (4.00)']]
 ,,
-College of the Sequoias,PHYS 201 - General Physics II (4.00),"[['PHYS 056 - Physics 2: E&M and Heat (4.00)']]"
+College of the Sequoias,PHYS 201 - General Physics II (4.00),[['PHYS 056 - Physics 2: E&M and Heat (4.00)']]
 ,,
-College of the Sequoias,CSU GE Area: B2 - Life Science,"[['PLSI 001 - Intro to Plant Science(3.00)']]"
+College of the Sequoias,CSU GE Area: B2 - Life Science,[['PLSI 001 - Intro to Plant Science(3.00)']]
 ,,
 College of the Sequoias,MATH 300 - Discrete Mathematics (3.00),[['CSCI 006 - Discrete Structures (3.00)']]
 ,,
@@ -160,15 +160,15 @@ Cerro Coso Community College,MATH 240 - Linear Algebra (3.00),[['MATH C257 - Lin
 ,,
 Cerro Coso Community College,PHYS 200 - General Physics I (4.00),[['PHYS C111 - Mechanics (5.00)']]
 ,,
-Cerro Coso Community College,PHYS 201 - General Physics II (4.00),"[['PHYS C113 - Electricity & Magnetism (5.00)']]"
+Cerro Coso Community College,PHYS 201 - General Physics II (4.00),[['PHYS C113 - Electricity & Magnetism (5.00)']]
 ,,
 Cerro Coso Community College,CSU GE Area: B2 - Life Science,[['BIOL C141 - EnvironmentalStudies Lecture(3.00)']]
 ,,
 Cerro Coso Community College,MATH 300 - Discrete Mathematics (3.00),[['CSCI C255 - Discrete Structures (3.00)']]
 ,,
-Columbia College,COMP 150 - Object-oriented Programming (4.00),"[['COMP 11P - Programming Concepts and Methodology I (Python)(4.00)']]"
+Columbia College,COMP 150 - Object-oriented Programming (4.00),[['COMP 11P - Programming Concepts and Methodology I (Python)(4.00)']]
 ,,
-Columbia College,COMP 151 - Data Structures and Program Design (4.00),"[['COMP 12P - Programming Concepts and Methodology II (Python)(4.00)']]"
+Columbia College,COMP 151 - Data Structures and Program Design (4.00),[['COMP 12P - Programming Concepts and Methodology II (Python)(4.00)']]
 ,,
 Columbia College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['No Comparable Course']]
 ,,
@@ -210,7 +210,7 @@ Merritt College,PHYS 200 - General Physics I (4.00),[['PHYS 4A - General Physics
 ,,
 Merritt College,PHYS 201 - General Physics II (4.00),[['PHYS 4B- General Physics with Calculus (5.00)']]
 ,,
-Merritt College,CSU GE Area: B2 - Life Science,"[['ANTHR 1 - Introduction to Physical Anthropology (3.00)']]"
+Merritt College,CSU GE Area: B2 - Life Science,[['ANTHR 1 - Introduction to Physical Anthropology (3.00)']]
 ,,
 Merritt College,MATH 300 - Discrete Mathematics (3.00),[['CIS 11 - Discrete Structures and Logic (4.00)']]
 ,,
@@ -232,7 +232,7 @@ Rancho Santiago College,MATH 240 - Linear Algebra (3.00),[['No Comparable Course
 ,,
 Rancho Santiago College,PHYS 200 - General Physics I (4.00),[['PHYS 210 - Principles of Physics I (4.00)']]
 ,,
-Rancho Santiago College,PHYS 201 - General Physics II (4.00),"[['PHYS 227 - Engineering Physics II (4.00)']]"
+Rancho Santiago College,PHYS 201 - General Physics II (4.00),[['PHYS 227 - Engineering Physics II (4.00)']]
 ,,
 Rancho Santiago College,CSU GE Area: B2 - Life Science,[['ANTH 101 - Introduction to Physical Anthropology (3.00)']]
 ,,
@@ -288,7 +288,7 @@ Cuesta College,MATH 300 - Discrete Mathematics (3.00),[['CIS 241 - Discrete Stru
 ,,
 Merced College,COMP 150 - Object-oriented Programming (4.00),[['CPSC -06 - Programming Concepts and Methodology I (3.00)']]
 ,,
-Merced College,COMP 151 - Data Structures and Program Design (4.00),"[['CPSC -39 - Programming Concepts and Methodology II (4.00)']]"
+Merced College,COMP 151 - Data Structures and Program Design (4.00),[['CPSC -39 - Programming Concepts and Methodology II (4.00)']]
 ,,
 Merced College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CPSC -42 - Computer Architecture and Organization (3.00)']]
 ,,
@@ -306,7 +306,7 @@ Merced College,PHYS 200 - General Physics I (4.00),[['PHYS -04A - Physics I (4.0
 ,,
 Merced College,PHYS 201 - General Physics II (4.00),[['PHYS -04B - Physics II (4.00)']]
 ,,
-Merced College,CSU GE Area: B2 - Life Science,"[['BIOL -09 - Introduction to Genetics (3.00)']]"
+Merced College,CSU GE Area: B2 - Life Science,[['BIOL -09 - Introduction to Genetics (3.00)']]
 ,,
 Merced College,MATH 300 - Discrete Mathematics (3.00),"[['CPSC -07 - Discrete Structures (3.00)'], ['MATH -07 - Discrete Structures (3.00)']]"
 ,,
@@ -314,7 +314,7 @@ Las Positas College,COMP 150 - Object-oriented Programming (4.00),"[['CS 1 - Com
 ,,
 Las Positas College,COMP 151 - Data Structures and Program Design (4.00),[['No Comparable Course']]
 ,,
-Las Positas College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CS 21 - Computer Organization and Assembly Language']]
+Las Positas College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CS 21 - Computer Organization and Assembly Language Programming (4.00)']]
 ,,
 Las Positas College,COMP 232 - Programming Languages (3.00),[['No Comparable Course']]
 ,,
@@ -332,7 +332,7 @@ Las Positas College,PHYS 201 - General Physics II (4.00),[['PHYS 1C - General Ph
 ,,
 Las Positas College,CSU GE Area: B2 - Life Science,[['BIO 40 - Humans and theEnvironment (3.00)']]
 ,,
-Las Positas College,MATH 300 - Discrete Mathematics (3.00),"[['CS 17 - Discrete Mathematical Structures (4.00)'], [' Course is an approved substitute for Computer Science']]"
+Las Positas College,MATH 300 - Discrete Mathematics (3.00),[['CS 17 - Discrete Mathematical Structures (4.00)']]
 ,,
 Victor Valley College,COMP 150 - Object-oriented Programming (4.00),[['No Comparable Course']]
 ,,
@@ -346,15 +346,15 @@ Victor Valley College,COMP 262 - Computer Organization and Architecture (3.00),[
 ,,
 Victor Valley College,MATH 150 - Calculus I (4.00),"[['MATH 226 - Analytic Geometry and Calculus I (4.00)'], ['MATH 226H - Honors Analytic Geometry and Calculus I (4.00)']]"
 ,,
-Victor Valley College,MATH 151 - Calculus II (4.00),"[['MATH 227 - Analytic Geometry and Calculus II (4.00)'], ['MATH 227H - Honors Analytic Geometry and Calculus II (4.00)']"
+Victor Valley College,MATH 151 - Calculus II (4.00),"[['MATH 227 - Analytic Geometry and Calculus II (4.00)'], ['MATH 227H - Honors Analytic Geometry and Calculus II (4.00)']]"
 ,,
 Victor Valley College,MATH 240 - Linear Algebra (3.00),[['MATH 231 - Linear Algebra (3.00)']]
 ,,
 Victor Valley College,PHYS 200 - General Physics I (4.00),"[['PHYS 201 - Engineering Physics (Mechanics of Solids) (4.00)', 'PHYS 202 - Engineering Physics (Mechanics of Fluids, Heat and Sound) (4.00)']]"
 ,,
-Victor Valley College,PHYS 201 - General Physics II (4.00),['PHYS 203 - Engineering Physics (Electricity and Magnetism) (4.00)']
+Victor Valley College,PHYS 201 - General Physics II (4.00),[['PHYS 203 - Engineering Physics (Electricity and Magnetism) (4.00)']]
 ,,
-Victor Valley College,CSU GE Area: B2 - Life Science,['ANTH 101 - Introduction to Physical Anthropology (3.00)']
+Victor Valley College,CSU GE Area: B2 - Life Science,[['ANTH 101 - Introduction to Physical Anthropology (3.00)']]
 ,,
 Victor Valley College,MATH 300 - Discrete Mathematics (3.00),[['CIS 264 - Discrete Structures (3.00)']]
 ,,
@@ -362,7 +362,7 @@ Barstow Community College,COMP 150 - Object-oriented Programming (4.00),[['No Co
 ,,
 Barstow Community College,COMP 151 - Data Structures and Program Design (4.00),[['No Comparable Course']]
 ,,
-Barstow Community College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CSIS 10 - Computer Architecture and Organization with Assembly']]
+Barstow Community College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CSIS 10 - Computer Architecture and Organization with Assembly Programming (3.00)']]
 ,,
 Barstow Community College,COMP 232 - Programming Languages (3.00),[['No Comparable Course']]
 ,,
@@ -406,11 +406,11 @@ Los Angeles Trade Technical College,CSU GE Area: B2 - Life Science,[['ANTHRO 101
 ,,
 Los Angeles Trade Technical College,MATH 300 - Discrete Mathematics (3.00),[['No Course Articulated']]
 ,,
-American River College,COMP 150 - Object-oriented Programming (4.00),"[['CISP 400 - Object Oriented Programming with C++ (4.00)'], ['CISP 401 - Object Oriented Programming with Java (4.00)']]"
+American River College,COMP 150 - Object-oriented Programming (4.00),"[['CISP 400 - Object Oriented Programming with C++ (4.00)'], ['CISP 401 - Object Oriented Programming with Java (4.00)']]"
 ,,
-American River College,COMP 151 - Data Structures and Program Design (4.00),"[['CISP 430 - Data Structures (4.00)']]"
+American River College,COMP 151 - Data Structures and Program Design (4.00),[['CISP 430 - Data Structures (4.00)']]
 ,,
-American River College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CISP 310 - Assembly Language Programming for Microcomputers']]
+American River College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CISP 310 - Assembly Language Programming for Microcomputers(4.0)']]
 ,,
 American River College,COMP 232 - Programming Languages (3.00),[['No Course Articulated']]
 ,,
@@ -454,7 +454,7 @@ Contra Costa College,CSU GE Area: B2 - Life Science,[['ANTHR 140 - Introduction 
 ,,
 Contra Costa College,MATH 300 - Discrete Mathematics (3.00),[['MATH 185 - Discrete Mathematics (3.00)']]
 ,,
-College of the Desert,COMP 150 - Object-oriented Programming (4.00),"[['CS 7A - Computer ScienceI (4.00)']]"
+College of the Desert,COMP 150 - Object-oriented Programming (4.00),[['CS 7A - Computer ScienceI (4.00)']]
 ,,
 College of the Desert,COMP 151 - Data Structures and Program Design (4.00),[['No Comparable Course']]
 ,,
@@ -498,7 +498,7 @@ Los Angeles Harbor College,PHYS 200 - General Physics I (4.00),[['PHYSICS 037 - 
 ,,
 Los Angeles Harbor College,PHYS 201 - General Physics II (4.00),[['PHYSICS 038 - Physics for Engineers and Scientists II (5.00)']]
 ,,
-Los Angeles Harbor College,CSU GE Area: B2 - Life Science,[[OCEANO 012 - Lectures in Marine Biology (3.00)']]
+Los Angeles Harbor College,CSU GE Area: B2 - Life Science,[['OCEANO 012 - Lectures in Marine Biology (3.00)']]
 ,,
 Los Angeles Harbor College,MATH 300 - Discrete Mathematics (3.00),[['CS 131 - Discrete Structure for Computer Science (3.00)']]
 ,,
@@ -506,7 +506,7 @@ Mission College,COMP 150 - Object-oriented Programming (4.00),[['No Comparable C
 ,,
 Mission College,COMP 151 - Data Structures and Program Design (4.00),[['No Comparable Course']]
 ,,
-Mission College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CIS 039 - Introduction to Computer Systems and Assembly']]
+Mission College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CIS 039 - Introduction to Computer Systems and Assembly Language(4.00)']]
 ,,
 Mission College,COMP 232 - Programming Languages (3.00),[['No Comparable Course']]
 ,,
@@ -526,7 +526,7 @@ Mission College,CSU GE Area: B2 - Life Science,[['BIO 030 - Tropical Ecology (3.
 ,,
 Mission College,MATH 300 - Discrete Mathematics (3.00),[['No Course Articulated']]
 ,,
-City College of San Francisco,COMP 150 - Object-oriented Programming (4.00),"[['CS 110B - Programming Fundamentals: C++ (4.00)'], ['CS 111B - Programming Fundamentals: Java (4.00)']]"
+City College of San Francisco,COMP 150 - Object-oriented Programming (4.00),"[['CS 110B - Programming Fundamentals: C++ (4.00)'], ['CS 111B - Programming Fundamentals: Java (4.00)']]"
 ,,
 City College of San Francisco,COMP 151 - Data Structures and Program Design (4.00),"[['CS 110C - Data Structures and Algorithms: C++ (4.00)'], ['CS 111C - Data Structures and Algorithms: Java (4.00)']]"
 ,,
@@ -542,7 +542,7 @@ City College of San Francisco,MATH 151 - Calculus II (4.00),[['MATH 110B - Calcu
 ,,
 City College of San Francisco,MATH 240 - Linear Algebra (3.00),[['MATH 120 - Linear Algebra (3.00)']]
 ,,
-City College of San Francisco,PHYS 200 - General Physics I (4.00),"[['PHYC 4A - Classical Mechanics for Scientists and Engineers', 'PHYC 4AL - Mechanics Laboratory for Scientists and Engineers (1.00)']]"
+City College of San Francisco,PHYS 200 - General Physics I (4.00),"[['PHYC 4A - Classical Mechanics for Scientists and Engineers (3.00)', 'PHYC 4AL - Mechanics Laboratory for Scientists and Engineers (1.00)']]"
 ,,
 City College of San Francisco,PHYS 201 - General Physics II (4.00),"[['PHYC 4B - Electromagnetism for Scientists and Engineers (3.00)', 'PHYC 4BL - Electromagnetism Laboratory for Scientists and Engineers (1.00)']]"
 ,,
@@ -550,7 +550,7 @@ City College of San Francisco,CSU GE Area: B2 - Life Science,[['BIO 15 - The Bio
 ,,
 City College of San Francisco,MATH 300 - Discrete Mathematics (3.00),[['MATH 115 - Discrete Mathematics (3.00)']]
 ,,
-Compton Community College,COMP 151 - Data Structures and Program Design (4.00),"[['CSCI 103 - Computer Programming in Java (4.00)']]"
+Compton Community College,COMP 151 - Data Structures and Program Design (4.00),[['CSCI 103 - Computer Programming in Java (4.00)']]
 ,,
 Compton Community College,COMP 151 - Data Structures and Program Design (4.00),[['No Comparable Course']]
 ,,
@@ -570,7 +570,7 @@ Compton Community College,PHYS 200 - General Physics I (4.00),[['PHYS 150 - Mech
 ,,
 Compton Community College,PHYS 201 - General Physics II (4.00),[['PHYS 250 - Electricity and Magnetism (4.00)']]
 ,,
-Compton Community College,CSU GE Area: B2 - Life Science,"[['BIOL 115 - Environmental Aspects of Biology (3.00)']]"
+Compton Community College,CSU GE Area: B2 - Life Science,[['BIOL 115 - Environmental Aspects of Biology (3.00)']]
 ,,
 Compton Community College,MATH 300 - Discrete Mathematics (3.00),[['MATH 210 - Introduction to Discrete Structures (5.00)']]
 ,,
@@ -602,7 +602,7 @@ Kings River College,COMP 150 - Object-oriented Programming (4.00),[['CSCI 40 - P
 ,,
 Kings River College,COMP 151 - Data Structures and Program Design (4.00),[['CSCI 41 - Programming Concepts and Methodology II (4.00)']]
 ,,
-Kings River College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CSCI 45 - Computer Organization and Assembly Language']]
+Kings River College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CSCI 45 - Computer Organization and Assembly Language(4.00)']]
 ,,
 Kings River College,COMP 232 - Programming Languages (3.00),[['No Comparable Course']]
 ,,
@@ -624,9 +624,9 @@ Kings River College,MATH 300 - Discrete Mathematics (3.00),[['CSCI 26 - Discrete
 ,,
 Reedley College,COMP 150 - Object-oriented Programming (4.00),[['CSCI 40 - Programming Concepts and Methodology I (4.00)']]
 ,,
-Reedley College,COMP 151 - Data Structures and Program Design (4.00),"[['CSCI 41 - Programming Concepts and Methodology II (4.00)']]"
+Reedley College,COMP 151 - Data Structures and Program Design (4.00),[['CSCI 41 - Programming Concepts and Methodology II (4.00)']]
 ,,
-Reedley College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CSCI 45 - Computer Organization and Assembly Language']]
+Reedley College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CSCI 45 - Computer Organization and Assembly Language(4.00)']]
 ,,
 Reedley College,COMP 232 - Programming Languages (3.00),[['No Comparable Course']]
 ,,
@@ -646,9 +646,9 @@ Reedley College,CSU GE Area: B2 - Life Science,[['NR 7 - Conservation of Natural
 ,,
 Reedley College,MATH 300 - Discrete Mathematics (3.00),[['CSCI 26 - Discrete Mathematics for Computer Science (4.00)']]
 ,,
-Shasta College,COMP 150 - Object-oriented Programming (4.00),"[['CIS 61 - C++ Language Programming (3.00)',['CIS 62 - Java Programming (3.00)']]"
+Shasta College,COMP 150 - Object-oriented Programming (4.00),"[['CIS 61 - C++ Language Programming (3.00)'],['CIS 62 - Java Programming (3.00)']]"
 ,,
-Shasta College,COMP 151 - Data Structures and Program Design (4.00),"[['CIS 65 - Programming Concepts and Methodology Using C++ II(3.00)']]"
+Shasta College,COMP 151 - Data Structures and Program Design (4.00),[['CIS 65 - Programming Concepts and Methodology Using C++ II(3.00)']]
 ,,
 Shasta College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CIS 66 - Computer Architecture and Organization (3.00)']]
 ,,
@@ -686,9 +686,9 @@ Lake Tahoe Community College,MATH 240 - Linear Algebra (3.00),[['MAT 203 - Linea
 ,,
 Lake Tahoe Community College,PHYS 200 - General Physics I (4.00),[['PHY 107 - General Physics (Calculus) - Mechanics (6.00)']]
 ,,
-Lake Tahoe Community College,PHYS 201 - General Physics II (4.00),[['PHY 207 - General Physics (Calculus) - Electricity and Magnetism']]
+Lake Tahoe Community College,PHYS 201 - General Physics II (4.00),[['PHY 207 - General Physics (Calculus) - Electricity and Magnetism (6.00)']]
 ,,
-Lake Tahoe Community College,CSU GE Area: B2 - Life Science,"[['BIO 149 - Ecology (5.00)']]"
+Lake Tahoe Community College,CSU GE Area: B2 - Life Science,[['BIO 149 - Ecology (5.00)']]
 ,,
 Lake Tahoe Community College,MATH 300 - Discrete Mathematics (3.00),[['No Course Articulated']]
 ,,
@@ -724,15 +724,15 @@ Glendale Community College,COMP 151 - Data Structures and Program Design (4.00),
 ,,
 Glendale Community College,COMP 232 - Programming Languages (3.00),[['No Comparable Course']]
 ,,
-Glendale Community College,COMP 262 - Computer Organization and Architecture (3.00),[['CS/IS 166 - Advanced Computer Architecture and Assembly']]
+Glendale Community College,COMP 262 - Computer Organization and Architecture (3.00),[['CS/IS 166 - Advanced Computer Architecture and Assembly Language (3.00)']]
 ,,
 Glendale Community College,MATH 150 - Calculus I (4.00),"[['MATH 103E - Calculus and Analytic Geometry (5.00)'], ['MATH 103E H - Honors Calculus and Analytic Geometry (5.00)'] ]"
 ,,
 Glendale Community College,MATH 151 - Calculus II (4.00),"[['MATH 104E - Calculus and Analytic Geometry (5.00)'], ['MATH 104E H - Honors Calculus and Analytic Geometry (5.00)']]"
 ,,
-Glendale Community College,MATH 240 - Linear Algebra (3.00),"[['MATH 107 - Linear Algebra (5.00)'], ['SCIENCE'], ['MATH 107H - Honors Linear Algebra (5.00)']]"
+Glendale Community College,MATH 240 - Linear Algebra (3.00),"[['MATH 107 - Linear Algebra (5.00)'], ['MATH 107H - Honors Linear Algebra (5.00)']]"
 ,,
-Glendale Community College,PHYS 200 - General Physics I (4.00),"[['PHY 101 - Physics for Scientists and Engineers: A (5.00)'], ['PHY 101H - Honors Physics for Scientists and Engineers: A (5.00)']]"
+Glendale Community College,PHYS 200 - General Physics I (4.00),"[['PHY 101 - Physics for Scientists and Engineers: A (5.00)'], ['PHY 101H - Honors Physics for Scientists and Engineers: A (5.00)']]"
 ,,
 Glendale Community College,PHYS 201 - General Physics II (4.00),[['PHY 102 - Physics for Scientists and Engineers: B (5.00)']]
 ,,
@@ -741,10 +741,10 @@ Glendale Community College,CSU GE Area: B2 - Life Science,[['PSYCH 103 - Physiol
 Glendale Community College,MATH 300 - Discrete Mathematics (3.00),[['CS/IS 125 - Discrete Structures for Computing (4.00)']]
 ,,
 Los Angeles Valley College,COMP 150 - Object-oriented Programming (4.00),"[['CS 213 - Advanced Programming in JAVA (3.00)'], ['CS 216 - Object Oriented Programming in C++ (3.00)'] ]"
-,, 
+,,
 Los Angeles Valley College,COMP 151 - Data Structures and Program Design (4.00),[['No Comparable Course']]
 ,,
-Los Angeles Valley College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CS 130 - Introduction to Computer Architecture and Organization']]
+Los Angeles Valley College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CS 130 - Introduction to Computer Architecture and Organization(3.00)']]
 ,,
 Los Angeles Valley College,COMP 232 - Programming Languages (3.00),[['No Comparable Course']]
 ,,
@@ -756,7 +756,7 @@ Los Angeles Valley College,MATH 151 - Calculus II (4.00),"[['MATH 248 - Calculus
 ,,
 Los Angeles Valley College,MATH 240 - Linear Algebra (3.00),[['MATH 270 - Linear Algebra (3.00)']]
 ,,
-Los Angeles Valley College,PHYS 200 - General Physics I (4.00),"[['PHYSICS 037 - Physics for Engineers and Scientists I (5.00)'], ['PHYSICS 066 - Physics With Calculus For LifeScience Majors I (5.00)'] ]"
+Los Angeles Valley College,PHYS 200 - General Physics I (4.00),"[['PHYSICS 037 - Physics for Engineers and Scientists I (5.00)'], ['PHYSICS 066 - Physics With Calculus For LifeScience Majors I (5.00)'] ]"
 ,,
 Los Angeles Valley College,PHYS 201 - General Physics II (4.00),"[['PHYSICS 038 - Physics for Engineers and Scientists II (5.00)'], ['PHYSICS 067 - Physics With Calculus For Life Science Majors II (5.00)']]"
 ,,
@@ -788,7 +788,7 @@ San Diego Miramar College,CSU GE Area: B2 - Life Science,[['PSYC 260 - Introduct
 ,,
 San Diego Miramar College,MATH 300 - Discrete Mathematics (3.00),[['CISC 246 - Discrete Mathematics for Computer Science (3.00)']]
 ,,
-Los Angeles Mission College,COMP 150 - Object-oriented Programming (4.00),"[['CS 113 - Programming in JAVA (3.00)']]"
+Los Angeles Mission College,COMP 150 - Object-oriented Programming (4.00),[['CS 113 - Programming in JAVA (3.00)']]
 ,,
 Los Angeles Mission College,COMP 151 - Data Structures and Program Design (4.00),[['No Comparable Course']]
 ,,
@@ -798,7 +798,7 @@ Los Angeles Mission College,COMP 232 - Programming Languages (3.00),[['No Compar
 ,,
 Los Angeles Mission College,COMP 262 - Computer Organization and Architecture (3.00),[['No Comparable Course']]
 ,,
-Los Angeles Mission College,MATH 150 - Calculus I (4.00),"[['MATH 247 - Calculus for Life Sciences I (4.00)'], ['MATH 261 - Calculus I (5.00)']]"
+Los Angeles Mission College,MATH 150 - Calculus I (4.00),"[['MATH 247 - Calculus for Life Sciences I (4.00)'], ['MATH 261 - Calculus I (5.00)']]"
 ,,
 Los Angeles Mission College,MATH 151 - Calculus II (4.00),"[['MATH 248 - Calculus for Life Sciences II (4.00)'], ['MATH 262 - Calculus II (5.00)']]"
 ,,
@@ -812,7 +812,7 @@ Los Angeles Mission College,CSU GE Area: B2 - Life Science,[['ENV SCI 002 - The 
 ,,
 Los Angeles Mission College,MATH 300 - Discrete Mathematics (3.00),[['MATH 272 - Methods of Discrete Mathematics (5.00)']]
 ,,
-Ohlone College,COMP 150 - Object-oriented Programming (4.00),"[ ['CS 116 - Object-Oriented Programming Using C++ (4.00)'], ['CS 170 - IntermediateJava Programming (4.00)'] ]"
+Ohlone College,COMP 150 - Object-oriented Programming (4.00),"[ ['CS 116 - Object-Oriented Programming Using C++ (4.00)'], ['CS 170 - IntermediateJava Programming (4.00)'] ]"
 ,,
 Ohlone College,COMP 151 - Data Structures and Program Design (4.00),[['No Comparable Course']]
 ,,
@@ -830,39 +830,39 @@ Ohlone College,MATH 240 - Linear Algebra (3.00),[['MATH 103 - Introduction to Li
 ,,
 Ohlone College,PHYS 200 - General Physics I (4.00),[['PHYS 140 - Mechanics (4.00)']]
 ,,
-Ohlone College,PHYS 201 - General Physics II (4.00),"['PHYS 141 - Electricity and Magnetism (4.00)']"
+Ohlone College,PHYS 201 - General Physics II (4.00),[['PHYS 141 - Electricity and Magnetism (4.00)']]
 ,,
-Ohlone College,CSU GE Area: B2 - Life Science,['ANTH 101 - Biological Anthropology (4.00)']
+Ohlone College,CSU GE Area: B2 - Life Science,[['ANTH 101 - Biological Anthropology (4.00)']]
 ,,
 Ohlone College,MATH 300 - Discrete Mathematics (3.00),[['CS 113 - Discrete Structures (3.00)']]
 ,,
 Pasadena City College,COMP 150 - Object-oriented Programming (4.00),"[['CS 003A - Fundamentals of Computer ScienceII (C++) (4.00)'] , ['CS 003B - Fundamentals of Computer Science(JAVA) (4.00)']]"
 ,,
-Pasadena City College,COMP 162 - Computer Architecture and Assembly Language (3.00),"[['CS 066 - Assembly Language Programming for the Sciences and'], [' (4.00)']]"
+Pasadena City College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CS 066 - Assembly Language Programming for the Sciences and Mathematics (4.00)']]
 ,,
-Pasadena City College,COMP 151 - Data Structures and Program Design (4.00),"[['CS 008 - Fundamentals of Computer ScienceIII-Data Structures(4.00)']]"
+Pasadena City College,COMP 151 - Data Structures and Program Design (4.00),[['CS 008 - Fundamentals of Computer ScienceIII-Data Structures(4.00)']]
 ,,
 Pasadena City College,COMP 232 - Programming Languages (3.00),[['No Comparable Course']]
 ,,
 Pasadena City College,COMP 262 - Computer Organization and Architecture (3.00),[['No Comparable Course']]
 ,,
-Pasadena City College,MATH 150 - Calculus I (4.00),"[['MATH 005A - Single Variable Calculus I (5.00)'], MATH 005AH - Honors Single Variable Calculus I (5.00)]"
+Pasadena City College,MATH 150 - Calculus I (4.00),"[['MATH 005A - Single Variable Calculus I (5.00)'], ['MATH 005AH - Honors Single Variable Calculus I (5.00)']]"
 ,,
 Pasadena City College,MATH 151 - Calculus II (4.00),"[['MATH 005B - Single Variable Calculus II (5.00)'], ['MATH 005BH - Honors Single Variable Calculus II (5.00)']]"
 ,,
 Pasadena City College,MATH 240 - Linear Algebra (3.00),"[['MATH 010 - Linear Algebra and Applications (4.00)'], ['MATH 010H - Honors Linear Algebra and Applications (4.00)']]"
 ,,
-Pasadena City College,PHYS 200 - General Physics I (4.00),"[['PHYS 001A - Physics for Scientists and Engineers I: Mechanics'], ['PHYS 008A - Physics for Scientists and Engineers I: Mechanics (5.00)']]"
+Pasadena City College,PHYS 200 - General Physics I (4.00),"[['PHYS 001A - Physics for Scientists and Engineers I: Mechanics (5.00)'], ['PHYS 008A - Physics for Scientists and Engineers I: Mechanics (5.00)']]"
 ,,
-Pasadena City College,PHYS 201 - General Physics II (4.00),"[['PHYS 001C - General Physics (5.00)'], ['PHYS 008B - Physics for Scientists and Engineers II: Waves, Electricity & Magnetism (5.00)', 'SCIENCE']]"
+Pasadena City College,PHYS 201 - General Physics II (4.00),"[['PHYS 001C - General Physics (5.00)'], ['PHYS 008B - Physics for Scientists and Engineers II: Waves, Electricity & Magnetism (5.00)']]"
 ,,
 Pasadena City College,CSU GE Area: B2 - Life Science,[['ANTH 001 - Biological Anthropology (3.00)']]
 ,,
-Pasadena City College,MATH 300 - Discrete Mathematics (3.00),[['CS 045 - Discrete Structures with Computer Science Applications']]
+Pasadena City College,MATH 300 - Discrete Mathematics (3.00),[['CS 045 - Discrete Structures with Computer Science Applications (5.00)']]
 ,,
-Foothill College,COMP 150 - Object-oriented Programming (4.00),"[ ['CS 1A - Object-Oriented Programming Methodologies in JAVA(4.50) '], ['CS 2A - Object-Oriented Programming Methodologies in C++(4.50)'] ]"
+Foothill College,COMP 150 - Object-oriented Programming (4.00),"[ ['CS 1A - Object-Oriented Programming Methodologies in JAVA(4.50)'], ['CS 2A - Object-Oriented Programming Methodologies in C++(4.50)'] ]"
 ,,
-Foothill College,COMP 151 - Data Structures and Program Design (4.00),"[['CS 1B - IntermediateSoftware Design in JAVA (4.50)', 'CS 1C - Advanced Data Structures & Algorithims in JAVA (4.50)'], ['CS 2B - IntermediateSoftware Design in C++ (4.50)', 'CS 2C - Advanced Data Structures & Algorithims in C++ (4.50)']]"
+Foothill College,COMP 151 - Data Structures and Program Design (4.00),"[['CS 1B - IntermediateSoftware Design in JAVA (4.50)', 'CS 1C - Advanced Data Structures & Algorithims in JAVA (4.50)'], ['CS 2B - IntermediateSoftware Design in C++ (4.50)', 'CS 2C - Advanced Data Structures & Algorithims in C++ (4.50)']]"
 ,,
 Foothill College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CS 10 - Computer Architecture & Organization (4.50)']]
 ,,
@@ -904,13 +904,13 @@ Modesto Junior College,PHYS 200 - General Physics I (4.00),[['PHYS 101 - General
 ,,
 Modesto Junior College,PHYS 201 - General Physics II (4.00),"[['PHYS 103 - General Physics: Electricity, Magnetism, & Modern Physics (4.00)']]"
 ,,
-Modesto Junior College,CSU GE Area: B2 - Life Science,"[['PSYCH 103 - Introduction to Neuroscience(3.00)']]"
+Modesto Junior College,CSU GE Area: B2 - Life Science,[['PSYCH 103 - Introduction to Neuroscience(3.00)']]
 ,,
 Modesto Junior College,MATH 300 - Discrete Mathematics (3.00),[['CSCI 204 - Discrete Structures for Computer Science (3.00)']]
 ,,
 Mt. San Jacinto College,COMP 150 - Object-oriented Programming (4.00),"[['CSIS- 113A - C++ Programming - Level 1 (3.00)'], ['CSIS- 113B - Java Programming - Level 1 (3.00)'], ['CSIS- 113C - C# Programming - Level 1 (3.00)']]"
 ,,
-Mt. San Jacinto College,COMP 151 - Data Structures and Program Design (4.00),"[['CSIS- 123A - C++ Programming - Level 2 (3.00)', 'CSIS- 211 - Introduction to Data Structures and Algorithms (3.00)'], ['CSIS- 123B - Java Programming - Level 2 (3.00)', 'CSIS- 211 - Introduction to Data Structures and Algorithms (3.00)'], ['CSIS- 123C - C# Programming - Level 2 (3.00)', 'CSIS- 211 - Introduction to Data Structures and Algorithms (3.00)']]"
+Mt. San Jacinto College,COMP 151 - Data Structures and Program Design (4.00),"[['CSIS- 123A - C++ Programming - Level 2 (3.00)', 'CSIS- 211 - Introduction to Data Structures and Algorithms (3.00)'], ['CSIS- 123B - Java Programming - Level 2 (3.00)', 'CSIS- 211 - Introduction to Data Structures and Algorithms (3.00)'], ['CSIS- 123C - C# Programming - Level 2 (3.00)', 'CSIS- 211 - Introduction to Data Structures and Algorithms (3.00)']]"
 ,,
 Mt. San Jacinto College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CSIS- 118B - Computer Organization & Assembly Language (3.00)']]
 ,,
@@ -928,13 +928,13 @@ Mt. San Jacinto College,PHYS 200 - General Physics I (4.00),[['PHY- 201 - Mechan
 ,,
 Mt. San Jacinto College,PHYS 201 - General Physics II (4.00),"[['PHY- 202 - Electricity and Magnetism (4.00)'], ['PHY- 202H - Honors Electricity and Magnetism (4.00)']]"
 ,,
-Mt. San Jacinto College,CSU GE Area: B2 - Life Science,[['BIOL- 115 - Introductory Topics in Biology: Cells to Ecosystems']]
+Mt. San Jacinto College,CSU GE Area: B2 - Life Science,[['BIOL- 115 - Introductory Topics in Biology: Cells to Ecosystems(4.00)']]
 ,,
 Mt. San Jacinto College,MATH 300 - Discrete Mathematics (3.00),[['CSIS- 213 - Discrete Structures (3.00)']]
 ,,
-San Diego City College,COMP 150 - Object-oriented Programming (4.00),"[['CISC 205 - Object Oriented Programming Using C++ (4.00)']]"
+San Diego City College,COMP 150 - Object-oriented Programming (4.00),[['CISC 205 - Object Oriented Programming Using C++ (4.00)']]
 ,,
-San Diego City College,COMP 151 - Data Structures and Program Design (4.00),"[['CISC 187 - Data Structures in C ++ (4.00)]]"
+San Diego City College,COMP 151 - Data Structures and Program Design (4.00),[['CISC 187 - Data Structures in C ++ (4.00)']]
 ,,
 San Diego City College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['No Comparable Course']]
 ,,
@@ -1006,7 +1006,7 @@ Palomar College,MATH 300 - Discrete Mathematics (3.00),[['MATH 245 - Discrete Ma
 ,,
 Santa Rosa Junior College,COMP 150 - Object-oriented Programming (4.00),[['No Comparable Course']]
 ,,
-Santa Rosa Junior College,COMP 151 - Data Structures and Program Design (4.00),"[['CS 10C - Programming Concepts and Methodologies 2 (4.00)']]"
+Santa Rosa Junior College,COMP 151 - Data Structures and Program Design (4.00),[['CS 10C - Programming Concepts and Methodologies 2 (4.00)']]
 ,,
 Santa Rosa Junior College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CS 12 - Assembly Language Programming/Computer Architecture(4.00)']]
 ,,
@@ -1022,7 +1022,7 @@ Santa Rosa Junior College,MATH 240 - Linear Algebra (3.00),[['MATH 5 - Introduct
 ,,
 Santa Rosa Junior College,PHYS 200 - General Physics I (4.00),[['PHYS 40 - Classical Mechanics for Scientists and Engineers (5.00)']]
 ,,
-Santa Rosa Junior College,PHYS 201 - General Physics II (4.00),[['PHYS 42 - Electricity and Magnetism for Scientists and Engineers']]
+Santa Rosa Junior College,PHYS 201 - General Physics II (4.00),[['PHYS 42 - Electricity and Magnetism for Scientists and Engineers (4.00)']]
 ,,
 Santa Rosa Junior College,CSU GE Area: B2 - Life Science,[['BOTANY 60 - Field Botany (4.00)']]
 ,,
@@ -1046,7 +1046,7 @@ Vista Community College,MATH 240 - Linear Algebra (3.00),[['MATH 3E - Linear Alg
 ,,
 Vista Community College,PHYS 200 - General Physics I (4.00),[['PHYS 4A - General Physics with Calculus (5.00)']]
 ,,
-Vista Community College,PHYS 201 - General Physics II (4.00),"[['PHYS 4B - General Physics with Calculus (5.00)']]"
+Vista Community College,PHYS 201 - General Physics II (4.00),[['PHYS 4B - General Physics with Calculus (5.00)']]
 ,,
 Vista Community College,CSU GE Area: B2 - Life Science,[['BIOL 25 - Human Biology (3.00)']]
 ,,
@@ -1070,7 +1070,7 @@ Berkeley City College,MATH 240 - Linear Algebra (3.00),[['MATH 3E - Linear Algeb
 ,,
 Berkeley City College,PHYS 200 - General Physics I (4.00),[['PHYS 4A - General Physics with Calculus (5.00)']]
 ,,
-Berkeley City College,PHYS 201 - General Physics II (4.00),"[['PHYS 4B - General Physics with Calculus (5.00)']]"
+Berkeley City College,PHYS 201 - General Physics II (4.00),[['PHYS 4B - General Physics with Calculus (5.00)']]
 ,,
 Berkeley City College,CSU GE Area: B2 - Life Science,[['BIOL 25 - Human Biology (3.00)']]
 ,,
@@ -1168,11 +1168,11 @@ Rio Hondo College,PHYS 200 - General Physics I (4.00),[['PHY 211 - Physics for S
 ,,
 Rio Hondo College,PHYS 201 - General Physics II (4.00),[['PHY 213 - Physics for Scientists and Engineers-III (4.00)']]
 ,,
-Rio Hondo College,CSU GE Area: B2 - Life Science,"[['PSY 210 - Biological Psychology (3.00)']]"
+Rio Hondo College,CSU GE Area: B2 - Life Science,[['PSY 210 - Biological Psychology (3.00)']]
 ,,
 Rio Hondo College,MATH 300 - Discrete Mathematics (3.00),[['CS 152 - Discrete Structures (3.00)']]
 ,,
-Saddleback College,COMP 150 - Object-oriented Programming (4.00),"[['CS 1C - Introduction to Computer ScienceIII (3.50)']]"
+Saddleback College,COMP 150 - Object-oriented Programming (4.00),[['CS 1C - Introduction to Computer ScienceIII (3.50)']]
 ,,
 Saddleback College,COMP 151 - Data Structures and Program Design (4.00),[['CS 1D - Data Structures (3.50)']]
 ,,
@@ -1194,7 +1194,7 @@ Saddleback College,PHYS 201 - General Physics II (4.00),[['PHYS 4B - General Phy
 ,,
 Saddleback College,CSU GE Area: B2 - Life Science,[['BIO 22 - Human Genetics (3.00)']]
 ,,
-Saddleback College,MATH 300 - Discrete Mathematics (3.00),"[['CS 30A - Computer Discrete Mathematics I (3.00)'], ['MATH 30A - Computer Discrete Mathematics I (3.00)']]"
+Saddleback College,MATH 300 - Discrete Mathematics (3.00),"[['CS 30A - Computer Discrete Mathematics I (3.00)'], ['MATH 30A - Computer Discrete Mathematics I (3.00)']]"
 ,,
 Santiago Canyon College,COMP 150 - Object-oriented Programming (4.00),[['No Comparable Course']]
 ,,
@@ -1246,7 +1246,7 @@ West Hills College Coalinga,MATH 300 - Discrete Mathematics (3.00),[['No Course 
 ,,
 Canada College,COMP 150 - Object-oriented Programming (4.00),"[['CIS 250 - Introduction to Object Oriented Programming-C++ (3.00)'], ['CIS 284 - Introduction to Object Oriented Programming-Java (3.00)']]"
 ,,
-Canada College,COMP 151 - Data Structures and Program Design (4.00),"[[' CIS 252 - Introduction to Data Structures-C++ (3.00)'], ['CIS 286 - Introduction to Data Structures-Java (3.00)']]"
+Canada College,COMP 151 - Data Structures and Program Design (4.00),"[[' CIS 252 - Introduction to Data Structures-C++ (3.00)'], ['CIS 286 - Introduction to Data Structures-Java (3.00)']]"
 ,,
 Canada College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CIS 242 - Computer Architecture and Assembly Language (3.00)']]
 ,,
@@ -1286,9 +1286,9 @@ Chaffey College,MATH 240 - Linear Algebra (3.00),[['MATH 81 - Linear Algebra (4.
 ,,
 Chaffey College,PHYS 200 - General Physics I (4.00),[['PHYS 45 - Physics for Scientists and Engineers I (5.00)']]
 ,,
-Chaffey College,PHYS 201 - General Physics II (4.00),"[['PHYS 46 - Physics for Scientists and Engineers II (5.00)']]"
+Chaffey College,PHYS 201 - General Physics II (4.00),[['PHYS 46 - Physics for Scientists and Engineers II (5.00)']]
 ,,
-Chaffey College,CSU GE Area: B2 - Life Science,"[['GEOG 6 - Environmental Geography (3.00)']]"
+Chaffey College,CSU GE Area: B2 - Life Science,[['GEOG 6 - Environmental Geography (3.00)']]
 ,,
 Chaffey College,MATH 300 - Discrete Mathematics (3.00),[['COMPSCI 4 - Discrete Structures (3.00)']]
 ,,
@@ -1296,7 +1296,7 @@ Crafton Hills College,COMP 150 - Object-oriented Programming (4.00),[['No Compar
 ,,
 Crafton Hills College,COMP 151 - Data Structures and Program Design (4.00),[['No Comparable Course']]
 ,,
-Crafton Hills College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CSCI 240 - Computer Organization and Assembly Language'(3.0)]]
+Crafton Hills College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CSCI 240 - Computer Organization and Assembly Language(3.0)']]
 ,,
 Crafton Hills College,COMP 232 - Programming Languages (3.00),[['No Comparable Course']]
 ,,
@@ -1334,9 +1334,9 @@ Cypress College,MATH 240 - Linear Algebra (3.00),[['No Comparable Course']]
 ,,
 Cypress College,PHYS 200 - General Physics I (4.00),[['PHYS 221 C - General Physics I (4.00)']]
 ,,
-Cypress College,PHYS 201 - General Physics II (4.00),"[['PHYS 222 C - General Physics II (4.00)]]"
+Cypress College,PHYS 201 - General Physics II (4.00),[['PHYS 222 C - General Physics II (4.00)']]
 ,,
-Cypress College,CSU GE Area: B2 - Life Science,"[['BIOL 107 C - Nutrition & World Food Issues (3.00)']]"
+Cypress College,CSU GE Area: B2 - Life Science,[['BIOL 107 C - Nutrition & World Food Issues (3.00)']]
 ,,
 Cypress College,MATH 300 - Discrete Mathematics (3.00),[['CSCI 252 C - Discrete Structures (3.00)']]
 ,,
@@ -1358,7 +1358,7 @@ Gavilan College,MATH 240 - Linear Algebra (3.00),[['MATH 2 - Linear Algebra (3.0
 ,,
 Gavilan College,PHYS 200 - General Physics I (4.00),[['PHYS 4A - Physics for Scientists and Engineers - Mechanics (4.00)']]
 ,,
-Gavilan College,PHYS 201 - General Physics II (4.00),"[['PHYS 4B - Physics for Scientists and Engineers - Electricity and Magnetism (4.00)']]"
+Gavilan College,PHYS 201 - General Physics II (4.00),[['PHYS 4B - Physics for Scientists and Engineers - Electricity and Magnetism (4.00)']]
 ,,
 Gavilan College,CSU GE Area: B2 - Life Science,[['ANTH 1 - Introduction to Physical Anthropology (3.00)']]
 ,,
@@ -1382,7 +1382,7 @@ Napa Valley College,MATH 240 - Linear Algebra (3.00),[['MATH 220 - Linear Algebr
 ,,
 Napa Valley College,PHYS 200 - General Physics I (4.00),[['PHYS 140 - Physics for Scientists and Engineers 1 (4.00)']]
 ,,
-Napa Valley College,PHYS 201 - General Physics II (4.00),"[[' PHYS 240 - Physics for Scientists & Engineers 2 (4.00)']]"
+Napa Valley College,PHYS 201 - General Physics II (4.00),[[' PHYS 240 - Physics for Scientists & Engineers 2 (4.00)']]
 ,,
 Napa Valley College,CSU GE Area: B2 - Life Science,[['BIOL 117 - Wildlife Biology (3.00)']]
 ,,
@@ -1400,7 +1400,7 @@ Orange Coast College,COMP 262 - Computer Organization and Architecture (3.00),[[
 ,,
 Orange Coast College,MATH 151 - Calculus II (4.00),"[['MATH A185 - Calculus 2 (4.00)'], ['MATH A185H - Honors Calculus 2 (4.00)']]"
 ,,
-Orange Coast College,MATH 150 - Calculus I (4.00),"[['MATH A180 - Calculus 1 (4.00)'], ['MATH A180H - Honors Calculus 1 (4.00)']]"
+Orange Coast College,MATH 150 - Calculus I (4.00),"[['MATH A180 - Calculus 1 (4.00)'], ['MATH A180H - Honors Calculus 1 (4.00)']]"
 ,,
 Orange Coast College,MATH 240 - Linear Algebra (3.00),[['MATH A235 - Applied Linear Algebra (3.00)']]
 ,,
@@ -1408,7 +1408,7 @@ Orange Coast College,PHYS 200 - General Physics I (4.00),"[['PHYS A185 - Calculu
 ,,
 Orange Coast College,PHYS 201 - General Physics II (4.00),[['PHYS A280 - Calculus-Based Physics: Electricity/Magnetism (4.00)']]
 ,,
-Orange Coast College,CSU GE Area: B2 - Life Science,"[['MRSC A180 - Marine Biology (3.00)']]"
+Orange Coast College,CSU GE Area: B2 - Life Science,[['MRSC A180 - Marine Biology (3.00)']]
 ,,
 Orange Coast College,MATH 300 - Discrete Mathematics (3.00),[['CS A262 - Discrete Structures (3.00)']]
 ,,
@@ -1430,7 +1430,7 @@ Laney College,MATH 240 - Linear Algebra (3.00),[['MATH 3E - Linear Algebra (3.00
 ,,
 Laney College,PHYS 200 - General Physics I (4.00),[['PHYS 4A - General Physics with Calculus (5.00)']]
 ,,
-Laney College,PHYS 201 - General Physics II (4.00),"[['PHYS 4B - General Physics with Calculus (5.00)']]"
+Laney College,PHYS 201 - General Physics II (4.00),[['PHYS 4B - General Physics with Calculus (5.00)']]
 ,,
 Laney College,CSU GE Area: B2 - Life Science,[['ANTHR 1 - Introduction to Physical Anthropology (3.00)']]
 ,,
@@ -1458,11 +1458,11 @@ Riverside City College,PHYS 201 - General Physics II (4.00),[['PHY 4B - Electric
 ,,
 Riverside City College,CSU GE Area: B2 - Life Science,[['BIO 8 - Principles of Ecology (4.00)']]
 ,,
-Riverside City College,MATH 300 - Discrete Mathematics (3.00),"[['CIS 7 - Discrete Structures (3.00)'], [' CSC 7 - DiscreteStructures (3.00)']]"
+Riverside City College,MATH 300 - Discrete Mathematics (3.00),"[['CIS 7 - Discrete Structures (3.00)'], [' CSC 7 - DiscreteStructures (3.00)']]"
 ,,
 West Valley College,COMP 150 - Object-oriented Programming (4.00),"[['CIST 004A - Computer Programming I (C++) (4.00)'], ['CIST 004A1 - Computer Programming I (JAVA) (4.00)']]"
 ,,
-West Valley College,COMP 151 - Data Structures and Program Design (4.00),"[['CIST 004B - Computer Programming II (C++) (4.00)'], ['CIST 004B1 - Computer Programming II (JAVA) (4.00)']]"
+West Valley College,COMP 151 - Data Structures and Program Design (4.00),"[['CIST 004B - Computer Programming II (C++) (4.00)'], ['CIST 004B1 - Computer Programming II (JAVA) (4.00)']]"
 ,,
 West Valley College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['No Course Articulated']]
 ,,
@@ -1478,9 +1478,9 @@ West Valley College,MATH 240 - Linear Algebra (3.00),[['MATH 004C - Linear Algeb
 ,,
 West Valley College,PHYS 200 - General Physics I (4.00),[['PHYS 004A - Engineering Physics - Mechanics (5.00)']]
 ,,
-West Valley College,PHYS 201 - General Physics II (4.00),"[[' PHYS 004B - Engineering Physics - Electricity and Magnetism (5.00)']]"
+West Valley College,PHYS 201 - General Physics II (4.00),[[' PHYS 004B - Engineering Physics - Electricity and Magnetism (5.00)']]
 ,,
-West Valley College,CSU GE Area: B2 - Life Science,"[['BIOL 013 - Natural History of California (3.00)']]"
+West Valley College,CSU GE Area: B2 - Life Science,[['BIOL 013 - Natural History of California (3.00)']]
 ,,
 West Valley College,MATH 300 - Discrete Mathematics (3.00),[['No Course Articulated']]
 ,,
@@ -1504,7 +1504,7 @@ Lassen Community College,PHYS 200 - General Physics I (4.00),[['No Comparable Co
 ,,
 Lassen Community College,PHYS 201 - General Physics II (4.00),[['No Comparable Course']]
 ,,
-Lassen Community College,CSU GE Area: B2 - Life Science,"[['BIOL 32L - General Biology with Laboratory (4.00)']]"
+Lassen Community College,CSU GE Area: B2 - Life Science,[['BIOL 32L - General Biology with Laboratory (4.00)']]
 ,,
 Lassen Community College,MATH 300 - Discrete Mathematics (3.00),[['No Course Articulated']]
 ,,
@@ -1556,7 +1556,7 @@ Bakersfield College,CSU GE Area: B2 - Life Science,[['ANTH B1 - Physical Anthrop
 ,,
 Bakersfield College,MATH 300 - Discrete Mathematics (3.00),[['COMP B14 - Discrete Structures (3.00)']]
 ,,
-Los Angeles Pierce College,COMP 150 - Object-oriented Programming (4.00),"[['CS 213 - Advanced Programming in Java (3.00)'], ['CS 216 - Object-Oriented Programming in C++ (3.00)']]"
+Los Angeles Pierce College,COMP 150 - Object-oriented Programming (4.00),"[['CS 213 - Advanced Programming in Java (3.00)'], ['CS 216 - Object-Oriented Programming in C++ (3.00)']]"
 ,,
 Los Angeles Pierce College,COMP 151 - Data Structures and Program Design (4.00),[['CS 136 - Introduction to Data Structures (3.00)']]
 ,,
@@ -1596,7 +1596,7 @@ Oxnard College,MATH 151 - Calculus II (4.00),[['MATH R121 - Calculus with Analyt
 ,,
 Oxnard College,MATH 240 - Linear Algebra (3.00),[['MATH R134 - Linear Algebra (3.00)']]
 ,,
-Oxnard College,PHYS 200 - General Physics I (4.00),"[['PHYS R121 - Physics with Calculus 1 (5.00)'], ['PHYS R131 - Physics for Scientists and Engineers 1 (5.00)']]"
+Oxnard College,PHYS 200 - General Physics I (4.00),"[['PHYS R121 - Physics with Calculus 1 (5.00)'], ['PHYS R131 - Physics for Scientists and Engineers 1 (5.00)']]"
 ,,
 Oxnard College,PHYS 201 - General Physics II (4.00),"[['PHYS R122 - Physics with Calculus 2 (5.00)'], ['PHYS R132 - Physics for Scientists and Engineers 2 (5.00)']]"
 ,,
@@ -1670,7 +1670,7 @@ Santa Barbara City College,MATH 240 - Linear Algebra (3.00),[['MATH 210 - Linear
 ,,
 Santa Barbara City College,PHYS 200 - General Physics I (4.00),[['PHYS 121 - Mechanics of Solids and Fluids (5.00)']]
 ,,
-Santa Barbara City College,PHYS 201 - General Physics II (4.00),"[[' PHYS 122 - Electricity and Magnetism (5.00)']]"
+Santa Barbara City College,PHYS 201 - General Physics II (4.00),[[' PHYS 122 - Electricity and Magnetism (5.00)']]
 ,,
 Santa Barbara City College,CSU GE Area: B2 - Life Science,[['BIOL 110 - NaturalScience(3.00)']]
 ,,
@@ -1694,7 +1694,7 @@ Sierra College,MATH 240 - Linear Algebra (3.00),[['No Comparable Course']]
 ,,
 Sierra College,PHYS 200 - General Physics I (4.00),"[['PHYS 205 - Principles of Physics: Mechanics (4.00)', 'PHYS 205L - Principles of Physics Laboratory: Mechanics (1.00)']]"
 ,,
-Sierra College,PHYS 201 - General Physics II (4.00),"[['PHYS 210 - Principles of Physics: Electricity and Magnetism', 'PHYS 210L - Principles of Physics Laboratory: Electricity and Magnetism (1.00)']]"
+Sierra College,PHYS 201 - General Physics II (4.00),"[['PHYS 210 - Principles of Physics: Electricity and Magnetism (4.00)', 'PHYS 210L - Principles of Physics Laboratory: Electricity and Magnetism (1.00)']]"
 ,,
 Sierra College,CSU GE Area: B2 - Life Science,[['BIOL 30 - Introduction to Ornithology (3.00)']]
 ,,
@@ -1720,7 +1720,7 @@ Solano Community College,PHYS 200 - General Physics I (4.00),[['PHYS 006 - Physi
 ,,
 Solano Community College,PHYS 201 - General Physics II (4.00),[[' PHYS 007 - Physics for Scienceand Engineering (5.00)']]
 ,,
-Solano Community College,CSU GE Area: B2 - Life Science,"[[' BIO 016 - Introduction to Human Biology (3.00) ']]"
+Solano Community College,CSU GE Area: B2 - Life Science,[['BIO 016 - Introduction to Human Biology (3.00)']]
 ,,
 Solano Community College,MATH 300 - Discrete Mathematics (3.00),[['CIS 021 - Discrete Structures for Computer Science (3.00)']]
 ,,
@@ -1752,7 +1752,7 @@ Chabot College,COMP 150 - Object-oriented Programming (4.00),"[['CSCI 15 - Objec
 ,,
 Chabot College,COMP 151 - Data Structures and Program Design (4.00),[['CSCI 20 - Introduction to Data Structures (4.00)']]
 ,,
-Chabot College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CSCI 21 - Computer Organization and Assembly Language']]
+Chabot College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CSCI 21 - Computer Organization and Assembly Language (4.00)']]
 ,,
 Chabot College,COMP 232 - Programming Languages (3.00),[['No Comparable Course']]
 ,,
@@ -1770,7 +1770,7 @@ Chabot College,PHYS 201 - General Physics II (4.00),[['PHYS 4B - General Physics
 ,,
 Chabot College,CSU GE Area: B2 - Life Science,[['ANTH 1 - Biological/Physical Anthropology (3.00)']]
 ,,
-Chabot College,MATH 300 - Discrete Mathematics (3.00),"[['CSCI 28 - Discreet Mathematics (3.00)'], [' MTH 8 - Discrete Mathematics (3.00)']]"
+Chabot College,MATH 300 - Discrete Mathematics (3.00),"[['CSCI 28 - Discreet Mathematics (3.00)'], [' MTH 8 - Discrete Mathematics (3.00)']]"
 ,,
 Citrus College,COMP 150 - Object-oriented Programming (4.00),[['No Comparable Course']]
 ,,
@@ -1792,13 +1792,13 @@ Citrus College,PHYS 200 - General Physics I (4.00),[['PHYS 201 - Physics A: Mech
 ,,
 Citrus College,PHYS 201 - General Physics II (4.00),[['PHYS 202 - Physics B: Electromagnetism (5.00)']]
 ,,
-Citrus College,CSU GE Area: B2 - Life Science,"[['BIOL 145 - EnvironmentalScience(3.00)']]"
+Citrus College,CSU GE Area: B2 - Life Science,[['BIOL 145 - EnvironmentalScience(3.00)']]
 ,,
 Citrus College,MATH 300 - Discrete Mathematics (3.00),[['CS 252 - Discrete Structures (3.00)']]
 ,,
 Cuyamaca College,COMP 150 - Object-oriented Programming (4.00),"[['CS 181 - Introduction to C++ Programming (4.00)'], ['CS 182 - Introduction to JAVA Programming (4.00)'] ]"
 ,,
-Cuyamaca College,COMP 151 - Data Structures and Program Design (4.00),"[['CS 281 - Intermediate C++ Programming and Fundamental Data'], [' CS 282 - IntermediateJava Programming and Fundamental Data Structures (4.00)']]"
+Cuyamaca College,COMP 151 - Data Structures and Program Design (4.00),"[['CS 281 - Intermediate C++ Programming and Fundamental Data (4.00)'], [' CS 282 - IntermediateJava Programming and Fundamental Data Structures (4.00)']]"
 ,,
 Cuyamaca College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CS 165 - Assembly Language and Machine Architecture (4.00)']]
 ,,
@@ -1822,7 +1822,7 @@ Cuyamaca College,MATH 300 - Discrete Mathematics (3.00),[['CS 240 - Discrete Str
 ,,
 Mendocino College,COMP 150 - Object-oriented Programming (4.00),"[['CSC 221 - Programming and Algorithms I (3.00)'], ['CSC 221L - Programming and Algorithms I Lab (1.00)']]"
 ,,
-Mendocino College,COMP 151 - Data Structures and Program Design (4.00),"[['CSC 222 - Programming and Algorithms II (3.00)'], [;CSC 222L - Programming and Algorithms II Lab (1.00)']]"
+Mendocino College,COMP 151 - Data Structures and Program Design (4.00),"[['CSC 222 - Programming and Algorithms II (3.00)'], ['CSC 222L - Programming and Algorithms II Lab (1.00)']]"
 ,,
 Mendocino College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CSC 210 - Computer Organization and Architecture (3.00)']]
 ,,
@@ -1886,7 +1886,7 @@ College of the Siskiyous,MATH 240 - Linear Algebra (3.00),[['MATH 2600 - Introdu
 ,,
 College of the Siskiyous,PHYS 200 - General Physics I (4.00),[['PHYS 2105 - Calculus-Based Physics for Scientists and Engineers: A(4.00)']]
 ,,
-College of the Siskiyous,PHYS 201 - General Physics II (4.00),"[['PHYS 2110 - Calculus-Based Physics for Scientists and Engineers: B (4.00)']]"
+College of the Siskiyous,PHYS 201 - General Physics II (4.00),[['PHYS 2110 - Calculus-Based Physics for Scientists and Engineers: B (4.00)']]
 ,,
 College of the Siskiyous,CSU GE Area: B2 - Life Science,[['BIO 1600 - Field Natural History (3.00)']]
 ,,
@@ -1910,7 +1910,7 @@ El Camino College,MATH 240 - Linear Algebra (3.00),[['No Comparable Course']]
 ,,
 El Camino College,PHYS 200 - General Physics I (4.00),[['PHYS 1A - Mechanics ofSolids (4.00)']]
 ,,
-El Camino College,PHYS 201 - General Physics II (4.00),"[['PHYS 1C - Electricity and Magnetism (4.00)']]"
+El Camino College,PHYS 201 - General Physics II (4.00),[['PHYS 1C - Electricity and Magnetism (4.00)']]
 ,,
 El Camino College,CSU GE Area: B2 - Life Science,[['BIOL 15 - Environmental Aspects of Biology (3.00)']]
 ,,
@@ -1920,7 +1920,7 @@ Cerritos College,COMP 150 - Object-oriented Programming (4.00),[['No Comparable 
 ,,
 Cerritos College,COMP 151 - Data Structures and Program Design (4.00),[['No Comparable Course']]
 ,,
-Cerritos College,COMP 162 - Computer Architecture and Assembly Language (3.00),"[['CIS 231 - Computer Organization and Assembly Language Programming (3.50)']]"
+Cerritos College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CIS 231 - Computer Organization and Assembly Language Programming (3.50)']]
 ,,
 Cerritos College,COMP 232 - Programming Languages (3.00),[['No Comparable Course']]
 ,,
@@ -2080,7 +2080,7 @@ Allan Hancock College,PHYS 200 - General Physics I (4.00),[['PHYS 161 - Engineer
 ,,
 Allan Hancock College,PHYS 201 - General Physics II (4.00),[['PHYS 163 - Engineering Physics 3 (4.00)']]
 ,,
-Allan Hancock College,CSU GE Area: B2 - Life Science,"[['BIOL 124 - Human Anatomy (4.00)']]"
+Allan Hancock College,CSU GE Area: B2 - Life Science,[['BIOL 124 - Human Anatomy (4.00)']]
 ,,
 Allan Hancock College,MATH 300 - Discrete Mathematics (3.00),[['CS 161 - Discrete Structures (3.00)']]
 ,,
@@ -2128,7 +2128,7 @@ Copper Mountain College,PHYS 200 - General Physics I (4.00),[['PH 004A - Physics
 ,,
 Copper Mountain College,PHYS 201 - General Physics II (4.00),[['PH 004B - Physics for Scientists and Engineers (4.00)']]
 ,,
-Copper Mountain College,CSU GE Area: B2 - Life Science,"[['BI 004 - Elements of Biology (3.00)']]"
+Copper Mountain College,CSU GE Area: B2 - Life Science,[['BI 004 - Elements of Biology (3.00)']]
 ,,
 Copper Mountain College,MATH 300 - Discrete Mathematics (3.00),[['MATH 004 - Discrete Structures (3.00)']]
 ,,
@@ -2136,7 +2136,7 @@ De Anza College,COMP 150 - Object-oriented Programming (4.00),[['No Comparable C
 ,,
 De Anza College,COMP 151 - Data Structures and Program Design (4.00),[['No Comparable Course']]
 ,,
-De Anza College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CIS 21JA - Introduction to x86 Processor Assembly Language and']]
+De Anza College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CIS 21JA - Introduction to x86 Processor Assembly Language and Computer Architecture(4.50)']]
 ,,
 De Anza College,COMP 232 - Programming Languages (3.00),[['No Comparable Course']]
 ,,
@@ -2158,9 +2158,9 @@ De Anza College,MATH 300 - Discrete Mathematics (3.00),[['MATH 22 - Discrete Mat
 ,,
 Diablo Valley College,COMP 150 - Object-oriented Programming (4.00),[['COMSC 200 - Object Oriented Programming C++ (4.00)']]
 ,,
-Diablo Valley College,COMP 151 - Data Structures and Program Design (4.00),"[['COMSC 210 - Program Design and Data Structures (4.00)']]"
+Diablo Valley College,COMP 151 - Data Structures and Program Design (4.00),[['COMSC 210 - Program Design and Data Structures (4.00)']]
 ,,
-Diablo Valley College,COMP 162 - Computer Architecture and Assembly Language (3.00),"[['COMSC 260 - Assembly Language Programming/Computer Organization (4.00)']]"
+Diablo Valley College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['COMSC 260 - Assembly Language Programming/Computer Organization (4.00)']]
 ,,
 Diablo Valley College,COMP 232 - Programming Languages (3.00),[['No Comparable Course']]
 ,,
@@ -2172,19 +2172,19 @@ Diablo Valley College,MATH 151 - Calculus II (4.00),[['MATH 193 - Analytic Geome
 ,,
 Diablo Valley College,MATH 240 - Linear Algebra (3.00),[['MATH 194 - Linear Algebra (3.00)']]
 ,,
-Diablo Valley College,PHYS 200 - General Physics I (4.00),[['PHYS 130 - Physics for Engineers and Scientists A: Mechanics and']]
+Diablo Valley College,PHYS 200 - General Physics I (4.00),[['PHYS 130 - Physics for Engineers and Scientists A: Mechanics and Wave Motion (4.00)']]
 ,,
-Diablo Valley College,PHYS 201 - General Physics II (4.00),[['PHYS 230 - Physics for Engineers and Scientists B: Heat and']]
+Diablo Valley College,PHYS 201 - General Physics II (4.00),[['PHYS 230 - Physics for Engineers and Scientists B: Heat and Electro-Magnetism (4.00)']]
 ,,
 Diablo Valley College,CSU GE Area: B2 - Life Science,[['ANTHR 115 - Primate Evolution and Adaptation (3.00)']]
 ,,
-Diablo Valley College,MATH 300 - Discrete Mathematics (3.00),[['COMSC 230 - Discrete Mathematical Structures for Computer Science']]
+Diablo Valley College,MATH 300 - Discrete Mathematics (3.00),[['COMSC 230 - Discrete Mathematical Structures for Computer Science (3.00)']]
 ,,
-East Los Angeles College,COMP 150 - Object-oriented Programming (4.00),"[['CS 116 - Programming in C++ (3.00)'], [' CS 113 - Programming in JAVA (3.00) '], [' MATH 273 - Introduction to Data Structures and Algorithms (4.00)']]"
+East Los Angeles College,COMP 150 - Object-oriented Programming (4.00),"[['CS 116 - Programming in C++ (3.00)'], ['CS 113 - Programming in JAVA (3.00)'], [' MATH 273 - Introduction to Data Structures and Algorithms (4.00)']]"
 ,,
 East Los Angeles College,COMP 151 - Data Structures and Program Design (4.00),[['No Comparable Course']]
 ,,
-East Los Angeles College,COMP 162 - Computer Architecture and Assembly Language (3.00),"[['CS 130 - Introduction to Computer Architecture and Organization'], ['MATH 273 - Introduction to Data Structures and Algorithms (4.00)']]"
+East Los Angeles College,COMP 162 - Computer Architecture and Assembly Language (3.00),"[['CS 130 - Introduction to Computer Architecture and Organization (3.00)'], ['MATH 273 - Introduction to Data Structures and Algorithms (4.00)']]"
 ,,
 East Los Angeles College,COMP 232 - Programming Languages (3.00),[['No Comparable Course']]
 ,,
@@ -2222,7 +2222,7 @@ Taft College,MATH 240 - Linear Algebra (3.00),[['MATH 2125 - Linear Algebra (4.0
 ,,
 Taft College,PHYS 200 - General Physics I (4.00),[['PHYS 2221 - General Physics (Calculus) (4.00)']]
 ,,
-Taft College,PHYS 201 - General Physics II (4.00),"[['PHYS 2222 - General Physics II (Calculus) (4.00)']]"
+Taft College,PHYS 201 - General Physics II (4.00),[['PHYS 2222 - General Physics II (Calculus) (4.00)']]
 ,,
 Taft College,CSU GE Area: B2 - Life Science,[['BIOL 1500 - Fundamentals of Biology (3.00)']]
 ,,
@@ -2280,7 +2280,7 @@ Hartnell College,COMP 150 - Object-oriented Programming (4.00),[['CSS 2A - Objec
 ,,
 Hartnell College,COMP 151 - Data Structures and Program Design (4.00),[['CSS 2B - Data Structures and Algorithims (4.00)']]
 ,,
-Hartnell College,COMP 162 - Computer Architecture and Assembly Language (3.00),"[['CSS 3 - Computer Architecture and Assembly Language Programming (4.00)']]"
+Hartnell College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CSS 3 - Computer Architecture and Assembly Language Programming (4.00)']]
 ,,
 Hartnell College,COMP 232 - Programming Languages (3.00),[['No Comparable Course']]
 ,,
@@ -2296,7 +2296,7 @@ Hartnell College,PHYS 200 - General Physics I (4.00),[['PHY 4A - General Physics
 ,,
 Hartnell College,PHYS 201 - General Physics II (4.00),[['PHY 4B - General Physics II/Electricity and Magnetism (4.00)']]
 ,,
-Hartnell College,CSU GE Area: B2 - Life Science,"[['BIO 47 - Ecology (4.00)']]"
+Hartnell College,CSU GE Area: B2 - Life Science,[['BIO 47 - Ecology (4.00)']]
 ,,
 Hartnell College,MATH 300 - Discrete Mathematics (3.00),[['CSS 7 - Discrete Structures (4.00)']]
 ,,
@@ -2350,9 +2350,9 @@ Porterville College,MATH 300 - Discrete Mathematics (3.00),[['No Course Articula
 ,,
 Sacramento City College,COMP 150 - Object-oriented Programming (4.00),"[['CISP 400 - Object Oriented Programming with C++ (4.00)'], ['CISP 401 - Object Oriented Programming with Java (4.00)']]"
 ,,
-Sacramento City College,COMP 151 - Data Structures and Program Design (4.00),"[['CISP 430 - Data Structures (4.00)'], [' (4.00)']]"
+Sacramento City College,COMP 151 - Data Structures and Program Design (4.00),[['CISP 430 - Data Structures (4.00)']]
 ,,
-Sacramento City College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CISP 310 - Assembly Language Programming for Microcomputers']]
+Sacramento City College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CISP 310 - Assembly Language Programming for Microcomputers (4.00)']]
 ,,
 Sacramento City College,COMP 232 - Programming Languages (3.00),[['No Course Articulated']]
 ,,
@@ -2372,7 +2372,7 @@ Sacramento City College,CSU GE Area: B2 - Life Science,[['BIOL 332 - Introductio
 ,,
 Sacramento City College,MATH 300 - Discrete Mathematics (3.00),[['CISP 440 - Discrete Structures for Computer Science (3.00)']]
 ,,
-Skyline College,COMP 150 - Object-oriented Programming (4.00),"[['COMP 122 - Introduction to Programming: Python (3.00)'],  ['COMP 250 - Intro to Object-Oriented Programming: C++ (3.00) '], ['COMP 284 - Introduction to Object-Oriented Programming: Java (4.00)']]"
+Skyline College,COMP 150 - Object-oriented Programming (4.00),"[['COMP 122 - Introduction to Programming: Python (3.00)'],  ['COMP 250 - Intro to Object-Oriented Programming: C++ (3.00)'], ['COMP 284 - Introduction to Object-Oriented Programming: Java (4.00)']]"
 ,,
 Skyline College,COMP 151 - Data Structures and Program Design (4.00),[['COMP 252 - Data Structures: C++ (3.00)']]
 ,,
@@ -2400,7 +2400,7 @@ Los Angeles Southwest College,COMP 150 - Object-oriented Programming (4.00),[['N
 ,,
 Los Angeles Southwest College,COMP 151 - Data Structures and Program Design (4.00),[['No Course Articulated']]
 ,,
-Los Angeles Southwest College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CS 130 - Introductiion to Computer Architecture and Organization']]
+Los Angeles Southwest College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CS 130 - Introductiion to Computer Architecture and Organization(3.00)']]
 ,,
 Los Angeles Southwest College,COMP 232 - Programming Languages (3.00),[['No Course Articulated']]
 ,,
@@ -2440,7 +2440,7 @@ San Bernardino Valley College,PHYS 200 - General Physics I (4.00),[['PHYSIC 202 
 ,,
 San Bernardino Valley College,PHYS 201 - General Physics II (4.00),[['PHYSIC 203 - Physics II (4.00)']]
 ,,
-San Bernardino Valley College,CSU GE Area: B2 - Life Science,"[['BIOL 104 - Human Ecology (3.00)']]"
+San Bernardino Valley College,CSU GE Area: B2 - Life Science,[['BIOL 104 - Human Ecology (3.00)']]
 ,,
 San Bernardino Valley College,MATH 300 - Discrete Mathematics (3.00),[['CS 130 - Discrete Structures (3.00)']]
 ,,
@@ -2472,7 +2472,7 @@ Fullerton College,COMP 150 - Object-oriented Programming (4.00),"[['CSCI 123 F -
 ,,
 Fullerton College,COMP 151 - Data Structures and Program Design (4.00),[['CSCI 133 F - Data Structures in C++ (4.00)']]
 ,,
-Fullerton College,COMP 162 - Computer Architecture and Assembly Language (3.00),"[['CSCI 241 F - Computer Organization and Assembly Language Programming (4.00)']]"
+Fullerton College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CSCI 241 F - Computer Organization and Assembly Language Programming (4.00)']]
 ,,
 Fullerton College,COMP 232 - Programming Languages (3.00),[['No Comparable Course']]
 ,,
@@ -2534,7 +2534,7 @@ San Jose City College,MATH 240 - Linear Algebra (3.00),[['MATH 079 - Linear Alge
 ,,
 San Jose City College,PHYS 200 - General Physics I (4.00),[['PHYS 004A - General Physics (5.00)']]
 ,,
-San Jose City College,PHYS 201 - General Physics II (4.00),"[['PHYS 004B - General Physics (5.00)']]"
+San Jose City College,PHYS 201 - General Physics II (4.00),[['PHYS 004B - General Physics (5.00)']]
 ,,
 San Jose City College,CSU GE Area: B2 - Life Science,[['BIOL 063 - Ecology (3.00)']]
 ,,
@@ -2560,7 +2560,7 @@ Santa Monica College,PHYS 200 - General Physics I (4.00),"[['PHYSCS 8 - Calculus
 ,,
 Santa Monica College,PHYS 201 - General Physics II (4.00),"[['PHYSCS 9 - Calculus-Based Physics 2 with Lab (4.00)'],   ['PHYSCS 22 - Electricity and Magnetism with Lab (5.00)']]"
 ,,
-Santa Monica College,CSU GE Area: B2 - Life Science,"[['PSYCH 2 - Physiological Psychology (3.00)']]"
+Santa Monica College,CSU GE Area: B2 - Life Science,[['PSYCH 2 - Physiological Psychology (3.00)']]
 ,,
 Santa Monica College,MATH 300 - Discrete Mathematics (3.00),[['No Course Articulated']]
 ,,
@@ -2608,7 +2608,7 @@ Moorpark College,PHYS 200 - General Physics I (4.00),"[['PHYS M20A - Mechanics o
 ,,
 Moorpark College,PHYS 201 - General Physics II (4.00),"[['PHYS M20B - Thermodynamics, Electricity and Magnetism (4.00)',  ' PHYS M20BL - Thermodynamics, Electricity and Magnetism Laboratory (1.00)']]"
 ,,
-Moorpark College,CSU GE Area: B2 - Life Science,"[['BIOL M16 - Human Biology (3.00)']]"
+Moorpark College,CSU GE Area: B2 - Life Science,[['BIOL M16 - Human Biology (3.00)']]
 ,,
 Moorpark College,MATH 300 - Discrete Mathematics (3.00),[['CS M155 - Discrete Structures (3.00)']]
 ,,
@@ -2630,7 +2630,7 @@ College of the Canyons,MATH 240 - Linear Algebra (3.00),[['MATH 214 - Linear Alg
 ,,
 College of the Canyons,PHYS 200 - General Physics I (4.00),[['PHYSIC 220 - Physics for Scientists and Engineers: Mechanics of Solids and Fluids (4.00)']]
 ,,
-College of the Canyons,PHYS 201 - General Physics II (4.00),"[['PHYSIC 221 - Physics for Scientists and Engineers: Electricity and Magnetism (4.00)']]"
+College of the Canyons,PHYS 201 - General Physics II (4.00),[['PHYSIC 221 - Physics for Scientists and Engineers: Electricity and Magnetism (4.00)']]
 ,,
 College of the Canyons,CSU GE Area: B2 - Life Science,[['PSYCH 102 - Physiological Psychology (3.00)']]
 ,,
@@ -2640,7 +2640,7 @@ Cosumnes River College,COMP 150 - Object-oriented Programming (4.00),"[['CISP 40
 ,,
 Cosumnes River College,COMP 151 - Data Structures and Program Design (4.00),"[['CISP 430 - Data Structures (4.00)'], [' (4.00)']]"
 ,,
-Cosumnes River College,COMP 162 - Computer Architecture and Assembly Language (3.00),"[['CISP 310 - Assembly Language Programming on Microcomputers (4.00)']]"
+Cosumnes River College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CISP 310 - Assembly Language Programming on Microcomputers (4.00)']]
 ,,
 Cosumnes River College,COMP 232 - Programming Languages (3.00),[['No Comparable Course']]
 ,,
@@ -2664,7 +2664,7 @@ Folsom Lake College,COMP 150 - Object-oriented Programming (4.00),"[['CISP 400 -
 ,,
 Folsom Lake College,COMP 151 - Data Structures and Program Design (4.00),[['CISP 430 - Data Structures (4.00)']]
 ,,
-Folsom Lake College,COMP 162 - Computer Architecture and Assembly Language (3.00),"[['CISP 310 - Assembly Language Programming for Microcomputers(4.00)']]"
+Folsom Lake College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CISP 310 - Assembly Language Programming for Microcomputers(4.00)']]
 ,,
 Folsom Lake College,COMP 232 - Programming Languages (3.00),[['No Comparable Course']]
 ,,
@@ -2726,7 +2726,7 @@ Woodland Community College,MATH 240 - Linear Algebra (3.00),[['MATH 3 - Linear A
 ,,
 Woodland Community College,PHYS 200 - General Physics I (4.00),[['PHYS 4A - Mechanics (4.00)']]
 ,,
-Woodland Community College,PHYS 201 - General Physics II (4.00),"[['PHYS 4B - Electromagnetism (4.00)']]"
+Woodland Community College,PHYS 201 - General Physics II (4.00),[['PHYS 4B - Electromagnetism (4.00)']]
 ,,
 Woodland Community College,CSU GE Area: B2 - Life Science,[['BIOL 25 - Human Genetics (3.00)']]
 ,,
@@ -2766,7 +2766,7 @@ Moreno Valley College,COMP 232 - Programming Languages (3.00),[['No Comparable C
 ,,
 Moreno Valley College,COMP 262 - Computer Organization and Architecture (3.00),[['No Comparable Course']]
 ,,
-Moreno Valley College,MATH 150 - Calculus I (4.00),"[['MAT 1A - Calculus I (4.00)'], ['MAT 1AH - Honors Calculus I (4.00)']]"
+Moreno Valley College,MATH 150 - Calculus I (4.00),"[['MAT 1A - Calculus I (4.00)'], ['MAT 1AH - Honors Calculus I (4.00)']]"
 ,,
 Moreno Valley College,MATH 151 - Calculus II (4.00),[['MAT 1B - Calculus II (4.00)']]
 ,,
@@ -2784,7 +2784,7 @@ Clovis Community College,COMP 150 - Object-oriented Programming (4.00),[['CSCI 4
 ,,
 Clovis Community College,COMP 151 - Data Structures and Program Design (4.00),[['CSCI 41 - Programming Concepts and Methodology II (4.00)']]
 ,,
-Clovis Community College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CSCI 45 - Computer Organization and Assembly Language']]
+Clovis Community College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CSCI 45 - Computer Organization and Assembly Language Programming (4.00)']]
 ,,
 Clovis Community College,COMP 232 - Programming Languages (3.00),[['No Comparable Course']]
 ,,
@@ -2832,7 +2832,7 @@ Madera Community College,COMP 150 - Object-oriented Programming (4.00),[['CSCI 4
 ,,
 Madera Community College,COMP 151 - Data Structures and Program Design (4.00),[['CSCI 41 - Programming Concepts and Methodology II (4.00)']]
 ,,
-Madera Community College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CSCI 45 - Computer Organization and Assembly Language']]
+Madera Community College,COMP 162 - Computer Architecture and Assembly Language (3.00),[['CSCI 45 - Computer Organization and Assembly Language Programming (4.00)']]
 ,,
 Madera Community College,COMP 232 - Programming Languages (3.00),[['No Comparable Course']]
 ,,

@@ -13,7 +13,7 @@ import math
 
 import re
 import ast
-df = pd.read_csv("./csvs/csvs/Assist PDF scraped agreements - CSUEB.csv", header=None)
+df = pd.read_csv("./csvs/csvs/Assist PDF scraped agreements - SJSU.csv", header=None)
 row = df.shape[0]
 
 #makes sure that all of them is of type string
@@ -86,7 +86,16 @@ def iterate(df, row):
             if (x == False):
                 print("Not valid on index " + str(i)+ ". The message is " + y)
             #if element has units for a class
-            if 'No Course Articulated' not in element and 'This course must be taken at the university after transfer' not in element and 'Course(s) Denied' not in element and 'Not Articulated' not in element and 'No Comparable Course' not in element and 'No Articulation Established' not in element:
+            if 'No Course Articulated' not in element\
+                and 'This course must be taken at the university after transfer' not in element \
+                and 'Course(s) Denied' not in element \
+                and 'Not Articulated' not in element \
+                and 'No Comparable Course' not in element \
+                and 'No Articulation Established' not in element \
+                and 'Articulates as Course-to-Course Only' not in element \
+                and 'Articulates as a Series Only' not in element \
+                and 'Articulation Pending Review' not in element \
+                and 'No Current Articulation' not in element:
                 #then check if it has units
                 try:
                     # Convert the string back into a list of lists
@@ -95,6 +104,7 @@ def iterate(df, row):
                     for course_list in courses:
                         for course in course_list:
                             # The regular expression matches a number followed by ".00" surrounded by parentheses at the end of the string
+                            # print(i)
                             match = re.search(r'\(\d+\.\d+\)$', course)
                             if match is None:
                                 # If the regular expression didn't match, the course doesn't have an associated unit
