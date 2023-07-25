@@ -7,15 +7,15 @@ import pandas as pd
 
 def delete_empty_rows(csv_file, output_file):
     # Read the CSV file into a pandas DataFrame
-    df = pd.read_csv(csv_file)
+    df = pd.read_csv(csv_file, sep='\t')
 
     # Drop rows with all NaN (empty) values
     df.dropna(how='all', inplace=True)
 
     # Write the modified DataFrame back to a new CSV file
-    df.to_csv(output_file, index=False)
-delete_empty_rows("csvs/UniSheets/UCI.csv", "deletedUCI.csv")
+    df.to_csv(output_file, index=False, sep='\t')
 
+delete_empty_rows("csvs/csvs/Assist PDF scraped agreements - UCSD.csv", "other.csv")
 
 
 
@@ -25,12 +25,13 @@ UniNameShort = ["CSUF", "Sonoma","CPSLO", "Chico", "CSUSM", "SDSU", "SJSU", "CSU
 
 # deletes unnessary rows(does special things for different schools)
 def FixCSV(uniName, CSVFileName):
+    delete_empty_rows(CSVFileName + ".csv", CSVFileName + "RowsGood.csv")
     with open("csvs/UniSheets/" + uniName + ".csv", 'w') as fixedCSV:
-        writer = csv.writer(fixedCSV)
+        writer = csv.writer(fixedCSV, delimiter='\t')
         
-        with open(CSVFileName + ".csv", 'r') as csvfile:
+        with open(CSVFileName + "RowsGood.csv", 'r') as csvfile:
             
-            reader = csv.reader(csvfile)
+            reader = csv.reader(csvfile, )
            
             prevCC = ''
             coursecnt = 0
@@ -41,8 +42,6 @@ def FixCSV(uniName, CSVFileName):
                     if row[0] == "Palomar College":
                         print("resetting coursecnt")
                     coursecnt = 0
-                if row[0] == "Palomar College":
-                    print(coursecnt)
                 if uniName == 'UCI' and row[1] == "One additional approved transferable course for the major (an":
                     continue
                 if uniName == 'CPP':
@@ -103,13 +102,13 @@ def FixCSV(uniName, CSVFileName):
                     continue
                 writer.writerow(row)
                 prevCC = row[0]
-        
+    os.remove(CSVFileName + "RowsGood.csv")    
 def Fixall(UniList):
     for i in UniList:
         FixCSV(i, "csvs/csvs/Assist PDF scraped agreements - " + i)
         
 # [['CSE 12 - Basic Data Structures and Object-Oriented Design (4.00)', 'somthing']]
-Fixall(UniNameShort)
+# Fixall(UniNameShort)
 def getListfromString(str):
     return ast.literal_eval(str)
 print(getListfromString("[['MATH 2A - Single-Variable Calculus (4.00)', 'MATH 2B - Single-Variable Calculus (4.00)']]"))
@@ -163,7 +162,7 @@ def ConvertToGradReqs(CSVFileName, relList, UniName):
                         else:
                             artslist[len(artslist) - 1].append(row[2])
                 prevCC = row[0]
-ConvertToGradReqs("csvs/UniSheets/UCI", getrelList("UCI"), "UCI")
+# ConvertToGradReqs("csvs/UniSheets/UCI", getrelList("UCI"), "UCI")
                                 
             # if so handle the relationship and write to new csv
             # else write that row to the new csv

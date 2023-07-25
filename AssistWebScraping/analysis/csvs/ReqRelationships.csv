@@ -1,4 +1,4 @@
-University\tRequirement courses
+University\tRequirement courses(as seen on the webscraped google sheet for naming and grouped based on the grad reqs)\tgrad reqs groupings. should be same as the grouping of the second col. but with the namings of the grad req sheet/tool
 UCSD\t[['CSE 8A - Introduction to Programming and Computational Problem Solving I (4.00)', 'CSE 8B - Introduction to Programming and Computational Problem Solving II (4.00)'], ['CSE 11 - Introduction to Programming and Computational Problem Solving - Accelerated Pace (4.00)']]
 UCSD\t[['CSE 12 - Basic Data Structures and Object-Oriented Design (4.00)']]
 UCSD\t[['CSE 15L - Software Tools and Techniques Laboratory (2.00)']]
