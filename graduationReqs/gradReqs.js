@@ -6,8 +6,8 @@ const SHEET_ID = '';
 let data; // Global variable to store the data
 const schoolMap = new Map(); // Holds the data for each school
 
-let formatedLower = [];
-let formatedUpper = [];
+let formattedLower = [];
+let formattedUpper = [];
 
 let moreInfo = document.getElementById('more-info');
 let totalMathSection = document.getElementById('total-math');
@@ -59,7 +59,7 @@ function formatCourses(cell) {
         let and = arr[i].startsWith("AND ");
         let star = arr[i].startsWith("*")
         let title = arr[i].startsWith("^^");
-        //let sublist = arr[i].indexOf("--");
+        let sublist = arr[i].indexOf("--");
 
         if ((or || and) && !(arr[i] == "OR " || arr[i] == "AND "))
         {
@@ -81,7 +81,6 @@ function formatCourses(cell) {
     // Second pass
     for (let i = 0; i < arr.length; i++) {
         let star = String(arr[i][0]) == "*";
-        let sublist = arr[i].indexOf("--");
         let title = arr[i].startsWith("^^");
 
         if ( (arr[i] == "OR " || arr[i] == "AND ") ) {
@@ -104,10 +103,13 @@ function formatCourses(cell) {
             line.push(`[` + arr[i] + `]`);
         }
     }
+    // put quotes around the line so the CSV file could read it properly
     line[0] = `"` + line[0];
     line[ line.length - 1 ] = line[ line.length - 1 ] + `"`;
+    // new line to indicate the end of the cell
     line.push('\n');
-    return line.join(',');
+
+    return line;
 }
 
 // Reads and gathers data from the Google sheet. Puts the data in a map
@@ -167,17 +169,15 @@ function parseSheet() {
             // If the values are NOT undefined (an empty cell), add to courselist
             if (lower) {
                 schoolMap.get(programName).Lower.push(String(lower));
-                formatedLower.push( (formatCourses(lower)) );
+                formattedLower.push( String(formatCourses(lower)) + ',');
             }
             if (upper) {
                 schoolMap.get(programName).Upper.push(String(upper));
-                formatedUpper.push( String(formatCourses(upper)) );
+                formattedUpper.push( String(formatCourses(upper)) + `,`);
             }
         }
-        
-        let csv = formatedLower.concat(formatedUpper);
 
-        let file = new File([csv], "graduationReqs", {type: 'text/csv'});
+        let file = new File([formattedLower, formattedUpper], "graduationReqs", {type: 'text/csv'});
     
         let a = document.getElementById('csv');
         a.href = URL.createObjectURL(file);
