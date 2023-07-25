@@ -170,7 +170,7 @@ def ConvertToGradReqs(CSVFileName, relList, UniName):
                             else:
                                 artslist[len(artslist) - 1].append(getListfromString(row[2]))
                 prevCC = row[0]
-def generatecsv            
+          
 ConvertToGradReqs("csvs/UniSheets/UCI", getrelList("UCI"), "UCI")
                                 
             # if so handle the relationship and write to new csv
