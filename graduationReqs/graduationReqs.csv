@@ -32,12 +32,6 @@ UC Davis,[['PHY 9C - Classical Physics (5.00)']]
 UC Davis,[['PHY 9D - Modern Physics (5.00)']]
 UC Davis,[['ENG 17 - Circuits I (4.00)']]
 UC Davis,[['CMN 1 - Introduction to Public Speaking (4.00)']]
-UC Davis,[['PHY 9A - Classical Physics (5.00)']]
-UC Davis,[['PHY 9B - Classical Physics (5.00)']]
-UC Davis,[['PHY 9C - Classical Physics (5.00)']]
-UC Davis,[['PHY 9D - Modern Physics (5.00)']]
-UC Davis,[['ENG 17 - Circuits I (4.00)']]
-UC Davis,[['CMN 1 - Introduction to Public Speaking (4.00)']]
 UC Davis,"[['COM 1 - Major Works of the Ancient World (4.00)'], ['COM 2 - Major Works of the Medieval & Early Modern World (4.00)'], ['COM 3 - Major Works of the Modern World (4.00)'], ['COM 4 - Major Works of the Contemporary World (4.00)'], ['ENL 3 - Introduction to Literature (4.00)'], ['NAS 5 - Introduction to Native American Literature (4.00)'], ['UWP 1 or UWP 1V or UWP 1Y - Introduction to Academic Literacies (4.00)']]"
 UC Irvine,"[['I&C SCI 31- 32- 33 - Introduction to Programming', 'Programming with Software Libraries', 'Intermediate Programming'], ['I&C SCI 32A- 33 - Python Programming', 'Libraries (Accelerated)', 'Intermediate Programming']]"
 UC Irvine,[['I&C SCI 45C - Programming in C/C++ as a Second Language']]
@@ -67,10 +61,15 @@ UC Los Angeles,"[['PHYSICS 1B - Physics for Scientists and Engineers - Oscillati
 UC Los Angeles,"[['PHYSICS 1C - Physics for Scientists and Engineers - Electrodynamics, Optics, and Special Relativity']]"
 UC Los Angeles,"[['COM SCI M51A - Logic Design of Digital Systems'], ['EC ENGR M16 - Logic Design of Digital Systems']]"
 UC Los Angeles,"[['PHYSICS 4AL - Physics Laboratory for Scientists and Engineers - Mechanics'], ['PHYSICS 4BL - Physics Laboratory for Scientists and Engineers - Electricity and Magnetism']]"
-UC Merced,"[['MATH 021 - Calculus I for Physical Sciences and Engineering (4.00)', 'MATH 022 - Calculus II for Physical Sciences and Engineering (4.00)', 'MATH 023 - Vector Calculus (4.00)', ['MATH 023H - Honors Vector Calculus', 'MATH 024 - Linear Algebra and Differential Equations (4.00)']'MATH 032 - Probability and Statistics (4.00)']]"
-UC Merced,"[['PHYS 008 - Introductory Physics I for Physical Sciences (3.00)', ['PHYS 008H', 'PHYS 008L - Introductory Physics I for Physical Sciences Lab (1.00)', 'PHYS 009 - Introductory Physics II for Physical Sciences (3.00)'], ['PHYS 009H']'PHYS 009L - Introductory Physics II for Physical Sciences Lab (1.00)']]"
+UC Merced,[['MATH 021 - Calculus I for Physical Sciences and Engineering (4.00)']]
+UC Merced,[['MATH 022 - Calculus II for Physical Sciences and Engineering (4.00)']]
+UC Merced,"[['MATH 023 - Vector Calculus (4.00)'], ['MATH 023H - Honors Vector Calculus']]"
+UC Merced,[['MATH 024 - Linear Algebra and Differential Equations (4.00)']]
+UC Merced,[['MATH 032 - Probability and Statistics (4.00)']]
+UC Merced,"[['PHYS 008 - Introductory Physics I for Physical Sciences (3.00)', 'PHYS 008L - Introductory Physics I for Physical Sciences Lab (1.00)']]"
+UC Merced,"[['PHYS 009 - Introductory Physics II for Physical Sciences (3.00)', 'PHYS 009L - Introductory Physics II for Physical Sciences Lab (1.00)']]"
 UC Merced,"[['BIO 003 - To Know Ourselves - Molecular Basis of Health and Disease (4.00)'], ['BIO 005 - Concepts and Issues in Biology Today (4.00)'], ['BIO 043 - Biodiversity and Conservation (4.00)'], ['BIO 047 - Astrobiology (4.00)'], ['ESS 001 - Introduction to Earth Systems Science (4.00)'], ['ESS 005 - Introduction to Biological Earth Systems (4.00)']]"
-UC Merced,"[['--Computer Science and Engineering [24 units]'],['CSE 015 - Discrete Mathematics (4.00)', 'CSE 022 - Introduction to Programming (4.00)', 'CSE 024 - Advanced Programming (4.00)', 'CSE 030 - Data Structures (4.00)', 'CSE 031 - Computer Organization and Assembly Language (4.00)', 'ENGR 065 - Circuit Theory (4.00)']]"
+UC Merced,"[['CSE 015 - Discrete Mathematics (4.00)', 'CSE 022 - Introduction to Programming (4.00)', 'CSE 024 - Advanced Programming (4.00)', 'CSE 030 - Data Structures (4.00)', 'CSE 031 - Computer Organization and Assembly Language (4.00)', 'ENGR 065 - Circuit Theory (4.00)']]"
 UC Riverside,[['ENGR 001-I - Professional Development and Mentoring (1.00)']]
 UC Riverside,"[['CS 010A - Introduction to CS for Science Mathematics, and Engineering I - C++ (4.00)']]"
 UC Riverside,"[['CS 010B - Introduction to CS for Science, Mathematics, and Engineering II - C++ (4.00)']]"
