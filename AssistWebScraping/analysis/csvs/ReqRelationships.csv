@@ -1,44 +1,82 @@
 University\tRequirement courses(as seen on the webscraped google sheet for naming and grouped based on the grad reqs)\tgrad reqs groupings. should be same as the grouping of the second col. but with the namings of the grad req sheet/tool
-UCSD\t[['CSE 8A - Introduction to Programming and Computational Problem Solving I (4.00)', 'CSE 8B - Introduction to Programming and Computational Problem Solving II (4.00)'], ['CSE 11 - Introduction to Programming and Computational Problem Solving - Accelerated Pace (4.00)']]
-UCSD\t[['CSE 12 - Basic Data Structures and Object-Oriented Design (4.00)']]
-UCSD\t[['CSE 15L - Software Tools and Techniques Laboratory (2.00)']]
-UCSD\t[['CSE 20 - Discrete Mathematics (4.00)']]
-UCSD\t[['CSE 21 - Mathematics for Algorithms and Systems (4.00)']]
-UCSD\t[['CSE 30 - Computer Organization and Systems Programming (4.00)']]
-UCSD\t[['
-UCB\t[['COMPSCI 61A - The Structure and Interpretation of Computer Programs (4.00)']]
-UCB\t[['COMPSCI 61B - Data Structures (4.00)']]
-UCB\t[['COMPSCI 61C - Machine Structures (4.00)']]
-UCB\t[['COMPSCI 70 - Discrete Mathematics and Probability Theory (4.00)']]
-UCB\t[['MATH 1A - Calculus (4.00)']]
-UCB\t[['MATH 1B - Calculus (4.00)']]
-UCB\t[['EECS 16A - Designing Information Devices and Systems I (4.00)'], ['MATH 54 - Linear Algebra and Differential Equations (4.00)']]
-UCLA\t[['MATH 31A - Differential and Integral Calculus (4.00)']]
-UCLA\t[['MATH 31B - Integration and Infinite Series (4.00)']]
-UCLA\t[['MATH 32A - Calculus of Several Variables (4.00)']]
-UCLA\t[['MATH 32B - Calculus of Several Variables (4.00)']]
-UCLA\t[['MATH 33A - Linear Algebra and Applications (4.00)']]
-UCLA\t[['MATH 33B - Differential Equations (4.00)']]
-UCLA\t[['PHYSICS 1A+ 1B+1C+ 4AL or 4BL']]
-UCLA\t[['One course in computer programming: C++ preferred']]
-UCR\t[['CS 10A - Intro to Computer Science for Science, Mathematics, and Engineering I (4.00)']]
-UCR\t[['CS 10B - Intro to Computer Science for Science, Mathematics, and Engineering II (4.00)']]
-UCR\t[['CS 10C - Intro to Data Structures and Algorithms (4.00)']]
-UCR\t[['CS 61 - Machine Organization and Assembly Language Programming (4.00)']]
-UCR\t[['CS 11 - Intro to Discrete Structures (4.00)']]
-UCR\t[['MATH 9A - First-Year Calculus (4.00) & MATH 9B - First-Year Calculus (4.00) & MATH 9C - First-Year Calculus (4.00)']]
-UCR\t[['PHYS 40A - General Physics (5.00)']]
-UCSB\t[['MATH 3A - Calculus with Applications, First Course (4.00)', 'MATH 3B - Calculus with Applications\tSecond Course (4.00)']]
-UCSB\t[['MATH 4A - Linear Algebra with Applications (4.00)', 'MATH 4B - Differential Equations (4.00)']]
-UCSB\t[['CMPSC 16 - Problem Solving with Computers I (4.00)']]
-UCSB\t[['CMPSC 24 - Problem Solving with Computers II (4.00)']]
-UCSB\t[['CMPSC 40 - Foundations of Computer Science (5.00)']]
-UCSB\t[['PHYS 1 - Basic Physics (4.00)', 'PHYS 2 - Basic Physics (4.00)', 'PHYS 3 - Basic Physics (3.00) & PHYS 3L - Physics Laboratory (1.00)']]
-UCSC\t[['CSE 30 - Programming Abstractions: Python (7.00)']]
-UCSC\t[['CSE 13S - Computer Systems and C Programming (7.00)']]
-UCSC\t[['CSE 12 - Computer Systems and Assembly Language and Lab (7.00)']]
-UCSC\t[['CSE 16 - APPLIED DISCRETE MATHEMATICS (5.00)']]
-UCSC\t[['MATH 19A - Calculus for Science, Engineering, and Mathematics (5.00)', 'MATH 19B - Calculus for Science, Engineering, and Mathematics (5.00)']]
+UCSD\t[['CSE 8A - Introduction to Programming and Computational Problem Solving I (4.00)', 'CSE 8B - Introduction to Programming and Computational Problem Solving II (4.00)'], ['CSE 11 - Introduction to Programming and Computational Problem Solving - Accelerated Pace (4.00)']]\t[['CSE 8B -  Introduction to Programming and Computational Problem-Solving II (4.00)'], ['CSE 11 - Introduction to Programming and Computational Problem-Solving - Accelerated Pace (4.00)']]
+UCSD\t[['CSE 12 - Basic Data Structures and Object-Oriented Design (4.00)']]\t[['CSE 12 - Basic Data Structures and Object-Oriented Design (4.00)']]
+UCSD\t[['CSE 15L - Software Tools and Techniques Laboratory (2.00)']]\t[['CSE 15L - Software Tools and Techniques Laboratory (2.00)']]
+UCSD\t[['CSE 20 - Discrete Mathematics (4.00)']]\t"[['CSE 20 - Discrete Mathematics (4.00)'], ['MATH 15A'], ['MATH 31CH'], ['MATH 109']]"
+UCSD\t[['CSE 21 - Mathematics for Algorithms and Systems (4.00)']]\t"[['CSE 21 - Mathematics for Algorithms and Systems (4.00)'], ['MATH 154'], ['MATH 184']]"
+UCSD\t[['CSE 30 - Computer Organization and Systems Programming (4.00)']]\t[['CSE 30 - Computer Organization and Systems Programming (4.00)']]
+UCSD\t[['MATH 18 - Linear Algebra (4.00)']]\t"[['MATH 18 - Linear Algebra (4.00)'], ['MATH 31AH - Honors Linear Algebra']]"
+UCSD\t[['MATH 20A - Calculus for Science and Engineering (4.00)']]\t[['MATH 20A - Calculus for Science and Engineering (4.00)']]
+UCSD\t[['MATH 20B - Calculus for Science and Engineering (4.00)']]\[['MATH 20B - Calculus for Science and Engineering (4.00)']]
+UCSD\t[['MATH 20C - Calculus and Analytic Geometry for Science and Engineering (4.00)']]\t"[['MATH 20C - Calculus and Analytic Geometry for Science and Engineering (4.00)'], ['MATH 31BH - Honors Multivariable Calculus']]"
+UCSD\t[['BILD 1 - The Cell (4.00)']]\t"[['MATH 181A - Introduction to Mathematical Statistics I (4.00)'], ['MATH 183 - Statistical Methods (4.00)'], ['ECE 109 - Engineering Probability and Statistics (4.00)'], ['ECON 120A - Econometrics A (4.00)'], ['CSE 103 - A Practical Introduction to Probability and Statistics (4.00)']]"
+UCSD\t[[BILD 2 - Multicellular Life (4.00)']]\t"[['MATH 181A - Introduction to Mathematical Statistics I (4.00)'], ['MATH 183 - Statistical Methods (4.00)'], ['ECE 109 - Engineering Probability and Statistics (4.00)'], ['ECON 120A - Econometrics A (4.00)'], ['CSE 103 - A Practical Introduction to Probability and Statistics (4.00)']]"
+UCB\t[['COMPSCI 61A - The Structure and Interpretation of Computer Programs (4.00)']]\t[['CS 61A - Structure and Interpretation of Computer Programs (4.00)']]
+UCB\t[['COMPSCI 61B - Data Structures (4.00)']]\t[['CS 61B/BL - Data Structures (4.00)']]
+UCB\t[['COMPSCI 61C - Machine Structures (4.00)']]\t[['CS 61C - Machine Structures (4.00)']]
+UCB\t[['COMPSCI 70 - Discrete Mathematics and Probability Theory (4.00)']]\t[['CS 70 - Discrete Mathematics and Probability Theory (4.00)']]
+UCB\t[['MATH 1A - Calculus (4.00)']]\t[['MATH 1A - Calculus (4.00)']]
+UCB\t[['MATH 1B - Calculus (4.00)']]\t[['MATH 1B - Calculus (4.00)']]
+UCB\t[['EECS 16A - Designing Information Devices and Systems I (4.00)'], ['MATH 54 - Linear Algebra and Differential Equations (4.00)']]\t"[['EECS 16A - Designing Information Devices and Systems I (4.00)'], ['Math 54 - Linear Algebra and Differential Equations (4.00)']]"
+UCLA\t[['MATH 31A - Differential and Integral Calculus (4.00)']]\t[['MATH 31A - Differential and Integral Calculus']]
+UCLA\t[['MATH 31B - Integration and Infinite Series (4.00)']]\t[['MATH 31B - Integration and Infinite Series']]
+UCLA\t[['MATH 32A - Calculus of Several Variables (4.00)']]\t[['MATH 32A - Calculus of Several Variables']]
+UCLA\t[['MATH 32B - Calculus of Several Variables (4.00)']]\t[['MATH 32B - Calculus of Several Variables']]
+UCLA\t[['MATH 33A - Linear Algebra and Applications (4.00)']]\t[['MATH 33A - Linear Algebra and Applications']]
+UCLA\t[['MATH 33B - Differential Equations (4.00)']]\t[['MATH 33B - Differential Equations']]
+UCLA\t[['PHYSICS 1A+ 1B+1C+ 4AL or 4BL']]\t[['COME BACK']]
+UCLA\t[['One course in computer programming: C++ preferred']]\t[['One course in computer programming: C++ preferred']]
+UCR\t[['CS 10A - Intro to Computer Science for Science, Mathematics, and Engineering I (4.00)']]\t"[['CS 010A - Introduction to CS for Science Mathematics, and Engineering I - C++ (4.00)']]"
+UCR\t[['CS 10B - Intro to Computer Science for Science, Mathematics, and Engineering II (4.00)']]\t"[['CS 010B - Introduction to CS for Science, Mathematics, and Engineering II - C++ (4.00)']]"
+UCR\t[['CS 10C - Intro to Data Structures and Algorithms (4.00)']]\t[['CS 010C - Introduction to Data Structures and Algorithms (4.00)']]
+UCR\t[['CS 61 - Machine Organization and Assembly Language Programming (4.00)']]\t[['CS 061 - Machine Organization & Assembly Language Programming (4.00)']]
+UCR\t[['CS 11 - Intro to Discrete Structures (4.00)']]\t[['CS 011/MATH 011 - Intro to Discrete Structures (4.00)']]
+UCR\t[['MATH 9A - First-Year Calculus (4.00) & MATH 9B - First-Year Calculus (4.00) & MATH 9C - First-Year Calculus (4.00)']]\t"[['MATH 009A - First Year Calculus (4.00)', 'MATH 009B - First Year Calculus (4.00)', 'MATH 009C - First Year Calculus (4.00)']]"
+UCR\t[['PHYS 40A - General Physics (5.00)']]\t[['PHYS 040A - Physics (Mechanics) (5.00)']]
+UCSB\t[['MATH 3A - Calculus with Applications, First Course (4.00)', 'MATH 3B - Calculus with Applications\tSecond Course (4.00)']]\t"[['Math 3A, 3B - Calculus with Applications, Courses 1-2 (8.00)']]"
+UCSB\t[['MATH 4A - Linear Algebra with Applications (4.00)', 'MATH 4B - Differential Equations (4.00)']]\t"[['Math 4A, 4B - Linear Algebra with Applications; Differential Equations (8.00)']]"
+UCSB\t[['CMPSC 16 - Problem Solving with Computers I (4.00)']]\t[['CMPSC 16 - Problem Solving with Computers I (4.00)']]
+UCSB\t[['CMPSC 24 - Problem Solving with Computers II (4.00)']]\t[['CMPSC 24 - Problem Solving with Computers II (4.00)']]
+UCSB\t[['CMPSC 40 - Foundations of Computer Science (5.00)']]\t[['CMPSC 40 - Foundations of Computer Science (5.00)']]
+UCSB\t"[['PHYS 1 - Basic Physics (4.00)', 'PHYS 2 - Basic Physics (4.00)', 'PHYS 3 - Basic Physics (3.00) & PHYS 3L - Physics Laboratory (1.00)']]"\t"[['PHYS 1, 2, 3 and 3L - Basic Physics (with 3L lab) (12.00)']]"
+UCSC\t[['CSE 30 - Programming Abstractions: Python (7.00)']]\t[['CSE 30 - Programming Abstractions: Python (7.00)']]
+UCSC\t[['CSE 13S - Computer Systems and C Programming (7.00)']]\t[['CSE 13S - Computer Systems and C Programming (7.00)']]
+UCSC\t[['CSE 12 - Computer Systems and Assembly Language and Lab (7.00)']]\t[['CSE 12 - Computer Systems and Assembly Language and Lab (7.00)']]
+UCSC\t[['CSE 16 - APPLIED DISCRETE MATHEMATICS (5.00)']]\t[['CSE 16 - Applied Discrete Mathematics (5.00)']]
+UCSC\t[['MATH 19A - Calculus for Science, Engineering, and Mathematics (5.00)', 'MATH 19B - Calculus for Science, Engineering, and Mathematics (5.00)']]\t"[['MATH 19A - Calculus for Science, Engineering, and Mathematics (5.00)', 'MATH 19B - Calculus for Science, Engineering, and Mathematics (5.00)'], ['MATH 20A - Honors Calculus (5.00)', 'MATH 20B - Honors Calculus (5.00)']]"
+UCI\t[['I&C SCI 31 - Introduction to Programming (4.00) & I&C SCI 32 - Programming with Software Libraries (4.00) & I&C SCI 33 - Intermediate Programming (4.00)']]\t"[['I&C SCI 31- 32- 33 - Introduction to Programming', 'Programming with Software Libraries', 'Intermediate Programming'], ['I&C SCI 32A- 33 - Python Programming', 'Libraries (Accelerated)', 'Intermediate Programming']]"
+UCI\t"[['MATH 2A - Single-Variable Calculus (4.00)', 'MATH 2B - Single-Variable Calculus (4.00)']]"\t"[['MATH 2A- 2B - Single-Variable Calculus I', 'Single-Variable Calculus II']]"
+UCI\t[['MATH 3A - Introduction to Linear Algebra (4.00)']]\t"[['I&C SCI 6N - Computational Linear Algebra'], ['MATH 3A - Introduction to Linear Algebra']]"
+UCD\t[['ECS 020 - Discrete Mathematics For Computer Science (4.00)']]\t[['ECS 20 - Discrete Mathematics for Computer Science (4.00)']]
+UCD\t[['ECS 036A - Programming & Problem Solving (4.00)']]\t"[['ECS 36A - Programming & Problem Solving (4.00)', 'ECS 36B - Software Development & Object-Oriented Programming in C++ (4.00)', 'ECS 36C - Data Structures, Algorithms, & Programming (4.00)'], [['ECS 32A - Introduction to Programming'], [ECS 36A - Programming & Problem Solving (4.00)], 'ECS 32B - Introduction to Data Structures (4.00)', 'ECS 32C - Implementation of Data Structures in C (4.00)', 'ECS 34 - Software Development in UNIX & C++ (4.00)']]"
+UCD\t[['ECS 036B - Software Development & Object-Oriented Programming in C++ (4.00)']]\t"[['ECS 36A - Programming & Problem Solving (4.00)', 'ECS 36B - Software Development & Object-Oriented Programming in C++ (4.00)', 'ECS 36C - Data Structures, Algorithms, & Programming (4.00)'], [['ECS 32A - Introduction to Programming'], [ECS 36A - Programming & Problem Solving (4.00)], 'ECS 32B - Introduction to Data Structures (4.00)', 'ECS 32C - Implementation of Data Structures in C (4.00)', 'ECS 34 - Software Development in UNIX & C++ (4.00)']]"
+UCD\t"[['ECS 036C - Data Structures, Algorithms, & Programming (4.00)']]"\t"[['ECS 36A - Programming & Problem Solving (4.00)', 'ECS 36B - Software Development & Object-Oriented Programming in C++ (4.00)', 'ECS 36C - Data Structures, Algorithms, & Programming (4.00)'], [['ECS 32A - Introduction to Programming'], [ECS 36A - Programming & Problem Solving (4.00)], 'ECS 32B - Introduction to Data Structures (4.00)', 'ECS 32C - Implementation of Data Structures in C (4.00)', 'ECS 34 - Software Development in UNIX & C++ (4.00)']]"
+UCD\t[['ECS 050 - Computer Organization & Machine-Dependent Programming (4.00)']]\t[['ECS 50 - Computer Organization & Machine Dependent Programming (4.00)']]
+UCD\t[['MAT 021A - Calculus (4.00)']]\t[['MAT 21A - Calculus (4.00)']]
+UCD\t[['MAT 021B - Calculus (4.00)']]\t[['MAT 21B - Calculus (4.00)']]
+UCD\t[['MAT 021C - Calculus (4.00)']]\t[['MAT 21C - Calculus (4.00)']]
+UCD\t[['MAT 022A - Linear Algebra (3.00)']]\t"[['MAT 22A - Linear Algebra (3.00)'], ['MAT 27A - Linear Algebra with Applications to Biology (4.00)'], ['MAT 67 - Modern Linear Algebra (4.00)']]"
+UCD\t[['BIS 002A - Introduction to Biology: Essentials of Life on Earth (5.00)']]\t[['PHY 9A - Classical Physics (5.00)']]
+UCD\t[['BIS 002B - Introduction to Biology: Principles of Ecology & Evolution (5.00)']]\t[['PHY 9B - Classical Physics (5.00)']]
+UCD\t[['BIS 002C - Introduction to Biology: Biodiversity & the Tree of Life (5.00)']]\t[['PHY 9C - Classical Physics (5.00)']]
+UCM\t[['CSE 020 - Introduction to Computing I (2.00)']]
+UCM\t[['CSE 021 - Introduction to Computing II (2.00)']]
+UCM\t[['CSE 020 - Introduction to Computing I (2.00) & CSE 021 - Introduction to Computing II (2.00)']]
+UCM\t[['MATH 021 - Calculus I for Physical Sciences & Engineering (4.00)']]\t[['MATH 021 - Calculus I for Physical Sciences and Engineering (4.00)']]
+UCM\t[['MATH 022 - Calculus II for Physical Sciences & Engineering (4.00)']]\t[['MATH 022 - Calculus II for Physical Sciences and Engineering (4.00)']]
+UCM\t[['MATH 023 - Vector Calculus (4.00)']]\t"[['MATH 023 - Vector Calculus (4.00)'], ['MATH 023H - Honors Vector Calculus']]"
+UCM\t[['MATH 024 - Linear Algebra and Differential Equations (4.00)']]\t[['MATH 024 - Linear Algebra and Differential Equations (4.00)']]
+UCM\t[['PHYS 008 - Introductory Physics I for Physical Sciences (3.00) & PHYS 008L - Introductory Physics I for Physical Sciences Lab (1.00)']]\t"[['PHYS 008 - Introductory Physics I for Physical Sciences (3.00)', 'PHYS 008L - Introductory Physics I for Physical Sciences Lab (1.00)']]"
+UCM\t[['PHYS 009 - Introductory Physics II for Physical Sciences (3.00) & PHYS 009L - Introductory Physics II for Physical Sciences Lab (1.00)']]\t"[['PHYS 009 - Introductory Physics II for Physical Sciences (3.00)', 'PHYS 009L - Introductory Physics II for Physical Sciences Lab (1.00)']]"
+UCM\t[['CSE 015 - Discrete Mathematics (4.00)']]\t"[['CSE 015 - Discrete Mathematics (4.00)', 'CSE 022 - Introduction to Programming (4.00)', 'CSE 024 - Advanced Programming (4.00)', 'CSE 030 - Data Structures (4.00)', 'CSE 031 - Computer Organization and Assembly Language (4.00)', 'ENGR 065 - Circuit Theory (4.00)']]"
+UCM\t[['CSE 022 - Introduction to Programming (4.00)']]\t"[['CSE 015 - Discrete Mathematics (4.00)', 'CSE 022 - Introduction to Programming (4.00)', 'CSE 024 - Advanced Programming (4.00)', 'CSE 030 - Data Structures (4.00)', 'CSE 031 - Computer Organization and Assembly Language (4.00)', 'ENGR 065 - Circuit Theory (4.00)']]"
+UCM\t[['CSE 024 - Advanced Programming (4.00)']]\t"[['CSE 015 - Discrete Mathematics (4.00)', 'CSE 022 - Introduction to Programming (4.00)', 'CSE 024 - Advanced Programming (4.00)', 'CSE 030 - Data Structures (4.00)', 'CSE 031 - Computer Organization and Assembly Language (4.00)', 'ENGR 065 - Circuit Theory (4.00)']]"
+UCM\t[['CSE 030 - Data Structures (4.00)']]\t"[['CSE 015 - Discrete Mathematics (4.00)', 'CSE 022 - Introduction to Programming (4.00)', 'CSE 024 - Advanced Programming (4.00)', 'CSE 030 - Data Structures (4.00)', 'CSE 031 - Computer Organization and Assembly Language (4.00)', 'ENGR 065 - Circuit Theory (4.00)']]"
+UCM\t[['CSE 031 - Computer Organization and Assembly Language (4.00)']]\t"[['CSE 015 - Discrete Mathematics (4.00)', 'CSE 022 - Introduction to Programming (4.00)', 'CSE 024 - Advanced Programming (4.00)', 'CSE 030 - Data Structures (4.00)', 'CSE 031 - Computer Organization and Assembly Language (4.00)', 'ENGR 065 - Circuit Theory (4.00)']]"
+UCM\t[['ENGR 065 - Circuit Theory (4.00)']]\t"[['CSE 015 - Discrete Mathematics (4.00)', 'CSE 022 - Introduction to Programming (4.00)', 'CSE 024 - Advanced Programming (4.00)', 'CSE 030 - Data Structures (4.00)', 'CSE 031 - Computer Organization and Assembly Language (4.00)', 'ENGR 065 - Circuit Theory (4.00)']]"
+UCM\t[['BIO 003 - To Know Ourselves: Molecular Basis of Health and Disease (4.00)']]\t"[['BIO 003 - To Know Ourselves - Molecular Basis of Health and Disease (4.00)'], ['BIO 005 - Concepts and Issues in Biology Today (4.00)'], ['BIO 043 - Biodiversity and Conservation (4.00)'], ['BIO 047 - Astrobiology (4.00)'], ['ESS 001 - Introduction to Earth Systems Science (4.00)'], ['ESS 005 - Introduction to Biological Earth Systems (4.00)']]"
+UCM\t[['MATH 032 - Probability and Statistics (4.00)']]\t[['MATH 032 - Probability and Statistics (4.00)']]
+
 CPP\t[['BIO 1110 - Life Science (2.00) & BIO 1110L - Life Science Laboratory (1.00)']]
 CPP\t[['BIO 1110L - Life Science Laboratory (1.00)']]
 CPP\t[['BIO 1110 - Life Science (2.00)']]
@@ -194,6 +232,3 @@ Chico\t[['MATH 120 - Analytic Geometry and Calculus (4.00)']]
 Chico\t[['MATH 121 - Analytic Geometry and Calculus (4.00)']]
 Chico\t[['CSCI 221 - Assembly Language Programming (3.00)']]
 Chico\t[['CSCI 217 - Discrete Mathematics (3.00)']]
-UCI\t[['I&C SCI 31 - Introduction to Programming (4.00) & I&C SCI 32 - Programming with Software Libraries (4.00) & I&C SCI 33 - Intermediate Programming (4.00)']]
-UCI\t[['MATH 2A - Single-Variable Calculus (4.00)', 'MATH 2B - Single-Variable Calculus (4.00)']]
-UCI\t[['MATH 3A - Introduction to Linear Algebra (4.00)']]
