@@ -15,7 +15,7 @@ def delete_empty_rows(csv_file, output_file):
     # Write the modified DataFrame back to a new CSV file
     df.to_csv(output_file, index=False, sep='\t')
 
-delete_empty_rows("csvs/csvs/Assist PDF scraped agreements - UCSD.csv", "other.csv")
+
 
 
 
@@ -25,17 +25,19 @@ UniNameShort = ["CSUF", "Sonoma","CPSLO", "Chico", "CSUSM", "SDSU", "SJSU", "CSU
 
 # deletes unnessary rows(does special things for different schools)
 def FixCSV(uniName, CSVFileName):
-    delete_empty_rows(CSVFileName + ".csv", CSVFileName + "RowsGood.csv")
-    with open("csvs/UniSheets/" + uniName + ".csv", 'w') as fixedCSV:
+    
+
+    with open("csvs/UniSheets/" + uniName + "temp.csv", 'w') as fixedCSV:
         writer = csv.writer(fixedCSV, delimiter='\t')
         
-        with open(CSVFileName + "RowsGood.csv", 'r') as csvfile:
+        with open(CSVFileName + ".csv", 'r') as csvfile:
             
-            reader = csv.reader(csvfile, )
+            reader = csv.reader(csvfile, delimiter='\t')
            
             prevCC = ''
             coursecnt = 0
             for row in reader:
+                # print(row)
                 if row[0] == '':
                     continue
                 if prevCC != row[0]:
@@ -102,27 +104,30 @@ def FixCSV(uniName, CSVFileName):
                     continue
                 writer.writerow(row)
                 prevCC = row[0]
-    os.remove(CSVFileName + "RowsGood.csv")    
+    delete_empty_rows("csvs/UniSheets/" + uniName + "temp.csv", "csvs/UniSheets/" + uniName + ".csv")
+    os.remove("csvs/UniSheets/" + uniName + "temp.csv")    
 def Fixall(UniList):
     for i in UniList:
+        print(i)
         FixCSV(i, "csvs/csvs/Assist PDF scraped agreements - " + i)
         
 # [['CSE 12 - Basic Data Structures and Object-Oriented Design (4.00)', 'somthing']]
 # Fixall(UniNameShort)
 def getListfromString(str):
     return ast.literal_eval(str)
-print(getListfromString("[['MATH 2A - Single-Variable Calculus (4.00)', 'MATH 2B - Single-Variable Calculus (4.00)']]"))
+
 
 def getrelList(UniName):
     Reqs = []
     with open("csvs/ReqRelationships.csv", 'r') as f:
-        reader = csv.reader(f, delimiter='/')
+        reader = csv.reader(f, delimiter='\t')
         for row in reader:
+            print(row[0])
             if row[0] == UniName:
                 print(row[1])
                 Reqs.append(getListfromString(row[1]))
     return Reqs
-
+print(getrelList("UCI"))
 def getallRelatedCourses(reqlist):
     courses = []
     for i in reqlist:
@@ -139,15 +144,16 @@ def ConvertToGradReqs(CSVFileName, relList, UniName):
     
     prevCC = ""
     with open(UniName + "Gradreqs.csv", 'w') as csvfinal:
-        writer = csv.writer(csvfinal)
+        writer = csv.writer(csvfinal, delimiter='\t')
         # open the scraped csv file
         with open(CSVFileName + ".csv", 'r') as csvr:
-            reader = csv.reader(csvr)
+            reader = csv.reader(csvr, delimiter='\t')
             # iterate through the scraped csv file
             for row in reader:
                 if row[0] != prevCC:
+                    # print(AddedFromrelList)
                     for i in range(len(AddedFromrelList)):
-                        writer.writerow([row[0], AddedFromrelList[i], artslist[i]])
+                        writer.writerow([prevCC, AddedFromrelList[i], artslist[i]])
                     AddedFromrelList = []
                     artslist= []
                     
@@ -157,12 +163,15 @@ def ConvertToGradReqs(CSVFileName, relList, UniName):
                     for j in i:
                         if row[1] in j:
                             if row[1] not in getallRelatedCourses(AddedFromrelList):
+                                if row[0] == "Evergreen Valley College":
+                                    print(row[1])
                                 AddedFromrelList.append(i)
-                                artslist.append([row[2]])
-                        else:
-                            artslist[len(artslist) - 1].append(row[2])
+                                artslist.append([getListfromString(row[2])])
+                            else:
+                                artslist[len(artslist) - 1].append(getListfromString(row[2]))
                 prevCC = row[0]
-# ConvertToGradReqs("csvs/UniSheets/UCI", getrelList("UCI"), "UCI")
+def generatecsv            
+ConvertToGradReqs("csvs/UniSheets/UCI", getrelList("UCI"), "UCI")
                                 
             # if so handle the relationship and write to new csv
             # else write that row to the new csv
