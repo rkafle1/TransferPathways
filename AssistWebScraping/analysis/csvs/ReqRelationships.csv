@@ -291,16 +291,15 @@ CSUFresno	[['MATH 75 - Calculus I (4.00)', 'MATH 76 - Calculus II (4.00)']]	[['M
 CSUFresno	[['PHYS 2A - General Physics (4.00)', 'PHYS 2B - General Physics (4.00)']]	[['PHYS 2A - General Physics (3.00)', 'PHYS 2B - General Physics (3.00)']]
 CSUFresno	[['PHYS 4A - Mechanics and Wave Motion (3.00)', 'PHYS 4AL - Laboratory in Mechanics and Wave Motion (1.00)', 'PHYS 4B - Electricity, Magnetism, and Heat (3.00)', 'PHYS 4BL - Laboratory in Electricity, Magnetism, and Heat (1.00)']]	[['PHYS 4AL - Laboratory in Mechanics and Wave Motion (1.00)', 'PHYS 4A - Mechanics and Wave Motion (3.00)', 'PHYS 4B - Electricity, Magnetism, and Heat (3.00)', 'PHYS 4BL - Laboratory in Electricity, Magnetism, and Heat (1.00)']]
 CSUFresno	[['CSCI 112 - Introduction to Computer Systems (4.00)']]	[['CSCI 112 - Introduction to Computer Systems (3.00)']]
-CSUDH\t[['']]\t
-CSUDH\t[['']]\t
-CSUDH\t[['']]\t
-CSUDH\t[['']]\t
-CSUDH\t[['']]\t
-CSUDH\t[['']]\t
-CSUDH\t[['']]\t
-CSUDH\t[['']]\t
-CSUDH\t[['']]\t
-CSUDH\t[['']]\t
-CSUDH\t[['']]\t
-CSUDH\t[['']]\t
-CSUDH\t[['']]\t
+CSUDH	[['CSC 121 - Introduction to Computer Science and Programming I (4.00)']]	[['CSC 121 - Intro to Comp. Sci. & Prog. I (4.00)']]
+CSUDH	[['CSC 123 - Introduction to Computer Science and Programming II (4.00)']]	[['CSC 123 - Intro to Comp. Sci. & Prog. II (4.00)']]
+CSUDH	[['CSC 221 - Assembly Language and Introduction to Computer Organization (3.00)']]	[['CSC 221 - Assem. Lang. & Intro to Comp. Org. (3.00)']]
+CSUDH	[['MAT 191 - Calculus I (5.00)']]	[['MAT 191 - Calculus I (5.00)']]
+CSUDH	[['MAT 193 - Calculus II (5.00)']]	[['MAT 193 - Calculus II (5.00)']]
+CSUDH	[['MAT 271 - Foundations of Higher Mathematics (3.00)']]	[['MAT 271 - Foundations of Higher Mathematics (3.00)']]
+CSUDH	[['MAT 281 - Discrete Mathematics (3.00)']]	[['MAT 281 - Discrete Mathematics (3.00)']]
+CSUDH	[['PHY 130 - General Physics I (5.00)']]	[['PHY 130 - General Physics I (5.00)']]
+CSUDH	[['PHY 132 - General Physics II (5.00)']]	[['PHY 132 - General Physics II (5.00)']]
+CSUDH	[['CSC 251 - C Language Programming and UNIX (3.00)'], ['CSC 255 - Dynamic Web Programming (3.00)']]	[['CSC 2xx - Lower Division Computer Science Elective (3.00)']]
+CSUDH	[['PHY 130 - General Physics I (5.00) & PHY 132 - General Physics II (5.00)']]	[['PHY 130 - General Physics I (5.00)']]
+CSUDH	[['PHY 130 - General Physics I (5.00) & PHY 132 - General Physics II (5.00)']]	[['PHY 132 - General Physics II (5.00)']]
