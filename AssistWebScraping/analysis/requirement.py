@@ -23,12 +23,12 @@ import CSVHandling
 import re
 import ast
 
-df = pd.read_csv("csvs/UniSheets/UCIGradreqs.csv", header=None, sep='\t')
-row, column = df.shape
-print(row, column)
-print(df.iloc[0,1])
-print(df.iloc[0,2])
-dict = {}
+# df = pd.read_csv("csvs/UniSheets/UCIGradreqs.csv", header=None, sep='\t')
+# row, column = df.shape
+# print(row, column)
+# print(df.iloc[0,1])
+# print(df.iloc[0,2])
+
 
 nolist =    ['No Course Articulated', 
             'This course must be taken at the university after transfer',
@@ -113,7 +113,9 @@ def substitute_with_bool(expression, bool_list):
 
 
 def GetCountOfMetReqsDict(UniName):
-    print(UniName)
+    
+    dict = {}
+    # print(UniName)
     df = pd.read_csv("csvs/UniSheets/"+UniName+"Gradreqs.csv", header=None, sep='\t')
     row, column = df.shape
     print("row", row)
@@ -123,7 +125,7 @@ def GetCountOfMetReqsDict(UniName):
         ccName = df.iloc[i,0]
         courseName = df.iloc[i,1]
         logical_exp = convert_to_logical_expression(convert_to_numerical(ast.literal_eval(courseName)))
-        print(logical_exp)
+        # print(logical_exp)
         articulationName = df.iloc[i,2]
         booleanlists = []
         for item in (ast.literal_eval(articulationName)):
@@ -139,68 +141,32 @@ def GetCountOfMetReqsDict(UniName):
             if(ccName not in list(dict.keys())):
                 dict[ccName]= 0
                 if eval(finalans) == True:
-                    print([ccName, courseName])
-                    print(ccName, "requirement met", " in line ", 2*i+1 )
-                    dict[ccName]+= 1
-            else:
-                if eval(finalans) == True:
-                    print([ccName, courseName])
-                    print(ccName, "requirement met", " in line ", 2*i-1 )
-                    dict[ccName]+= 1
-    return dict
-
-
-
-
-def GetCountOfMetReqsCsv(UniName):
-    df = pd.read_csv("csvs/UniSheets/"+UniName+"Gradreqs.csv", header=None, sep='\t')
-    row, column = df.shape
-    print("row", row)
-    print("column", column)
-    for i in range(row):
-        ccName = df.iloc[i,0]
-        courseName = df.iloc[i,1]
-        logical_exp = convert_to_logical_expression(convert_to_numerical(ast.literal_eval(courseName)))
-        print(logical_exp)
-        articulationName = df.iloc[i,2]
-        booleanlists = []
-        for item in (ast.literal_eval(articulationName)):
-            exp = convert_to_logical_expression(convert_to_boolean(item))
-            # print(eval(exp))
-            booleanlists.append(eval(exp))
-        finalans = substitute_with_bool(logical_exp, booleanlists)
-        # print(eval(finalans))
-
-        if(ccName is np.nan):
-            continue
-        else:
-            if(ccName not in list(dict.keys())):
-                dict[ccName]= 0
-                if eval(finalans) == True:
-                    print([ccName, courseName])
+                    # print([ccName, courseName])
                     # print(ccName, "requirement met", " in line ", 2*i+1 )
                     dict[ccName]+= 1
             else:
                 if eval(finalans) == True:
-                    print([ccName, courseName])
+                    # print([ccName, courseName])
                     # print(ccName, "requirement met", " in line ", 2*i-1 )
                     dict[ccName]+= 1
-    return dict[ccName]
+    return dict
 
 
 # produces dicts of met requirements for all unis and puts it into a csv
 def AllListsofMetReqsCount(UniList):
+    fulldic = {}
     with open("csvs/Findings/MetReqsCount.csv", 'w') as f:
         writer = csv.writer(f, delimiter='\t')
         for uni in UniList: 
-            print(uni)    
+            # print(uni) 
+            fulldic[uni] = []
             dictreqs = GetCountOfMetReqsDict(uni)
-            for key in dictreqs.keys():
-                for count in dictreqs[key]:
-                   
-                    writer.writerow([uni, key, count])  
+            print(dictreqs)
+            fulldic[uni] = dictreqs
+            writer.writerow([uni, dictreqs])
+            dictreqs = []
+        return fulldic
 
-# print(GetListofMetReqs('UCI')) 
 AllListsofMetReqsCount(CSVHandling.UniNameShort)
-# AllListsofMetReqsCount(CSVHandling.UniNameShort)    
+
 
