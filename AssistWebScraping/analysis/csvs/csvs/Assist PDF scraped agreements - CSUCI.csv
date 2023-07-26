@@ -38,7 +38,8 @@ Los Angeles City College	MATH 151 - Calculus II (4.00)	[['MATH 262 - Calculus II
 		
 Los Angeles City College	MATH 240 - Linear Algebra (3.00)	[['MATH 270 - Linear Algebra (3.00)']]
 		
-Los Angeles City College	PHYS 200 - General Physics I (4.00)	[['PHYSICS 021 - General Physics I with Calculus (4.00)'], ['PHYSICS 101 - Physics for Engineers and Scientists I (5.00)']]
+Los Angeles City College	PHYS 200 - General Physics I (4.00)	[['PHYSICS 021 - General Physics I with Calculus (4.00)'], ['PHYSICS 101 - Physics for Engineers and Scientists I (5.00)']
+]
 		
 Los Angeles City College	PHYS 201 - General Physics II (4.00)	[['PHYSICS 022 - General Physics II with Calculus (4.00)'], ['PHYSICS 102 - Physics for Engineers and Scientists II (5.00)']]
 		
@@ -1102,7 +1103,8 @@ Los Medanos College	MATH 300 - Discrete Mathematics (3.00)	[['MATH 160 - Discret
 		
 Mount San Antonio College	COMP 150 - Object-oriented Programming (4.00)	[['CSCI 140 - C++ Languageand Object Development (4.00)'], ['CSCI 145 - JAVA Languageand Object Oriented Programming (4.00)'], ['CSCI 220 - Data Structures I (3.50)']]
 		
-Mount San Antonio College	COMP 151 - Data Structures and Program Design (4.00)	[['CSCI 220 - Data Structures I (3.50)', 'CSCI 230 - Data Structures II (3.50)']]
+Mount San Antonio College	COMP 151 - Data Structures and Program Design (4.00)	[['CSCI 220 - Data Structures I (3.50)', 'CSCI 230 - Data Structures II (3.50)'
+]]
 		
 Mount San Antonio College	COMP 162 - Computer Architecture and Assembly Language (3.00)	[['CSCI 150 - Assembly Language/Machine Architecture (3.50)']]
 		
@@ -1892,7 +1894,7 @@ College of the Siskiyous	CSU GE Area: B2 - Life Science	[['BIO 1600 - Field Natu
 		
 College of the Siskiyous	MATH 300 - Discrete Mathematics (3.00)	[['CSCI 2010 - Discrete Structures (3.00)']]
 		
-El Camino College	COMP 150 - Object-oriented Programming (4.00)	[[' COMP SCI 1 - Problem Solving and Program Design Using C++(4.00)']]
+El Camino College	COMP 150 - Object-oriented Programming (4.00)	[[' COMP SCI 1 - Problem Solving and Program Design Using C++(4.00)']]
 		
 El Camino College	COMP 151 - Data Structures and Program Design (4.00)	[['COMP SCI 2 - Introduction to Data Structures (5.00)']]
 		

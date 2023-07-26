@@ -1884,11 +1884,13 @@ Crafton Hills College	STA 2260 - Probability and Statistics for Computer Scienti
 		
 Crafton Hills College	CS 1300 - Discrete Structures (3.00)	[['CIS 113 - Java Programming (3.00)']]
 		
-Crafton Hills College	CS 1400 - Introduction to Programming and Problem Solving {4.00)	[['CSCI 120 - Introduction to Computer Science II (C++) (3.00)']]
+Crafton Hills College	CS 1400 - Introduction to Programming and Problem Solving {4.00)
+	[['CSCI 120 - Introduction to Computer Science II (C++) (3.00)']]
 		
 Crafton Hills College	CS 2400 - Data Structures and Advanced Programming (4.00)	[['CSCI 200 - Discrete Structures (4.00)']]
 		
-Crafton Hills College	CS 2640 - Computer Organization and Assembly Programming (3.00)	[['CSCI 230 - Data Structures and Algorithms (Java) (3.00)','CSCI 240 - Computer Organization and Assembly Language Programming (3.00)']]
+Crafton Hills College	CS 2640 - Computer Organization and Assembly Programming (3.00)
+	[['CSCI 230 - Data Structures and Algorithms (Java) (3.00)','CSCI 240 - Computer Organization and Assembly Language Programming (3.00)']]
 		
 Crafton Hills College	MAT 1140 - Calculus I (4.00)	[['MATH 250 - Single Variable Calculus I (4.00)']]
 		
@@ -2026,7 +2028,7 @@ Orange Coast College	CS 2610 - Introduction to Cyber Security and Network Commun
 		
 Orange Coast College	STA 2260 - Probability and Statistics for Computer Scientists and Engineers (3.00)	[['CS A263 - Probability and Statistics for Computer Science (4.00)']]
 		
-Orange Coast College	CS 1300 - Discrete Structures (3.00)	[['MATH A230 - Introduction to Discrete Mathematics (5.00)'],['CS A262 - DiscreteStructures (3.00)']]
+Orange Coast College	CS 1300 - Discrete Structures (3.00)	[['MATH A230 - Introduction to Discrete Mathematics (5.00)'],['CS A262 - DiscreteStructures (3.00)']]
 		
 Orange Coast College	CS 1400 - Introduction to Programming and Problem Solving (4.00)	[['CS A170 - Java Programming 1 (4.00)']]
 		
