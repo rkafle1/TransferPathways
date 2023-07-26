@@ -174,6 +174,7 @@ def ConvertToGradReqs(CSVFileName, relList, UniName):
                                 artslist[len(artslist) - 1].append(getListfromString(row[2]))
                                 
                 prevCC = row[0]
+ConvertToGradReqs("csvs/UniSheets/" + "CSUDH", getrelList("CSUDH"), "CSUDH")
 def ConvertAllUniToGradReqs(uniList):
     for uni in uniList:  
                  

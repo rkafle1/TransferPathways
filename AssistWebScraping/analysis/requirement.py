@@ -108,7 +108,7 @@ def substitute_with_bool(expression, bool_list):
 
 
 
-
+classmet = []
 
 print("row", row)
 for i in range(row):
@@ -131,11 +131,13 @@ for i in range(row):
         if(ccName not in list(dict.keys())):
             dict[ccName]= 0
             if eval(finalans) == True:
+                print([ccName, courseName])
                 print(ccName, "requirement met", " in line ", 2*i+1 )
                 dict[ccName]+= 1
             firstone = True
         else:
             if eval(finalans) == True:
+                print([ccName, courseName])
                 print(ccName, "requirement met", " in line ", 2*i-1 )
                 dict[ccName]+= 1
 print(dict)
