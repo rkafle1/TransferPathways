@@ -20,7 +20,7 @@ if __name__ == '__main__':
     math_name = input('Enter desired name for math CSV file: ')
 
     cs_matches = ['CS', 'CSE', 'ECS', 'EEC', 'I&C', 'IN4MATX', 'COM SCI', 'CMPSC', 'CPSC', 'COMP', 'CSCI', 'CSC', 'CECS', 'CMPS', 'CST', 'ENGR', 'ECE']
-    math_matches = ['Math ', 'MATH ', 'MAT ', 'Stat', 'Discrete']
-
+    math_matches = ['Math ', 'MATH ', 'MAT ', 'STAT', 'Statistics', 'Probability & Stat', 'Probability and Stat', 'Statistics & Probability', 'Statistics and Probability', 'Discrete']
+    # PSTAT STA STAT STATS
     write_csv(path, cs_name, cs_matches)
     write_csv(path, math_name, math_matches)
