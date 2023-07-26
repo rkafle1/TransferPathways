@@ -17,7 +17,7 @@ UC Berkeley BS,[['CS 61B/BL - Data Structures (4.00)']]
 UC Berkeley BS,[['CS 61C - Machine Structures (4.00)']]
 UC Berkeley BS,[['CS 70 - Discrete Mathematics and Probability Theory (4.00)']]
 UC Davis,[['ECS 20 - Discrete Mathematics for Computer Science (4.00)']]
-UC Davis,"[['--ECS 36 Series:'],['ECS 36A - Programming & Problem Solving (4.00)', 'ECS 36B - Software Development & Object-Oriented Programming in C++ (4.00)', 'ECS 36C - Data Structures, Algorithms, & Programming (4.00)'], ['--ECS 32/34 Series:']]"
+UC Davis,"[['ECS 36A - Programming & Problem Solving (4.00)', 'ECS 36B - Software Development & Object-Oriented Programming in C++ (4.00)', 'ECS 36C - Data Structures, Algorithms, & Programming (4.00)'], [['ECS 32A - Introduction to Programming'], [ECS 36A - Programming & Problem Solving (4.00)], 'ECS 32B - Introduction to Data Structures (4.00)', 'ECS 32C - Implementation of Data Structures in C (4.00)', 'ECS 34 - Software Development in UNIX & C++ (4.00)']]"
 UC Davis,[['ECS 50 - Computer Organization & Machine Dependent Programming (4.00)']]
 UC Davis,[['MAT 21A - Calculus (4.00)']]
 UC Davis,[['MAT 21B - Calculus (4.00)']]
@@ -26,12 +26,6 @@ UC Davis,[['MAT 21D - Vector Analysis (4.00)']]
 UC Davis,"[['MAT 22A - Linear Algebra (3.00)'], ['MAT 27A - Linear Algebra with Applications to Biology (4.00)'], ['MAT 67 - Modern Linear Algebra (4.00)']]"
 UC Davis,"[['MAT 22B - Differential Equations (3.00)'], ['MAT 27B - Differential Equations with Applications to Biology (4.00)']]"
 UC Davis,"[['CHE 2A - General Chemistry (5.00)'], ['CHE 4A - General Chemistry for the Physical Sciences & Engineering (5.00)']]"
-UC Davis,[['PHY 9A - Classical Physics (5.00)']]
-UC Davis,[['PHY 9B - Classical Physics (5.00)']]
-UC Davis,[['PHY 9C - Classical Physics (5.00)']]
-UC Davis,[['PHY 9D - Modern Physics (5.00)']]
-UC Davis,[['ENG 17 - Circuits I (4.00)']]
-UC Davis,[['CMN 1 - Introduction to Public Speaking (4.00)']]
 UC Davis,[['PHY 9A - Classical Physics (5.00)']]
 UC Davis,[['PHY 9B - Classical Physics (5.00)']]
 UC Davis,[['PHY 9C - Classical Physics (5.00)']]
@@ -67,10 +61,15 @@ UC Los Angeles,"[['PHYSICS 1B - Physics for Scientists and Engineers - Oscillati
 UC Los Angeles,"[['PHYSICS 1C - Physics for Scientists and Engineers - Electrodynamics, Optics, and Special Relativity']]"
 UC Los Angeles,"[['COM SCI M51A - Logic Design of Digital Systems'], ['EC ENGR M16 - Logic Design of Digital Systems']]"
 UC Los Angeles,"[['PHYSICS 4AL - Physics Laboratory for Scientists and Engineers - Mechanics'], ['PHYSICS 4BL - Physics Laboratory for Scientists and Engineers - Electricity and Magnetism']]"
-UC Merced,"[['MATH 021 - Calculus I for Physical Sciences and Engineering (4.00)', 'MATH 022 - Calculus II for Physical Sciences and Engineering (4.00)', 'MATH 023 - Vector Calculus (4.00)', , ['MATH 023H - Honors Vector Calculus', 'MATH 024 - Linear Algebra and Differential Equations (4.00)']'MATH 032 - Probability and Statistics (4.00)']]"
-UC Merced,"[['PHYS 008 - Introductory Physics I for Physical Sciences (3.00)', , ['PHYS 008H', 'PHYS 008L - Introductory Physics I for Physical Sciences Lab (1.00)', 'PHYS 009 - Introductory Physics II for Physical Sciences (3.00)'], ['PHYS 009H']'PHYS 009L - Introductory Physics II for Physical Sciences Lab (1.00)']]"
+UC Merced,[['MATH 021 - Calculus I for Physical Sciences and Engineering (4.00)']]
+UC Merced,[['MATH 022 - Calculus II for Physical Sciences and Engineering (4.00)']]
+UC Merced,"[['MATH 023 - Vector Calculus (4.00)'], ['MATH 023H - Honors Vector Calculus']]"
+UC Merced,[['MATH 024 - Linear Algebra and Differential Equations (4.00)']]
+UC Merced,[['MATH 032 - Probability and Statistics (4.00)']]
+UC Merced,"[['PHYS 008 - Introductory Physics I for Physical Sciences (3.00)', 'PHYS 008L - Introductory Physics I for Physical Sciences Lab (1.00)']]"
+UC Merced,"[['PHYS 009 - Introductory Physics II for Physical Sciences (3.00)', 'PHYS 009L - Introductory Physics II for Physical Sciences Lab (1.00)']]"
 UC Merced,"[['BIO 003 - To Know Ourselves - Molecular Basis of Health and Disease (4.00)'], ['BIO 005 - Concepts and Issues in Biology Today (4.00)'], ['BIO 043 - Biodiversity and Conservation (4.00)'], ['BIO 047 - Astrobiology (4.00)'], ['ESS 001 - Introduction to Earth Systems Science (4.00)'], ['ESS 005 - Introduction to Biological Earth Systems (4.00)']]"
-UC Merced,"[['--Computer Science and Engineering [24 units]'],['CSE 015 - Discrete Mathematics (4.00)', 'CSE 022 - Introduction to Programming (4.00)', 'CSE 024 - Advanced Programming (4.00)', 'CSE 030 - Data Structures (4.00)', 'CSE 031 - Computer Organization and Assembly Language (4.00)', 'ENGR 065 - Circuit Theory (4.00)']]"
+UC Merced,"[['CSE 015 - Discrete Mathematics (4.00)', 'CSE 022 - Introduction to Programming (4.00)', 'CSE 024 - Advanced Programming (4.00)', 'CSE 030 - Data Structures (4.00)', 'CSE 031 - Computer Organization and Assembly Language (4.00)', 'ENGR 065 - Circuit Theory (4.00)']]"
 UC Riverside,[['ENGR 001-I - Professional Development and Mentoring (1.00)']]
 UC Riverside,"[['CS 010A - Introduction to CS for Science Mathematics, and Engineering I - C++ (4.00)']]"
 UC Riverside,"[['CS 010B - Introduction to CS for Science, Mathematics, and Engineering II - C++ (4.00)']]"
@@ -85,28 +84,31 @@ UC Riverside,"[['MATH 031 - Applied Linear Algebra (5.00)'], ['EE 020B - Linear 
 UC Riverside,[['PHYS 040A - Physics (Mechanics) (5.00)']]
 UC Riverside,[['PHYS 040B - Physics (Heat/Waves/Sound) (5.00)']]
 UC Riverside,[['PHYS 040C - Physics (Electricity/Magnetism) (5.00)']]
-UC San Diego,"[['CSE 8B -  Introduction to Programming and Computational Problem-Solving II'], ['CSE 11 - Introduction to Programming and Computational Problem-Solving - Accelerated Pace (4.00)']]"
+UC San Diego,"[['CSE 8B -  Introduction to Programming and Computational Problem-Solving II (4.00)'], ['CSE 11 - Introduction to Programming and Computational Problem-Solving - Accelerated Pace (4.00)']]"
 UC San Diego,[['CSE 12 - Basic Data Structures and Object-Oriented Design (4.00)']]
 UC San Diego,[['CSE 15L - Software Tools and Techniques Laboratory (2.00)']]
 UC San Diego,"[['CSE 20 - Discrete Mathematics (4.00)'], ['MATH 15A'], ['MATH 31CH'], ['MATH 109']]"
 UC San Diego,"[['CSE 21 - Mathematics for Algorithms and Systems (4.00)'], ['MATH 154'], ['MATH 184']]"
 UC San Diego,[['CSE 30 - Computer Organization and Systems Programming (4.00)']]
 UC San Diego,"[['--Minimum of 2 units from the following:'],['CSE 3 - Fluency in Information Technology (4.00)'], ['CSE 4GS - Mathematical Beauty in Rome (4.00)'], ['CSE 6R - Introduction to Computer Science and Object-Oriented Programming - Python (4.00)'], ['CSE 6GS - Mathematical Beauty in Rome Lab (4.00)'], ['CSE 8A - Introduction to Programming and Computational Problem-Solving I (4.00)'], ['CSE 42 - Building and Programming Electronic Devices (2.00)'], ['CSE 86 - C++ for Java Programmers (2.00)'], ['CSE 90 - Undergraduate Seminar (1.00)'], ['CSE 91 - Perspectives in Computer Science and Engineering (2.00)'], ['CSE 95 - Tutor Apprenticeship (2.00)'], ['CSE 99 - Independent Study in Computer Science and Engineering (4.00)'], ['CSE 180 - Biology Meets Computing (4.00)'], ['MAE 8 - MATLAB Programming for Engineering Analysis (4.00)'], ['COGS 9 - Introduction to Data Science (4.00)'], ['COGS 10 - Cognitive Consequences of Technology (4.00)'], ['COGS 18 - Introduction to Python (4.00)'], ['ECE 15 - Engineering Computation (4.00)'], ['ENG 10 - Fundamentals of Engineering Applications (2.00)'], ['ENG 15 - Engineer Your Success (2.00)'], ['NANO 15 - Engineering Computation Using MATLAB (4.00)'], ['CENG 15 - Engineering Computation Using Matlab (4.00)']]"
-UC San Diego,"[['MATH 20A - Calculus for Science and Engineering (4.00)'], '['MATH 20B - Calculus for Science and Engineering (4.00)'],['MATH 20C - Calculus and Analytic Geometry for Science and Engineering (4.00)'], ['MATH 31BH - Honors Multivariable Calculus'], '['MATH 18 - Linear Algebra (4.00)'], ['MATH 31AH - Honors Linear Algebra']]"
-UC San Diego,"[['--Two courses chosen from:'],['PHYS 2A - Physics Mechanics (4.00)'],['PHYS 2B - Physics - Electricity and Magnetism (4.00)'],['PHYS 4A - Physics for Physics Majors - Mechanics (4.00)'],['PHYS 4B - Physics for Physics Majors�Fluids, Waves, Statistical and Thermal Physics (4.00)'],['CHEM 6A - General Chemistry I (4.00)'], ['CHEM 6AH - Honors General Chemistry I (4.00)'],['CHEM 6B - General Chemistry II (4.00)'], ['CHEM 6BH - Honors General Chemistry II (4.00)'],['BILD 1 - The Cell (4.00)'],['BILD 2 - Multicellular Life (4.00)'],['BILD 3 - Organismic and Evolutionary Biology (4.00)'],['BICD 100 - Genetics (4.00)'],['BIMM 101 - Recombinant DNA Techniques (4.00)'],['BIMM 121 - Laboratory in Microbiology (4.00)'],['COGS 107A - Neuroanatomy and Physiology (4.00)'],['COGS 107B - Systems Neuroscience (4.00)'],['COGS 115 - Neurological Development and Cognitive Change (4.00)'],['ESYS 101 - Environmental Biology (4.00)'],['HDS 110 - Brain and Behavioral Development (4.00)'],['SIO 126 - Marine Microbiology (4.00)'], ['SIO 128 - Microbial Life in Extreme Environments (4.00)']]"
+UC San Diego,[['MATH 20A - Calculus for Science and Engineering (4.00)']]
+UC San Diego,[['MATH 20B - Calculus for Science and Engineering (4.00)']]
+UC San Diego,"[['MATH 20C - Calculus and Analytic Geometry for Science and Engineering (4.00)'], ['MATH 31BH - Honors Multivariable Calculus']]"
+UC San Diego,"[['MATH 18 - Linear Algebra (4.00)'], ['MATH 31AH - Honors Linear Algebra']]"
+UC San Diego,"[['--Two courses chosen from:'],['PHYS 2A - Physics Mechanics (4.00)'],['PHYS 2B - Physics - Electricity and Magnetism (4.00)'],['PHYS 4A - Physics for Physics Majors - Mechanics (4.00)'],['PHYS 4B - Physics for Physics Majors - Fluids, Waves, Statistical and Thermal Physics (4.00)'],['CHEM 6A - General Chemistry I (4.00)'], ['CHEM 6AH - Honors General Chemistry I (4.00)'],['CHEM 6B - General Chemistry II (4.00)'], ['CHEM 6BH - Honors General Chemistry II (4.00)'],['BILD 1 - The Cell (4.00)'],['BILD 2 - Multicellular Life (4.00)'],['BILD 3 - Organismic and Evolutionary Biology (4.00)'],['BICD 100 - Genetics (4.00)'],['BIMM 101 - Recombinant DNA Techniques (4.00)'],['BIMM 121 - Laboratory in Microbiology (4.00)'],['COGS 107A - Neuroanatomy and Physiology (4.00)'],['COGS 107B - Systems Neuroscience (4.00)'],['COGS 115 - Neurological Development and Cognitive Change (4.00)'],['ESYS 101 - Environmental Biology (4.00)'],['HDS 110 - Brain and Behavioral Development (4.00)'],['SIO 126 - Marine Microbiology (4.00)'], ['SIO 128 - Microbial Life in Extreme Environments (4.00)']]"
 UC San Diego,"[['MATH 181A - Introduction to Mathematical Statistics I (4.00)'], ['MATH 183 - Statistical Methods (4.00)'], ['ECE 109 - Engineering Probability and Statistics (4.00)'], ['ECON 120A - Econometrics A (4.00)'], ['CSE 103 - A Practical Introduction to Probability and Statistics (4.00)']]"
 UC Santa Cruz BA,[['CSE 13S - Computer Systems and C Programming (7.00)']]
 UC Santa Cruz BA,[['CSE 12 - Computer Systems and Assembly Language and Lab (7.00)']]
 UC Santa Cruz BA,[['CSE 16 - Applied Discrete Mathematics (5.00)']]
 UC Santa Cruz BA,[['CSE 20 - Beginning Programming in Python (5.00)']]
-UC Santa Cruz BA,[['CSE 30 - Programming Abstractions - Python (7.00)']]
+UC Santa Cruz BA,[['CSE 30 - Programming Abstractions: Python (7.00)']]
 UC Santa Cruz BA,"[['MATH 19A - Calculus for Science, Engineering, and Mathematics (5.00)', 'MATH 19B - Calculus for Science, Engineering, and Mathematics (5.00)'], ['MATH 20A - Honors Calculus (5.00)', 'MATH 20B - Honors Calculus (5.00)']]"
 UC Santa Cruz BA,"[['AM 10 - Mathematical Methods for Engineers I (5.00)'], ['MATH 21 - Linear Algebra (5.00)']]"
 UC Santa Cruz BS,[['CSE 13S - Computer Systems and C Programming 7']]
 UC Santa Cruz BS,[['CSE 12 - Computer Systems and Assembly Language and Lab 7']]
 UC Santa Cruz BS,[['CSE 16 - Applied Discrete Mathematics (5.00)']]
 UC Santa Cruz BS,[['CSE 20 - Beginning Programming in Python (5.00)']]
-UC Santa Cruz BS,[['CSE 30 - Programming Abstractions - Python (7.00)']]
+UC Santa Cruz BS,[['CSE 30 - Programming Abstractions: Python (7.00)']]
 UC Santa Cruz BS,"[['MATH 19A - Calculus for Science, Engineering, and Mathematics (5.00)', 'MATH 19B - Calculus for Science, Engineering, and Mathematics (5.00)'], ['MATH 20A - Honors Calculus (5.00)', 'MATH 20B - Honors Calculus (5.00)']]"
 UC Santa Cruz BS,"[['AM 10 - Mathematical Methods for Engineers I (5.00)'], ['MATH 21 - Linear Algebra (5.00)']]"
 UC Santa Cruz BS,"[['AM 30 - Multivariate Calculus for Engineers (5.00)'], ['MATH 23A - Vector Calculus (5.00)']]"
@@ -120,7 +122,7 @@ UC Santa Barbara,[['CMPSC 32 - Object Oriented Design and Implementation (4.00)'
 UC Santa Barbara,[['CMPSC 40 - Foundations of Computer Science (5.00)']]
 UC Santa Barbara,[['CMPSC 64 - Computer Organization and Logic Design (4.00)']]
 UC Santa Barbara,[['PSTAT 120A - Probability and Statistics (4.00)']]
-UC Santa Barbara,"[['PHYS 1, 2, 3 and 3L - Basic Physics (with 3L lab) 12']]"
+UC Santa Barbara,"[['PHYS 1, 2, 3 and 3L - Basic Physics (with 3L lab) (12.00)']]"
 UC Santa Barbara,"[['--8 units required- The science electives must be selected from the following set of approved courses and taken for a LETTER GRADE. 8'],['ANTH 5 - Intro Biological Anthropology'],['AP Biology - Advanced Placement Biology Exam (score of 3 or higher will credit you with 8 science elective units)'],['ASTRO 1 - Basic Astronomy'],['ASTRO 2 - History of the Universe'],['CHEM 1A + CHEM 1AL - General Chemistry and Laboratory'],['CHEM 1B + CHEM 1BL - General Chemistry and Laboratory'],['CHEM 1C + CHEM 1CL - General Chemistry and Laboratory'],['EARTH 2 - Principles of Physical Geology '],['EARTH 4 or EARTH 4 W - Introduction to Oceanography'],['EARTH 6 - Mountains, Boots, and Backpacks'],['EARTH 7 - Dinosaurs'],['EARTH 8 - Africa Climate & Human Evolution'],['EARTH 9 - Giant Earthquakes'],['EARTH 10 - Antarctica The Last Place on Earth'],['EARTH 20 or Earth W 20 - Geological Catastrophes'],['EARTH 30 - The History of Life'],['EARTH 111 - Principles of Paleontology'],['EARTH 123 - The Solar System'],['EARTH 130 - Global Warming - Science and Society'],['EEMB 21 - General Botany'],['EEMB 22 - Concepts & Controversies in Bio Sciences'],['EEMB 40 - Ecology of Infectious Disease'],['EEMB 50 - Biology of Non-Infectious Disease'],['ENV S 2 - Intro to Environmental Science'],['GEOG 3 - Oceans & Atmosphere'],['GEOG 4 - Land, Water & Life'],['GEOG 8 - Intro to Global Warming'],['GEOG 12 or GEOG W 12 - Maps & Spatial Reasoning'],['GEOG 115A - Remote Sensing of the Environment I'],['GEOG 115B - Remote Sensing of the Environment II'],['MCDB 1A + 1AL - Introductory Biology I and Laboratory'],['MCDB 1B', 'EEMB 2, plus either MCDB 1BL'], ['EEMB 2L - Introductory Biology II and Laboratory'],['MCDB 20 - Concepts of Biology'],['MCDB 21 - The Immune System and Aids'],['MCDB 23 - Biology of Cancer'],['MCDB 26 - Contemporary Nutrition'],['MCDB 29 - Fundamentals of Biomedical Research'],['PHYS 4 + PHYS 4L - Basic Physics and Laboratory'],['PHYS 5 + PHYS 5L - Basic Physics and Laboratory'],['PSY 108 - Intro to Cognitive Psychology'],['PSY 129 - Perception'],['']]"
 CSU Los Angeles,[['CS 1222 - Introduction to Relational Databases (3.00)']]
 CSU Los Angeles,[['CS 2011 - Introduction to Programming I (4.00)']]
