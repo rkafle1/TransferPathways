@@ -32,8 +32,8 @@ College of Marin	MATH 32 - Calculus III (3.00)	[['MATH 223 - Analytic Geometry, 
 College of Marin	CS 46A - Introduction to Programming (4.00)	[['No Course Articulated']]
 College of Marin	CS 46B - Introduction to Data Structures (4.00)	[['No Course Articulated']]
 College of Marin	CS 47 - Introduction to Computer Systems (3.00)	[['COMP 160 - Computer Organization: An Assembly Language Perspective (3.00)']]
-College of Marin	BIOL 30 - Principles of Biology I (4.00)	"[[""BIOL 112A - Majors' Biology: Animals, Protozoa, Evolution and Classification (5.00)'', ""BIOL 112B - Majors' Biology: Plants, Algae, Fungi and Ecology (5.00)"", ""BIOL 112C - Majors' Biology: Molecules, Cells, Prokaryotes and Genetics (5.00)""]]"
-College of Marin	BIOL 31 - Principles of Biology II (4.00)	"[[""BIOL 112A - Majors' Biology: Animals, Protozoa, Evolution and Classification (5.00)"", ""BIOL 112B - Majors' Biology: Plants, Algae, Fungi and Ecology (5.00)""]]"
+College of Marin	BIOL 30 - Principles of Biology I (4.00)	[["BIOL 112A - Majors' Biology: Animals, Protozoa, Evolution and Classification (5.00)", "BIOL 112B - Majors' Biology: Plants, Algae, Fungi and Ecology (5.00)", "BIOL 112C - Majors' Biology: Molecules, Cells, Prokaryotes and Genetics (5.00)"]]
+College of Marin	BIOL 31 - Principles of Biology II (4.00)	[["BIOL 112A - Majors' Biology: Animals, Protozoa, Evolution and Classification (5.00)", "BIOL 112B - Majors' Biology: Plants, Algae, Fungi and Ecology (5.00)"]]
 College of San Mateo	ENGL 1B - Argument and Analysis (3.00)	[['ENGL 110 - Composition, Literature and Critical Thinking (3.00)']]
 College of San Mateo	ENGL 2 - Critical Thinking and Writing (3.00)	[['ENGL 110 - Composition, Literature and Critical Thinking (3.00)'], ['ENGL 165 - Composition, Argument, and Critical Thinking (3.00)']]
 College of San Mateo	MATH 30 - Calculus I (3.00)	[['MATH 251 - Calculus with Analytic Geometry I (5.00)']]

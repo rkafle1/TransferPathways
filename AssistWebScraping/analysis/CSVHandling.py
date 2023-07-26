@@ -114,6 +114,7 @@ def Fixall(UniList):
 # [['CSE 12 - Basic Data Structures and Object-Oriented Design (4.00)', 'somthing']]
 # Fixall(UniNameShort)
 def getListfromString(str):
+    
     return ast.literal_eval(str)
 
 
@@ -143,7 +144,7 @@ def ConvertToGradReqs(CSVFileName, relList, UniName):
     artslist= []
     
     prevCC = ""
-    with open(UniName + "Gradreqs.csv", 'w') as csvfinal:
+    with open("csvs/UniSheets/"+ UniName + "Gradreqs.csv", 'w') as csvfinal:
         writer = csv.writer(csvfinal, delimiter='\t')
         # open the scraped csv file
         with open(CSVFileName + ".csv", 'r') as csvr:
@@ -166,13 +167,18 @@ def ConvertToGradReqs(CSVFileName, relList, UniName):
                                 if row[0] == "Evergreen Valley College":
                                     print(row[1])
                                 AddedFromrelList.append(i)
+                                print(row, UniName)
                                 artslist.append([getListfromString(row[2])])
                             else:
+                                print(row, UniName)
                                 artslist[len(artslist) - 1].append(getListfromString(row[2]))
-                prevCC = row[0]
-          
-ConvertToGradReqs("csvs/UniSheets/UCI", getrelList("UCI"), "UCI")
                                 
+                prevCC = row[0]
+def ConvertAllUniToGradReqs(uniList):
+    for uni in uniList:  
+                 
+        ConvertToGradReqs("csvs/UniSheets/" + uni, getrelList(uni), uni)
+ConvertAllUniToGradReqs(UniNameShort)                               
             # if so handle the relationship and write to new csv
             # else write that row to the new csv
             # add units in list form to 4th col.

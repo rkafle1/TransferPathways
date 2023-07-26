@@ -31,9 +31,9 @@ College of Marin	MAT 021A - Calculus (4.00)	[['MATH 123 - Analytic Geometry and 
 College of Marin	MAT 021B - Calculus (4.00)	[['MATH 124 - Analytic Geometry and Calculus II (5.00)']]
 College of Marin	MAT 021C - Calculus (4.00)	[['MATH 223 - Analytic Geometry and Calculus III (5.00)']]
 College of Marin	MAT 022A - Linear Algebra (3.00)	[['MATH 116 - Linear Algebra (4.00)']]
-College of Marin	BIS 002A - Introduction to Biology: Essentials of Life on Earth (5.00)	"[[""BIOL 112C - Majors' Biology: Molecules, Cells, Prokaryotes and Genetics (5.00)""]]"
-College of Marin	BIS 002B - Introduction to Biology: Principles of Ecology & Evolution (5.00)	"[[""BIOL 112A - Majors' Biology: Animals, Protozoa, Evolution and Classification (5.00)'', ""BIOL 112B - Majors' Biology: Plants, Algae, Fungi and Ecology (5.00)"", ""BIOL 112C - Majors' Biology: Molecules, Cells, Prokaryotes and Genetics (5.00)""]]"
-College of Marin	BIS 002C - Introduction to Biology: Biodiversity & the Tree of Life (5.00)	"[[""BIOL 112A - Majors' Biology: Animals, Protozoa, Evolution and Classification (5.00)'', ""BIOL 112B - Majors' Biology: Plants, Algae, Fungi and Ecology (5.00)""]]"
+College of Marin	BIS 002A - Introduction to Biology: Essentials of Life on Earth (5.00)	[["BIOL 112C - Majors' Biology: Molecules, Cells, Prokaryotes and Genetics (5.00)"]]
+College of Marin	BIS 002B - Introduction to Biology: Principles of Ecology & Evolution (5.00)	[["BIOL 112A - Majors' Biology: Animals, Protozoa, Evolution and Classification (5.00)", "BIOL 112B - Majors' Biology: Plants, Algae, Fungi and Ecology (5.00)", "BIOL 112C - Majors' Biology: Molecules, Cells, Prokaryotes and Genetics (5.00)"]]
+College of Marin	BIS 002C - Introduction to Biology: Biodiversity & the Tree of Life (5.00)	[["BIOL 112A - Majors' Biology: Animals, Protozoa, Evolution and Classification (5.00)", "BIOL 112B - Majors' Biology: Plants, Algae, Fungi and Ecology (5.00)"]]
 College of San Mateo	ECS 020 - Discrete Mathematics For Computer Science (4.00)	[['CIS 262 - Discrete Mathematics for Computer Science (3.00)'], ['MATH 268 - Discrete Mathematics (4.00)']]
 College of San Mateo	ECS 036A - Programming & Problem Solving (4.00)	[['No Course Articulated']]
 College of San Mateo	ECS 036B - Software Development & Object-Oriented Programming in C++ (4.00)	[['CIS 278 - (CS1)Programming Methods I: C++ (4.00)']]

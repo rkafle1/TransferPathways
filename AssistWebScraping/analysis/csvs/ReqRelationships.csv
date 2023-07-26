@@ -6,10 +6,10 @@ UCSD	[['CSE 21 - Mathematics for Algorithms and Systems (4.00)']]	"[['CSE 21 - M
 UCSD	[['CSE 30 - Computer Organization and Systems Programming (4.00)']]	[['CSE 30 - Computer Organization and Systems Programming (4.00)']]
 UCSD	[['MATH 18 - Linear Algebra (4.00)']]	"[['MATH 18 - Linear Algebra (4.00)'], ['MATH 31AH - Honors Linear Algebra']]"
 UCSD	[['MATH 20A - Calculus for Science and Engineering (4.00)']]	[['MATH 20A - Calculus for Science and Engineering (4.00)']]
-UCSD	[['MATH 20B - Calculus for Science and Engineering (4.00)']]\[['MATH 20B - Calculus for Science and Engineering (4.00)']]
+UCSD	[['MATH 20B - Calculus for Science and Engineering (4.00)']]	[['MATH 20B - Calculus for Science and Engineering (4.00)']]
 UCSD	[['MATH 20C - Calculus and Analytic Geometry for Science and Engineering (4.00)']]	"[['MATH 20C - Calculus and Analytic Geometry for Science and Engineering (4.00)'], ['MATH 31BH - Honors Multivariable Calculus']]"
 UCSD	[['BILD 1 - The Cell (4.00)']]	"[['MATH 181A - Introduction to Mathematical Statistics I (4.00)'], ['MATH 183 - Statistical Methods (4.00)'], ['ECE 109 - Engineering Probability and Statistics (4.00)'], ['ECON 120A - Econometrics A (4.00)'], ['CSE 103 - A Practical Introduction to Probability and Statistics (4.00)']]"
-UCSD	[[BILD 2 - Multicellular Life (4.00)']]	"[['MATH 181A - Introduction to Mathematical Statistics I (4.00)'], ['MATH 183 - Statistical Methods (4.00)'], ['ECE 109 - Engineering Probability and Statistics (4.00)'], ['ECON 120A - Econometrics A (4.00)'], ['CSE 103 - A Practical Introduction to Probability and Statistics (4.00)']]"
+UCSD	[['BILD 2 - Multicellular Life (4.00)']]	"[['MATH 181A - Introduction to Mathematical Statistics I (4.00)'], ['MATH 183 - Statistical Methods (4.00)'], ['ECE 109 - Engineering Probability and Statistics (4.00)'], ['ECON 120A - Econometrics A (4.00)'], ['CSE 103 - A Practical Introduction to Probability and Statistics (4.00)']]"
 UCB	[['COMPSCI 61A - The Structure and Interpretation of Computer Programs (4.00)']]	[['CS 61A - Structure and Interpretation of Computer Programs (4.00)']]
 UCB	[['COMPSCI 61B - Data Structures (4.00)']]	[['CS 61B/BL - Data Structures (4.00)']]
 UCB	[['COMPSCI 61C - Machine Structures (4.00)']]	[['CS 61C - Machine Structures (4.00)']]
@@ -32,12 +32,12 @@ UCR	[['CS 61 - Machine Organization and Assembly Language Programming (4.00)']]	
 UCR	[['CS 11 - Intro to Discrete Structures (4.00)']]	[['CS 011/MATH 011 - Intro to Discrete Structures (4.00)']]
 UCR	[['MATH 9A - First-Year Calculus (4.00) & MATH 9B - First-Year Calculus (4.00) & MATH 9C - First-Year Calculus (4.00)']]	"[['MATH 009A - First Year Calculus (4.00)', 'MATH 009B - First Year Calculus (4.00)', 'MATH 009C - First Year Calculus (4.00)']]"
 UCR	[['PHYS 40A - General Physics (5.00)']]	[['PHYS 040A - Physics (Mechanics) (5.00)']]
-UCSB	[['MATH 3A - Calculus with Applications, First Course (4.00)', 'MATH 3B - Calculus with Applications	Second Course (4.00)']]	"[['Math 3A, 3B - Calculus with Applications, Courses 1-2 (8.00)']]"
+UCSB	[['MATH 3A - Calculus with Applications, First Course (4.00)', 'MATH 3B - Calculus with Applications Second Course (4.00)']]	[['Math 3A, 3B - Calculus with Applications, Courses 1-2 (8.00)']]
 UCSB	[['MATH 4A - Linear Algebra with Applications (4.00)', 'MATH 4B - Differential Equations (4.00)']]	"[['Math 4A, 4B - Linear Algebra with Applications; Differential Equations (8.00)']]"
 UCSB	[['CMPSC 16 - Problem Solving with Computers I (4.00)']]	[['CMPSC 16 - Problem Solving with Computers I (4.00)']]
 UCSB	[['CMPSC 24 - Problem Solving with Computers II (4.00)']]	[['CMPSC 24 - Problem Solving with Computers II (4.00)']]
 UCSB	[['CMPSC 40 - Foundations of Computer Science (5.00)']]	[['CMPSC 40 - Foundations of Computer Science (5.00)']]
-UCSB	"[['PHYS 1 - Basic Physics (4.00)', 'PHYS 2 - Basic Physics (4.00)', 'PHYS 3 - Basic Physics (3.00) & PHYS 3L - Physics Laboratory (1.00)']]"	"[['PHYS 1, 2, 3 and 3L - Basic Physics (with 3L lab) (12.00)']]"
+UCSB	[['PHYS 1 - Basic Physics (4.00)', 'PHYS 2 - Basic Physics (4.00)', 'PHYS 3 - Basic Physics (3.00) & PHYS 3L - Physics Laboratory (1.00)']]	[['PHYS 1, 2, 3 and 3L - Basic Physics (with 3L lab) (12.00)']]
 UCSC	[['CSE 30 - Programming Abstractions: Python (7.00)']]	[['CSE 30 - Programming Abstractions: Python (7.00)']]
 UCSC	[['CSE 13S - Computer Systems and C Programming (7.00)']]	[['CSE 13S - Computer Systems and C Programming (7.00)']]
 UCSC	[['CSE 12 - Computer Systems and Assembly Language and Lab (7.00)']]	[['CSE 12 - Computer Systems and Assembly Language and Lab (7.00)']]
@@ -146,7 +146,7 @@ CSUS	[['MATH 31 - Calculus II (4.00)']]	[['MATH 31 - Calculus II']]
 CSUS	[['MATH 35 - Introduction to Linear Algebra (3.00)']]	[['MATH 35 - Introduction to Linear Algebra (2.00)'], ['MATH 100 - Applied Linear Algebra (2.00)'], ['MATH 101 - Combinatorics'], ['MATH 102 - Number Theory'], ['MATH 150 - Introduction to Numerical Analysis'], ['PHIL 160 - Deductive Logic II'], ['STAT 103 - Intermediate Statistics'], ['STAT 115A - Introduction to Probability Theory'], ['STAT 155 - Introduction to Techniques of Operations Research']]
 CSUS	[['PHYS 11A - General Physics: Mechanics (4.00)']]	[['PHYS 11A - General Physics Mechanics']]
 CSUS	[['STAT 50 - Introduction to Probability and Statistics (4.00)']]	[['STAT 50 - Introduction to Probability and Statistics '], ['ENGR 115 - Statistics For Engineers']]
-CSUS	[['BIO 1 - Biodiversity	Evolution and Ecology (5.00)']]	[['BIO 1 - Biodiversity, Evolution and Ecology (1.00)'], ['BIO 10 - Basic Biological Concepts (1.00)'], ['CHEM 1A - General Chemistry I'], ['CHEM 1E - General Chemistry for Engineering'], ['PHYS 11B - General Physics Heat, Light, Sound, Modern Physics'], ['PHYS 11C - General Physics Electricity and Magnetism']]
+CSUS	[['BIO 1 - Biodiversity Evolution and Ecology (5.00)']]	[['BIO 1 - Biodiversity, Evolution and Ecology (1.00)'], ['BIO 10 - Basic Biological Concepts (1.00)'], ['CHEM 1A - General Chemistry I'], ['CHEM 1E - General Chemistry for Engineering'], ['PHYS 11B - General Physics Heat, Light, Sound, Modern Physics'], ['PHYS 11C - General Physics Electricity and Magnetism']]
 SFSU	[['CSC 210 - Introduction to Computer Programming (3.00)']]	[['CSC 210 - Introduction to Computer Programming']]
 SFSU	[['CSC 211 - Introduction to Software Lab (1.00)']]	[['CSC 211 - Introduction to Software Lab']]
 SFSU	[['CSC 220 - Data Structures (3.00)']]	[['CSC 220 - Data Structures']]
@@ -208,7 +208,7 @@ CSUB	[['MATH 2510 - Single Variable Calculus I (4.00)'], ['MATH 2310 - Single Va
 CSUB	[['MATH 2520 - Single Variable Calculus II (4.00)'], ['MATH 2320 - Single Variable Calculus II for Engineers (4.00)']]	[['MATH 2520'], [['MATH 2510 or 2310, MATH 2520 or 2320, MATH 3200, PHYS 2210, 2220, PHIL 3318'],['--One Mathematics or Science elective course (3-4 units) selected from the following'],['BIOL 1009, 1039, 2010, CHEM 1000, GEOL 2010, MATH 2200, 2533, 2540, 2610, 3500,'],['PHYS 2230, SCI 1409']]
 CSUB	[['PHYS 2210 - Calculus-Based Physics I (4.00)']]	[['MATH 2510 or 2310, MATH 2520 or 2320, MATH 3200, PHYS 2210, 2220, PHIL 3318'],['--One Mathematics or Science elective course (3-4 units) selected from the following'],['BIOL 1009, 1039, 2010, CHEM 1000, GEOL 2010, MATH 2200, 2533, 2540, 2610, 3500,'],['PHYS 2230, SCI 1409']]
 CSUB	[['PHYS 2220 - Calculus-Based Physics II (4.00)']]	[['MATH 2510 or 2310, MATH 2520 or 2320, MATH 3200, PHYS 2210, 2220, PHIL 3318'],['--One Mathematics or Science elective course (3-4 units) selected from the following'],['BIOL 1009, 1039, 2010, CHEM 1000, GEOL 2010, MATH 2200, 2533, 2540, 2610, 3500,'],['PHYS 2230, SCI 1409']]
-CSUB	[['Choose 1'], ['BIOL 1009 - Perspectives in Biology (3.00)'], ['BIOL 1039 - Principles of Ecology (3.00)'], ['BIOL 2010 - Introductory Biology - Cells (4.00)'], ['CHEM 1000 - Foundations of Chemistry (3.00)'], ['GEOL 2010 - Physical Geology (4.00)'], ['MATH 2200 - Introduction to Statistical Concepts and Methods (4.00)'], ['MATH 2533 - Multivariable and Vector Calculus (4.00)'], ['MATH 2540 - Ordinary Differential Equations (4.00)'], ['MATH 2610 - Linear Algebra I (4.00)']	[['MATH 2510 or 2310, MATH 2520 or 2320, MATH 3200, PHYS 2210, 2220, PHIL 3318'],['--One Mathematics or Science elective course (3-4 units) selected from the following'],['BIOL 1009, 1039, 2010, CHEM 1000, GEOL 2010, MATH 2200, 2533, 2540, 2610, 3500,'],['PHYS 2230, SCI 1409']]"
+CSUB	[['Choose 1'], ['BIOL 1009 - Perspectives in Biology (3.00)'], ['BIOL 1039 - Principles of Ecology (3.00)'], ['BIOL 2010 - Introductory Biology - Cells (4.00)'], ['CHEM 1000 - Foundations of Chemistry (3.00)'], ['GEOL 2010 - Physical Geology (4.00)'], ['MATH 2200 - Introduction to Statistical Concepts and Methods (4.00)'], ['MATH 2533 - Multivariable and Vector Calculus (4.00)'], ['MATH 2540 - Ordinary Differential Equations (4.00)'], ['MATH 2610 - Linear Algebra I (4.00)']]	[['MATH 2510 or 2310, MATH 2520 or 2320, MATH 3200, PHYS 2210, 2220, PHIL 3318'],['--One Mathematics or Science elective course (3-4 units) selected from the following'],['BIOL 1009, 1039, 2010, CHEM 1000, GEOL 2010, MATH 2200, 2533, 2540, 2610, 3500,'],['PHYS 2230, SCI 1409']]"
 CSUB	[['PHYS 2230 - Calculus-Based Physics III (4.00)', 'SCI 1409 - Introduction to Scientific Thinking (3.00)']]	[['MATH 2510 or 2310, MATH 2520 or 2320, MATH 3200, PHYS 2210, 2220, PHIL 3318'],['--One Mathematics or Science elective course (3-4 units) selected from the following'],['BIOL 1009, 1039, 2010, CHEM 1000, GEOL 2010, MATH 2200, 2533, 2540, 2610, 3500,'],['PHYS 2230, SCI 1409']]"
 CSUSB	[['CSE 2010 - Computer Science I (4.00)']]	[['CSE 2010 - Computer Science I']]
 CSUSB	[['CSE 2020 - Computer Science II (4.00)']]	[['CSE 2020 - Computer Science II']]
@@ -291,7 +291,3 @@ CSUFresno	[['MATH 75 - Calculus I (4.00)', 'MATH 76 - Calculus II (4.00)']]	[['M
 CSUFresno	[['PHYS 2A - General Physics (4.00)', 'PHYS 2B - General Physics (4.00)']]	[['PHYS 2A - General Physics (3.00)', 'PHYS 2B - General Physics (3.00)']]
 CSUFresno	[['PHYS 4A - Mechanics and Wave Motion (3.00)', 'PHYS 4AL - Laboratory in Mechanics and Wave Motion (1.00)', 'PHYS 4B - Electricity, Magnetism, and Heat (3.00)', 'PHYS 4BL - Laboratory in Electricity, Magnetism, and Heat (1.00)']]	[['PHYS 4AL - Laboratory in Mechanics and Wave Motion (1.00)', 'PHYS 4A - Mechanics and Wave Motion (3.00)', 'PHYS 4B - Electricity, Magnetism, and Heat (3.00)', 'PHYS 4BL - Laboratory in Electricity, Magnetism, and Heat (1.00)']]
 CSUFresno	[['CSCI 112 - Introduction to Computer Systems (4.00)']]	[['CSCI 112 - Introduction to Computer Systems (3.00)']]
-
-
-
-
