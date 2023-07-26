@@ -33,4 +33,29 @@ def getCCIdList():
             CCids.append(data[i].get("id"))
     return CCids       
 
+def getCCNameList():
+    CCIds = getCCIdList()
+    CCNames = []
+    for ccid in CCIds:
+        CCNames.append(getSchoolFromID(ccid))
+    return CCNames
+def getSchoolFromID(id):
+    data = getAPIData("institutions")
+    # find the id and then get the institution
+    for i in range(len(data)):
+        if id == data[i].get("id"):
+            NamesList = data[i].get("names")
+            return NamesList[0].get('name')
+             
+    return -1
+
+def getCCListWithAggreements(UniName):
+    URL = "https://assist.org/api/institutions/" + str(getSchoolID(UniName)) + "/agreements"
+    data = requests.get(URL).json()
+    CClst = []
+    for cc in data:
+        if cc["isCommunityCollege"] and 73 in cc["sendingYearIds"] and cc["institutionName"] not in CClst:
+            CClst.append(cc["institutionName"])
+    return CClst
+
 

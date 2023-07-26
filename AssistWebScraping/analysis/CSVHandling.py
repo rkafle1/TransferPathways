@@ -41,8 +41,8 @@ def FixCSV(uniName, CSVFileName):
                 if row[0] == '':
                     continue
                 if prevCC != row[0]:
-                    if row[0] == "Palomar College":
-                        print("resetting coursecnt")
+                    # if row[0] == "Palomar College":
+                    #     # print("resetting coursecnt")
                     coursecnt = 0
                 if uniName == 'UCI' and row[1] == "One additional approved transferable course for the major (an":
                     continue
@@ -108,7 +108,7 @@ def FixCSV(uniName, CSVFileName):
     os.remove("csvs/UniSheets/" + uniName + "temp.csv")    
 def Fixall(UniList):
     for i in UniList:
-        print(i)
+        # print(i)
         FixCSV(i, "csvs/csvs/Assist PDF scraped agreements - " + i)
         
 # [['CSE 12 - Basic Data Structures and Object-Oriented Design (4.00)', 'somthing']]
@@ -178,7 +178,7 @@ def ConvertAllUniToGradReqs(uniList):
     for uni in uniList:  
                  
         ConvertToGradReqs("csvs/UniSheets/" + uni, getrelList(uni), uni)
-ConvertAllUniToGradReqs(UniNameShort)                               
+# ConvertAllUniToGradReqs(UniNameShort)                               
             # if so handle the relationship and write to new csv
             # else write that row to the new csv
             # add units in list form to 4th col.
