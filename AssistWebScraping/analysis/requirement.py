@@ -17,6 +17,9 @@ import pandas as pd
 import numpy as np
 import math
 
+import csv
+import CSVHandling
+
 import re
 import ast
 
@@ -108,49 +111,96 @@ def substitute_with_bool(expression, bool_list):
 
 
 
-classmet = []
 
-print("row", row)
-for i in range(row):
-    ccName = df.iloc[i,0]
-    courseName = df.iloc[i,1]
-    logical_exp = convert_to_logical_expression(convert_to_numerical(ast.literal_eval(courseName)))
-    print(logical_exp)
-    articulationName = df.iloc[i,2]
-    booleanlists = []
-    for item in (ast.literal_eval(articulationName)):
-        exp = convert_to_logical_expression(convert_to_boolean(item))
-        # print(eval(exp))
-        booleanlists.append(eval(exp))
-    finalans = substitute_with_bool(logical_exp, booleanlists)
-    # print(eval(finalans))
+def GetCountOfMetReqsDict(UniName):
+    print(UniName)
+    df = pd.read_csv("csvs/UniSheets/"+UniName+"Gradreqs.csv", header=None, sep='\t')
+    row, column = df.shape
+    print("row", row)
+    print("column", column)
 
-    if(ccName is np.nan):
-        continue
-    else:
-        if(ccName not in list(dict.keys())):
-            dict[ccName]= 0
-            if eval(finalans) == True:
-                print([ccName, courseName])
-                print(ccName, "requirement met", " in line ", 2*i+1 )
-                dict[ccName]+= 1
-            firstone = True
+    for i in range(row):
+        ccName = df.iloc[i,0]
+        courseName = df.iloc[i,1]
+        logical_exp = convert_to_logical_expression(convert_to_numerical(ast.literal_eval(courseName)))
+        print(logical_exp)
+        articulationName = df.iloc[i,2]
+        booleanlists = []
+        for item in (ast.literal_eval(articulationName)):
+            exp = convert_to_logical_expression(convert_to_boolean(item))
+            # print(eval(exp))
+            booleanlists.append(eval(exp))
+        finalans = substitute_with_bool(logical_exp, booleanlists)
+        # print(eval(finalans))
+
+        if(ccName is np.nan):
+            continue
         else:
-            if eval(finalans) == True:
-                print([ccName, courseName])
-                print(ccName, "requirement met", " in line ", 2*i-1 )
-                dict[ccName]+= 1
-print(dict)
+            if(ccName not in list(dict.keys())):
+                dict[ccName]= 0
+                if eval(finalans) == True:
+                    print([ccName, courseName])
+                    print(ccName, "requirement met", " in line ", 2*i+1 )
+                    dict[ccName]+= 1
+            else:
+                if eval(finalans) == True:
+                    print([ccName, courseName])
+                    print(ccName, "requirement met", " in line ", 2*i-1 )
+                    dict[ccName]+= 1
+    return dict
 
 
 
-# def requirementmet(a, b):
-#     for i in range(row):
-#         #skip if it is empty
-#         element = df.iloc[i,2]
-#         if(element is np.nan):
-#             continue
-#         else:
-           
 
-# iterate(df, row)
+def GetCountOfMetReqsCsv(UniName):
+    df = pd.read_csv("csvs/UniSheets/"+UniName+"Gradreqs.csv", header=None, sep='\t')
+    row, column = df.shape
+    print("row", row)
+    print("column", column)
+    for i in range(row):
+        ccName = df.iloc[i,0]
+        courseName = df.iloc[i,1]
+        logical_exp = convert_to_logical_expression(convert_to_numerical(ast.literal_eval(courseName)))
+        print(logical_exp)
+        articulationName = df.iloc[i,2]
+        booleanlists = []
+        for item in (ast.literal_eval(articulationName)):
+            exp = convert_to_logical_expression(convert_to_boolean(item))
+            # print(eval(exp))
+            booleanlists.append(eval(exp))
+        finalans = substitute_with_bool(logical_exp, booleanlists)
+        # print(eval(finalans))
+
+        if(ccName is np.nan):
+            continue
+        else:
+            if(ccName not in list(dict.keys())):
+                dict[ccName]= 0
+                if eval(finalans) == True:
+                    print([ccName, courseName])
+                    # print(ccName, "requirement met", " in line ", 2*i+1 )
+                    dict[ccName]+= 1
+            else:
+                if eval(finalans) == True:
+                    print([ccName, courseName])
+                    # print(ccName, "requirement met", " in line ", 2*i-1 )
+                    dict[ccName]+= 1
+    return dict[ccName]
+
+
+# produces dicts of met requirements for all unis and puts it into a csv
+def AllListsofMetReqsCount(UniList):
+    with open("csvs/Findings/MetReqsCount.csv", 'w') as f:
+        writer = csv.writer(f, delimiter='\t')
+        for uni in UniList: 
+            print(uni)    
+            dictreqs = GetCountOfMetReqsDict(uni)
+            for key in dictreqs.keys():
+                for count in dictreqs[key]:
+                   
+                    writer.writerow([uni, key, count])  
+
+# print(GetListofMetReqs('UCI')) 
+AllListsofMetReqsCount(CSVHandling.UniNameShort)
+# AllListsofMetReqsCount(CSVHandling.UniNameShort)    
+
