@@ -23,7 +23,10 @@ UCLA	[['MATH 32A - Calculus of Several Variables (4.00)']]	[['MATH 32A - Calculu
 UCLA	[['MATH 32B - Calculus of Several Variables (4.00)']]	[['MATH 32B - Calculus of Several Variables']]
 UCLA	[['MATH 33A - Linear Algebra and Applications (4.00)']]	[['MATH 33A - Linear Algebra and Applications']]
 UCLA	[['MATH 33B - Differential Equations (4.00)']]	[['MATH 33B - Differential Equations']]
-UCLA	[['PHYSICS 1A+ 1B+1C+ 4AL or 4BL']]	[['COME BACK']]
+UCLA	[['PHYSICS 1A+ 1B+1C+ 4AL or 4BL']] [['PHYSICS 1A - Physics for Scientists and Engineers - Mechanics']]
+UCLA	[['PHYSICS 1A+ 1B+1C+ 4AL or 4BL']] "[['PHYSICS 1B - Physics for Scientists and Engineers - Oscillations, Waves, Electric and Magnetic Fields']]"
+UCLA	[['PHYSICS 1A+ 1B+1C+ 4AL or 4BL']] "[['PHYSICS 1C - Physics for Scientists and Engineers - Electrodynamics, Optics, and Special Relativity']]"
+UCLA	[['PHYSICS 1A+ 1B+1C+ 4AL or 4BL']] "[['PHYSICS 4AL - Physics Laboratory for Scientists and Engineers - Mechanics'], ['PHYSICS 4BL - Physics Laboratory for Scientists and Engineers - Electricity and Magnetism']]"
 UCLA	[['One course in computer programming: C++ preferred']]	[['One course in computer programming: C++ preferred']]
 UCR	[['CS 10A - Intro to Computer Science for Science, Mathematics, and Engineering I (4.00)']]	"[['CS 010A - Introduction to CS for Science Mathematics, and Engineering I - C++ (4.00)']]"
 UCR	[['CS 10B - Intro to Computer Science for Science, Mathematics, and Engineering II (4.00)']]	"[['CS 010B - Introduction to CS for Science, Mathematics, and Engineering II - C++ (4.00)']]"
