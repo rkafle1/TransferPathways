@@ -20,7 +20,7 @@ import math
 import re
 import ast
 
-df = pd.read_csv("./UCIGradreqs.csv", header=None, sep='\t')
+df = pd.read_csv("csvs/UniSheets/UCIGradreqs.csv", header=None, sep='\t')
 row, column = df.shape
 print(row, column)
 print(df.iloc[0,1])
