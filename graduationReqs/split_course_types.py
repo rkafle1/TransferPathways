@@ -55,6 +55,7 @@ def write_csv(csv_path, name, matches):
                 course_count += count_courses(first_row[1])
             
             # Get name of the school in the first row
+            # NOTE: Assumes the first row has a school name
             prev_school = first_row[0]
 
             # Repeat above steps for the remaining rows
@@ -62,7 +63,7 @@ def write_csv(csv_path, name, matches):
                 # Evaluates the second colomn with line[1]
                 if any([x in line[1] for x in matches]):
                     # If a school has been fully evaluated, write total course count
-                    if prev_school != line[0]:
+                    if prev_school != line[0] and course_count > 0:
                         l = [prev_school, "Total courses: " + str(course_count)]
                         csv_writer.writerow(l)
                         course_count = 0
@@ -70,6 +71,10 @@ def write_csv(csv_path, name, matches):
                     course_count += count_courses(line[1])
 
                     prev_school = line[0]
+            
+            # get last schools course count
+            l = [prev_school, "Total courses: " + str(course_count)]
+            csv_writer.writerow(l)
 
 if __name__ == '__main__':
     path      = input('Enter CSV file path: ')

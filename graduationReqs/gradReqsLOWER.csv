@@ -97,7 +97,6 @@ UC San Diego,[['MATH 20B - Calculus for Science and Engineering (4.00)']]
 UC San Diego,"[['MATH 20C - Calculus and Analytic Geometry for Science and Engineering (4.00)'], ['MATH 31BH - Honors Multivariable Calculus']]"
 UC San Diego,"[['MATH 18 - Linear Algebra (4.00)'], ['MATH 31AH - Honors Linear Algebra']]"
 UC San Diego,"[['--Two courses chosen from:'],['PHYS 2A - Physics Mechanics (4.00)'],['PHYS 2B - Physics - Electricity and Magnetism (4.00)'],['PHYS 4A - Physics for Physics Majors - Mechanics (4.00)'],['PHYS 4B - Physics for Physics Majors - Fluids, Waves, Statistical and Thermal Physics (4.00)'],['CHEM 6A - General Chemistry I (4.00)'], ['CHEM 6AH - Honors General Chemistry I (4.00)'],['CHEM 6B - General Chemistry II (4.00)'], ['CHEM 6BH - Honors General Chemistry II (4.00)'],['BILD 1 - The Cell (4.00)'],['BILD 2 - Multicellular Life (4.00)'],['BILD 3 - Organismic and Evolutionary Biology (4.00)'],['BICD 100 - Genetics (4.00)'],['BIMM 101 - Recombinant DNA Techniques (4.00)'],['BIMM 121 - Laboratory in Microbiology (4.00)'],['COGS 107A - Neuroanatomy and Physiology (4.00)'],['COGS 107B - Systems Neuroscience (4.00)'],['COGS 115 - Neurological Development and Cognitive Change (4.00)'],['ESYS 101 - Environmental Biology (4.00)'],['HDS 110 - Brain and Behavioral Development (4.00)'],['SIO 126 - Marine Microbiology (4.00)'], ['SIO 128 - Microbial Life in Extreme Environments (4.00)']]"
-UC San Diego,"[['MATH 181A - Introduction to Mathematical Statistics I (4.00)'], ['MATH 183 - Statistical Methods (4.00)'], ['ECE 109 - Engineering Probability and Statistics (4.00)'], ['ECON 120A - Econometrics A (4.00)'], ['CSE 103 - A Practical Introduction to Probability and Statistics (4.00)']]"
 UC Santa Cruz BA,[['CSE 13S - Computer Systems and C Programming (7.00)']]
 UC Santa Cruz BA,[['CSE 12 - Computer Systems and Assembly Language and Lab (7.00)']]
 UC Santa Cruz BA,[['CSE 16 - Applied Discrete Mathematics (5.00)']]
@@ -346,6 +345,11 @@ CSU Bakersfield,[['CMPS 2010 - Programming I - Programming Fundamentals (4.00)']
 CSU Bakersfield,[['CMPS 2020 - Programming II - Data Structures and Algorithms (4.00)']]
 CSU Bakersfield,[['CMPS 2120 - Discrete Structures (4.00)']]
 CSU Bakersfield,[['CMPS 2240 - Computer Architecture I - Assembly Language Programming (4.00)']]
+CSU Bakersfield,"[['MATH 2510 - Single Variable Calculus I (4.00)'], ['MATH 2310 - Single Variable Calculus I for Engineers (4.00)']]"
+CSU Bakersfield,"[['MATH 2520 - Single Variable Calculus II (4.00)'], ['MATH 2320 - Single Variable Calculus II for Engineers (4.00)']]"
+CSU Bakersfield,[['PHYS 2210 - Calculus-Based Physics I (4.00)']]
+CSU Bakersfield,[['PHYS 2220 - Calculus-Based Physics II (4.00)']]
+CSU Bakersfield,"[['BIOL 1009'], ['BIOL 1039'], ['BIOL 2010'], ['CHEM 1000'], ['GEOL 2010'], ['MATH 2200'], ['MATH 2533'], ['MATH 2540'], ['MATH 2610'], ['MATH 3500'],['PHYS 2230'], ['SCI 1409']]"
 CSU Monterey Bay,[['MATH 170 - Discrete Mathematics (4.00)']]
 CSU Monterey Bay,[['CST 231 - Problm-Solving/Programng (4.00)']]
 CSU Monterey Bay,[['CST 237 - Intro to Computer Architecture (4.00)']]
