@@ -50,8 +50,7 @@ UC San Diego,[['MATH 20A - Calculus for Science and Engineering (4.00)']]
 UC San Diego,[['MATH 20B - Calculus for Science and Engineering (4.00)']]
 UC San Diego,"[['MATH 20C - Calculus and Analytic Geometry for Science and Engineering (4.00)'], ['MATH 31BH - Honors Multivariable Calculus']]"
 UC San Diego,"[['MATH 18 - Linear Algebra (4.00)'], ['MATH 31AH - Honors Linear Algebra']]"
-UC San Diego,"[['MATH 181A - Introduction to Mathematical Statistics I (4.00)'], ['MATH 183 - Statistical Methods (4.00)'], ['ECE 109 - Engineering Probability and Statistics (4.00)'], ['ECON 120A - Econometrics A (4.00)'], ['CSE 103 - A Practical Introduction to Probability and Statistics (4.00)']]"
-UC San Diego,Total courses: 7
+UC San Diego,Total courses: 6
 UC Santa Cruz BA,[['CSE 16 - Applied Discrete Mathematics (5.00)']]
 UC Santa Cruz BA,"[['MATH 19A - Calculus for Science, Engineering, and Mathematics (5.00)', 'MATH 19B - Calculus for Science, Engineering, and Mathematics (5.00)'], ['MATH 20A - Honors Calculus (5.00)', 'MATH 20B - Honors Calculus (5.00)']]"
 UC Santa Cruz BA,"[['AM 10 - Mathematical Methods for Engineers I (5.00)'], ['MATH 21 - Linear Algebra (5.00)']]"
@@ -165,7 +164,11 @@ Sonoma State,Total courses: 3
 Cal Poly San Luis Obispo,[['CSC 248 - Discrete Structures (4.00)']]
 Cal Poly San Luis Obispo,Total courses: 1
 CSU Bakersfield,[['CMPS 2120 - Discrete Structures (4.00)']]
-CSU Bakersfield,Total courses: 1
+CSU Bakersfield,"[['MATH 2510 - Single Variable Calculus I (4.00)'], ['MATH 2310 - Single Variable Calculus I for Engineers (4.00)']]"
+CSU Bakersfield,"[['MATH 2520 - Single Variable Calculus II (4.00)'], ['MATH 2320 - Single Variable Calculus II for Engineers (4.00)']]"
+CSU Bakersfield,"[['BIOL 1009'], ['BIOL 1039'], ['BIOL 2010'], ['CHEM 1000'], ['GEOL 2010'], ['MATH 2200'], ['MATH 2533'], ['MATH 2540'], ['MATH 2610'], ['MATH 3500'],['PHYS 2230'], ['SCI 1409']]"
+CSU Bakersfield,Total courses: 4
 CSU Monterey Bay,[['MATH 170 - Discrete Mathematics (4.00)']]
 CSU Monterey Bay,[['MATH 150 - Calculus I (4.00)']]
 CSU Monterey Bay,"[['MATH 151 - Calculus II (4.00)'], ['MATH 270 - Mathematics for Computing (4.00)']]"
+CSU Monterey Bay,Total courses: 3
