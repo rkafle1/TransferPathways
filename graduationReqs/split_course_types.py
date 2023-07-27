@@ -15,6 +15,7 @@ gradReqsLowerCS.csv, gradReqsLowerMATH.csv, and gradReqsLowerSCI.csv
 import csv
 import re
 import sys
+import matplotlib.pyplot as plt
 
 # Returns the minimum number courses that could be taken
 def count_courses(line):
@@ -36,7 +37,7 @@ def count_courses(line):
     # print(str(min_course_count) + " " + line)
     return min_course_count
 
-def write_csv(csv_path, name, matches):
+def write_csv(csv_path, name, matches, count):
     with open(csv_path, 'r') as csv_file:
         csv_reader = csv.reader(csv_file)
 
@@ -53,6 +54,7 @@ def write_csv(csv_path, name, matches):
                     csv_writer.writerow(line)
                     course_count += count_courses(line[1])
             csv_writer.writerow(["Total courses: " + str(course_count)])
+            count[0] = course_count
 
 if __name__ == '__main__':
     # path      = input('Enter CSV file path: ')
@@ -69,6 +71,15 @@ if __name__ == '__main__':
     # write_csv(path, math_name, math_matches)
     # write_csv(path, sci_name, sci_matches)
 
-    write_csv('gradReqsLOWER.csv', 'gradReqsLowerCS', cs_matches)
-    write_csv('gradReqsLOWER.csv', 'gradReqsLowerMATH', math_matches)
-    write_csv('gradReqsLOWER.csv', 'gradReqsLowerSCI', sci_matches)
+    cs_course_count = [0]
+    math_course_count = [0]
+    sci_course_count = [0]
+
+    write_csv('gradReqsLOWER.csv', 'gradReqsLowerCS'  , cs_matches  , cs_course_count)
+    write_csv('gradReqsLOWER.csv', 'gradReqsLowerMATH', math_matches, math_course_count)
+    write_csv('gradReqsLOWER.csv', 'gradReqsLowerSCI' , sci_matches , sci_course_count)
+
+    info = [cs_course_count[0], math_course_count[0], sci_course_count[0]]
+    course_type = ["CS", "Math", "Science"]
+    plt.pie(info, labels=course_type, autopct='%2.1f%%')
+    plt.show()
