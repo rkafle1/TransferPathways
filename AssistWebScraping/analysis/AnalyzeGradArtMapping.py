@@ -23,6 +23,21 @@ def GetListofMetReqs(UniName):
             booleanlists.append(eval(exp))
         finalans = substitute_with_bool(logical_exp, booleanlists)
         # print(eval(finalans))
+        if "Choose" in courseName or "choose" in courseName:
+            Req = CSVHandling.getListfromString(courseName)
+            articulation = CSVHandling.getListfromString(articulationName)
+            numofcourses = int(Req[0][0][len(Req[0][0]) - 1])
+            articulatedcoursescnt = 0
+            for art in articulation:
+                if art[0][0] in nolist:
+                    continue
+                else:
+                    articulatedcoursescnt += 1
+            if ccName not in list(dictreqs.keys()):
+                dictreqs[ccName]= []
+            if articulatedcoursescnt >= numofcourses:
+                dictreqs[ccName].append(courseName)
+                continue
 
         if(ccName is np.nan):
             continue
@@ -38,6 +53,7 @@ def GetListofMetReqs(UniName):
                 if eval(finalans) == True:
                     dictreqs[ccName].append(courseName)
                     # print(ccName, "requirement met", " in line ", 2*i-1 )
+                
     return dictreqs      
 
 # produces dicts of met requirements for all unis and puts it into a csv
@@ -54,3 +70,7 @@ def AllListsofMetReqs(UniList):
 
 # print(GetListofMetReqs('UCI')) 
 AllListsofMetReqs(CSVHandling.UniNameShort)    
+
+# Translates assit reqs to grad reqs and creates list of grad reqs met for each CC
+# def TranslateReqsToGradReqs(UniName):
+#     with open 
