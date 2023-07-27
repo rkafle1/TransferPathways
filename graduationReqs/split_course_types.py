@@ -37,7 +37,7 @@ def count_courses(line):
     # print(str(min_course_count) + " " + line)
     return min_course_count
 
-def write_csv(csv_path, name, matches, count):
+def write_csv(csv_path, name, matches):
     with open(csv_path, 'r') as csv_file:
         csv_reader = csv.reader(csv_file)
 
@@ -48,13 +48,19 @@ def write_csv(csv_path, name, matches, count):
             csv_writer = csv.writer(new_file)
 
             course_count = 0
+            prev_school = next(csv_reader, None)[0] # NOTE: will skip first row
+
             for line in csv_reader:
                 # Evaluates the second colomn with line[1]
                 if any([x in line[1] for x in matches]):
                     csv_writer.writerow(line)
                     course_count += count_courses(line[1])
-            csv_writer.writerow(["Total courses: " + str(course_count)])
-            count[0] = course_count
+
+                    if prev_school != line[0]:
+                        l = [prev_school, "Total courses: " + str(course_count)]
+                        csv_writer.writerow(l)
+                        course_count = 0
+                    prev_school = line[0]
 
 if __name__ == '__main__':
     # path      = input('Enter CSV file path: ')
@@ -71,15 +77,11 @@ if __name__ == '__main__':
     # write_csv(path, math_name, math_matches)
     # write_csv(path, sci_name, sci_matches)
 
-    cs_course_count = [0]
-    math_course_count = [0]
-    sci_course_count = [0]
+    write_csv('gradReqsLOWER.csv', 'gradReqsLowerCS'  , cs_matches)
+    write_csv('gradReqsLOWER.csv', 'gradReqsLowerMATH', math_matches)
+    write_csv('gradReqsLOWER.csv', 'gradReqsLowerSCI' , sci_matches)
 
-    write_csv('gradReqsLOWER.csv', 'gradReqsLowerCS'  , cs_matches  , cs_course_count)
-    write_csv('gradReqsLOWER.csv', 'gradReqsLowerMATH', math_matches, math_course_count)
-    write_csv('gradReqsLOWER.csv', 'gradReqsLowerSCI' , sci_matches , sci_course_count)
-
-    info = [cs_course_count[0], math_course_count[0], sci_course_count[0]]
-    course_type = ["CS", "Math", "Science"]
-    plt.pie(info, labels=course_type, autopct='%2.1f%%')
-    plt.show()
+    # info = [cs_course_count[0], math_course_count[0], sci_course_count[0]]
+    # course_type = ["CS", "Math", "Science"]
+    # plt.pie(info, labels=course_type, autopct='%2.1f%%')
+    # plt.show()
