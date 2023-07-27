@@ -17,7 +17,8 @@ UC Berkeley BS,[['CS 61B/BL - Data Structures (4.00)']]
 UC Berkeley BS,[['CS 61C - Machine Structures (4.00)']]
 UC Berkeley BS,[['CS 70 - Discrete Mathematics and Probability Theory (4.00)']]
 UC Davis,[['ECS 20 - Discrete Mathematics for Computer Science (4.00)']]
-UC Davis,"[['ECS 36A - Programming & Problem Solving (4.00)', 'ECS 36B - Software Development & Object-Oriented Programming in C++ (4.00)', 'ECS 36C - Data Structures, Algorithms, & Programming (4.00)'], [['ECS 32A - Introduction to Programming'], [ECS 36A - Programming & Problem Solving (4.00)], 'ECS 32B - Introduction to Data Structures (4.00)', 'ECS 32C - Implementation of Data Structures in C (4.00)', 'ECS 34 - Software Development in UNIX & C++ (4.00)']]"
+UC Davis,"[['ECS 36A - Programming & Problem Solving (4.00)'], ['ECS 32A - Introduction to Programming']]"
+UC Davis,"[['ECS 36B - Software Development & Object-Oriented Programming in C++ (4.00)', 'ECS 36C - Data Structures, Algorithms, & Programming (4.00)'], ['ECS 32B - Introduction to Data Structures (4.00)', 'ECS 32C - Implementation of Data Structures in C (4.00)', 'ECS 34 - Software Development in UNIX & C++ (4.00)']]"
 UC Davis,[['ECS 50 - Computer Organization & Machine Dependent Programming (4.00)']]
 UC Davis,[['MAT 21A - Calculus (4.00)']]
 UC Davis,[['MAT 21B - Calculus (4.00)']]
@@ -122,7 +123,7 @@ UC Santa Barbara,[['CMPSC 32 - Object Oriented Design and Implementation (4.00)'
 UC Santa Barbara,[['CMPSC 40 - Foundations of Computer Science (5.00)']]
 UC Santa Barbara,[['CMPSC 64 - Computer Organization and Logic Design (4.00)']]
 UC Santa Barbara,[['PSTAT 120A - Probability and Statistics (4.00)']]
-UC Santa Barbara,"[['PHYS 1, 2, 3 and 3L - Basic Physics (with 3L lab) (12.00)']]"
+UC Santa Barbara,"[['PHYS 1 - Basic Physics (4.00)', 'PHYS 2 - Basic Physics (4.00)', 'PHYS 3 - Basic Physics (3.00)', 'PHYS 3L - Physics Laboratory (1.00)']]"
 UC Santa Barbara,"[['--8 units required- The science electives must be selected from the following set of approved courses and taken for a LETTER GRADE. 8'],['ANTH 5 - Intro Biological Anthropology'],['AP Biology - Advanced Placement Biology Exam (score of 3 or higher will credit you with 8 science elective units)'],['ASTRO 1 - Basic Astronomy'],['ASTRO 2 - History of the Universe'],['CHEM 1A + CHEM 1AL - General Chemistry and Laboratory'],['CHEM 1B + CHEM 1BL - General Chemistry and Laboratory'],['CHEM 1C + CHEM 1CL - General Chemistry and Laboratory'],['EARTH 2 - Principles of Physical Geology '],['EARTH 4 or EARTH 4 W - Introduction to Oceanography'],['EARTH 6 - Mountains, Boots, and Backpacks'],['EARTH 7 - Dinosaurs'],['EARTH 8 - Africa Climate & Human Evolution'],['EARTH 9 - Giant Earthquakes'],['EARTH 10 - Antarctica The Last Place on Earth'],['EARTH 20 or Earth W 20 - Geological Catastrophes'],['EARTH 30 - The History of Life'],['EARTH 111 - Principles of Paleontology'],['EARTH 123 - The Solar System'],['EARTH 130 - Global Warming - Science and Society'],['EEMB 21 - General Botany'],['EEMB 22 - Concepts & Controversies in Bio Sciences'],['EEMB 40 - Ecology of Infectious Disease'],['EEMB 50 - Biology of Non-Infectious Disease'],['ENV S 2 - Intro to Environmental Science'],['GEOG 3 - Oceans & Atmosphere'],['GEOG 4 - Land, Water & Life'],['GEOG 8 - Intro to Global Warming'],['GEOG 12 or GEOG W 12 - Maps & Spatial Reasoning'],['GEOG 115A - Remote Sensing of the Environment I'],['GEOG 115B - Remote Sensing of the Environment II'],['MCDB 1A + 1AL - Introductory Biology I and Laboratory'],['MCDB 1B', 'EEMB 2', plus either MCDB 1BL or EEMB 2L - Introductory Biology II and Laboratory'],['MCDB 20 - Concepts of Biology'],['MCDB 21 - The Immune System and Aids'],['MCDB 23 - Biology of Cancer'],['MCDB 26 - Contemporary Nutrition'],['MCDB 29 - Fundamentals of Biomedical Research'],['PHYS 4 + PHYS 4L - Basic Physics and Laboratory'],['PHYS 5 + PHYS 5L - Basic Physics and Laboratory'],['PSY 108 - Intro to Cognitive Psychology'],['PSY 129 - Perception']]"
 CSU Los Angeles,[['CS 1222 - Introduction to Relational Databases (3.00)']]
 CSU Los Angeles,[['CS 2011 - Introduction to Programming I (4.00)']]
@@ -196,18 +197,18 @@ Cal Poly Humboldt,[['CS 243 - Architecture (4.00)']]
 Cal Poly Humboldt,"[['STAT 108 - Elementary Statistics (3.00)'], ['STAT 108I - Elementary Statistics with Integrated Support (3.00)']]"
 Cal Poly Humboldt,"[['MATH 109 - Calculus I (4.00)'], ['MATH 105 - Calculus for the Biological Sciences and Natural Resources (3.00)']]"
 Cal Poly Humboldt,[['MATH 253 - Discrete Mathematics (3.00)']]
-CSU Long Beach,[['CECS 105 - Introduction to Computer Engineering and Computer Science (1 unit)']]
-CSU Long Beach,[['CECS 174 - Introduction to Programming and Problem Solving (3 units)']]
-CSU Long Beach,[['CECS 225 - Digital Logic and Assembly Programming (3 units)']]
-CSU Long Beach,[['CECS 228 - Discrete Structures with Computing Applications (3 units)']]
-CSU Long Beach,[['CECS 229 - Discrete Structures with Computing Applications II (3 units)']]
-CSU Long Beach,[['CECS 274 - Data Structures (3 units)']]
-CSU Long Beach,[['CECS 277 - Object Oriented Application Development (3 units)']]
+CSU Long Beach,[['CECS 105 - Introduction to Computer Engineering and Computer Science (1.00)']]
+CSU Long Beach,[['CECS 174 - Introduction to Programming and Problem Solving (3.00)']]
+CSU Long Beach,[['CECS 225 - Digital Logic and Assembly Programming (3.00)']]
+CSU Long Beach,[['CECS 228 - Discrete Structures with Computing Applications (3.00)']]
+CSU Long Beach,[['CECS 229 - Discrete Structures with Computing Applications II (3.00)']]
+CSU Long Beach,[['CECS 274 - Data Structures (3.00)']]
+CSU Long Beach,[['CECS 277 - Object Oriented Application Development (3.00)']]
 CSU Long Beach,[['ENGR 101 - Introduction to the Engineering Profession (1 unit)']]
 CSU Long Beach,[['ENGR 102 - Academic Success Skills (1 unit)']]
-CSU Long Beach,[['MATH 122 - Calculus I (4 units)']]
-CSU Long Beach,[['MATH 123 - Calculus II (4 units)']]
-CSU Long Beach,"[['--Take a minimum of 8 units of approved science-electives to include a two-semester science sequence chosen from the following groups of courses'],['PHYS 151 - Mechanics and Heat (4 units)'], ['CHEM 111A - General Chemistry (5 units)'],['--Remaining units to be chosen from the following:'],['BIOL 200 - General Biology (4 units)'],['BIOL 205 - Human Biology (4 units)'],['BIOL 207 - Human Physiology (4 units)']]"
+CSU Long Beach,[['MATH 122 - Calculus I (4.00)']]
+CSU Long Beach,[['MATH 123 - Calculus II (4.00)']]
+CSU Long Beach,"[['--Take a minimum of 8 units of approved science-electives to include a two-semester science sequence chosen from the following groups of courses'],['PHYS 151 - Mechanics and Heat (4.00)'], ['CHEM 111A - General Chemistry (5.00)'],['--Remaining units to be chosen from the following:'],['BIOL 200 - General Biology (4.00)'],['BIOL 205 - Human Biology (4.00)'],['BIOL 207 - Human Physiology (4.00)']]"
 CSU Northridge,[['COMP 110/L - Introduction to Algorithms and Programming and Lab (3/1)']]
 CSU Northridge,[['COMP 122/L - Computer Architecture and Assembly Language and Lab (1/1)']]
 CSU Northridge,[['COMP 182/L - Data Structures and Program Design and Lab (3/1)']]
@@ -266,22 +267,22 @@ CSU San Bernardino,[['PHYS 2500 - General Physics I']]
 CSU San Bernardino,[['PHYS 2500L - General Physics I Lab (1.00)']]
 CSU San Bernardino,[['PHYS 2510 - General Physics II']]
 CSU San Bernardino,[['PHYS 2510L - General Physics II Lab']]
-San Diego State,[['CS 150 - Introduction to Computer Programming (3 units)']]
+San Diego State,[['CS 150 - Introduction to Computer Programming (3.00)']]
 San Diego State,"[['CS 150L - Introduction to Computer Programming Laboratory (1 unit, taken concurrently; choose any convenient section)']]"
-San Diego State,[['CS 160 - Intermediate Computer Programming (3 units)']]
+San Diego State,[['CS 160 - Intermediate Computer Programming (3.00)']]
 San Diego State,"[['CS 160L - Intermediate Computer Programming Laboratory (1 unit, taken concurrently; choose any convenient section)']]"
-San Diego State,[['CS 210 - Data Structures (3 units)']]
+San Diego State,[['CS 210 - Data Structures (3.00)']]
 San Diego State,[['CS 240 - Machine Organization and Assembly Language (3 units; equivalent to the older CS237)']]
-San Diego State,[['CS 250 - Introduction to Software Systems (3 units)']]
-San Diego State,[['MATH 150 - Calculus I (4 units)']]
-San Diego State,[['MATH 151 - Calculus II (4 units)']]
-San Diego State,[['MATH 245 - Discrete Mathematics (3 units)']]
-San Diego State,[['MATH 254 - Introduction to Linear Algebra (3 units)']]
-San Diego State,[['PHYS 195 - Principles of Physics (3 units)']]
+San Diego State,[['CS 250 - Introduction to Software Systems (3.00)']]
+San Diego State,[['MATH 150 - Calculus I (4.00)']]
+San Diego State,[['MATH 151 - Calculus II (4.00)']]
+San Diego State,[['MATH 245 - Discrete Mathematics (3.00)']]
+San Diego State,[['MATH 254 - Introduction to Linear Algebra (3.00)']]
+San Diego State,[['PHYS 195 - Principles of Physics (3.00)']]
 San Diego State,[['PHYS 195L - Principles of Physics Laboratory (1 unit)']]
-San Diego State,[['PHYS 196 - Principles of Physics (3 units)']]
+San Diego State,[['PHYS 196 - Principles of Physics (3.00)']]
 San Diego State,[['PHYS 196L - Principles of Physics Laboratory (1 unit)']]
-San Diego State,"[['STAT 250 - Basic Statistical Methods (3 units) '], ['STAT 119 - Elementary Statistics (3 units, acceptable but NOT RECOMMENDED)']]"
+San Diego State,"[['STAT 250 - Basic Statistical Methods (3.00) '], ['STAT 119 - Elementary Statistics (3 units, acceptable but NOT RECOMMENDED)']]"
 San Francisco State,[['MATH 226 - Calculus I']]
 San Francisco State,[['MATH 227 - Calculus II']]
 San Francisco State,[['MATH 324 - Probability and Statistics with Computing']]
@@ -334,13 +335,13 @@ Cal Poly San Luis Obispo,[['CSC/CPE 203 - Project-Based Object-Oriented Programm
 Cal Poly San Luis Obispo,[['CSC 225 - Introduction to Computer Organization (4.00)']]
 Cal Poly San Luis Obispo,[['CSC 248 - Discrete Structures (4.00)']]
 Cal Poly San Luis Obispo,"[['CSC 300 - Professional Responsibilities (4.00)'], ['PHIL 323 - Ethics, Science and Technology (4.00)']]"
-Cal Poly San Luis Obispo,"[['CSC 307 - Introduction to Software Engineering'], ['CSC 308 & CSC 309 - Software Engineering I and Software Engineering II']]"
+Cal Poly San Luis Obispo,"[['CSC 307 - Introduction to Software Engineering'], ['CSC 308 - Software Engineering II', 'CSC 309 - Software Engineering II']]"
 Cal Poly San Luis Obispo,"[['CSC 321 - Introduction to Computer Security'], ['CSC 323 - Cryptography Engineering'], ['CSC 325 - Introduction to Privacy - Policy and Technology']]"
 Cal Poly San Luis Obispo,[['CSC 365 - Introduction to Database Systems (4.00)']]
 Cal Poly San Luis Obispo,[['CSC 430 - Programming Languages (4.00)']]
 Cal Poly San Luis Obispo,[['CSC 445 - Theory of Computation I (4.00)']]
 Cal Poly San Luis Obispo,[['CSC/CPE 453 - Introduction to Operating Systems (4.00)']]
-Cal Poly San Luis Obispo,"[['CSC 491 & CSC 492 - Senior Project I and Senior Project II (2.00, 2.00)'], ['CSC 497 & CSC 498 - Research Senior Project I and Research Senior Project II (2.00, 2.00)']]"
+Cal Poly San Luis Obispo,"[['CSC 491 - Senior Project I (2.00)', 'CSC 492 - Senior Project II (2.00)'], ['CSC 497 - Research Senior Project I (2.00)', 'CSC 498 - Research Senior Project II (2.00)']]"
 CSU Bakersfield,[['CMPS 2010 - Programming I - Programming Fundamentals (4.00)']]
 CSU Bakersfield,[['CMPS 2020 - Programming II - Data Structures and Algorithms (4.00)']]
 CSU Bakersfield,[['CMPS 2120 - Discrete Structures (4.00)']]
