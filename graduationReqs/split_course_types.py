@@ -34,7 +34,6 @@ def count_courses(line):
     if min_course_count == sys.maxsize:
         min_course_count = 0
 
-    # print(str(min_course_count) + " " + line)
     return min_course_count
 
 def write_csv(csv_path, name, matches):
@@ -48,18 +47,24 @@ def write_csv(csv_path, name, matches):
             csv_writer = csv.writer(new_file)
 
             course_count = 0
-            prev_school = next(csv_reader, None)[0] # NOTE: will skip first row
+            first_row = next(csv_reader, None) # NOTE: will skip first row
+
+            if any([x in first_row[1] for x in matches]):
+                csv_writer.writerow(first_row)
+                course_count += count_courses(first_row[1])
+
+            prev_school = first_row[0]
 
             for line in csv_reader:
                 # Evaluates the second colomn with line[1]
                 if any([x in line[1] for x in matches]):
-                    csv_writer.writerow(line)
-                    course_count += count_courses(line[1])
-
                     if prev_school != line[0]:
                         l = [prev_school, "Total courses: " + str(course_count)]
                         csv_writer.writerow(l)
                         course_count = 0
+                    csv_writer.writerow(line)
+                    course_count += count_courses(line[1])
+
                     prev_school = line[0]
 
 if __name__ == '__main__':
