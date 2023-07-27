@@ -174,11 +174,12 @@ def ConvertToGradReqs(CSVFileName, relList, UniName):
                                 artslist[len(artslist) - 1].append(getListfromString(row[2]))
                                 
                 prevCC = row[0]
+ConvertToGradReqs("csvs/UniSheets/" + "CSUDH", getrelList("CSUDH"), "CSUDH")
 def ConvertAllUniToGradReqs(uniList):
     for uni in uniList:  
                  
         ConvertToGradReqs("csvs/UniSheets/" + uni, getrelList(uni), uni)
-# ConvertAllUniToGradReqs(UniNameShort)                               
+ConvertAllUniToGradReqs(UniNameShort)                               
             # if so handle the relationship and write to new csv
             # else write that row to the new csv
             # add units in list form to 4th col.
