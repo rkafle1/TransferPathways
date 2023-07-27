@@ -83,10 +83,10 @@ Fresno State,"[['MATH 75 - Calculus I (4.00)', 'MATH 76 - Calculus II (4.00)']]"
 Cal Poly Humboldt,"[['STAT 108 - Elementary Statistics (3.00)'], ['STAT 108I - Elementary Statistics with Integrated Support (3.00)']]"
 Cal Poly Humboldt,"[['MATH 109 - Calculus I (4.00)'], ['MATH 105 - Calculus for the Biological Sciences and Natural Resources (3.00)']]"
 Cal Poly Humboldt,[['MATH 253 - Discrete Mathematics (3.00)']]
-CSU Long Beach,[['CECS 228 - Discrete Structures with Computing Applications (3 units)']]
-CSU Long Beach,[['CECS 229 - Discrete Structures with Computing Applications II (3 units)']]
-CSU Long Beach,[['MATH 122 - Calculus I (4 units)']]
-CSU Long Beach,[['MATH 123 - Calculus II (4 units)']]
+CSU Long Beach,[['CECS 228 - Discrete Structures with Computing Applications (3.00)']]
+CSU Long Beach,[['CECS 229 - Discrete Structures with Computing Applications II (3.00)']]
+CSU Long Beach,[['MATH 122 - Calculus I (4.00)']]
+CSU Long Beach,[['MATH 123 - Calculus II (4.00)']]
 CSU Northridge,[['COMP 256/L - Discrete Structures for Computer Science and Lab (3/1)']]
 CSU Northridge,[['MATH 150A - Calculus I (5.00)']]
 CSU Northridge,[['MATH 150B - Calculus II (5.00)']]
@@ -105,11 +105,11 @@ CSU San Bernardino,[['MATH 2210 - Calculus I']]
 CSU San Bernardino,[['MATH 2220 - Calculus II']]
 CSU San Bernardino,[['MATH 2265 - Statistics with Applications']]
 CSU San Bernardino,[['MATH 2310 - Applied Linear Algebra']]
-San Diego State,[['MATH 150 - Calculus I (4 units)']]
-San Diego State,[['MATH 151 - Calculus II (4 units)']]
-San Diego State,[['MATH 245 - Discrete Mathematics (3 units)']]
-San Diego State,[['MATH 254 - Introduction to Linear Algebra (3 units)']]
-San Diego State,"[['STAT 250 - Basic Statistical Methods (3 units) '], ['STAT 119 - Elementary Statistics (3 units, acceptable but NOT RECOMMENDED)']]"
+San Diego State,[['MATH 150 - Calculus I (4.00)']]
+San Diego State,[['MATH 151 - Calculus II (4.00)']]
+San Diego State,[['MATH 245 - Discrete Mathematics (3.00)']]
+San Diego State,[['MATH 254 - Introduction to Linear Algebra (3.00)']]
+San Diego State,"[['STAT 250 - Basic Statistical Methods (3.00) '], ['STAT 119 - Elementary Statistics (3 units, acceptable but NOT RECOMMENDED)']]"
 San Francisco State,[['MATH 226 - Calculus I']]
 San Francisco State,[['MATH 227 - Calculus II']]
 San Francisco State,[['MATH 324 - Probability and Statistics with Computing']]
@@ -137,3 +137,4 @@ CSU Bakersfield,[['CMPS 2120 - Discrete Structures (4.00)']]
 CSU Monterey Bay,[['MATH 170 - Discrete Mathematics (4.00)']]
 CSU Monterey Bay,[['MATH 150 - Calculus I (4.00)']]
 CSU Monterey Bay,"[['MATH 151 - Calculus II (4.00)'], ['MATH 270 - Mathematics for Computing (4.00)']]"
+Total courses: 148
