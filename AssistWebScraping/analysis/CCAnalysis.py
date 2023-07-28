@@ -4,7 +4,8 @@ import AssistAPIInformationGetter
 
 # counts the number of CCs a university has recent agreements with and provides a list of those CCs
 def GetCCswithRecentAgreement(UniName):
-    with open("csvs/UniSheets/" + UniName + ".csv", 'r') as unicsv:
+    CSVHandling.delete_empty_rows("csvs/UniSheets/" + UniName + "Gradreqs.csv", "csvs/UniSheets/" + UniName + "Gradreqs.csv")
+    with open("csvs/UniSheets/" + UniName + "Gradreqs.csv", 'r') as unicsv:
         reader = csv.reader(unicsv, delimiter='\t')
         prevCC = ""
         cnt = 0
@@ -50,6 +51,7 @@ def RankCCsOnNumberofAgreements(CCList):
         writer = csv.writer(CCcsv, delimiter='\t')
         writer.writerows(sortedRows)
 
+GetAllUnisCCcnts(CSVHandling.UniNameShort)
 RankCCsOnNumberofAgreements(AssistAPIInformationGetter.getCCNameList())
 
                 

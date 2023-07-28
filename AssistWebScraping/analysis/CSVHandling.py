@@ -26,6 +26,8 @@ UnisSemester = []
 CCsQuarter = []
 CCsSemester = []
 CCsName = []
+CCsdups = {"Compton Colleg": "Compton Community College", "Santa Ana College": "Rancho Santiago College", "Reedley College":"Kings River College",
+           "Berkeley City College":"Vista Community College"}
 # deletes unnessary rows(does special things for different schools)
 def FixCSV(uniName, CSVFileName):
     
@@ -40,6 +42,13 @@ def FixCSV(uniName, CSVFileName):
             prevCC = ''
             coursecnt = 0
             for row in reader:
+                isrepeat = False
+                for key in CCsdups.keys():
+                    if row[0] == CCsdups[key]:
+                        isrepeat = True
+                        break
+                if isrepeat:
+                    continue
                 # print(row)
                 if row[0] == '':
                     continue
@@ -154,6 +163,8 @@ def ConvertToGradReqs(CSVFileName, relList, UniName):
             reader = csv.reader(csvr, delimiter='\t')
             # iterate through the scraped csv file
             for row in reader:
+                print(row, UniName)
+                isrepeat = False
                 if row[0] != prevCC:
                     # print(AddedFromrelList)
                     for i in range(len(AddedFromrelList)):
@@ -167,24 +178,19 @@ def ConvertToGradReqs(CSVFileName, relList, UniName):
                     for j in i:
                         if row[1] in j:
                             if row[1] not in getallRelatedCourses(AddedFromrelList):
-                                if row[0] == "Evergreen Valley College":
-                                    print(row[1])
+                                
                                 AddedFromrelList.append(i)
-                                print(row, UniName)
+    
                                 artslist.append([getListfromString(row[2])])
                             else:
-                                print(row, UniName)
+                                
                                 artslist[len(artslist) - 1].append(getListfromString(row[2]))
                                 
                 prevCC = row[0]
 # ConvertToGradReqs("csvs/UniSheets/" + "CSUDH", getrelList("CSUDH"), "CSUDH")
 def ConvertAllUniToGradReqs(uniList):
-    for uni in uniList:  
-                 
+    for uni in uniList:          
         ConvertToGradReqs("csvs/UniSheets/" + uni, getrelList(uni), uni)
 # ConvertAllUniToGradReqs(UniNameShort)                               
-            # if so handle the relationship and write to new csv
-            # else write that row to the new csv
-            # add units in list form to 4th col.
-    # Delete any blank rows
-    # delete old csv file(scraped one)
+
+
