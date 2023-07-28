@@ -19,6 +19,8 @@ import math
 
 import csv
 import CSVHandling
+import matplotlib.pyplot as plt
+import statistics
 
 import re
 import ast
@@ -121,6 +123,13 @@ def GetCountOfMetReqsDict(UniName):
     print("row", row)
     print("column", column)
 
+    total = 0
+    for i in range(row):
+        if (df.iloc[i,0] == df.iloc[0,0]):
+            total += 1
+        else:
+            break
+
     for i in range(row):
         ccName = df.iloc[i,0]
         courseName = df.iloc[i,1]
@@ -134,7 +143,7 @@ def GetCountOfMetReqsDict(UniName):
             booleanlists.append(eval(exp))
         finalans = substitute_with_bool(logical_exp, booleanlists)
         # print(eval(finalans))
-
+        
         if(ccName is np.nan):
             continue
         else:
@@ -149,7 +158,7 @@ def GetCountOfMetReqsDict(UniName):
                     # print([ccName, courseName])
                     # print(ccName, "requirement met", " in line ", 2*i-1 )
                     dict[ccName]+= 1
-    return dict
+    return dict, total
 
 
 # produces dicts of met requirements for all unis and puts it into a csv
@@ -160,13 +169,88 @@ def AllListsofMetReqsCount(UniList):
         for uni in UniList: 
             # print(uni) 
             fulldic[uni] = []
-            dictreqs = GetCountOfMetReqsDict(uni)
-            print(dictreqs)
+            dictreqs, _ = GetCountOfMetReqsDict(uni)
+            # print(dictreqs)
             fulldic[uni] = dictreqs
             writer.writerow([uni, dictreqs])
             dictreqs = []
+            print("Done with ", uni , " count")
+
+        return None
+
+def AllListsofMetReqsStats(UniList):
+    fulldic = {}
+    with open("csvs/Findings/MetReqsStats.csv", 'w') as f:
+        writer = csv.writer(f, delimiter='\t')
+        writer.writerow(["University", "Total", "max", "min", "median", "mean", "quantiles", "Requirement Values"])
+        for uni in UniList: 
+            # print(uni) 
+            fulldic[uni] = []
+            dictreqs, totalreq = GetCountOfMetReqsDict(uni)
+            # print(dictreqs)
+            print("total reqs", totalreq)
+            # fulldic["total"] = totalreq
+
+            #analyze the data, get some basic data
+            values = list(dictreqs.values())
+            min_value = min(values)
+            max_value = max(values)
+            median_value = statistics.median(values)
+            mean_value = statistics.mean(values)
+            # if(len(values) > 4):
+            quantiles = np.percentile(values, [25, 50, 75])
+            # else:
+            #     quantiles = [0,0,0]
+            fulldic[uni] = dictreqs
+            # writer.writerow([uni, totalreq, max_value, min_value, median_value, mean_value, values])
+
+            writer.writerow([uni, totalreq, min_value, max_value, median_value, mean_value, quantiles, values])
+            dictreqs = []
+            print("Done with ", uni , " stats")
         return fulldic
 
-AllListsofMetReqsCount(CSVHandling.UniNameShort)
+def getListOfValues(UniList):
+    data = []
+    for uni in UniList: 
+            # print(uni) 
+        dictreqs, totalreq = GetCountOfMetReqsDict(uni)
+        values = list(dictreqs.values())
+        data.append(values)
+    print(data)
+    return data
+
+def box_plotting():
+
+    # df = pd.read_csv(stats_path, header=None, sep='\t')
+
+    data = getListOfValues(CSVHandling.UniNameShort)
+    fig = plt.figure(figsize =(10, 7))
+    # Creating axes instance
+    ax = fig.add_axes([0, 0, 1, 1])
+    ax = fig.add_subplot(111)
+
+    bp = ax.boxplot(data)
+    #add the scatter points
+    for i, d in enumerate(data):
+        x = np.random.normal(i + 1, 0.01, size=len(d))  # Spread out the points a bit for better visibility
+        ax.scatter(x, d, alpha=0.3)  # alpha controls the transparency of the scatter points
+
+    #boxes - interquartile range (IQR)(the middle 50% of the data.) The horizontal line in the box - median, whiskers - 1.5 times the IQR, other points beyond - outliers 
+    plt.title("Boxplot of Met Requirements")
+    plt.xlabel("Universities")
+    plt.ylabel("Number of Requirements Met")
+    plt.xticks(np.arange(1, len(CSVHandling.UniNameShort)+1), CSVHandling.UniNameShort, rotation=45)
+    plt.show()
+# Show the plot
+
+
+
+    
+
+# AllListsofMetReqsCount(CSVHandling.UniNameShort)
+# AllListsofMetReqsStats(CSVHandling.UniNameShort)
+box_plotting()
+
+
 
 
