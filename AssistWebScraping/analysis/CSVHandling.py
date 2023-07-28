@@ -21,8 +21,11 @@ def delete_empty_rows(csv_file, output_file):
 
 UniNameShort = ["CSUF", "Sonoma","CPSLO", "Chico", "CSUSM", "SDSU", "SJSU", "CSULA", "CSUMB", "CSUN", "CSUB", "CSUSB", "CSUDH", "CSUEB", "CSUStan", "CSUS"
                 , "SFSU", "Humboldt", "CSUFresno", "CSULB", "CSUCI", "CPP", "UCI", "UCB", "UCSD", "UCM", "UCSC", "UCSB", "UCD", "UCLA", "UCR"]
-
-
+UnisQuarter = []
+UnisSemester = []
+CCsQuarter = []
+CCsSemester = []
+CCsName = []
 # deletes unnessary rows(does special things for different schools)
 def FixCSV(uniName, CSVFileName):
     
@@ -174,12 +177,12 @@ def ConvertToGradReqs(CSVFileName, relList, UniName):
                                 artslist[len(artslist) - 1].append(getListfromString(row[2]))
                                 
                 prevCC = row[0]
-ConvertToGradReqs("csvs/UniSheets/" + "CSUDH", getrelList("CSUDH"), "CSUDH")
+# ConvertToGradReqs("csvs/UniSheets/" + "CSUDH", getrelList("CSUDH"), "CSUDH")
 def ConvertAllUniToGradReqs(uniList):
     for uni in uniList:  
                  
         ConvertToGradReqs("csvs/UniSheets/" + uni, getrelList(uni), uni)
-ConvertAllUniToGradReqs(UniNameShort)                               
+# ConvertAllUniToGradReqs(UniNameShort)                               
             # if so handle the relationship and write to new csv
             # else write that row to the new csv
             # add units in list form to 4th col.
