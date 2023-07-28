@@ -69,8 +69,49 @@ def AllListsofMetReqs(UniList):
                     writer.writerow([uni, key, req])  
 
 # print(GetListofMetReqs('UCI')) 
-AllListsofMetReqs(CSVHandling.UniNameShort)    
+# AllListsofMetReqs(CSVHandling.UniNameShort)    
 
-# Translates assit reqs to grad reqs and creates list of grad reqs met for each CC
-# def TranslateReqsToGradReqs(UniName):
-#     with open 
+# Translates assit reqs to grad reqs and creates list of grad reqs met for each CC. Returns a dictionary: key = CCname value = list of grad reqs met
+def TranslateReqsToGradReqs():
+    # CSVHandling.delete_empty_rows("./csvs/ReqRelationships.csv", "./csvs/ReqRelationships.csv")
+    CSVHandling.delete_empty_rows("./csvs/Findings/MetReqs.csv", "./csvs/Findings/MetReqs.csv")
+    with open("./csvs/ReqRelationships.csv") as relcsv:
+        with open("./csvs/Findings/MetReqs.csv") as metcsv:
+            relreader = csv.reader(relcsv, delimiter='\t')
+            metreader= csv.reader(metcsv, delimiter='\t')
+            translation = {}
+            WholeTranslation = {}
+            prevCC = ""
+            prevUni = ""
+            MetReqsLst = []
+            for row in metreader:
+                if row[0] != prevUni:
+                    WholeTranslation[row[0]] = {}
+                if prevCC != row[1]:
+                    WholeTranslation[row[0]][row[1]] = [row[2]]
+                else:
+                    WholeTranslation[row[0]][row[1]].append(row[2])
+                prevCC = row[1]
+                prevUni = row[0]
+            for row in relreader:
+                for CC in WholeTranslation[row[0]].keys():
+                    reqlst = WholeTranslation[row[0]][CC]
+                    for i in range(len(reqlst)):
+                        
+                        if reqlst[i] in row[1]:
+                            reqlst[i] = row[2]
+                    WholeTranslation[row[0]][CC] = reqlst
+    return WholeTranslation 
+# dict = TranslateReqsToGradReqs()
+# print(dict["UCSD"]["Palomar College"])                    
+
+
+# calculates the percentage of reqs of a certain type are met and generates a csv that contains the left over requirements of that type
+# and the percentage of met reqs, and the number of leftover requirements and leftover courses
+def LeftoverGradReqs(Reqtype):
+    with open("./csvs/Findings/LeftoverGradReqs.csv", 'w') as leftovercsv:
+        writer = csv.writer(leftovercsv, delimiter='\t')
+        with open("graduationReqs/gradReqs" + Reqtype + ".csv") as gradreqcsv:
+            reader = csv.reader(gradreqcsv)
+            for row in reader:
+                

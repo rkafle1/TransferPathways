@@ -10,6 +10,16 @@ def getAPIData(APIType):
     return data
 
 
+
+def GetRepeatCCs():
+    Repeats = []
+    data = getAPIData("institutions")
+    for i in range(len(data)):
+        if len(data[i]["names"]) > 1 and data[i]["names"] not in Repeats:
+            Repeats.append(data[i]["names"])
+    return Repeats
+# GetRepeatCCs()
+
 # gets the id for the university or CC given the name from the Assist API. If there is an error in this returns -1
 def getSchoolID(schoolName):
     # get the dictionary for the institution data
