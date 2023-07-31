@@ -62,7 +62,45 @@ def count_units(line):
     return min_units_count
 
 
-def write_csv(csv_path, name, matches, count_dict):
+def write_all_csv(csv_path, name, count_dict):
+    with open(csv_path, 'r') as csv_file:
+        csv_reader = csv.reader(csv_file)
+
+        if '.csv' not in name[-4:]:
+            name += '.csv'
+        
+        with open(name, 'w') as new_file:
+
+            csv_writer = csv.writer(new_file)
+            unit_count = 0
+
+            # NOTE: This will skip first row
+            first_row = next(csv_reader, None)
+            csv_writer.writerow(first_row)
+            unit_count += count_units(first_row[1])
+            
+            # Get name of the school in the first row
+            # NOTE: Assumes the first row has a school name
+            prev_school = first_row[0]
+
+            # Repeat above steps for the remaining rows
+            for line in csv_reader:
+                # Evaluates the second colomn with line[1]
+                if prev_school != line[0]:
+                    csv_writer.writerow( [prev_school, "Total units: " + str(unit_count)] )
+                    count_dict[prev_school] = unit_count
+                    unit_count = 0
+
+                csv_writer.writerow(line)
+                unit_count += count_units(line[1])
+                prev_school = line[0]
+            
+            # get last schools unit count
+            csv_writer.writerow( [prev_school, "Total units: " + str(unit_count)] )
+            count_dict[prev_school] = unit_count
+
+
+def write_type_csv(csv_path, name, matches, count_dict):
     with open(csv_path, 'r') as csv_file:
         csv_reader = csv.reader(csv_file)
 
@@ -105,6 +143,7 @@ def write_csv(csv_path, name, matches, count_dict):
             csv_writer.writerow( [prev_school, "Total units: " + str(unit_count)] )
             count_dict[prev_school] = unit_count
 
+
 if __name__ == '__main__':
     # path      = input('Enter CSV file path: ')
     # cs_name   = input('Enter desired name for CS CSV file: ')
@@ -120,22 +159,32 @@ if __name__ == '__main__':
     # write_csv(path, math_name, math_matches)
     # write_csv(path, sci_name, sci_matches)
 
+    '''
     cs_count = {}
     math_count = {}
     sci_count = {}
 
-    write_csv('gradReqsUPPER.csv', 'gradReqsUpperCS'  , cs_matches  , cs_count)
-    write_csv('gradReqsUPPER.csv', 'gradReqsUpperMATH', math_matches, math_count)
-    write_csv('gradReqsUPPER.csv', 'gradReqsUpperSCI' , sci_matches , sci_count)
+    write_type_csv('gradReqsUPPER.csv', 'gradReqsUpperCS'  , cs_matches  , cs_count)
+    write_type_csv('gradReqsUPPER.csv', 'gradReqsUpperMATH', math_matches, math_count)
+    write_type_csv('gradReqsUPPER.csv', 'gradReqsUpperSCI' , sci_matches , sci_count)
+    '''
 
-    labels = list(cs_count.keys()) # assuming all schools are found in cs_count
-    values = list(cs_count.values())
+    lower_count = {}
+    upper_count = {}
 
-    plt.subplot().set_title('Lower Division CS Course Count')
+    write_all_csv('gradReqsLOWER.csv', 'gradReqsLOWERCount.csv', lower_count)
+    write_all_csv('gradReqsUPPER.csv', 'gradReqsUPPERCount.csv', upper_count)
+
+    total_count = {k: lower_count.get(k, 0) + upper_count.get(k, 0) for k in lower_count.keys() | upper_count.keys()}
+
+    labels = list(total_count.keys()) # assuming all schools are found in cs_count
+    values = list(total_count.values())
+
+    plt.subplot().set_title('Total Unit Count For Each University (not including GE)')
     plt.bar(labels, values)
     plt.xticks(rotation='vertical')
 
-    # plt.show()
+    plt.show()
 
     # info = [cs_course_count[0], math_course_count[0], sci_course_count[0]]
     # course_type = ["CS", "Math", "Science"]
