@@ -280,6 +280,26 @@ def transform_csv():
     # Write the new DataFrame to a new CSV file
     new_df.to_csv("csvs/Findings/violin.csv", index=False)
 
+def transform_heatmap():
+    # Read the CSV file into a DataFrame
+    df = pd.read_csv("csvs/Findings/TotalMetReqsCount.csv", delimiter='\t', header=None)
+    print(df.head())
+    # Initialize an empty list to store the transformed data
+    transformed_data = []
+
+    # Process the data and create the new format
+    for row in df.itertuples(index=False):
+        key = row[0]
+        pairs = row[1]
+        for cc, value in ast.literal_eval(pairs).items():
+            transformed_data.append([key, cc, value])
+        
+
+    # Create a new DataFrame with the transformed data
+    new_df = pd.DataFrame(transformed_data, columns=['University', 'CC', 'Values'])
+
+    # Write the new DataFrame to a new CSV file
+    new_df.to_csv("csvs/Findings/heatmap.csv", index=False)
 # def box_plotting():
 
 #     # df = pd.read_csv(stats_path, header=None, sep='\t')
@@ -322,57 +342,82 @@ print(Countdf.head())
 
 
 
-
-figure, axis = plt.subplots(2, 2, figsize=(10, 8))
-sns.violinplot(data=Countdf, x = "Total", ax=axis[0,0])
-axis[0,0].set_title("Total requirements")
-sns.violinplot(data=Countdf, x = "max", ax=axis[0,1])
-axis[0,1].set_title("Max requirements")
-sns.violinplot(data=Countdf, x = "min", ax=axis[1,0])
-axis[1,0].set_title("Min requirements")
-sns.violinplot(data=Countdf, x = "median", ax=axis[1,1])
-axis[1,1].set_title("Median requirements")
+def graph1():
+    figure, axis = plt.subplots(2, 2, figsize=(10, 8))
+    sns.violinplot(data=Countdf, x = "Total", ax=axis[0,0])
+    axis[0,0].set_title("Total requirements")
+    sns.violinplot(data=Countdf, x = "max", ax=axis[0,1])
+    axis[0,1].set_title("Max requirements")
+    sns.violinplot(data=Countdf, x = "min", ax=axis[1,0])
+    axis[1,0].set_title("Min requirements")
+    sns.violinplot(data=Countdf, x = "median", ax=axis[1,1])
+    axis[1,1].set_title("Median requirements")
 
 
 # Show the plot
-data = getListOfValues(CSVHandling.UniNameShort)
-figure2 = plt.figure(figsize =(10, 7))
-axis2 = figure2.add_axes([0, 0, 1, 1])
-axis2 = figure2.add_subplot(111)
+def graph2():
+    data = getListOfValues(CSVHandling.UniNameShort)
+    figure2 = plt.figure(figsize =(10, 7))
+    axis2 = figure2.add_axes([0, 0, 1, 1])
+    axis2 = figure2.add_subplot(111)
 
-bp = axis2.boxplot(data)
-#add the scatter points
-for i, d in enumerate(data):
-    x = np.random.normal(i + 1, 0.01, size=len(d))  # Spread out the points a bit for better visibility
-    #labels , label=f'University {i+1}' not needed
-    axis2.scatter(x, d, alpha=0.3)  # alpha controls the transparency of the scatter points
+    bp = axis2.boxplot(data)
+    #add the scatter points
+    for i, d in enumerate(data):
+        x = np.random.normal(i + 1, 0.01, size=len(d))  # Spread out the points a bit for better visibility
+        #labels , label=f'University {i+1}' not needed
+        axis2.scatter(x, d, alpha=0.3)  # alpha controls the transparency of the scatter points
 
-    #boxes - interquartile range (IQR)(the middle 50% of the data.) The horizontal line in the box - median, whiskers - 1.5 times the IQR, other points beyond - outliers 
-    axis2.set_title("Boxplot of Met Requirements")
-    axis2.set_xlabel("Universities")
-    # plt.ylabel("Number of Requirements Met")
-    axis2.set_ylabel("Percentage of Requirements Met")
-    axis2.legend()
-    axis2.set_xticklabels(CSVHandling.UniNameShort, rotation=45)
+        #boxes - interquartile range (IQR)(the middle 50% of the data.) The horizontal line in the box - median, whiskers - 1.5 times the IQR, other points beyond - outliers 
+        axis2.set_title("Boxplot of Met Requirements")
+        axis2.set_xlabel("Universities")
+        # plt.ylabel("Number of Requirements Met")
+        axis2.set_ylabel("Percentage of Requirements Met")
+        axis2.legend()
+        axis2.set_xticklabels(CSVHandling.UniNameShort, rotation=45)
  
+def graph3():
+    transform_csv()
+    df3 = pd.read_csv("csvs/Findings/violin.csv")
+    print(df3.head())
+    print(df3.columns)
+    figure3 = plt.figure(figsize=(10, 8))
+    axis3 = sns.violinplot(data = df3, x = "University", y = "Values")
+    axis3.set_title("Total requirements met Violin plot")
+    axis3.set_xlabel("Universities")
+    axis3.set_ylabel("Percentage of Requirements Met")
+    axis3.set_xticklabels(CSVHandling.UniNameShort, rotation=45)
 
-transform_csv()
-df3 = pd.read_csv("csvs/Findings/violin.csv")
-print(df3.head())
-print(df3.columns)
-figure3 = plt.figure(figsize=(10, 8))
-axis3 = sns.violinplot(data = df3, x = "University", y = "Values")
-axis3.set_title("Total requirements met Violin plot")
-axis3.set_xlabel("Universities")
-axis3.set_ylabel("Percentage of Requirements Met")
-axis3.set_xticklabels(CSVHandling.UniNameShort, rotation=45)
 
 #px package
-figure4 = px.violin(df3, x="University", y="Values",  points="all", box=True, color="University")
-figure4.show()
+    figure4 = px.violin(df3, x="University", y="Values",  points="all", box=True, color="University")
+    figure4.show()
 
-figure5 = px.strip(df3, x="University", y="Values")
-figure5.show()
+    # figure5 = px.strip(df3, x="University", y="Values")
+    # figure5.show()
 # plt.xticks(rotation=90)
 # Show both plots
+def heatmap():
+    transform_heatmap()
+    df = pd.read_csv("csvs/Findings/heatmap.csv", delimiter=',')
+    print(df.head())
+    print(list(df.columns))
+    figure6 = plt.figure(figsize=(10, 8))
+    df = df.pivot(index='University', columns='CC', values='Values')
+    df = df.reindex(index=CSVHandling.UniNameShort)
+    # df = df.reindex(index=CSVHandling.UniNameShort, columns=CSVHandling.CCNameShort)
+    axis6 = sns.heatmap(df, cmap="YlOrRd", annot=False, square=False)
+    #rainbow YlOrRd YlGnBu
+    axis6.set_title("Heatmap of Met Requirements")
+    axis6.set_xlabel("Community Colleges")
+    axis6.set_ylabel("Universities")
+    # axis6.xaxis.tick_top()
+    # axis6.set_xticklabels(df['University'].unique(), rotation=45)
+    # selected_labels = df['University'].unique()[::2]  # select every second label
+    # axis6.set_xticklabels(selected_labels, rotation=45)
+    
+# graph1()
+# graph2()
+# graph3()
+heatmap()
 plt.show()
