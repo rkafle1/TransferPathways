@@ -11,7 +11,7 @@ UC Berkeley BS,[['Math 53 - Multivariable Calculus (4.00)']]
 UC Berkeley BS,[['EECS 16A - Designing Information Devices and Systems I (4.00)']]
 UC Berkeley BS,"[['Physics 7A - Physics for Scientists and Engineers (4.00)', 'Physics 7B - Physics for Scientists and Engineers (4.00)'], ['Physics 5A - Introductory Mechanics and Relativity (3.00)', 'Physics 5B - Introductory Electromagnetism, Waves, and Optics (3.00)', 'Physics 5BL - Introduction to Experimental Physics I (2.00)']]"
 UC Berkeley BS,"[['Physics 5C/5CL (5.00)'], ['Physics 7C (4.00)'], ['Chem 1A/AL (5.00)'], ['Chem 1B (4.00)'], ['Chem 3A/3AL (5.00)'], ['Chem 3B/3BL (5.00)'], ['Chem 4A, 4B, or 5 (5.00)'], ['Biology 1A/1AL (5.00)'], ['Biology 1B (4.00)'], ['Astro 7A, or B (4.00)'], ['MCB 32/32L (5.00)'], ['any upper-division, letter-graded course of 3 or more semester units in Astronomy, Biology, Chemistry, Earth and Planetary Science (except EPS 170AC), Integrative Biology, Molecular and Cell Biology, Physics or Plant and Microbial Biology (3.00)']]"
-UC Berkeley BS,"[['Choose a lower or upper div 4 unit technical course in one of the following departments - Astro, Chem, Data Sci, EPS, IB, Math, MCB, Physics, PMB, Stat, or any Engin dept. See course lists in the <a target=_blank"" rel=""noopener noreferrer"" href=""https://engineering.berkeley.edu/students/undergraduate-guide/degree-requirements/major-programs/electrical-engineering-computer-sciences/?_ga=2.106040069.744179687.1687467820-599551119.1675959338"">Electrical Engineering & Computer Sciences - Berkeley Engineering</a> (4.00)']]"""
+UC Berkeley BS,"[['Choose a lower or upper div 4 unit technical course in one of the following departments - Astro, Chem, Data Sci, EPS, IB, Math, MCB, Physics, PMB, Stat, or any Engin dept. See course lists in the Electrical Engineering & Computer Sciences - Berkeley Engineering (4.00)']]"""
 UC Berkeley BS,[['CS 61A - Structure and Interpretation of Computer Programs (4.00)']]
 UC Berkeley BS,[['CS 61B/BL - Data Structures (4.00)']]
 UC Berkeley BS,[['CS 61C - Machine Structures (4.00)']]
@@ -85,17 +85,19 @@ UC Riverside,"[['MATH 031 - Applied Linear Algebra (5.00)'], ['EE 020B - Linear 
 UC Riverside,[['PHYS 040A - Physics (Mechanics) (5.00)']]
 UC Riverside,[['PHYS 040B - Physics (Heat/Waves/Sound) (5.00)']]
 UC Riverside,[['PHYS 040C - Physics (Electricity/Magnetism) (5.00)']]
+UC Riverside,[['At least 9 additional units. One course of 4 or more units in an engineering discipline outside the field of computer science to be selected in consultation with a faculty advisor. (Either a lower-division or an upper-division course may be used to satisfy this requirement.) (9.00)']]
 UC San Diego,"[['CSE 8B -  Introduction to Programming and Computational Problem-Solving II (4.00)'], ['CSE 11 - Introduction to Programming and Computational Problem-Solving - Accelerated Pace (4.00)']]"
 UC San Diego,[['CSE 12 - Basic Data Structures and Object-Oriented Design (4.00)']]
 UC San Diego,[['CSE 15L - Software Tools and Techniques Laboratory (2.00)']]
 UC San Diego,"[['CSE 20 - Discrete Mathematics (4.00)'], ['MATH 15A - Introduction to Discrete Mathematics (4.00)'], ['MATH 31CH - Honors Vector Calculus (4.00)'], ['MATH 109 - Mathematical Reasoning (4.00)']]"
 UC San Diego,"[['CSE 21 - Mathematics for Algorithms and Systems (4.00)'], ['MATH 154 - Discrete Mathematics and Graph Theory (4.00)'], ['MATH 184 - Enumerative Combinatorics (4.00)']]"
 UC San Diego,[['CSE 30 - Computer Organization and Systems Programming (4.00)']]
-UC San Diego,"[['CSE 3 - Fluency in Information Technology (4.00)'], ['CSE 4GS - Mathematical Beauty in Rome (4.00)'], ['CSE 6R - Introduction to Computer Science and Object-Oriented Programming - Python (4.00)'], ['CSE 6GS - Mathematical Beauty in Rome Lab (4.00)'], ['CSE 8A - Introduction to Programming and Computational Problem-Solving I (4.00)'], ['CSE 42 - Building and Programming Electronic Devices (2.00)'], ['CSE 86 - C++ for Java Programmers (2.00)'], ['CSE 90 - Undergraduate Seminar (1.00)'], ['CSE 91 - Perspectives in Computer Science and Engineering (2.00)'], ['CSE 95 - Tutor Apprenticeship (2.00)'], ['CSE 99 - Independent Study in Computer Science and Engineering (4.00)'], ['CSE 180 - Biology Meets Computing (4.00)'], ['MAE 8 - MATLAB Programming for Engineering Analysis (4.00)'], ['COGS 9 - Introduction to Data Science (4.00)'], ['COGS 10 - Cognitive Consequences of Technology (4.00)'], ['COGS 18 - Introduction to Python (4.00)'], ['ECE 15 - Engineering Computation (4.00)'], ['ENG 10 - Fundamentals of Engineering Applications (2.00)'], ['ENG 15 - Engineer Your Success (2.00)'], ['NANO 15 - Engineering Computation Using MATLAB (4.00)'], ['CENG 15 - Engineering Computation Using Matlab (4.00)']]"
+UC San Diego,"[[--Two units from: (2.00)], ['CSE 3 - Fluency in Information Technology (4.00)'], ['CSE 4GS - Mathematical Beauty in Rome (4.00)'], ['CSE 6R - Introduction to Computer Science and Object-Oriented Programming - Python (4.00)'], ['CSE 6GS - Mathematical Beauty in Rome Lab (4.00)'], ['CSE 8A - Introduction to Programming and Computational Problem-Solving I (4.00)'], ['CSE 42 - Building and Programming Electronic Devices (2.00)'], ['CSE 86 - C++ for Java Programmers (2.00)'], ['CSE 90 - Undergraduate Seminar (1.00)'], ['CSE 91 - Perspectives in Computer Science and Engineering (2.00)'], ['CSE 95 - Tutor Apprenticeship (2.00)'], ['CSE 99 - Independent Study in Computer Science and Engineering (4.00)'], ['CSE 180 - Biology Meets Computing (4.00)'], ['MAE 8 - MATLAB Programming for Engineering Analysis (4.00)'], ['COGS 9 - Introduction to Data Science (4.00)'], ['COGS 10 - Cognitive Consequences of Technology (4.00)'], ['COGS 18 - Introduction to Python (4.00)'], ['ECE 15 - Engineering Computation (4.00)'], ['ENG 10 - Fundamentals of Engineering Applications (2.00)'], ['ENG 15 - Engineer Your Success (2.00)'], ['NANO 15 - Engineering Computation Using MATLAB (4.00)'], ['CENG 15 - Engineering Computation Using Matlab (4.00)']]"
 UC San Diego,[['MATH 20A - Calculus for Science and Engineering (4.00)']]
 UC San Diego,[['MATH 20B - Calculus for Science and Engineering (4.00)']]
-UC San Diego,"[['MATH 20C - Calculus and Analytic Geometry for Science and Engineering (4.00)'], ['MATH 31BH - Honors Multivariable Calculus']]"
+UC San Diego,"[['MATH 20C - Calculus and Analytic Geometry for Science and Engineering (4.00)'], ['MATH 31BH - Honors Multivariable Calculus (4.00)']]"
 UC San Diego,"[['MATH 18 - Linear Algebra (4.00)'], ['MATH 31AH - Honors Linear Algebra (4.00)']]"
+UC San Diego,"[['MATH 181A - Introduction to Mathematical Statistics I (4.00)'], ['MATH 183 - Statistical Methods (4.00)'], ['ECE 109 - Engineering Probability and Statistics (4.00)'], ['ECON 120A - Econometrics A (4.00)'], ['CSE 103 - A Practical Introduction to Probability and Statistics (4.00)']]"
 UC San Diego,"[['--Two courses chosen from: (8.00)'],['PHYS 2A - Physics Mechanics (4.00)'],['PHYS 2B - Physics - Electricity and Magnetism (4.00)'],['PHYS 4A - Physics for Physics Majors - Mechanics (4.00)'],['PHYS 4B - Physics for Physics Majors - Fluids, Waves, Statistical and Thermal Physics (4.00)'],['CHEM 6A - General Chemistry I (4.00)'], ['CHEM 6AH - Honors General Chemistry I (4.00)'],['CHEM 6B - General Chemistry II (4.00)'], ['CHEM 6BH - Honors General Chemistry II (4.00)'],['BILD 1 - The Cell (4.00)'],['BILD 2 - Multicellular Life (4.00)'],['BILD 3 - Organismic and Evolutionary Biology (4.00)'],['BICD 100 - Genetics (4.00)'],['BIMM 101 - Recombinant DNA Techniques (4.00)'],['BIMM 121 - Laboratory in Microbiology (4.00)'],['COGS 107A - Neuroanatomy and Physiology (4.00)'],['COGS 107B - Systems Neuroscience (4.00)'],['COGS 115 - Neurological Development and Cognitive Change (4.00)'],['ESYS 101 - Environmental Biology (4.00)'],['HDS 110 - Brain and Behavioral Development (4.00)'],['SIO 126 - Marine Microbiology (4.00)'], ['SIO 128 - Microbial Life in Extreme Environments (4.00)']]"
 UC Santa Cruz BA,[['CSE 13S - Computer Systems and C Programming (7.00)']]
 UC Santa Cruz BA,[['CSE 12 - Computer Systems and Assembly Language and Lab (7.00)']]
@@ -185,7 +187,7 @@ CSU East Bay,[['MATH 225 - Numerical Algorithms and Linear Algebra for Computer 
 CSU East Bay,[['PHYS 135 - Physics for Scientists and Engineers I (4.00)']]
 Fresno State,[['CSCI 40 - Introduction to Programming and Problem Solving (4.00)']]
 Fresno State,[['CSCI 41 - Introduction to Data Structures (4.00)']]
-Fresno State,[['CSCI 60 - Foundations of Computer Science (3.00)']]
+Fresno State,[['CSCI 60 - Foundations of Computer Science (4.00)']]
 Fresno State,"[['MATH 75 - Calculus I (4.00)', 'MATH 76 - Calculus II (4.00)']]"
 Fresno State,"[['PHYS 2A - General Physics (3.00)', 'PHYS 2B - General Physics (3.00)']]"
 Fresno State,"[['PHYS 4AL - Laboratory in Mechanics and Wave Motion (1.00)', 'PHYS 4A - Mechanics and Wave Motion (3.00)', 'PHYS 4B - Electricity, Magnetism, and Heat (3.00)', 'PHYS 4BL - Laboratory in Electricity, Magnetism, and Heat (1.00)']]"
@@ -310,6 +312,7 @@ CSU San Marcos,[['CS 231 - Assembly Language and Digital Circuits (4.00)']]
 CSU San Marcos,"[['MATH 160 - Calculus with Applications, I (5.00)']]"
 CSU San Marcos,"[['MATH 162 - Calculus with Applications, II (4.00)']]"
 CSU San Marcos,[['MATH 270 - Basic Discrete Mathematics (3.00)']]
+CSU San Marcos,"[['8 units of coursework in biology, chemistry, or physics that are counted toward a science major. (8.00)']]"
 CSU San Marcos,"[['MATH 242 - Introduction to Statistics (3.00)'], ['MATH 440 - Introduction to Mathematical Probability and Statistics (4.00)']]"
 CSU San Marcos,"[['MATH 264 - Introduction to Linear Algebra (3.00)'], ['MATH 374 - Linear Algebra (3.00)']]"
 Stainislaus State,[['CS 1500 - Computer Programming I (3.00)']]
@@ -333,14 +336,14 @@ Cal Poly San Luis Obispo,[['CSC/CPE 202 - Data Structures (4.00)']]
 Cal Poly San Luis Obispo,[['CSC/CPE 203 - Project-Based Object-Oriented Programming and Design (4.00)']]
 Cal Poly San Luis Obispo,[['CSC 225 - Introduction to Computer Organization (4.00)']]
 Cal Poly San Luis Obispo,[['CSC 248 - Discrete Structures (4.00)']]
-Cal Poly San Luis Obispo,"[['CSC 300 - Professional Responsibilities (4.00)'], ['PHIL 323 - Ethics, Science and Technology (4.00)']]"
-Cal Poly San Luis Obispo,"[['CSC 307 - Introduction to Software Engineering (4.00)'], ['CSC 308 - Software Engineering II (4.00)', 'CSC 309 - Software Engineering II (4.00)']]"
-Cal Poly San Luis Obispo,"[['CSC 321 - Introduction to Computer Security (4.00)'], ['CSC 323 - Cryptography Engineering (4.00)'], ['CSC 325 - Introduction to Privacy - Policy and Technology (4.00)']]"
-Cal Poly San Luis Obispo,[['CSC 365 - Introduction to Database Systems (4.00)']]
-Cal Poly San Luis Obispo,[['CSC 430 - Programming Languages (4.00)']]
-Cal Poly San Luis Obispo,[['CSC 445 - Theory of Computation I (4.00)']]
-Cal Poly San Luis Obispo,[['CSC/CPE 453 - Introduction to Operating Systems (4.00)']]
-Cal Poly San Luis Obispo,"[['CSC 491 - Senior Project I (2.00)', 'CSC 492 - Senior Project II (2.00)'], ['CSC 497 - Research Senior Project I (2.00)', 'CSC 498 - Research Senior Project II (2.00)']]"
+Cal Poly San Luis Obispo,[['MATH 141 - Calculus I (4.00)']]
+Cal Poly San Luis Obispo,[['MATH 142 - Calculus II (4.00)']]
+Cal Poly San Luis Obispo,[['MATH 143 - Calculus III (4.00)']]
+Cal Poly San Luis Obispo,"[['MATH 206 - Linear Algebra I (4.00)'], ['MATH 244 - Linear Analysis I (4.00)']]"
+Cal Poly San Luis Obispo,"[['PHIL 230 - Philosophical Classics - Knowledge and Reality (4.00)'], ['PHIL 231 - Philosophical Classics - Ethics and Political Philosophy (4.00)']]"
+Cal Poly San Luis Obispo,"[['BIO 111 - General Biology (4.00)'], ['BIO 161 - Introduction to Cell and Molecular Biology (4.00)'], ['BIO 213 & BMED 213 - Life Science for Engineers and Bioengineering Fundamentals (4.00)'], ['BOT 121 - General Botany (4.00)'], ['MCRO 221 - Microbiology (4.00)']]"
+Cal Poly San Luis Obispo,"[['CHEM 124 & CHEM 125 & CHEM 126 - General Chemistry for Physical Science and Engineering I and General Chemistry for Physical Science and Engineering II and General Chemistry for Physical Science and Engineering III (12.00)'], ['PHYS 141 & PHYS 142 & PHYS 143 - General Physics I and General Physics II and General Physics III (12.00)']]"
+Cal Poly San Luis Obispo,"[['BIO 111 - General Biology (4.00)'], ['BIO 161 - Introduction to Cell and Molecular Biology (4.00)'], ['BOT 121 - General Botany (4.00)'], ['CHEM 124 - General Chemistry for Physical Science and Engineering I (4.00)'], ['MCRO 221 - Microbiology (4.00)'], ['PHYS 141 - General Physics I (4.00)']]"
 CSU Bakersfield,[['CMPS 2010 - Programming I - Programming Fundamentals (4.00)']]
 CSU Bakersfield,[['CMPS 2020 - Programming II - Data Structures and Algorithms (4.00)']]
 CSU Bakersfield,[['CMPS 2120 - Discrete Structures (4.00)']]
