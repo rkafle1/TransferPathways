@@ -5,15 +5,15 @@
 ,11.0701,,,,,,,,,,,,,
 Residual Complexity Total:,68.0,,,,,,,,,,,,,
 Graduation Complexity Total:,364.0,,,,,,,,,,,,,
-Residual Difference:,296.0,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
+Residual Difference:,296.0,,,,,,,,,,,,,,
+
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality,Source
-2.0,Introduction to Programming and Problem Solving,CECS,174,,3,,3.0,,,29.0,22.0,7.0,258.0,
-3.0,Calculus I,MATH,122,5;4,,,4.0,,,34.0,27.0,7.0,378.0,
-4.0,Precalculus Trigonometry,MATH,111,,,,3.0,,,35.0,28.0,7.0,0.0,
-5.0,Precalculus Algebra,MATH,113,,,,3.0,,,35.0,28.0,7.0,0.0,
-7.0,Discrete Structures with Computing Applications,CECS,228,2;3,,,3.0,,,19.0,12.0,7.0,188.0,
-10.0,Data Structures,CECS,274,2,,,3.0,,,19.0,12.0,7.0,88.0,
-11.0,Object Oriented Application Development,CECS,277,2,,,3.0,,,15.0,8.0,7.0,54.0,
-21.0,Algorithms,CECS,328,7;10,,,3.0,,,14.0,7.0,7.0,182.0,
-21.0,Algorithms,CECS,328,,,,3.0,,,10.0,7.0,3.0,0.0,
+2.0,Introduction to Programming and Problem Solving,CECS,174,,3,,3.0,,,29.0,22.0,7.0,258.0,,Graduation
+3.0,Calculus I,MATH,122,5;4,,,4.0,,,34.0,27.0,7.0,378.0,,Graduation
+4.0,Precalculus Trigonometry,MATH,111,,,,3.0,,,35.0,28.0,7.0,0.0,,Graduation
+5.0,Precalculus Algebra,MATH,113,,,,3.0,,,35.0,28.0,7.0,0.0,,Graduation
+7.0,Discrete Structures with Computing Applications,CECS,228,2;3,,,3.0,,,19.0,12.0,7.0,188.0,,Graduation
+10.0,Data Structures,CECS,274,2,,,3.0,,,19.0,12.0,7.0,88.0,,Graduation
+11.0,Object Oriented Application Development,CECS,277,2,,,3.0,,,15.0,8.0,7.0,54.0,,Graduation
+21.0,Algorithms,CECS,328,7;10,,,3.0,,,14.0,7.0,7.0,182.0,,Graduation
+21.0,Algorithms,CECS,328,,,,3.0,,,10.0,7.0,3.0,0.0,,Residual

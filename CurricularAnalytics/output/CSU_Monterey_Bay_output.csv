@@ -5,9 +5,9 @@
 ,11.0701,,,,,,,,,,,,,
 Residual Complexity Total:,17.0,,,,,,,,,,,,,
 Graduation Complexity Total:,84.0,,,,,,,,,,,,,
-Residual Difference:,67.0,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
+Residual Difference:,67.0,,,,,,,,,,,,,,
+
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality,Source
-1.0,Precalculus,MATH,130,,,,5.0,,,9.0,6.0,3.0,0.0,
-5.0,Problm-Solving/Programng,CST,231,,,,4.0,,,14.0,10.0,4.0,0.0,
-7.0,Introduction to Data Structures,CST,238,5,,,4.0,,,12.0,8.0,4.0,22.0,
+1.0,Precalculus,MATH,130,,,,5.0,,,9.0,6.0,3.0,0.0,,Graduation
+5.0,Problm-Solving/Programng,CST,231,,,,4.0,,,14.0,10.0,4.0,0.0,,Graduation
+7.0,Introduction to Data Structures,CST,238,5,,,4.0,,,12.0,8.0,4.0,22.0,,Graduation

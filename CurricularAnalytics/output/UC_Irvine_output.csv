@@ -5,13 +5,13 @@
 ,11.0701,,,,,,,,,,,,,
 Residual Complexity Total:,57.4,,,,,,,,,,,,,
 Graduation Complexity Total:,149.5,,,,,,,,,,,,,
-Residual Difference:,92.1,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
+Residual Difference:,92.1,,,,,,,,,,,,,,
+
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality,Source
-1.0,Introduction to Programming,I&C SCI,31,,,,4.0,,,17.3,20.0,6.0,0.0,
-2.0,Programming with Software Libraries,I&C SCI,32,1,,,4.0,,,15.3,17.0,6.0,70.0,
-3.0,Intermediate Programming,I&C SCI,33,2,,,4.0,,,14.0,15.0,6.0,58.0,
-4.0,Programming in C/C++ as a Second Language,I&C SCI,45C,3,,,4.0,,,8.7,7.0,6.0,29.0,
-6.0,Boolean Logic and Discrete Structures,I&C SCI,6B,,,,4.0,,,7.3,7.0,4.0,0.0,
-4.0,Programming in C/C++ as a Second Language,I&C SCI,45C,,,,4.0,,,6.7,7.0,3.0,0.0,
-6.0,Boolean Logic and Discrete Structures,I&C SCI,6B,,,,4.0,,,7.3,7.0,4.0,0.0,
+1.0,Introduction to Programming,I&C SCI,31,,,,4.0,,,17.3,20.0,6.0,0.0,,Graduation
+2.0,Programming with Software Libraries,I&C SCI,32,1,,,4.0,,,15.3,17.0,6.0,70.0,,Graduation
+3.0,Intermediate Programming,I&C SCI,33,2,,,4.0,,,14.0,15.0,6.0,58.0,,Graduation
+4.0,Programming in C/C++ as a Second Language,I&C SCI,45C,3,,,4.0,,,8.7,7.0,6.0,29.0,,Graduation
+6.0,Boolean Logic and Discrete Structures,I&C SCI,6B,,,,4.0,,,7.3,7.0,4.0,0.0,,Graduation
+4.0,Programming in C/C++ as a Second Language,I&C SCI,45C,,,,4.0,,,6.7,7.0,3.0,0.0,,Residual
+6.0,Boolean Logic and Discrete Structures,I&C SCI,6B,,,,4.0,,,7.3,7.0,4.0,0.0,,Residual
