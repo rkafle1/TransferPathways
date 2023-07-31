@@ -1,7 +1,6 @@
 import csv
 from Requirements import *
 import os
-from Requirements import *
 import ast
 import pandas as pd
 
@@ -138,6 +137,7 @@ def getrelList(UniName):
             print(row[0])
             if row[0] == UniName:
                 print(row[1])
+                print(row[1])
                 Reqs.append(getListfromString(row[1]))
     return Reqs
 print(getrelList("UCI"))
@@ -191,6 +191,6 @@ def ConvertToGradReqs(CSVFileName, relList, UniName):
 def ConvertAllUniToGradReqs(uniList):
     for uni in uniList:          
         ConvertToGradReqs("csvs/UniSheets/" + uni, getrelList(uni), uni)
-# ConvertAllUniToGradReqs(UniNameShort)                               
+ConvertAllUniToGradReqs(UniNameShort)                               
 
 
