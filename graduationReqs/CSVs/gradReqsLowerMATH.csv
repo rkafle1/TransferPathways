@@ -48,9 +48,10 @@ UC San Diego,"[['CSE 20 - Discrete Mathematics (4.00)'], ['MATH 15A - Introducti
 UC San Diego,"[['CSE 21 - Mathematics for Algorithms and Systems (4.00)'], ['MATH 154 - Discrete Mathematics and Graph Theory (4.00)'], ['MATH 184 - Enumerative Combinatorics (4.00)']]"
 UC San Diego,[['MATH 20A - Calculus for Science and Engineering (4.00)']]
 UC San Diego,[['MATH 20B - Calculus for Science and Engineering (4.00)']]
-UC San Diego,"[['MATH 20C - Calculus and Analytic Geometry for Science and Engineering (4.00)'], ['MATH 31BH - Honors Multivariable Calculus']]"
+UC San Diego,"[['MATH 20C - Calculus and Analytic Geometry for Science and Engineering (4.00)'], ['MATH 31BH - Honors Multivariable Calculus (4.00)']]"
 UC San Diego,"[['MATH 18 - Linear Algebra (4.00)'], ['MATH 31AH - Honors Linear Algebra (4.00)']]"
-UC San Diego,Total units: 20.0
+UC San Diego,"[['MATH 181A - Introduction to Mathematical Statistics I (4.00)'], ['MATH 183 - Statistical Methods (4.00)'], ['ECE 109 - Engineering Probability and Statistics (4.00)'], ['ECON 120A - Econometrics A (4.00)'], ['CSE 103 - A Practical Introduction to Probability and Statistics (4.00)']]"
+UC San Diego,Total units: 28.0
 UC Santa Cruz BA,[['CSE 16 - Applied Discrete Mathematics (5.00)']]
 UC Santa Cruz BA,"[['MATH 19A - Calculus for Science, Engineering, and Mathematics (5.00)', 'MATH 19B - Calculus for Science, Engineering, and Mathematics (5.00)'], ['MATH 20A - Honors Calculus (5.00)', 'MATH 20B - Honors Calculus (5.00)']]"
 UC Santa Cruz BA,"[['AM 10 - Mathematical Methods for Engineers I (5.00)'], ['MATH 21 - Linear Algebra (5.00)']]"
@@ -81,10 +82,10 @@ CSU Channel Islands,[['MATH 150 - Calculus I (4.00)']]
 CSU Channel Islands,[['MATH 151 - Calculus II (4.00)']]
 CSU Channel Islands,[['MATH 240 - Linear Algebra (3.00)']]
 CSU Channel Islands,Total units: 11.0
-Chino State,[['CSCI/MATH 217 - Discrete Mathematics (3.00)']]
-Chino State,[['MATH 120 - Analytic Geometry and Calculus (4.00)']]
-Chino State,[['MATH 121 - Analytic Geometry and Calculus (4.00)']]
-Chino State,Total units: 11.0
+Chico State,[['CSCI/MATH 217 - Discrete Mathematics (3.00)']]
+Chico State,[['MATH 120 - Analytic Geometry and Calculus (4.00)']]
+Chico State,[['MATH 121 - Analytic Geometry and Calculus (4.00)']]
+Chico State,Total units: 11.0
 CSU Dominguez Hills,[['MAT 191 - Calculus I (5.00)']]
 CSU Dominguez Hills,[['MAT 193 - Calculus II (5.00)']]
 CSU Dominguez Hills,[['MAT 271 - Foundations of Higher Mathematics (3.00)']]
@@ -162,7 +163,11 @@ Sonoma State,[['MATH 161 - Differential and Integral Calculus I (4.00)']]
 Sonoma State,"[['--Two additional courses from the following: (7.00)'],['MATH 165 - Elementary Applied Statistics (4.00)'], ['MATH 211 - Differential and Integral Calculus II (4.00)'], ['MATH 222 - Elementary Applied Linear Algebra (3.00)'], ['MATH 241 - Linear Algebra with Applications in Differential Equations (4.00)'], ['PHYS 214 - Introduction to Physics II (4.00)']]"
 Sonoma State,Total units: 15.0
 Cal Poly San Luis Obispo,[['CSC 248 - Discrete Structures (4.00)']]
-Cal Poly San Luis Obispo,Total units: 4.0
+Cal Poly San Luis Obispo,[['MATH 141 - Calculus I (4.00)']]
+Cal Poly San Luis Obispo,[['MATH 142 - Calculus II (4.00)']]
+Cal Poly San Luis Obispo,[['MATH 143 - Calculus III (4.00)']]
+Cal Poly San Luis Obispo,"[['MATH 206 - Linear Algebra I (4.00)'], ['MATH 244 - Linear Analysis I (4.00)']]"
+Cal Poly San Luis Obispo,Total units: 20.0
 CSU Bakersfield,[['CMPS 2120 - Discrete Structures (4.00)']]
 CSU Bakersfield,"[['MATH 2510 - Single Variable Calculus I (4.00)'], ['MATH 2310 - Single Variable Calculus I for Engineers (4.00)']]"
 CSU Bakersfield,"[['MATH 2520 - Single Variable Calculus II (4.00)'], ['MATH 2320 - Single Variable Calculus II for Engineers (4.00)']]"

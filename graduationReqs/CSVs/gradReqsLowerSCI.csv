@@ -31,8 +31,8 @@ CSU Fullerton,"[['--12 Units from the following (12.00)'],['BIOL 101 - Elements 
 CSU Fullerton,Total units: 12.0
 CSU Channel Islands,"[['One course from GE Area B2 (3.00)', 'PHYS 200 - General Physics I (4.00)', 'PHYS 201 - General Physics II (4.00)'],['BIOL 200 - Principles of Organismal and Population Biology (4.00)', 'BIOL 212 - Neurobiology and Cognitive Science (Cross-listed as PSY 212) (3.00)', 'PHYS 200 - General Physics I (4.00)']]"
 CSU Channel Islands,Total units: 11.0
-Chino State,"[['--Select two of the following (8.00)'],['CHEM 107 - General Chemistry for Applied Sciences (4.00)'], ['CHEM 111 - General Chemistry I (4.00)'],['CHEM 108 - Organic Chemistry for Applied Sciences (4.00)'],['CHEM 112 - General Chemistry II (4.00)'],['PHYS 204A - Physics for Students of Science and Engineering - Mechanics (4.00)'],['PHYS 204B - Physics for Students of Science and Engineering - Electricity and Magnetism (4.00)']]"
-Chino State,Total units: 8.0
+Chico State,"[['--Select two of the following (8.00)'],['CHEM 107 - General Chemistry for Applied Sciences (4.00)'], ['CHEM 111 - General Chemistry I (4.00)'],['CHEM 108 - Organic Chemistry for Applied Sciences (4.00)'],['CHEM 112 - General Chemistry II (4.00)'],['PHYS 204A - Physics for Students of Science and Engineering - Mechanics (4.00)'],['PHYS 204B - Physics for Students of Science and Engineering - Electricity and Magnetism (4.00)']]"
+Chico State,Total units: 8.0
 CSU Dominguez Hills,[['PHY 130 - General Physics I (5.00)']]
 CSU Dominguez Hills,[['PHY 132 - General Physics II (5.00)']]
 CSU Dominguez Hills,Total units: 10.0
@@ -75,6 +75,10 @@ Stainislaus State,"[['PHYS 2250 - General Physics I (4.00)', 'PHYS 2252 - Genera
 Stainislaus State,Total units: 8.0
 Sonoma State,"[['--Two additional courses from the following: (7.00)'],['MATH 165 - Elementary Applied Statistics (4.00)'], ['MATH 211 - Differential and Integral Calculus II (4.00)'], ['MATH 222 - Elementary Applied Linear Algebra (3.00)'], ['MATH 241 - Linear Algebra with Applications in Differential Equations (4.00)'], ['PHYS 214 - Introduction to Physics II (4.00)']]"
 Sonoma State,Total units: 7.0
+Cal Poly San Luis Obispo,"[['BIO 111 - General Biology (4.00)'], ['BIO 161 - Introduction to Cell and Molecular Biology (4.00)'], ['BIO 213 & BMED 213 - Life Science for Engineers and Bioengineering Fundamentals (4.00)'], ['BOT 121 - General Botany (4.00)'], ['MCRO 221 - Microbiology (4.00)']]"
+Cal Poly San Luis Obispo,"[['CHEM 124 & CHEM 125 & CHEM 126 - General Chemistry for Physical Science and Engineering I and General Chemistry for Physical Science and Engineering II and General Chemistry for Physical Science and Engineering III (12.00)'], ['PHYS 141 & PHYS 142 & PHYS 143 - General Physics I and General Physics II and General Physics III (12.00)']]"
+Cal Poly San Luis Obispo,"[['BIO 111 - General Biology (4.00)'], ['BIO 161 - Introduction to Cell and Molecular Biology (4.00)'], ['BOT 121 - General Botany (4.00)'], ['CHEM 124 - General Chemistry for Physical Science and Engineering I (4.00)'], ['MCRO 221 - Microbiology (4.00)'], ['PHYS 141 - General Physics I (4.00)']]"
+Cal Poly San Luis Obispo,Total units: 20.0
 CSU Bakersfield,[['PHYS 2210 - Calculus-Based Physics I (4.00)']]
 CSU Bakersfield,[['PHYS 2220 - Calculus-Based Physics II (4.00)']]
 CSU Bakersfield,"[['BIOL 1009 - Perspectives in Biology (3.00)'], ['BIOL 1039 - Principles of Ecology (3.00)'], ['BIOL 2010 - Introductory Biology - Cells (4.00)'], ['CHEM 1000 - Foundations of Chemistry (3.00)'], ['GEOL 2010 - Physical Geology (4.00)'], ['MATH 2200 - Introduction to Statistical Concepts and Methods (4.00)'], ['MATH 2533 - Multivariable and Vector Calculus (4.00)'], ['MATH 2540 - Ordinary Differential Equations (4.00)'], ['MATH 2610 - Linear Algebra I (4.00)'], ['MATH 3500 - 3500 Complex Variables (4.00)'],['PHYS 2230 - Physics for Scientists and Engineers III (4.00)'], ['SCI 1409 - Introduction to Scientific Thinking (3.00)']]"
