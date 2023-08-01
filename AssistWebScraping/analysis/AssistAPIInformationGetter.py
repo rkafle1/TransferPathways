@@ -1,7 +1,8 @@
 import requests
 
 
-
+CCsdups = {"Compton Colleg": "Compton Community College", "Santa Ana College": "Rancho Santiago College", "Reedley College":"Kings River College",
+           "Berkeley City College":"Vista Community College"}
 # gets the API data
 def getAPIData(APIType):
     BacicURL = "https://assist.org/api/"
@@ -69,3 +70,18 @@ def getCCListWithAggreements(UniName):
     return CClst
 
 
+# print(getCCIdList())
+# ccidlist = getCCIdList()
+
+
+cclist = []
+def getUniqueCCNamelst():
+    ccidlist = getCCIdList()
+    for ccid in ccidlist:
+        CCName = getSchoolFromID(ccid)
+        if(CCName in CCsdups.values()):
+            continue
+        else:
+            # print(getSchoolFromID(ccid))
+            cclist.append(CCName)
+    return cclist

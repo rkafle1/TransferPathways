@@ -3,6 +3,7 @@ from Requirements import *
 import os
 import ast
 import pandas as pd
+import AssistAPIInformationGetter
 
 def delete_empty_rows(csv_file, output_file):
     # Read the CSV file into a pandas DataFrame
@@ -24,9 +25,9 @@ UnisQuarter = []
 UnisSemester = []
 CCsQuarter = []
 CCsSemester = []
-CCsName = []
-CCsdups = {"Compton Colleg": "Compton Community College", "Santa Ana College": "Rancho Santiago College", "Reedley College":"Kings River College",
-           "Berkeley City College":"Vista Community College"}
+CCsName = AssistAPIInformationGetter.getUniqueCCNamelst()
+print(CCsName)
+
 # deletes unnessary rows(does special things for different schools)
 def FixCSV(uniName, CSVFileName):
     
@@ -134,13 +135,13 @@ def getrelList(UniName):
     with open("csvs/ReqRelationships.csv", 'r') as f:
         reader = csv.reader(f, delimiter='\t')
         for row in reader:
-            print(row[0])
+            # print(row[0])
             if row[0] == UniName:
-                print(row[1])
-                print(row[1])
+                # print(row[1])
+                # print(row[1])
                 Reqs.append(getListfromString(row[1]))
     return Reqs
-print(getrelList("UCI"))
+# print(getrelList("UCI"))
 def getallRelatedCourses(reqlist):
     courses = []
     for i in reqlist:
@@ -163,7 +164,9 @@ def ConvertToGradReqs(CSVFileName, relList, UniName):
             reader = csv.reader(csvr, delimiter='\t')
             # iterate through the scraped csv file
             for row in reader:
-                print(row, UniName)
+                if row[1] == "MATH 3B - Calculus with Applications, Second Course (4.00)":
+                    print("I see it")
+                # print(row, UniName)
                 isrepeat = False
                 if row[0] != prevCC:
                     # print(AddedFromrelList)
@@ -174,23 +177,32 @@ def ConvertToGradReqs(CSVFileName, relList, UniName):
                     
                 # check if the req courses are in the rel list
                 # rel list will be : [[['CSE 12 - Basic Data Structures and Object-Oriented Design (4.00)']], [['CSE 15L - Software Tools and Techniques Laboratory (2.00)']]]
+                if row[1] == "MATH 3B - Calculus with Applications, Second Course (4.00)":
+                    print("curr rel list: ", AddedFromrelList)
                 for i in relList:
                     for j in i:
                         if row[1] in j:
+                            
                             if row[1] not in getallRelatedCourses(AddedFromrelList):
-                                
+                                if row[1] == "MATH 3B - Calculus with Applications, Second Course (4.00)":
+                                    print("being added new")
                                 AddedFromrelList.append(i)
     
                                 artslist.append([getListfromString(row[2])])
                             else:
-                                
+                                if row[1] == "MATH 3B - Calculus with Applications, Second Course (4.00)":
+                                    print("being added to end of one")
                                 artslist[len(artslist) - 1].append(getListfromString(row[2]))
+                # if UniName == "CSUFresno" and "Evergreen" in row[0]:
+                #     print(artslist)
                                 
                 prevCC = row[0]
-# ConvertToGradReqs("csvs/UniSheets/" + "CSUDH", getrelList("CSUDH"), "CSUDH")
+            for i in range(len(AddedFromrelList)):
+                writer.writerow([prevCC, AddedFromrelList[i], artslist[i]])
+# ConvertToGradReqs("csvs/UniSheets/" + "CSUFresno", getrelList("CSUFresno"), "CSUFresno")
 def ConvertAllUniToGradReqs(uniList):
     for uni in uniList:          
         ConvertToGradReqs("csvs/UniSheets/" + uni, getrelList(uni), uni)
-ConvertAllUniToGradReqs(UniNameShort)                               
+# ConvertAllUniToGradReqs(UniNameShort)                               
 
 
