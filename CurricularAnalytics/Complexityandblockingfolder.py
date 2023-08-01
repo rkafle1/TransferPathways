@@ -29,21 +29,20 @@ def find_matching_graduation_file(residual_file_path, graduation_folder_path):
     matching_grad_file = next((file for file in grad_files if file.startswith(title_res) and file.endswith('.csv')), None)
     return matching_grad_file
 
-def add_commas_to_15_fields(input_file):
+def add_commas_to_13_fields(input_file):
     encodings = ['utf-8', 'ISO-8859-1', 'cp1252']  # List of encodings to try
 
     for encoding in encodings:
         try:
             with open(input_file, 'r', newline='', encoding=encoding) as infile:
                 reader = csv.reader(infile)
-
                 modified_data = []
                 for row in reader:
                     num_fields = len(row)
-                    if num_fields < 16:
-                        row += [''] * (16 - num_fields)  # Add empty strings for missing fields
-                    elif num_fields > 16:
-                        row = row[:16]  # Truncate the row if it has more than 15 fields
+                    if num_fields < 14:
+                        row += [''] * (14 - num_fields)  # Add empty strings for missing fields
+                    elif num_fields > 14:
+                        row = row[:14]  # Truncate the row if it whas more than 15 fields
                 
                     modified_data.append(row)
 
@@ -81,8 +80,8 @@ for residual_file in residual_files:
         input_file_path_grad_matching = os.path.join(input_folder_path_grad, matching_grad_file)
 
         # Modify both graduation and residual CSV files using add_commas_to_15_fields function
-        modified_res_path = add_commas_to_15_fields(input_file_path_res)
-        modified_grad_path = add_commas_to_15_fields(input_file_path_grad_matching)
+        modified_res_path = add_commas_to_13_fields(input_file_path_res)
+        modified_grad_path = add_commas_to_13_fields(input_file_path_grad_matching)
 
         # Read the grad and residual CSV files and convert numeric columns to appropriate data types
         df_grad = pd.read_csv(modified_grad_path, header=None)
@@ -100,7 +99,7 @@ for residual_file in residual_files:
         # Calculate the sum of complexity column for graduation and residual data
         complexity_total_grad = df_grad[10].sum()  # Assuming the complexity column is at index position 10
         complexity_total_res = df_res[10].sum()    # Assuming the complexity column is at index position 10
-
+        print(df_grad, df_res)
         # Filter rows based on blocking column using the correct threshold for graduation and residual data
         df_filtered_grad = filter_rows_by_blocking_column(df_grad, 5.00, 'Graduation')
         df_filtered_res = filter_rows_by_blocking_column(df_res, 5.00, 'Residual')
@@ -111,6 +110,8 @@ for residual_file in residual_files:
     # Create a new DataFrame with rows from both graduation and residual data, and label the source
     df_filtered_grad['Source'] = 'Graduation'
     df_filtered_res['Source'] = 'Residual'
+    print(df_filtered_grad)
+    print(df_filtered_res)
 
     # Concatenate the DataFrames with a fresh continuous index
     df_new = pd.concat([df_filtered_grad, df_filtered_res], ignore_index=True)
