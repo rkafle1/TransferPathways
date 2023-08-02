@@ -11,7 +11,7 @@ UC Berkeley BS,[['Math 53 - Multivariable Calculus (4.00)']]
 UC Berkeley BS,[['EECS 16A - Designing Information Devices and Systems I (4.00)']]
 UC Berkeley BS,"[['Physics 7A - Physics for Scientists and Engineers (4.00)', 'Physics 7B - Physics for Scientists and Engineers (4.00)'], ['Physics 5A - Introductory Mechanics and Relativity (3.00)', 'Physics 5B - Introductory Electromagnetism, Waves, and Optics (3.00)', 'Physics 5BL - Introduction to Experimental Physics I (2.00)']]"
 UC Berkeley BS,"[['Physics 5C/5CL (5.00)'], ['Physics 7C (4.00)'], ['Chem 1A/AL (5.00)'], ['Chem 1B (4.00)'], ['Chem 3A/3AL (5.00)'], ['Chem 3B/3BL (5.00)'], ['Chem 4A, 4B, or 5 (5.00)'], ['Biology 1A/1AL (5.00)'], ['Biology 1B (4.00)'], ['Astro 7A, or B (4.00)'], ['MCB 32/32L (5.00)'], ['any upper-division, letter-graded course of 3 or more semester units in Astronomy, Biology, Chemistry, Earth and Planetary Science (except EPS 170AC), Integrative Biology, Molecular and Cell Biology, Physics or Plant and Microbial Biology (3.00)']]"
-UC Berkeley BS,"[['Choose a lower or upper div 4 unit technical course in one of the following departments - Astro, Chem, Data Sci, EPS, IB, Math, MCB, Physics, PMB, Stat, or any Engin dept. See course lists in the Electrical Engineering & Computer Sciences - Berkeley Engineering (4.00)']]"""
+UC Berkeley BS,"[['--ELECTIVE: Choose a lower or upper div 4 unit technical course in one of the following departments - Astro, Chem, Data Sci, EPS, IB, Math, MCB, Physics, PMB, Stat, or any Engin dept. See course lists in the Electrical Engineering & Computer Sciences - Berkeley Engineering (4.00)']]"
 UC Berkeley BS,[['CS 61A - Structure and Interpretation of Computer Programs (4.00)']]
 UC Berkeley BS,[['CS 61B/BL - Data Structures (4.00)']]
 UC Berkeley BS,[['CS 61C - Machine Structures (4.00)']]
@@ -23,17 +23,8 @@ UC Davis,[['ECS 50 - Computer Organization & Machine Dependent Programming (4.00
 UC Davis,[['MAT 21A - Calculus (4.00)']]
 UC Davis,[['MAT 21B - Calculus (4.00)']]
 UC Davis,[['MAT 21C - Calculus (4.00)']]
-UC Davis,[['MAT 21D - Vector Analysis (4.00)']]
 UC Davis,"[['MAT 22A - Linear Algebra (3.00)'], ['MAT 27A - Linear Algebra with Applications to Biology (4.00)'], ['MAT 67 - Modern Linear Algebra (4.00)']]"
-UC Davis,"[['MAT 22B - Differential Equations (3.00)'], ['MAT 27B - Differential Equations with Applications to Biology (4.00)']]"
-UC Davis,"[['CHE 2A - General Chemistry (5.00)'], ['CHE 4A - General Chemistry for the Physical Sciences & Engineering (5.00)']]"
-UC Davis,[['PHY 9A - Classical Physics (5.00)']]
-UC Davis,[['PHY 9B - Classical Physics (5.00)']]
-UC Davis,[['PHY 9C - Classical Physics (5.00)']]
-UC Davis,[['PHY 9D - Modern Physics (5.00)']]
-UC Davis,[['ENG 17 - Circuits I (4.00)']]
-UC Davis,[['CMN 1 - Introduction to Public Speaking (4.00)']]
-UC Davis,"[['COM 1 - Major Works of the Ancient World (4.00)'], ['COM 2 - Major Works of the Medieval & Early Modern World (4.00)'], ['COM 3 - Major Works of the Modern World (4.00)'], ['COM 4 - Major Works of the Contemporary World (4.00)'], ['ENL 3 - Introduction to Literature (4.00)'], ['NAS 5 - Introduction to Native American Literature (4.00)'], ['UWP 1 or UWP 1V or UWP 1Y - Introduction to Academic Literacies (4.00)']]"
+UC Davis,"[['--Choose three: (15.00)'],['BIS 002A Introduction to Biology: Essentials of Life on Earth'],['BIS 002B Introduction to Biology: Principles of Ecology & Evolution'],['BIS 002C Introduction to Biology: Biodiversity & the Tree of Life'],['CHE 002A General Chemistry'],['CHE 002B General Chemistry'],['CHE 002C General Chemistry'],['CHE 004A General Chemistry for the Physical Sciences & Engineering'],['CHE 004B General Chemistry for the Physical Sciences & Engineering'],['CHE 004C General Chemistry for the Physical Sciences & Engineering'],['PHY 009A Classical Physics'],['PHY 009B Classical Physics'],['PHY 009C Classical Physics']]"
 UC Irvine,"[['I&C SCI 31- 32- 33 - Introduction to Programming (4.00)', 'Programming with Software Libraries (4.00)', 'Intermediate Programming (4.00)'], ['I&C SCI 32A- 33 - Python Programming and Libraries (Accelerated) (4.00)', 'Intermediate Programming (4.00)']]"
 UC Irvine,[['I&C SCI 45C - Programming in C/C++ as a Second Language (4.00)']]
 UC Irvine,[['I&C SCI 46 - Data Structure Implementation and Analysis (4.00)']]
@@ -85,7 +76,7 @@ UC Riverside,"[['MATH 031 - Applied Linear Algebra (5.00)'], ['EE 020B - Linear 
 UC Riverside,[['PHYS 040A - Physics (Mechanics) (5.00)']]
 UC Riverside,[['PHYS 040B - Physics (Heat/Waves/Sound) (5.00)']]
 UC Riverside,[['PHYS 040C - Physics (Electricity/Magnetism) (5.00)']]
-UC Riverside,[['At least 9 additional units. One course of 4 or more units in an engineering discipline outside the field of computer science to be selected in consultation with a faculty advisor. (Either a lower-division or an upper-division course may be used to satisfy this requirement.) (9.00)']]
+UC Riverside,[['--ELECTIVE: At least 9 additional units. One course of 4 or more units in an engineering discipline outside the field of computer science to be selected in consultation with a faculty advisor. (Either a lower-division or an upper-division course may be used to satisfy this requirement.) (9.00)']]
 UC San Diego,"[['CSE 8B -  Introduction to Programming and Computational Problem-Solving II (4.00)'], ['CSE 11 - Introduction to Programming and Computational Problem-Solving - Accelerated Pace (4.00)']]"
 UC San Diego,[['CSE 12 - Basic Data Structures and Object-Oriented Design (4.00)']]
 UC San Diego,[['CSE 15L - Software Tools and Techniques Laboratory (2.00)']]
@@ -149,7 +140,7 @@ CSU Fullerton,[['MATH 150B - Calculus II (4.00)']]
 CSU Fullerton,[['MATH 170A - Mathematical Structures I (3.00)']]
 CSU Fullerton,[['MATH 170B - Mathematical Structures II (3.00)']]
 CSU Fullerton,[['MATH 338 - Statistics Applied to Natural Sciences (4.00)']]
-CSU Fullerton,"[['--12 Units from the following (12.00)'],['BIOL 101 - Elements of Biology (3.00)'],['BIOL 101L - Elements of Biology Laboratory (1.00)'],['BIOL 151 - Cellular and Molecular Biology (4.00)'],['BIOL 152 - Evolution and Organismal Biology (4.00)'],['CHEM 120A - General Chemistry (5.00)'],['CHEM 120B - General Chemistry (5.00)'],['CHEM 123 - Chemistry for Engineers (3.00)'],['CHEM 125 - General Chemistry B Lecture (3.00)'],['GEOL 101 - Introduction to Geology (3.00)'],['GEOL 101L - Introduction to Geology Laboratory (1.00)'],['GEOL 201 - Earth History (3.00)'],['GEOL 201L - Earth History Supplemental Lab (1.00)'],['MATH 250A - Calculus III (4.00)'],['MATH 250B - Introduction to Linear Algebra and Differential Equations (4.00)'],['PHYS 225 - Fundamental Physics - Mechanics (3.00)'],['PHYS 225L - Fundamental Physics - Laboratory (1.00)'],['PHYS 226 - Fundamental Physics - Electricity and Magnetism (3.00)'],['PHYS 226L - Fundamental Physics - Laboratory (1.00)'],['PHYS 227 - Fundamental Physics - Waves, Optics, and Modern Physics (1-3)'],['PHYS 227L - Fundamental Physics - Laboratory (1.00)']]"
+CSU Fullerton,"[['--ELECTIVE SCIENCE: 12 Units from the following (12.00)'],['BIOL 101 - Elements of Biology (3.00)'],['BIOL 101L - Elements of Biology Laboratory (1.00)'],['BIOL 151 - Cellular and Molecular Biology (4.00)'],['BIOL 152 - Evolution and Organismal Biology (4.00)'],['CHEM 120A - General Chemistry (5.00)'],['CHEM 120B - General Chemistry (5.00)'],['CHEM 123 - Chemistry for Engineers (3.00)'],['CHEM 125 - General Chemistry B Lecture (3.00)'],['GEOL 101 - Introduction to Geology (3.00)'],['GEOL 101L - Introduction to Geology Laboratory (1.00)'],['GEOL 201 - Earth History (3.00)'],['GEOL 201L - Earth History Supplemental Lab (1.00)'],['MATH 250A - Calculus III (4.00)'],['MATH 250B - Introduction to Linear Algebra and Differential Equations (4.00)'],['PHYS 225 - Fundamental Physics - Mechanics (3.00)'],['PHYS 225L - Fundamental Physics - Laboratory (1.00)'],['PHYS 226 - Fundamental Physics - Electricity and Magnetism (3.00)'],['PHYS 226L - Fundamental Physics - Laboratory (1.00)'],['PHYS 227 - Fundamental Physics - Waves, Optics, and Modern Physics (1-3)'],['PHYS 227L - Fundamental Physics - Laboratory (1.00)']]"
 CSU Channel Islands,[['COMP 150 - Object-Oriented Programming (4.00)']]
 CSU Channel Islands,[['COMP 151 - Data Structures And Program Design (4.00)']]
 CSU Channel Islands,[['COMP 162 - Computer Architecture and Assembly Language (3.00)']]
