@@ -3,7 +3,7 @@ from Requirements import *
 import os
 import ast
 import pandas as pd
-import AssistAPIInformationGetter
+# import AssistAPIInformationGetter
 
 def delete_empty_rows(csv_file, output_file):
     # Read the CSV file into a pandas DataFrame
@@ -25,8 +25,8 @@ UnisQuarter = []
 UnisSemester = []
 CCsQuarter = []
 CCsSemester = []
-CCsName = AssistAPIInformationGetter.getUniqueCCNamelst()
-print(CCsName)
+# CCsName = AssistAPIInformationGetter.getUniqueCCNamelst()
+
 
 # deletes unnessary rows(does special things for different schools)
 def FixCSV(uniName, CSVFileName):
@@ -164,8 +164,8 @@ def ConvertToGradReqs(CSVFileName, relList, UniName):
             reader = csv.reader(csvr, delimiter='\t')
             # iterate through the scraped csv file
             for row in reader:
-                if row[1] == "MATH 3B - Calculus with Applications, Second Course (4.00)":
-                    print("I see it")
+                # if row[1] == "MATH 3B - Calculus with Applications, Second Course (4.00)":
+                #     print("I see it")
                 # print(row, UniName)
                 isrepeat = False
                 if row[0] != prevCC:
