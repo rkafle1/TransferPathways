@@ -3,6 +3,7 @@ from Requirements import *
 import os
 import ast
 import pandas as pd
+# import AssistAPIInformationGetter
 
 def delete_empty_rows(csv_file, output_file):
     # Read the CSV file into a pandas DataFrame
@@ -17,16 +18,36 @@ def delete_empty_rows(csv_file, output_file):
 
 
 
-
+CCsdups = {"Compton Colleg": "Compton Community College", "Santa Ana College": "Rancho Santiago College", "Reedley College":"Kings River College",
+           "Berkeley City College":"Vista Community College"}
 UniNameShort = ["CSUF", "Sonoma","CPSLO", "Chico", "CSUSM", "SDSU", "SJSU", "CSULA", "CSUMB", "CSUN", "CSUB", "CSUSB", "CSUDH", "CSUEB", "CSUStan", "CSUS"
                 , "SFSU", "Humboldt", "CSUFresno", "CSULB", "CSUCI", "CPP", "UCI", "UCB", "UCSD", "UCM", "UCSC", "UCSB", "UCD", "UCLA", "UCR"]
 UnisQuarter = []
 UnisSemester = []
 CCsQuarter = []
 CCsSemester = []
-CCsName = []
-CCsdups = {"Compton Colleg": "Compton Community College", "Santa Ana College": "Rancho Santiago College", "Reedley College":"Kings River College",
-           "Berkeley City College":"Vista Community College"}
+# CCsName = AssistAPIInformationGetter.getUniqueCCNamelst()
+# print(CCsName)
+CCsName = ['Evergreen Valley College', 'Los Angeles City College', 'College of Marin', 'College of San Mateo', 'College of the Sequoias', 'Butte College',
+            'Cerro Coso Community College', 'Columbia College', 'Merritt College', 'Cuesta College', 'Merced College', 'Las Positas College',
+            'Victor Valley College', 'Barstow Community College', 'Los Angeles Trade Technical College', 'American River College', 'Contra Costa College',
+            'College of the Desert', 'Los Angeles Harbor College', 'Mission College', 'City College of San Francisco', 'Fresno City College', 'Shasta College',
+            'Lake Tahoe Community College', 'Cabrillo College', 'Glendale Community College', 'Los Angeles Valley College', 'San Diego Miramar College',
+            'Los Angeles Mission College', 'Ohlone College', 'Pasadena City College', 'Foothill College', 'Modesto Junior College', 'Mt. San Jacinto College',
+            'San Diego City College', 'Golden West College', 'Palomar College', 'Santa Rosa Junior College', 'Los Medanos College', 'Mount San Antonio College',
+            'Palo Verde College', 'Rio Hondo College', 'Saddleback College', 'Santiago Canyon College', 'West Hills College Coalinga', 'Canada College',
+            'Chaffey College', 'Crafton Hills College', 'Cypress College', 'Gavilan College', 'Napa Valley College', 'Orange Coast College', 'Laney College',
+            'Riverside City College', 'West Valley College', 'Lassen Community College', 'College of the Redwoods', 'Bakersfield College',
+            'Los Angeles Pierce College', 'Oxnard College', 'Yuba College', 'West Los Angeles College', 'Santa Barbara City College',
+            'Sierra College', 'Solano Community College', 'Ventura College', 'Chabot College', 'Citrus College', 'Cuyamaca College', 'Mendocino College',
+            'San Diego Mesa College', 'College of the Siskiyous', 'El Camino College', 'Cerritos College', 'Coastline Community College', 'Grossmont College',
+            'Imperial Valley College', 'MiraCosta College', 'San Joaquin Delta College', 'Allan Hancock College', 'College of Alameda', 'Copper Mountain College',
+            'De Anza College', 'Diablo Valley College', 'East Los Angeles College', 'Taft College', 'Antelope Valley College', 'Feather River College', 'Hartnell College',
+            'Irvine Valley College', 'Porterville College', 'Sacramento City College', 'Skyline College', 'Los Angeles Southwest College', 'San Bernardino Valley College',
+            'Monterey Peninsula College', 'Fullerton College', 'Long Beach City College', 'San Jose City College', 'Santa Monica College', 'Southwestern College', 'Moorpark College',
+            'College of the Canyons', 'Cosumnes River College', 'Folsom Lake College', 'West Hills College Lemoore', 'Woodland Community College', 'Norco College', 'Moreno Valley College',
+            'Clovis Community College', 'Compton College', 'Madera Community College']
+
 # deletes unnessary rows(does special things for different schools)
 def FixCSV(uniName, CSVFileName):
     
@@ -134,13 +155,13 @@ def getrelList(UniName):
     with open("csvs/ReqRelationships.csv", 'r') as f:
         reader = csv.reader(f, delimiter='\t')
         for row in reader:
-            print(row[0])
+            # print(row[0])
             if row[0] == UniName:
-                print(row[1])
-                print(row[1])
+                # print(row[1])
+                # print(row[1])
                 Reqs.append(getListfromString(row[1]))
     return Reqs
-print(getrelList("UCI"))
+# print(getrelList("UCI"))
 def getallRelatedCourses(reqlist):
     courses = []
     for i in reqlist:
@@ -163,7 +184,9 @@ def ConvertToGradReqs(CSVFileName, relList, UniName):
             reader = csv.reader(csvr, delimiter='\t')
             # iterate through the scraped csv file
             for row in reader:
-                print(row, UniName)
+                # if row[1] == "MATH 3B - Calculus with Applications, Second Course (4.00)":
+                #     print("I see it")
+                # print(row, UniName)
                 isrepeat = False
                 if row[0] != prevCC:
                     # print(AddedFromrelList)
@@ -174,23 +197,32 @@ def ConvertToGradReqs(CSVFileName, relList, UniName):
                     
                 # check if the req courses are in the rel list
                 # rel list will be : [[['CSE 12 - Basic Data Structures and Object-Oriented Design (4.00)']], [['CSE 15L - Software Tools and Techniques Laboratory (2.00)']]]
+                if row[1] == "MATH 3B - Calculus with Applications, Second Course (4.00)":
+                    print("curr rel list: ", AddedFromrelList)
                 for i in relList:
                     for j in i:
                         if row[1] in j:
+                            
                             if row[1] not in getallRelatedCourses(AddedFromrelList):
-                                
+                                if row[1] == "MATH 3B - Calculus with Applications, Second Course (4.00)":
+                                    print("being added new")
                                 AddedFromrelList.append(i)
     
                                 artslist.append([getListfromString(row[2])])
                             else:
-                                
+                                if row[1] == "MATH 3B - Calculus with Applications, Second Course (4.00)":
+                                    print("being added to end of one")
                                 artslist[len(artslist) - 1].append(getListfromString(row[2]))
+                # if UniName == "CSUFresno" and "Evergreen" in row[0]:
+                #     print(artslist)
                                 
                 prevCC = row[0]
-# ConvertToGradReqs("csvs/UniSheets/" + "CSUDH", getrelList("CSUDH"), "CSUDH")
+            for i in range(len(AddedFromrelList)):
+                writer.writerow([prevCC, AddedFromrelList[i], artslist[i]])
+# ConvertToGradReqs("csvs/UniSheets/" + "CSUFresno", getrelList("CSUFresno"), "CSUFresno")
 def ConvertAllUniToGradReqs(uniList):
     for uni in uniList:          
         ConvertToGradReqs("csvs/UniSheets/" + uni, getrelList(uni), uni)
-ConvertAllUniToGradReqs(UniNameShort)                               
+# ConvertAllUniToGradReqs(UniNameShort)                               
 
 

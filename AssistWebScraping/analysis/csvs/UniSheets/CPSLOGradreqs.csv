@@ -1508,3 +1508,19 @@ Compton College	[['MATH 143 - Calculus III (4.00)']]	[[['MATH 191 - Single Varia
 Compton College	[['MATH 206 - Linear Algebra I (4.00)'], ['MATH 244 - Linear Analysis I (4.00)']]	[[['MATH 270 - Differential Equations with Linear Algebra (5.00)']], [['MATH 270 - Differential Equations with Linear Algebra (5.00)']]]
 Compton College	[['PHIL 230 - Philosophical Classics: Knowledge & Reality (4.00)'], ['PHIL 231 - Philosophical Classics: Ethics and Political Philosophy (4.00)']]	[[['No Course Articulated']], [['No Course Articulated']]]
 Compton College	[['BIO 111 - General Biology (4.00)'], ['BIO 161 - Introduction to Celland Molecular Biology (4.00)'], ['BOT 121 - General Botany (4.00)'], ['MCRO 221 - Microbiology (4.00)']]	[[['BIOL 100 - Fundamentals of Biology (4.00)']]]
+<<<<<<< Updated upstream
+=======
+Madera Community College	[['CSC 101 - Fundamentals of Computer Science (4.00)']]	[[['ENGR 40 - Programming for Scientists and Engineers (4.00)'], ['CSCI 40 - Programming Concepts and Methodology I (4.00)'], ['CSCI 5 - Java Programming (3.00)'], ['IS 33 - Beginning Java Programming (3.00)']]]
+Madera Community College	[['CSC 123 - Introduction to Computing (4.00)']]	[[['CSCI 40 - Programming Concepts and Methodology I (4.00)']]]
+Madera Community College	[['CSC 202 - Data Structures (4.00)']]	[[['CSCI 41 - Programming Concepts and Methodology II (4.00)']]]
+Madera Community College	[['CSC 203 - Project-Based Object-Oriented Programming and Design (4.00)']]	[[['CSCI 41 - Programming Concepts and Methodology II (4.00)']]]
+Madera Community College	[['CPE 101 - Fundamentals of Computer Science(4.00) & CPE 202 - Data Structures (4.00) & CPE 203 - Project-Based Object-Oriented Programming and Design (4.00)']]	[[['No Course Articulated']], [['No Course Articulated']], [['No Course Articulated']]]
+Madera Community College	[['CSC 225 - Introduction to Computer Organization (4.00)']]	[[['CSCI 45 - Computer Organization and Assembly Language Programming (4.00)']]]
+Madera Community College	[['CSC 248 - Discrete Structures (4.00)']]	[[['CSCI 26 - Discrete Mathematics for Computer Science (4.00)']]]
+Madera Community College	[['MATH 141 - Calculus I (4.00)']]	[[['MATH 5A - Math Analysis I (5.00)']]]
+Madera Community College	[['MATH 142 - Calculus II (4.00)']]	[[['MATH 5B - Math Analysis II (4.00)']]]
+Madera Community College	[['MATH 143 - Calculus III (4.00)']]	[[['MATH 5B - Math Analysis II (4.00)']]]
+Madera Community College	[['MATH 206 - Linear Algebra I (4.00)'], ['MATH 244 - Linear Analysis I (4.00)']]	[[['MATH 17 - Differential Equations and Linear Algebra (5.00)']], [['MATH 17 - Differential Equations and Linear Algebra (5.00)']]]
+Madera Community College	[['PHIL 230 - Philosophical Classics: Knowledge & Reality (4.00)'], ['PHIL 231 - Philosophical Classics: Ethics and Political Philosophy (4.00)']]	[[['No Course Articulated']], [['PHIL 1C - Ethics (3.00)'], ['PHIL 1CH - Honors Ethics (3.00)'], ['PHIL 1 - Introduction to Philosophy (3.00)']]]
+Madera Community College	[['BIO 111 - General Biology (4.00)'], ['BIO 161 - Introduction to Celland Molecular Biology (4.00)'], ['BOT 121 - General Botany (4.00)'], ['MCRO 221 - Microbiology (4.00)']]	[[['BIOL 31 - Microbiology (5.00)']]]
+>>>>>>> Stashed changes
