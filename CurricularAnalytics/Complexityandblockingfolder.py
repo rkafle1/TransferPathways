@@ -6,6 +6,15 @@ Created on Thu Jul 27 09:59:45 2023
 @author: christalehr
 """
 
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Jul 27 09:59:45 2023
+
+@author: christalehr & YayaJiang
+"""
+
 import pandas as pd
 import csv
 import os
@@ -148,6 +157,93 @@ for residual_file in residual_files:
         
 
 print(f"Filtered data and desired rows have been written to the output folder: {output_folder}.")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

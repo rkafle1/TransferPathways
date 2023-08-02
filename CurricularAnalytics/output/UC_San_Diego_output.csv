@@ -1,21 +1,21 @@
 ,UC_San_Diego,,,,,,,,,,,,,
-,University of California-San Diego,,,,,,,,,,,,,
+,UC San Diego,,,,,,,,,,,,,
 ,BS,,,,,,,,,,,,,
 ,quarter,,,,,,,,,,,,,
 ,11.0701,,,,,,,,,,,,,
-Residual Complexity Total:,40.80000000000001,,,,,,,,,,,,,
+Residual Complexity Total:,40.80000000000000,,,,,,,,,,,,,
 Graduation Complexity Total:,200.7,,,,,,,,,,,,,
-Residual Difference:,159.89999999999998,,,,,,,,,,,,,,
-
+Residual Difference:,159.90000000000000,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality,Source
-3.0,Introduction to Programming and Computational Problem-Solving: Accelerated Pace,CSE,11,,,,4.0,,,18.0,21.0,6.0,0.0,,Graduation
-4.0,Basic Data Structures and Object-Oriented Design,CSE,12,3,,,4.0,,,14.7,16.0,6.0,101.0,,Graduation
-5.0,Software Tools and Techniques Laboratory,CSE,15L,3,,,2.0,,,14.0,15.0,6.0,93.0,,Graduation
-6.0,Discrete Mathematics,CSE,20,3,,,4.0,,,13.3,14.0,6.0,62.0,,Graduation
-7.0,Mathematics for Algorithms and Systems,CSE,21,6,,,4.0,,,11.3,11.0,6.0,51.0,,Graduation
-8.0,Computer Organization and Systems Programming,CSE,30,5;4,,,4.0,,,10.7,10.0,6.0,108.0,,Graduation
-10.0,Precalculus for Science and Engineering,MATH,4C,,,,4.0,,,10.7,10.0,6.0,0.0,,Graduation
-11.0,Calculus for Science and Engineering,MATH,20A,10,,,4.0,,,10.0,9.0,6.0,24.0,,Graduation
-12.0,Calculus for Science and Engineering,MATH,20B,11,,,4.0,,,7.3,5.0,6.0,16.0,,Graduation
-18.0,Advanced Data Structures,CSE,100,5;4;7;8,,,4.0,,,8.7,7.0,6.0,148.0,,Graduation
-18.0,Advanced Data Structures,CSE,100,,,,4.0,,,6.7,7.0,3.0,0.0,,Residual
+3.0,Introduction to Programming and Computational Problem-Solving: Accelerated Pace,CSE,11,,,,4.0,,,18.0,21.0,6.0,0.0,Graduation
+4.0,Basic Data Structures and Object-Oriented Design,CSE,12,3,,,4.0,,,14.7,16.0,6.0,101.0,Graduation
+5.0,Software Tools and Techniques Laboratory,CSE,15L,3,,,2.0,,,14.0,15.0,6.0,93.0,Graduation
+6.0,Discrete Mathematics,CSE,20,3,,,4.0,,,13.3,14.0,6.0,62.0,Graduation
+7.0,Mathematics for Algorithms and Systems,CSE,21,6,,,4.0,,,11.3,11.0,6.0,51.0,Graduation
+8.0,Computer Organization and Systems Programming,CSE,30,5;4,,,4.0,,,10.7,10.0,6.0,108.0,Graduation
+10.0,Precalculus for Science and Engineering,MATH,4C,,,,4.0,,,10.7,10.0,6.0,0.0,Graduation
+11.0,Calculus for Science and Engineering,MATH,20A,10,,,4.0,,,10.0,9.0,6.0,24.0,Graduation
+12.0,Calculus for Science and Engineering,MATH,20B,11,,,4.0,,,7.3,5.0,6.0,16.0,Graduation
+18.0,Advanced Data Structures,CSE,100,5;4;7;8,,,4.0,,,8.7,7.0,6.0,148.0,Graduation
+18.0,Advanced Data Structures,CSE,100,,,,4.0,,,6.7,7.0,3.0,0.0,Residual
