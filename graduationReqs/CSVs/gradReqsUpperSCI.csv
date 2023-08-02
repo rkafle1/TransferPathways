@@ -1,8 +1,34 @@
-UC Santa Cruz BA,"[['--Three courses from the list of B.A. electives below, including at least one upper-division computer science and engineering course(s) numbered below 170, or numbered between 180 and 189, or CSE 195. (15.00)'],['For other courses, computational media, and Applied Mathematics and Statistics courses are strongly recommended.'],['--Any 5-credit upper-division course offered by the Baskin School of Engineering, except for the DC courses CSE 115A and CSE 185E/CSE 185S.'],['--OR any course from the following list:'],['ARTG 118 - Character Creation for Video Games (5.00)'],['EART 124 - Modeling Earth's Climate (5.00)'],['EART 125 - Statistics and Data Analysis in the Geosciences (5.00)'],['EART 172/OCEA 172 - Geophysical Fluid Dynamics (5.00)'],['ECON 100M - Intermediate Microeconomics, Math Intensive (5.00)'],['ECON 100N - Intermediate Macroeconomics, Math Intensive (5.00)'],['ECON 101 - Managerial Economics (5.00)'],['ENVS 115A - Geographic Information Systems and Environmental Applications (5.00)','ENVS 115L - Exercises in Geographic Information Systems (2.00)'],['FILM 170A - Fundamentals of Digital Media Production (5.00)'],['LING 112 - Syntax I (5.00)'],['LING 113 - Syntax II (5.00)'],['LING 118 - Semantics III (5.00)'],['LING 125 - Foundations of Linguistic Theory (5.00)'],['MATH 110 - Introduction to Number Theory (5.00)'],['MATH 115 - Graph Theory (5.00)'],['MATH 116 - Combinatorics (5.00)'],['MATH 117 - Advanced Linear Algebra (5.00)'],['MATH 118 - Advanced Number Theory (5.00)'],['MATH 134 - Cryptography (5.00)'],['MATH 145 - Introductory Chaos Theory (5.00)','MATH 145L - Introductory Chaos Laboratory (1.00)'],['MATH 148 - Numerical Analysis (5.00)'],['MATH 160 - Mathematical Logic I (5.00)'],['MATH 161 - Mathematical Logic II (5.00)'],['MUSC 123 - Electronic Sound Synthesis (5.00)'],['MUSC 124 - Intermediate Electronic Sound Synthesis (5.00)'],['MUSC 125 - Advanced Electronic Sound Synthesis (5.00)'],['PHYS 115 - Computational Physics (5.00)'],['PHYS 150/CSE 109 - Quantum Computing (5.00)']]"
-UC Santa Cruz BA,Total units: 15.0
-UC Santa Cruz BS,"[['--Four courses must be completed from the list below . At least one course must be a computer science and engineering course. At most two courses can be from applied mathematics, statistics or mathematics, of which at most one may be substituted with two physics classes, chosen from the following list of class pairs - PHYS 6A and PHYS 6C, PHYS 6A and PHYS 6B, PHYS 5A and PHYS 5C, PHYS 5A and PHYS 5B. Any laboratories required or recommended by the Physics Department associated with these classes are not part of the computer science B.S. major requirements. (20.00)'],['--Any CSE course with a number below 170, or between 180 and 189, except for the DC courses CSE 115A and CSE 185E/CSE 185S.'],['--OR any course from the following list:'],['AM 114 - Introduction to Dynamical Systems (5.00)'],['AM 147 - Computational Methods and Applications (5.00)'],['CMPM 120 - Game Development Experience (5.00)'],['CMPM 131 - User Experience for Interactive Media (5.00)'],['CMPM 146 - Game AI (5.00)'],['CMPM 163 - Game Graphics and Real-Time Rendering (5.00)'],['CMPM 164 - Game Engines (5.00)','CMPM 164L - Game Engines Lab (2.00)'],['CMPM 171 - Game Design Studio II (7.00)'],['CMPM 172 - Game Design Studio III (7.00)'],['CSE 195 - Senior Thesis Research (5.00)'],['MATH 110 - Introduction to Number Theory (5.00)'],['MATH 115 - Graph Theory (5.00)'],['MATH 116 - Combinatorics (5.00)'],['MATH 117 - Advanced Linear Algebra (5.00)'],['MATH 118 - Advanced Number Theory (5.00)'],['MATH 134 - Cryptography (5.00)'],['MATH 145 - Introductory Chaos Theory (5.00)','MATH 145L - Introductory Chaos Laboratory (1.00)'],['MATH 148 - Numerical Analysis (5.00)'],['MATH 160 - Mathematical Logic I (5.00)'],['MATH 161 - Mathematical Logic II (5.00)'],['STAT 132 - Classical and Bayesian Inference (5.00)']]"
-UC Santa Cruz BS,Total units: 20.0
-CSU Channel Islands,"[['--Complete 12 units from the following: (12.00)'],['COMP 345 - Digital Image Processing (Cross-listed as PHYS 345, MATH 345) (3.00)'],['COMP 347 - Online Communication and Society (Cross-listed as COMM 347) (3.00)'],['COMP 351 - Distributed Computing (3.00)'],['COMP 405 - Mobile Application Development (Cross-listed as IT 405) (3.00)'],['COMP 420 - Database Theory and Design (Cross-listed as IT 420) (3.00)'],['COMP 424 - Computer System Security (Cross-listed as IT 424) (3.00)'],['COMP 425 - Computer Game Programming (3.00)'],['COMP 429 - Computer Networks (Cross-listed as IT 429) (3.00)'],['COMP 436 - Computational Biology (Cross-listed as BIOL 436) (4.00)'],['COMP 445 - Image Analysis and Pattern Recognition (Cross-listed as PHYS 445, MATH 445) (3.00)'],['COMP 451 - Advanced Object-Oriented Programming (3.00)'],['COMP 452 - Computational Bioinformatics (Cross-listed as MATH 452) (4.00)'],['COMP 462 - Embedded Systems (Cross-listed as EMEC 462) (3.00)'],['COMP 464 - Computer Graphic Systems And Design I (Cross-listed as IT 464, ART 464) (3.00)'],['COMP 469 - Introduction To Artificial Intelligence (3.00)'],['COMP 470 - Mobile Robotics (Cross-listed as EMEC 470) (3.00)'],['COMP 478 - Introduction To Data Mining (3.00)'],['COMP 490 - Topics in Computer Science (3.00)'],['COMP 492 - Internship 1 - (3.00)'],['COMP 494 - Independent Research (3.00)'],['COMP 497 - Directed Studies (3.00)'],['MATH 429 - Operations Research (3.00)'],['MATH 448 - Scientific Computing (3.00)']]"
-CSU Channel Islands,Total units: 12.0
-Stainislaus State,"[['Select 12 units from the following courses. (12.00)'], ['CS 3000 - Communication Networks (3.00)'],['CS 3150 - Nonlinear Systems and Chaos (3.00)'],['CS 3200 - Computer Simulation Techniques (3.00)'],['CS 3400 - Neural Networks and Intelligent Machines (3.00)'],['CS 3500 - Human-Centered Design (3.00)'],['CS 3550 - Introduction to Computational Thinking (3.00)'],['CS 3600 - Computer Graphics I (3.00)'],['CS 3810 - Android Mobile Application Development (3.00)'],['CS 4010 - Computing for the Sciences (3.00)'],['CS 4250 - Database Management Systems (3.00)'],['CS 4270 - Ecommerce Systems Design (3.00)'],['CS 4280 - Non-Relational (NoSQL) Database Systems (3.00)'],['CS 4300 - Compiler Theory (3.00)'],['CS 4410 - Automata, Computability, and Formal Languages (3.00)'],['CS 4440 - Theory of Algorithms (3.00)'],['CS 4450 - Coding and Information Theory (3.00)'],['CS 4480 - Artificial Intelligence (3.00)'],['CS 4520 - Social Network Analysis (3.00)'],['CS 4600 - Computer Graphics II (3.00)'],['CS 4710 - Mobile Robotics (3.00)'],['CS 4750 - Operating Systems II (3.00)'],['CS 4800 - Software Engineering (3.00)'],['CS 4840 - Cybersecurity Fundamentals (3.00)'],['CS 4980 - Individual Study 1-4'],['--No more than one of:'],['CIS 4770 - Systems Analysis and Design'],['PHYS 4250 - Analog and Digital Electronics'],['Math - any approved upper-division course']]"
-Stainislaus State,Total units: 12.0
+UC Berkeley BA,Total units: 0
+UC Berkeley BS,Total units: 0
+UC Davis,Total units: 0
+UC Irvine,Total units: 0
+UC Los Angeles,[['--ELECTIVE SCIENCE: Select a minimum of 12 units and three science and technology courses (not used to satisfy other requirements) that may include 12 units of upper-division computer science courses or 12 units of courses selected from an approved list available in the Office of Academic and Student Affairs. (12.00)']]
+UC Los Angeles,Total units: 12.0
+UC Merced,Total units: 0
+UC Riverside,Total units: 0
+UC San Diego,Total units: 0
+UC Santa Cruz BA,Total units: 0
+UC Santa Cruz BS,Total units: 0
+UC Santa Barbara,Total units: 0
+CSU Los Angeles,Total units: 0
+CSU Fullerton,Total units: 0
+CSU Channel Islands,Total units: 0
+Chico State,Total units: 0
+CSU Dominguez Hills,Total units: 0
+CSU East Bay,Total units: 0
+Fresno State,Total units: 0
+Cal Poly Humboldt,Total units: 0
+CSU Long Beach,Total units: 0
+CSU Northridge,Total units: 0
+Cal Poly Pomona,Total units: 0
+Sacramento State,Total units: 0
+CSU San Bernardino,Total units: 0
+San Diego State,Total units: 0
+San Francisco State,Total units: 0
+San Jose State,Total units: 0
+CSU San Marcos,Total units: 0
+Stainislaus State,Total units: 0
+Sonoma State,Total units: 0
+Cal Poly San Luis Obispo,Total units: 0
+CSU Bakersfield,Total units: 0
+CSU Monterey Bay,Total units: 0
