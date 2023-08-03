@@ -63,7 +63,7 @@ def count_units(line):
     return min_units_count
 
 
-def write_all_csv(csv_path, name, count_dict):
+def write_all(csv_path, name, count_dict):
     with open(csv_path, 'r') as csv_file:
         csv_reader = csv.reader(csv_file)
 
@@ -101,7 +101,7 @@ def write_all_csv(csv_path, name, count_dict):
             count_dict[prev_school] = unit_count
 
 
-def get_type_total(csv_path, matches, count_dict):
+def get_type_unit_count(csv_path, matches, exclude, count_dict):
     with open(csv_path, 'r') as csv_file:
         csv_reader = csv.reader(csv_file)
         unit_count = 0
@@ -111,7 +111,8 @@ def get_type_total(csv_path, matches, count_dict):
 
         # Check first row for keywords
         if any([x in first_row[1] for x in matches]):
-            unit_count += count_units(first_row[1])
+            if all(s not in first_row[1] for s in exclude):
+                unit_count += count_units(first_row[1])
             
         # Get name of the school in the first row
         # NOTE: Assumes the first row has a school name
@@ -126,14 +127,17 @@ def get_type_total(csv_path, matches, count_dict):
                 count_dict[prev_school] = unit_count
                 unit_count = 0
 
-            unit_count += count_units(line[1]) if any([x in line[1] for x in matches]) else 0
+            if any([x in line[1] for x in matches]):
+                if all(s not in line[1] for s in exclude):
+                    unit_count += count_units(line[1])
+
             prev_school = line[0]
         
         # get last schools unit count
         count_dict[prev_school] = unit_count
 
 
-def write_type_csv(csv_path, name, matches, exclude, count_dict):
+def write_type_unit_count(csv_path, name, matches, exclude, count_dict):
     with open(csv_path, 'r') as csv_file:
         csv_reader = csv.reader(csv_file)
 
@@ -183,46 +187,49 @@ def write_type_csv(csv_path, name, matches, exclude, count_dict):
 if __name__ == '__main__':
 
     # Added space at the end of each abbreviation to ensure it checks only for the course numbers
-    cs_matches   = ['CS ', 'CSE ', 'ECS ', 'EEC ', 'I&C ', 'IN4MATX ', 'COM SCI ', 'CMPSC ', 'CPSC ', 'COMP ', 'CSCI', 'CSCI/EECE ', 'CINS ', 'CSC ', 'CPE ', 'CECS ', 'CMPS ', 'CST ', 'ENG ', 'ENGR ', 'ECE ', 'Discrete ', 'ELECTIVE:']
+    cs_matches   = ['CS ', 'CSE ', 'ECS ', 'EEC ', 'I&C ', 'IN4MATX ', 'COM SCI ', 'CMPSC ', 'CPSC ', 'COMP ', 'CSCI', 'CSCI/EECE ', 'CINS ', 'CSC ', 'CPE ', 'CECS ', 'CMPS ', 'CST ', 'ENG ', 'ENGR ', 'ECE ', 'Discrete ']
     math_matches = ['Math ', 'MATH ', 'MAT ', 'PSTAT ', 'STATS ', 'STAT ', 'STA ', 'E E ']
     sci_matches  = ['Physics ', 'physics', 'PHYSICS ', 'PHYS ', 'PHY ', 'BIO ', 'BIOL ', 'CHEM ', 'CHE ', 'Chem ', 'ELECTIVE SCIENCE:']
 
     # Stacked graph (sort by value): math, science, lower cs, upper elective, upper required
-
-    '''
-    lower_cs_count = {}
-    lower_math_count = {}
-    lower_sci_count = {}
-    get_type_total('CSVs/gradReqsLOWER.csv', cs_matches  , lower_cs_count)
-    get_type_total('CSVs/gradReqsLOWER.csv', math_matches, lower_math_count)
-    get_type_total('CSVs/gradReqsLOWER.csv', sci_matches , lower_sci_count)
-
-    upper_cs_count = {}
-    upper_math_count = {}
-    get_type_total('CSVs/gradReqsUPPER.csv', cs_matches  , lower_cs_count)
-    get_type_total('CSVs/gradReqsUPPER.csv', math_matches, upper_math_count)
-    '''
+    # Required vs Optional(Elective)
 
     lower_cs_count = {}
     lower_math_count = {}
     lower_sci_count = {}
     lower_other_count = {}
-    write_type_csv('CSVs/gradReqsLOWER.csv', 'CSVs/gradReqsLowerCS'  , cs_matches  , sci_matches + ['Linear Algebra', 'Statistics'], lower_cs_count)
-    write_type_csv('CSVs/gradReqsLOWER.csv', 'CSVs/gradReqsLowerMATH', math_matches, sci_matches + ['Discrete'], lower_math_count)
-    write_type_csv('CSVs/gradReqsLOWER.csv', 'CSVs/gradReqsLowerSCI' , sci_matches , [], lower_sci_count)
-    write_type_csv('CSVs/gradReqsLOWER.csv', 'CSVs/gradReqsLowerOTHER', ['PHIL ', 'ENGL '], cs_matches + math_matches + sci_matches, lower_other_count)
+    get_type_unit_count('CSVs/gradReqsLOWER.csv', cs_matches  , sci_matches + ['Linear Algebra', 'Statistics'], lower_cs_count)
+    get_type_unit_count('CSVs/gradReqsLOWER.csv', math_matches, sci_matches + ['Discrete'], lower_math_count)
+    get_type_unit_count('CSVs/gradReqsLOWER.csv', sci_matches , [], lower_sci_count)
+    get_type_unit_count('CSVs/gradReqsLOWER.csv', ['PHIL ', 'ENGL '], cs_matches + math_matches + sci_matches, lower_other_count)
 
     upper_cs_count = {}
+    cs_elective_count = {}
     upper_math_count = {}
     upper_sci_count = {}
     upper_other_count = {}
-    write_type_csv('CSVs/gradReqsUPPER.csv', 'CSVs/gradReqsUpperCS'  , cs_matches  , ['Statistics', 'Probability'], upper_cs_count)
-    write_type_csv('CSVs/gradReqsUPPER.csv', 'CSVs/gradReqsUpperMATH', math_matches, ['Discrete'], upper_math_count)
-    write_type_csv('CSVs/gradReqsUPPER.csv', 'CSVs/gradReqsUpperSCI' , sci_matches , [], upper_sci_count)
-    write_type_csv('CSVs/gradReqsUPPER.csv', 'CSVs/gradReqsUpperOTHER', ['PHIL ', 'ENGL ', 'ES/WGQS '], cs_matches + math_matches + sci_matches, upper_other_count)
+    get_type_unit_count('CSVs/gradReqsUPPER.csv', cs_matches  , ['ELECTIVE:', 'Statistics', 'Probability'], upper_cs_count)
+    get_type_unit_count('CSVs/gradReqsUPPER.csv', ['ELECTIVE: '], [], cs_elective_count)
+    get_type_unit_count('CSVs/gradReqsUPPER.csv', math_matches, ['Discrete'], upper_math_count)
+    get_type_unit_count('CSVs/gradReqsUPPER.csv', sci_matches , [], upper_sci_count)
+    get_type_unit_count('CSVs/gradReqsUPPER.csv', ['PHIL ', 'ENGL ', 'ES/WGQS '], cs_matches + math_matches + sci_matches, upper_other_count)
+
+    for school in lower_cs_count:
+        if "UC" in school or "San Luis Obispo" in school:
+            if "Berkeley" not in school and "Merced" not in school:
+                lower_cs_count[school] /= 1.5
+                lower_math_count[school] /= 1.5
+                lower_sci_count[school] /= 1.5
+                lower_other_count[school] /= 1.5
+                upper_cs_count[school] /= 1.5
+                cs_elective_count[school] /= 1.5
+                upper_math_count[school] /= 1.5
+                upper_sci_count[school] /= 1.5
+                upper_other_count[school] /= 1.5
 
     lower_cs = list(lower_cs_count.values())
     upper_cs = list(upper_cs_count.values())
+    elective_cs = list(cs_elective_count.values())
 
     lower_other = list(lower_other_count.values())
     upper_other = list(upper_other_count.values())
@@ -238,11 +245,14 @@ if __name__ == '__main__':
 
     labels = list(lower_cs_count.keys())
 
-    plt.subplot().set_title('Total Unit Count For Each University (not including GE)')
+    plt.subplot().set_title('Unit Count of Major Required Courses')
     plt.bar(labels, lower_cs, label="Lower Division CS")
-    plt.bar(labels, upper_cs, bottom=lower_cs, label="Upper Division CS")
+    plt.bar(labels, upper_cs, bottom=lower_cs, label="Required Upper Division CS")
 
     bot = list(np.add(lower_cs, upper_cs))
+    plt.bar(labels, elective_cs, bottom=bot, label="Elective Upper Division CS")
+
+    bot = list(np.add(bot, elective_cs))
     plt.bar(labels, math, bottom=bot, label="Math")
 
     bot = list(np.add(bot, math))
@@ -260,8 +270,26 @@ if __name__ == '__main__':
     lower_count = {}
     upper_count = {}
 
-    write_all_csv('CSVs/gradReqsLOWER.csv', 'CSVs/gradReqsLOWERCount.csv', lower_count)
-    write_all_csv('CSVs/gradReqsUPPER.csv', 'CSVs/gradReqsUPPERCount.csv', upper_count)
+    write_all('CSVs/gradReqsLOWER.csv', 'CSVs/gradReqsLOWERCount.csv', lower_count)
+    write_all('CSVs/gradReqsUPPER.csv', 'CSVs/gradReqsUPPERCount.csv', upper_count)
+
+    lower_cs_count = {}
+    lower_math_count = {}
+    lower_sci_count = {}
+    lower_other_count = {}
+    write_type_unit_count('CSVs/gradReqsLOWER.csv', 'CSVs/gradReqsLowerCS'  , cs_matches  , sci_matches + ['Linear Algebra', 'Statistics'], lower_cs_count)
+    write_type_unit_count('CSVs/gradReqsLOWER.csv', 'CSVs/gradReqsLowerMATH', math_matches, sci_matches + ['Discrete'], lower_math_count)
+    write_type_unit_count('CSVs/gradReqsLOWER.csv', 'CSVs/gradReqsLowerSCI' , sci_matches , [], lower_sci_count)
+    write_type_unit_count('CSVs/gradReqsLOWER.csv', 'CSVs/gradReqsLowerOTHER', ['PHIL ', 'ENGL '], cs_matches + math_matches + sci_matches, lower_other_count)
+
+    upper_cs_count = {}
+    upper_math_count = {}
+    upper_sci_count = {}
+    upper_other_count = {}
+    write_type_unit_count('CSVs/gradReqsUPPER.csv', 'CSVs/gradReqsUpperCS'  , cs_matches  , ['Statistics', 'Probability'], upper_cs_count)
+    write_type_unit_count('CSVs/gradReqsUPPER.csv', 'CSVs/gradReqsUpperMATH', math_matches, ['Discrete'], upper_math_count)
+    write_type_unit_count('CSVs/gradReqsUPPER.csv', 'CSVs/gradReqsUpperSCI' , sci_matches , [], upper_sci_count)
+    write_type_unit_count('CSVs/gradReqsUPPER.csv', 'CSVs/gradReqsUpperOTHER', ['PHIL ', 'ENGL ', 'ES/WGQS '], cs_matches + math_matches + sci_matches, upper_other_count)
 
     total_count = {}
     grand_total = 0
