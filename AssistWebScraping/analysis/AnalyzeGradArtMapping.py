@@ -2,8 +2,19 @@ from requirement import *
 import re
 import csv
 import CSVHandling
-import requirement
+
 import matplotlib.pyplot as plt
+nolist =    ['No Course Articulated', 
+            'This course must be taken at the university after transfer',
+            'Course(s) Denied', 
+            'Not Articulated',
+            'No Comparable Course',
+            'No Articulation Established',
+            'Articulates as Course-to-Course Only',
+            'Articulates as a Series Only',
+            'Articulation Pending Review',
+            'No Current Articulation' 
+        ]
 # get Units from a course
 def getUnits(Courselst):
     unitcnt = 0
@@ -146,7 +157,7 @@ def getMetReqs(UniName):
                         if req not in reldict.keys():
                             continue
                         
-                        for noartphrase in requirement.nolist:
+                        for noartphrase in nolist:
                             if noartphrase in str(reldict[req]):
                                 print(getUnits([req]))
                                 subtractfromoption += getUnits([req])
