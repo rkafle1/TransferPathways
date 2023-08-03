@@ -448,7 +448,23 @@ def GenerateScatterCOMB(Reqtypes):
     plt.ylabel(Reqtypes[1])
     plt.title('Percentage of Graduation Requirement Units Covered by Agreements')   
 
-   
-
+def agreementrankingcomparator(row):
+    return float(row[2])
+def RankAgreementsperuni(reqtype):
+    rankings = {}
+    with open("./csvs/Findings/LeftoverGradReqs" + reqtype + ".csv") as leftovercsv:
+        reader = csv.reader(leftovercsv, delimiter='\t')
+        for row in reader:
+            if len(row) == 0 or row[0] == "University":
+                continue
+            if row[0] not in rankings.keys():
+                rankings[row[0]] = []
+            rankings[row[0]].append(row)
+    with open("./csvs/Findings/AgreementRankings" + reqtype +".csv", 'w') as rank:
+        writer = csv.writer(rank, delimiter='\t')
+        for uni in rankings.keys():
+            sortedlst = sorted(rankings[uni], key=agreementrankingcomparator, reverse=True)
+            writer.writerows(sortedlst)
+RankAgreementsperuni("LowerMathCS")
 
                 
