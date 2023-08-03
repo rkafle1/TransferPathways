@@ -1,15 +1,15 @@
-UC Berkeley BA,"[['EECS 16A - Designing Information Devices and Systems I (4.00)'], ['Math 54 - Linear Algebra and Differential Equations (4.00)']]"
 UC Berkeley BA,[['CS 61A - Structure and Interpretation of Computer Programs (4.00)']]
 UC Berkeley BA,[['CS 61B/BL - Data Structures (4.00)']]
 UC Berkeley BA,[['CS 61C - Machine Structures (4.00)']]
 UC Berkeley BA,[['CS 70 - Discrete Mathematics and Probability Theory (4.00)']]
-UC Berkeley BA,Total units: 20.0
+UC Berkeley BA,Total units: 16.0
 UC Berkeley BS,[['EECS 16A - Designing Information Devices and Systems I (4.00)']]
+UC Berkeley BS,"[['--ELECTIVE: Choose a lower or upper div 4 unit technical course in one of the following departments - Astro, Chem, Data Sci, EPS, IB, Math, MCB, Physics, PMB, Stat, or any Engin dept. See course lists in the Electrical Engineering & Computer Sciences - Berkeley Engineering (4.00)']]"
 UC Berkeley BS,[['CS 61A - Structure and Interpretation of Computer Programs (4.00)']]
 UC Berkeley BS,[['CS 61B/BL - Data Structures (4.00)']]
 UC Berkeley BS,[['CS 61C - Machine Structures (4.00)']]
 UC Berkeley BS,[['CS 70 - Discrete Mathematics and Probability Theory (4.00)']]
-UC Berkeley BS,Total units: 20.0
+UC Berkeley BS,Total units: 24.0
 UC Davis,[['ECS 20 - Discrete Mathematics for Computer Science (4.00)']]
 UC Davis,"[['ECS 36A - Programming & Problem Solving (4.00)'], ['ECS 32A - Introduction to Programming (4.00)']]"
 UC Davis,"[['ECS 36B - Software Development & Object-Oriented Programming in C++ (4.00)', 'ECS 36C - Data Structures, Algorithms, & Programming (4.00)'], ['ECS 32B - Introduction to Data Structures (4.00)', 'ECS 32C - Implementation of Data Structures in C (4.00)', 'ECS 34 - Software Development in UNIX & C++ (4.00)']]"
@@ -23,19 +23,14 @@ UC Irvine,[['I&C SCI 53 - Principles in System Design (4.00)']]
 UC Irvine,[['IN4MATX 43 - Introduction to Software Engineering (4.00)']]
 UC Irvine,[['I&C SCI 6B - Boolean Logic and Discrete Structures (4.00)']]
 UC Irvine,[['I&C SCI 6D - Discrete Mathematics for Computer Science (4.00)']]
-UC Irvine,"[['I&C SCI 6N - Computational Linear Algebra (4.00)'], ['MATH 3A - Introduction to Linear Algebra (4.00)']]"
-UC Irvine,"[['Two courses approved for General Education category II except those offered by CSE, Economics, Engineering, ICS, or Mathematics. University Studies courses can be used with the approval of the CS Vice Chair for Undergraduate Studies. (8.00)']]"
-UC Irvine,Total units: 50.0
+UC Irvine,Total units: 38.0
 UC Los Angeles,[['COM SCI 31 - Introduction to Computer Science I (4.00)']]
 UC Los Angeles,[['COM SCI 32 - Introduction to Computer Science II (4.00)']]
 UC Los Angeles,[['COM SCI 33 - Introduction to Computer Organization (5.00)']]
 UC Los Angeles,[['COM SCI 35L - Software Construction (4.00)']]
-UC Los Angeles,[['PHYSICS 1A - Physics for Scientists and Engineers - Mechanics (5.00)']]
-UC Los Angeles,"[['PHYSICS 1B - Physics for Scientists and Engineers - Oscillations, Waves, Electric and Magnetic Fields (5.00)']]"
-UC Los Angeles,"[['PHYSICS 1C - Physics for Scientists and Engineers - Electrodynamics, Optics, and Special Relativity (5.00)']]"
-UC Los Angeles,"[['PHYSICS 4AL - Physics Laboratory for Scientists and Engineers - Mechanics (2.00)'], ['PHYSICS 4BL - Physics Laboratory for Scientists and Engineers - Electricity and Magnetism (2.00)']]"
+UC Los Angeles,[['MATH 61 - Introduction to Discrete Structures (4.00)']]
 UC Los Angeles,"[['COM SCI M51A - Logic Design of Digital Systems (4.00)'], ['EC ENGR M16 - Logic Design of Digital Systems (4.00)']]"
-UC Los Angeles,Total units: 38.0
+UC Los Angeles,Total units: 25.0
 UC Merced,"[['CSE 015 - Discrete Mathematics (4.00)', 'CSE 022 - Introduction to Programming (4.00)', 'CSE 024 - Advanced Programming (4.00)', 'CSE 030 - Data Structures (4.00)', 'CSE 031 - Computer Organization and Assembly Language (4.00)', 'ENGR 065 - Circuit Theory (4.00)']]"
 UC Merced,Total units: 24.0
 UC Riverside,[['ENGR 001-I - Professional Development and Mentoring (1.00)']]
@@ -44,15 +39,16 @@ UC Riverside,"[['CS 010B - Introduction to CS for Science, Mathematics, and Engi
 UC Riverside,[['CS 010C - Introduction to Data Structures and Algorithms (4.00)']]
 UC Riverside,[['CS 061 - Machine Organization & Assembly Language Programming (4.00)']]
 UC Riverside,[['CS 011/MATH 011 - Intro to Discrete Structures (4.00)']]
-UC Riverside,Total units: 21.0
+UC Riverside,[['--ELECTIVE: At least 9 additional units. One course of 4 or more units in an engineering discipline outside the field of computer science to be selected in consultation with a faculty advisor. (Either a lower-division or an upper-division course may be used to satisfy this requirement.) (9.00)']]
+UC Riverside,Total units: 30.0
 UC San Diego,"[['CSE 8B -  Introduction to Programming and Computational Problem-Solving II (4.00)'], ['CSE 11 - Introduction to Programming and Computational Problem-Solving - Accelerated Pace (4.00)']]"
 UC San Diego,[['CSE 12 - Basic Data Structures and Object-Oriented Design (4.00)']]
 UC San Diego,[['CSE 15L - Software Tools and Techniques Laboratory (2.00)']]
 UC San Diego,"[['CSE 20 - Discrete Mathematics (4.00)'], ['MATH 15A - Introduction to Discrete Mathematics (4.00)'], ['MATH 31CH - Honors Vector Calculus (4.00)'], ['MATH 109 - Mathematical Reasoning (4.00)']]"
 UC San Diego,"[['CSE 21 - Mathematics for Algorithms and Systems (4.00)'], ['MATH 154 - Discrete Mathematics and Graph Theory (4.00)'], ['MATH 184 - Enumerative Combinatorics (4.00)']]"
 UC San Diego,[['CSE 30 - Computer Organization and Systems Programming (4.00)']]
-UC San Diego,"[['CSE 3 - Fluency in Information Technology (4.00)'], ['CSE 4GS - Mathematical Beauty in Rome (4.00)'], ['CSE 6R - Introduction to Computer Science and Object-Oriented Programming - Python (4.00)'], ['CSE 6GS - Mathematical Beauty in Rome Lab (4.00)'], ['CSE 8A - Introduction to Programming and Computational Problem-Solving I (4.00)'], ['CSE 42 - Building and Programming Electronic Devices (2.00)'], ['CSE 86 - C++ for Java Programmers (2.00)'], ['CSE 90 - Undergraduate Seminar (1.00)'], ['CSE 91 - Perspectives in Computer Science and Engineering (2.00)'], ['CSE 95 - Tutor Apprenticeship (2.00)'], ['CSE 99 - Independent Study in Computer Science and Engineering (4.00)'], ['CSE 180 - Biology Meets Computing (4.00)'], ['MAE 8 - MATLAB Programming for Engineering Analysis (4.00)'], ['COGS 9 - Introduction to Data Science (4.00)'], ['COGS 10 - Cognitive Consequences of Technology (4.00)'], ['COGS 18 - Introduction to Python (4.00)'], ['ECE 15 - Engineering Computation (4.00)'], ['ENG 10 - Fundamentals of Engineering Applications (2.00)'], ['ENG 15 - Engineer Your Success (2.00)'], ['NANO 15 - Engineering Computation Using MATLAB (4.00)'], ['CENG 15 - Engineering Computation Using Matlab (4.00)']]"
-UC San Diego,Total units: 23.0
+UC San Diego,"[[--Two units from: (2.00)], ['CSE 3 - Fluency in Information Technology (4.00)'], ['CSE 4GS - Mathematical Beauty in Rome (4.00)'], ['CSE 6R - Introduction to Computer Science and Object-Oriented Programming - Python (4.00)'], ['CSE 6GS - Mathematical Beauty in Rome Lab (4.00)'], ['CSE 8A - Introduction to Programming and Computational Problem-Solving I (4.00)'], ['CSE 42 - Building and Programming Electronic Devices (2.00)'], ['CSE 86 - C++ for Java Programmers (2.00)'], ['CSE 90 - Undergraduate Seminar (1.00)'], ['CSE 91 - Perspectives in Computer Science and Engineering (2.00)'], ['CSE 95 - Tutor Apprenticeship (2.00)'], ['CSE 99 - Independent Study in Computer Science and Engineering (4.00)'], ['CSE 180 - Biology Meets Computing (4.00)'], ['MAE 8 - MATLAB Programming for Engineering Analysis (4.00)'], ['COGS 9 - Introduction to Data Science (4.00)'], ['COGS 10 - Cognitive Consequences of Technology (4.00)'], ['COGS 18 - Introduction to Python (4.00)'], ['ECE 15 - Engineering Computation (4.00)'], ['ENG 10 - Fundamentals of Engineering Applications (2.00)'], ['ENG 15 - Engineer Your Success (2.00)'], ['NANO 15 - Engineering Computation Using MATLAB (4.00)'], ['CENG 15 - Engineering Computation Using Matlab (4.00)']]"
+UC San Diego,Total units: 24.0
 UC Santa Cruz BA,[['CSE 13S - Computer Systems and C Programming (7.00)']]
 UC Santa Cruz BA,[['CSE 12 - Computer Systems and Assembly Language and Lab (7.00)']]
 UC Santa Cruz BA,[['CSE 16 - Applied Discrete Mathematics (5.00)']]
@@ -93,16 +89,17 @@ CSU Channel Islands,[['COMP 162 - Computer Architecture and Assembly Language (3
 CSU Channel Islands,[['COMP 232 - Programming Languages (3.00)']]
 CSU Channel Islands,[['COMP 262 - Computer Organization and Architecture (3.00)']]
 CSU Channel Islands,Total units: 17.0
-Chino State,[['CSCI 111 - Programming and Algorithms I (4.00)']]
-Chino State,[['CSCI 211 - Programming and Algorithms II (4.00)']]
-Chino State,[['CSCI/MATH 217 - Discrete Mathematics (3.00)']]
-Chino State,"[['CSCI 221 - Assembly Language Programming (3.00)'], ['EECE 237 - Embedded Systems Development (3.00)']]"
-Chino State,Total units: 14.0
+Chico State,[['CSCI 111 - Programming and Algorithms I (4.00)']]
+Chico State,[['CSCI 211 - Programming and Algorithms II (4.00)']]
+Chico State,[['CSCI/MATH 217 - Discrete Mathematics (3.00)']]
+Chico State,"[['CSCI 221 - Assembly Language Programming (3.00)'], ['EECE 237 - Embedded Systems Development (3.00)']]"
+Chico State,Total units: 14.0
 CSU Dominguez Hills,[['CSC 121 - Intro to Comp. Sci. & Prog. I (4.00)']]
 CSU Dominguez Hills,[['CSC 123 - Intro to Comp. Sci. & Prog. II (4.00)']]
 CSU Dominguez Hills,[['CSC 221 - Assem. Lang. & Intro to Comp. Org. (3.00)']]
 CSU Dominguez Hills,[['CSC 2xx - Lower Division Computer Science Elective (3.00)']]
-CSU Dominguez Hills,Total units: 14.0
+CSU Dominguez Hills,[['MAT 281 - Discrete Mathematics (3.00)']]
+CSU Dominguez Hills,Total units: 17.0
 CSU East Bay,[['CS 101 - Computer Science I (4.00)']]
 CSU East Bay,[['CS 201 - Computer Science II (4.00)']]
 CSU East Bay,[['CS 211 - Discrete Structures (3.00)']]
@@ -111,13 +108,14 @@ CSU East Bay,[['CS 230 - Computing and Social Responsibility (3.00)']]
 CSU East Bay,Total units: 17.0
 Fresno State,[['CSCI 40 - Introduction to Programming and Problem Solving (4.00)']]
 Fresno State,[['CSCI 41 - Introduction to Data Structures (4.00)']]
-Fresno State,[['CSCI 60 - Foundations of Computer Science (3.00)']]
-Fresno State,Total units: 11.0
+Fresno State,[['CSCI 60 - Foundations of Computer Science (4.00)']]
+Fresno State,Total units: 12.0
 Cal Poly Humboldt,[['CS 111 - Computer Science Foundations 1 (4.00)']]
 Cal Poly Humboldt,[['CS 112 - Computer Science Foundations 2 (4.00)']]
 Cal Poly Humboldt,[['CS 211 - Data Structures (4.00)']]
 Cal Poly Humboldt,[['CS 243 - Architecture (4.00)']]
-Cal Poly Humboldt,Total units: 16.0
+Cal Poly Humboldt,[['MATH 253 - Discrete Mathematics (3.00)']]
+Cal Poly Humboldt,Total units: 19.0
 CSU Long Beach,[['CECS 105 - Introduction to Computer Engineering and Computer Science (1.00)']]
 CSU Long Beach,[['CECS 174 - Introduction to Programming and Problem Solving (3.00)']]
 CSU Long Beach,[['CECS 225 - Digital Logic and Assembly Programming (3.00)']]
@@ -141,28 +139,18 @@ Cal Poly Pomona,[['CS 2400 - Data Structures and Advanced Programming (4.00)']]
 Cal Poly Pomona,[['CS 2600 - Systems Programming (3.00)']]
 Cal Poly Pomona,[['CS 2610 - Introduction to Cyber Security and Network Communications (3.00)']]
 Cal Poly Pomona,[['CS 2640 - Computer Organization and Assembly Programming (3.00)']]
-Cal Poly Pomona,[['CS 3010 - Numerical Methods and Computing (3.00)']]
-Cal Poly Pomona,[['CS 3110 - Formal Languages and Automata (3.00)']]
-Cal Poly Pomona,[['CS 3310 - Design and Analysis of Algorithms (3.00)']]
-Cal Poly Pomona,[['CS 3560 - Object-Oriented Design and Programming (3.00)']]
-Cal Poly Pomona,[['CS 3650 - Computer Architecture (4.00)']]
-Cal Poly Pomona,[['CS 3750 - Computers and Society (3.00)']]
-Cal Poly Pomona,[['CS 4080 - Concepts of Programming Languages (3.00)']]
-Cal Poly Pomona,[['CS 4310 - Operating Systems (3.00)']]
-Cal Poly Pomona,[['CS 4630 - Undergraduate Seminar (1.00)']]
-Cal Poly Pomona,[['CS 4800 - Software Engineering (3.00)']]
-Cal Poly Pomona,Total units: 49.0
+Cal Poly Pomona,Total units: 20.0
 Sacramento State,[['CSC 15 - Programming Concepts and Methodology I (3.00)']]
 Sacramento State,[['CSC 20 - Programming Concepts and Methodology II (3.00)']]
 Sacramento State,[['CSC 28 - Discrete Structures for Computer Science (3.00)']]
 Sacramento State,[['CSC 35 - Introduction to Computer Architecture (3.00)']]
 Sacramento State,[['CSC 60 - Introduction to Systems Programming in UNIX (3.00)']]
-Sacramento State,"[['STAT 50 - Introduction to Probability and Statistics (4.00)'], ['ENGR 115 - Statistics For Engineers (3.00)']]"
-Sacramento State,Total units: 18.0
+Sacramento State,Total units: 15.0
 CSU San Bernardino,[['CSE 2010 - Computer Science I (4.00)']]
 CSU San Bernardino,[['CSE 2020 - Computer Science II (4.00)']]
 CSU San Bernardino,[['CSE 2130 - Machine Organization (3.00)']]
-CSU San Bernardino,Total units: 11.0
+CSU San Bernardino,[['MATH 2720 - Discrete Mathematics (3.00)']]
+CSU San Bernardino,Total units: 14.0
 San Diego State,[['CS 150 - Introduction to Computer Programming (3.00)']]
 San Diego State,[['CS 150L - Introduction to Computer Programming Laboratory (1.00)']]
 San Diego State,[['CS 160 - Intermediate Computer Programming (3.00)']]
@@ -170,25 +158,29 @@ San Diego State,[['CS 160L - Intermediate Computer Programming Laboratory (1.00)
 San Diego State,[['CS 210 - Data Structures (3.00)']]
 San Diego State,[['CS 240 - Machine Organization and Assembly Language (3.00)']]
 San Diego State,[['CS 250 - Introduction to Software Systems (3.00)']]
-San Diego State,Total units: 17.0
+San Diego State,[['MATH 245 - Discrete Mathematics (3.00)']]
+San Diego State,Total units: 20.0
 San Francisco State,[['CSC 210 - Introduction to Computer Programming (3.00)']]
 San Francisco State,[['CSC 211 - Introduction to Software Lab (1.00)']]
 San Francisco State,[['CSC 220 - Data Structures (3.00)']]
 San Francisco State,[['CSC 230 - Discrete Mathematical Structures for Computer Science (3.00)']]
 San Francisco State,[['CSC 256 - Machine Structures (3.00)']]
 San Francisco State,Total units: 13.0
+San Jose State,[['MATH 42 - Discrete Mathematics (3.00)']]
 San Jose State,"[['CS 46A - Introduction to Programming (4.00)'], ['CS 46AX - Introduction to Programming (4.00)']]"
 San Jose State,[['CS 46B - Introduction to Data Structures (4.00)']]
 San Jose State,[['CS 47 - Introduction to Computer Systems (3.00)']]
-San Jose State,Total units: 11.0
+San Jose State,Total units: 14.0
 CSU San Marcos,[['CS 111 - Computer Science I (4.00)']]
 CSU San Marcos,[['CS 211 - Computer Science II (4.00)']]
 CSU San Marcos,[['CS 231 - Assembly Language and Digital Circuits (4.00)']]
-CSU San Marcos,Total units: 12.0
+CSU San Marcos,[['MATH 270 - Basic Discrete Mathematics (3.00)']]
+CSU San Marcos,Total units: 15.0
 Stainislaus State,[['CS 1500 - Computer Programming I (3.00)']]
 Stainislaus State,[['CS 2500 - Computer Programming II (3.00)']]
 Stainislaus State,[['CS 2700 - Assembly Language and Computer Architecture (3.00)']]
-Stainislaus State,Total units: 9.0
+Stainislaus State,[['MATH 2300 - Discrete Structures (3.00)']]
+Stainislaus State,Total units: 12.0
 Sonoma State,[['CS 115 - Programming I (4.00)']]
 Sonoma State,[['CS 210 - Introduction to Unix (1.00)']]
 Sonoma State,[['CS 215 - Programming II (4.00)']]
@@ -201,20 +193,13 @@ Cal Poly San Luis Obispo,[['CSC/CPE 202 - Data Structures (4.00)']]
 Cal Poly San Luis Obispo,[['CSC/CPE 203 - Project-Based Object-Oriented Programming and Design (4.00)']]
 Cal Poly San Luis Obispo,[['CSC 225 - Introduction to Computer Organization (4.00)']]
 Cal Poly San Luis Obispo,[['CSC 248 - Discrete Structures (4.00)']]
-Cal Poly San Luis Obispo,"[['CSC 300 - Professional Responsibilities (4.00)'], ['PHIL 323 - Ethics, Science and Technology (4.00)']]"
-Cal Poly San Luis Obispo,"[['CSC 307 - Introduction to Software Engineering (4.00)'], ['CSC 308 - Software Engineering II (4.00)', 'CSC 309 - Software Engineering II (4.00)']]"
-Cal Poly San Luis Obispo,"[['CSC 321 - Introduction to Computer Security (4.00)'], ['CSC 323 - Cryptography Engineering (4.00)'], ['CSC 325 - Introduction to Privacy - Policy and Technology (4.00)']]"
-Cal Poly San Luis Obispo,[['CSC 365 - Introduction to Database Systems (4.00)']]
-Cal Poly San Luis Obispo,[['CSC 430 - Programming Languages (4.00)']]
-Cal Poly San Luis Obispo,[['CSC 445 - Theory of Computation I (4.00)']]
-Cal Poly San Luis Obispo,[['CSC/CPE 453 - Introduction to Operating Systems (4.00)']]
-Cal Poly San Luis Obispo,"[['CSC 491 - Senior Project I (2.00)', 'CSC 492 - Senior Project II (2.00)'], ['CSC 497 - Research Senior Project I (2.00)', 'CSC 498 - Research Senior Project II (2.00)']]"
-Cal Poly San Luis Obispo,Total units: 56.0
+Cal Poly San Luis Obispo,Total units: 24.0
 CSU Bakersfield,[['CMPS 2010 - Programming I - Programming Fundamentals (4.00)']]
 CSU Bakersfield,[['CMPS 2020 - Programming II - Data Structures and Algorithms (4.00)']]
 CSU Bakersfield,[['CMPS 2120 - Discrete Structures (4.00)']]
 CSU Bakersfield,[['CMPS 2240 - Computer Architecture I - Assembly Language Programming (4.00)']]
 CSU Bakersfield,Total units: 16.0
+CSU Monterey Bay,[['MATH 170 - Discrete Mathematics (4.00)']]
 CSU Monterey Bay,[['CST 231 - Problm-Solving/Programng (4.00)']]
 CSU Monterey Bay,[['CST 237 - Intro to Computer Architecture (4.00)']]
 CSU Monterey Bay,[['CST 238 - Introduction to Data Structures (4.00)']]
@@ -224,4 +209,4 @@ CSU Monterey Bay,[['CST 334 - Operating Systems (4.00)']]
 CSU Monterey Bay,[['CST 370 - Design and Analysis of Algorithms (4.00)']]
 CSU Monterey Bay,"[['CST 462S - Race, Gender, Class in the Digital World (3.00)']]"
 CSU Monterey Bay,[['CST 499 - Computer Science Capstone (4.00)']]
-CSU Monterey Bay,Total units: 35.0
+CSU Monterey Bay,Total units: 39.0
