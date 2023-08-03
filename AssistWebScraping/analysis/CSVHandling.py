@@ -22,6 +22,10 @@ CCsdups = {"Compton Colleg": "Compton Community College", "Santa Ana College": "
            "Berkeley City College":"Vista Community College"}
 UniNameShort = ["CSUF", "Sonoma","CPSLO", "Chico", "CSUSM", "SDSU", "SJSU", "CSULA", "CSUMB", "CSUN", "CSUB", "CSUSB", "CSUDH", "CSUEB", "CSUStan", "CSUS"
                 , "SFSU", "Humboldt", "CSUFresno", "CSULB", "CSUCI", "CPP", "UCI", "UCB", "UCSD", "UCM", "UCSC", "UCSB", "UCD", "UCLA", "UCR"]
+quarter = ["CPSLO", "UCI", "UCSD", "UCSC", "UCSB", "UCD", "UCLA", "UCR"]
+semester = ["UCB", "UCM", "CSUF", "Sonoma", "Chico", "CSUSM", "SDSU", "SJSU", "CSULA", "CSUMB", "CSUN", "CSUB", "CSUSB", "CSUDH", "CSUEB", "CSUStan", "CSUS"
+                , "SFSU", "Humboldt", "CSUFresno", "CSULB", "CSUCI", "CPP"] 
+# # if in semester multiply by 1.5
 UnisQuarter = []
 UnisSemester = []
 CCsQuarter = []
@@ -223,6 +227,6 @@ def ConvertToGradReqs(CSVFileName, relList, UniName):
 def ConvertAllUniToGradReqs(uniList):
     for uni in uniList:          
         ConvertToGradReqs("csvs/UniSheets/" + uni, getrelList(uni), uni)
-# ConvertAllUniToGradReqs(UniNameShort)                               
+ConvertAllUniToGradReqs(UniNameShort)                               
 
 
