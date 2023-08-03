@@ -257,28 +257,55 @@ def getListOfValues(UniList):
     print(data)
     return data
 
+
+#11,11,9, make them to 3 seperate csvs
 def transform_csv():
     # Read the CSV file into a DataFrame
     df = pd.read_csv("csvs/Findings/MetReqsCountStats.csv", delimiter='\t')
 
     # Initialize an empty list to store the transformed data
     transformed_data = []
+    transformed_data1 = []
+    transformed_data2 = []
 
     # Process the data and create the new format
-    for row in df.itertuples(index=False):
-        key = row[0]
-        values = row[7]
-        number_list = ast.literal_eval(values)
-        for value in number_list:
-            # print(value)
-            # if value != "," and value != "[" and value != "]" and value != " ":
-            transformed_data.append([key, value])
+    for row in df.itertuples(index=True):
+        # index, univeristy, values
+        # print(row[0], row[1], row[8])
+        index = row[0]
+        if(index <= 10):
+            key = row[1]
+            values = row[8]
+            number_list = ast.literal_eval(values)
+            for value in number_list:
+                # print(value)
+                # if value != "," and value != "[" and value != "]" and value != " ":
+                transformed_data.append([key, value])
 
     # Create a new DataFrame with the transformed data
-    new_df = pd.DataFrame(transformed_data, columns=['University', 'Values'])
-
-    # Write the new DataFrame to a new CSV file
-    new_df.to_csv("csvs/Findings/violin.csv", index=False)
+            new_df1 = pd.DataFrame(transformed_data, columns=['University', 'Values'])
+        elif(index <= 21):
+            key = row[1]
+            values = row[8]
+            number_list = ast.literal_eval(values)
+            for value in number_list:
+                # print(value)
+                # if value != "," and value != "[" and value != "]" and value != " ":
+                transformed_data1.append([key, value])
+            new_df2 = pd.DataFrame(transformed_data1, columns=['University', 'Values'])
+        else:
+            key = row[1]
+            values = row[8]
+            number_list = ast.literal_eval(values)
+            for value in number_list:
+                # print(value)
+                # if value != "," and value != "[" and value != "]" and value != " ":
+                transformed_data2.append([key, value])
+            new_df3 = pd.DataFrame(transformed_data2, columns=['University', 'Values'])
+    # Write the new DataFrames to new CSV files
+    new_df1.to_csv("csvs/Findings/violinCSU1.csv", index=False)
+    new_df2.to_csv("csvs/Findings/violinCSU2.csv", index=False)
+    new_df3.to_csv("csvs/Findings/violinUC.csv", index=False)
 
 def transform_heatmap():
     # Read the CSV file into a DataFrame
@@ -377,21 +404,52 @@ def graph2():
         axis2.set_xticklabels(CSVHandling.UniNameShort, rotation=45)
  
 def graph3():
+    csu1 = CSVHandling.UniNameShort[:11]
+    csu2 = CSVHandling.UniNameShort[11:22]
+    uc = CSVHandling.UniNameShort[22:]
+    # print(csu1)
+    # print(csu2)
+    # print(uc)
     transform_csv()
-    df3 = pd.read_csv("csvs/Findings/violin.csv")
-    print(df3.head())
-    print(df3.columns)
+
+    df3 = pd.read_csv("csvs/Findings/violinUC.csv")
+    # print(df3.head())
+    # print(df3.columns)
     figure3 = plt.figure(figsize=(10, 8))
     axis3 = sns.violinplot(data = df3, x = "University", y = "Values")
     axis3.set_title("Total requirements met Violin plot")
-    axis3.set_xlabel("Universities")
+    axis3.set_xlabel("CU Universities")
     axis3.set_ylabel("Percentage of Requirements Met")
-    axis3.set_xticklabels(CSVHandling.UniNameShort, rotation=45)
+    axis3.set_xticklabels(uc, rotation=45)
+
+    df4 = pd.read_csv("csvs/Findings/violinCSU1.csv")
+    # print(df3.head())
+    # print(df3.columns)
+    figure4 = plt.figure(figsize=(10, 8))
+    axis4 = sns.violinplot(data = df4, x = "University", y = "Values")
+    axis4.set_title("Total requirements met Violin plot")
+    axis4.set_xlabel("CSU Universities 1")
+    axis4.set_ylabel("Percentage of Requirements Met")
+    axis4.set_xticklabels(csu1, rotation=45)
+
+    df5 = pd.read_csv("csvs/Findings/violinCSU2.csv")
+    # print(df3.head())
+    # print(df3.columns)
+    figure5 = plt.figure(figsize=(10, 8))
+    axis5 = sns.violinplot(data = df5, x = "University", y = "Values")
+    axis5.set_title("Total requirements met Violin plot")
+    axis5.set_xlabel("CSU Universities 2")
+    axis5.set_ylabel("Percentage of Requirements Met")
+    axis5.set_xticklabels(csu2, rotation=45)
 
 
-#px package
-    figure4 = px.violin(df3, x="University", y="Values",  points="all", box=True, color="University")
-    figure4.show()
+# #px package
+#     figure6 = px.violin(df3, x="University", y="Values",  points="all", box=True, color="University")
+#     figure6.show()
+#     figure7 = px.violin(df4, x="University", y="Values",  points="all", box=True, color="University")
+#     figure7.show()
+#     figure8 = px.violin(df5, x="University", y="Values",  points="all", box=True, color="University")
+#     figure8.show()
 
     # figure5 = px.strip(df3, x="University", y="Values")
     # figure5.show()
@@ -402,22 +460,31 @@ def heatmap():
     df = pd.read_csv("csvs/Findings/heatmap.csv", delimiter=',')
     print(df.head())
     print(list(df.columns))
-    figure6 = plt.figure(figsize=(10, 8))
+    figure6 = plt.figure(figsize=(90, 40))
     df = df.pivot(index='University', columns='CC', values='Values')
-    df = df.reindex(index=CSVHandling.UniNameShort)
-    # df = df.reindex(index=CSVHandling.UniNameShort, columns=CSVHandling.CCNameShort)
-    axis6 = sns.heatmap(df, cmap="YlOrRd", annot=False, square=False)
+    # df = df.reindex(index=CSVHandling.UniNameShort)
+    df = df.reindex(index=CSVHandling.UniNameShort, columns=CSVHandling.CCsName)
+    
+    axis6 = sns.heatmap(df, cmap="YlOrRd", annot=False, square=False )
+    # sns.set(font_scale=0.8)
     #rainbow YlOrRd YlGnBu
-    axis6.set_title("Heatmap of Met Requirements")
-    axis6.set_xlabel("Community Colleges")
-    axis6.set_ylabel("Universities")
+    axis6.set_title("Heatmap of Met Requirements", fontsize=50)
+    axis6.set_xlabel("Community Colleges", fontsize=50)
+    axis6.set_ylabel("Universities", fontsize = 50)
     # axis6.xaxis.tick_top()
-    # axis6.set_xticklabels(df['University'].unique(), rotation=45)
+    axis6.set_xticklabels(CSVHandling.CCsName, fontsize=15)
+    axis6.set_yticklabels(CSVHandling.UniNameShort, fontsize=40, rotation=0)
+
     # selected_labels = df['University'].unique()[::2]  # select every second label
     # axis6.set_xticklabels(selected_labels, rotation=45)
-    
+
+# not useful, violin graph for total
 # graph1()
+
+# useful, boxplot for percentage
 # graph2()
-# graph3()
-heatmap()
+# more useful, violin graph for percentage
+graph3()
+# heatmap()
+# plt.savefig("heatmap.png", dpi=300)  # adjust DPI as necessary
 plt.show()
