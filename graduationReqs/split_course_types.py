@@ -187,7 +187,7 @@ def write_type_unit_count(csv_path, name, matches, exclude, count_dict):
 if __name__ == '__main__':
 
     # Added space at the end of each abbreviation to ensure it checks only for the course numbers
-    cs_matches   = ['CS ', 'CSE ', 'ECS ', 'EEC ', 'I&C ', 'IN4MATX ', 'COM SCI ', 'CMPSC ', 'CPSC ', 'COMP ', 'CSCI', 'CSCI/EECE ', 'CINS ', 'CSC ', 'CPE ', 'CECS ', 'CMPS ', 'CST ', 'ENG ', 'ENGR ', 'ECE ', 'Discrete ']
+    cs_matches   = ['CS ', 'CSE ', 'ECS ', 'EEC ', 'I&C ', 'IN4MATX ', 'COM SCI ', 'CMPSC ', 'CPSC ', 'COMP ', 'CSCI', 'CSCI/EECE ', 'CINS ', 'CSC ', 'CPE ', 'CECS ', 'CMPS ', 'CST ', 'ENG ', 'ENGR ', 'ECE ', 'Discrete ', 'Mathematical Structures I']
     math_matches = ['Math ', 'MATH ', 'MAT ', 'PSTAT ', 'STATS ', 'STAT ', 'STA ', 'E E ']
     sci_matches  = ['Physics ', 'physics', 'PHYSICS ', 'PHYS ', 'PHY ', 'BIO ', 'BIOL ', 'CHEM ', 'CHE ', 'Chem ', 'ELECTIVE SCIENCE:']
 
@@ -199,7 +199,7 @@ if __name__ == '__main__':
     lower_sci_count = {}
     lower_other_count = {}
     get_type_unit_count('CSVs/gradReqsLOWER.csv', cs_matches  , sci_matches + ['Linear Algebra', 'Statistics'], lower_cs_count)
-    get_type_unit_count('CSVs/gradReqsLOWER.csv', math_matches, sci_matches + ['Discrete'], lower_math_count)
+    get_type_unit_count('CSVs/gradReqsLOWER.csv', math_matches, sci_matches + ['Discrete', 'Mathematical Structures I'], lower_math_count)
     get_type_unit_count('CSVs/gradReqsLOWER.csv', sci_matches , [], lower_sci_count)
     get_type_unit_count('CSVs/gradReqsLOWER.csv', ['PHIL ', 'ENGL '], cs_matches + math_matches + sci_matches, lower_other_count)
 
