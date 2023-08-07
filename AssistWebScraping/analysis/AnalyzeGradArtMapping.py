@@ -2,8 +2,19 @@ from requirement import *
 import re
 import csv
 import CSVHandling
-import requirement
+
 import matplotlib.pyplot as plt
+nolist =    ['No Course Articulated', 
+            'This course must be taken at the university after transfer',
+            'Course(s) Denied', 
+            'Not Articulated',
+            'No Comparable Course',
+            'No Articulation Established',
+            'Articulates as Course-to-Course Only',
+            'Articulates as a Series Only',
+            'Articulation Pending Review',
+            'No Current Articulation' 
+        ]
 # get Units from a course
 def getUnits(Courselst):
     unitcnt = 0
@@ -14,10 +25,12 @@ def getUnits(Courselst):
             unitcnt += float(unit[1:len(unit) - 1])
     return unitcnt
 # gets the mapping of course/1 req per arrow requirement and articulating course(s)
-def getrel(Unireq, articulations):
+def getrel(Unireq, articulations, cc):
     reldict = {}
     Unireqlst = CSVHandling.getListfromString(Unireq)
     Artlst = CSVHandling.getListfromString(articulations)
+    if "Citrus College" == cc:
+        print(Unireqlst[0])
     reqcnt = 0
     for reqlst in Unireqlst:
         for req in reqlst:
@@ -33,9 +46,56 @@ def bestOption(artoptions):
     for option in artoptions:
         if getUnits(best) > getUnits(option):
             best = option
-    print(best)
+ 
     return best
 
+# def getMetUnits(UniName):
+#     Unitdict = {}
+#     with open("csvs/UniSheets/"+UniName+"Gradreqs.csv") as f:
+        
+#         reader = csv.reader(f, delimiter='\t')
+#         for row in reader:
+#             if len(row) == 0:
+#                 continue
+#             NotArticulated = False
+#             for noartphrase in requirement.nolist:
+#                 if noartphrase in row[2]:
+#                     NotArticulated = True
+#                     break
+            
+#             if NotArticulated == False:
+#                 reldict = getrel(row[1], row[2])
+#                 reqlst = CSVHandling.getListfromString(row[1])
+#                 if row[0] not in Unitdict.keys():
+#                     Unitdict[row[0]] = []
+#                 Unitdict[row[0]].append([])
+#                 reqoptions = {}
+#                 for option in reqlst:
+#                     reqoptions[str(option)] = 0
+#                     for req in option:
+                        
+#                         if req not in reldict.keys():
+#                             print("i'm about to continue", req)
+#                             continue
+                        
+#                         for noartphrase in requirement.nolist:
+#                             if noartphrase in reldict[req]:
+#                                 NotArticulated = True
+#                                 break
+#                         if NotArticulated == True:
+#                             break
+#                         else:
+#                             reqoptions[str(option)] += getUnits(req)
+#                 bestoption = 0
+#                 for option in reqoptions.keys():
+#                     if reqoptions[option] > bestoption:
+#                         bestoption = reqoptions[option]
+#                 Unitdict[row[0]][len(Unitdict[row[0]]) - 1] = [option, reqoptions[option]]
+
+
+
+
+# generates list of the requirements met by an agreement for all CCs and the option it fullfills(CC courses and Uni courses)(adds up units if needed)
 # generates list of the requirements met by an agreement for all CCs and the option it fullfills(CC courses and Uni courses)(adds up units if needed)
 # dictreqs: key = CCName, val: [[req met by CC(specifically the courses/option that meets it), Uniunits to fullfill option, CC units to fullfill option,]]
 def getMetReqs(UniName):
@@ -46,13 +106,13 @@ def getMetReqs(UniName):
         for row in reader:
             reldict = {}
             NotArticulated = False
-            for noartphrase in requirement.nolist:
-                if noartphrase in row[2]:
-                    NotArticulated = True
-                    break
-            if NotArticulated == False:
-                # print(row)
-                reldict = getrel(row[1], row[2])
+            # for noartphrase in requirement.nolist:
+            #     if noartphrase in row[2]:
+            #         NotArticulated = True
+            #         break
+            if True:
+                print(row)
+                reldict = getrel(row[1], row[2], row[0])
                 reqlst = CSVHandling.getListfromString(row[1])
                 if row[0] not in dictreqs.keys():
                     dictreqs[row[0]] = []
@@ -71,97 +131,114 @@ def getMetReqs(UniName):
                                 break
                         if row[0] not in dictreqs.keys():
                             dictreqs[row[0]]= []
-                        if articulatedcoursescnt >= numofcourses:
+                        if articulatedcoursescnt > 0:
                             ChosenReqs = [] 
                             reqUnits = 0
+                            for i in range(articulatedcoursescnt):
+                                if len(ChosenReqs) < numofcourses:
+                                    ChosenReqs.append(reqlst[i + 1])
+                                    reqUnits += getUnits(reqlst[i + 1])
+                            idealunits = 0
                             for i in range(numofcourses):
-                                ChosenReqs.append(reqlst[i + 1])
-                                reqUnits += getUnits(reqlst[i + 1])
-                            dictreqs[row[0]].append([reqlst[1], reqUnits, artunits])
+                                idealunits += getUnits(reqlst[i + 1])
+                            dictreqs[row[0]].append([reqlst[1], idealunits, artunits, reqUnits])
                             continue
 
                 for option in reqlst:
-
+                    subtractfromoption = 0
 
                     for req in option:
-                        print(req)
+                        if req not in reldict.keys():
+                            continue
+                        NotArticulated = False
+                   
+                            
+            
                         if req not in reldict.keys():
                             continue
                         
-                        for noartphrase in requirement.nolist:
-                            if noartphrase in reldict[req]:
-                                NotArticulated = True
-                                break
-                        if NotArticulated:
-                            break
-                        else:
-                            courses = dictreqs[row[0]][len(dictreqs[row[0]]) - 1]
-                            if len(courses) == 0 or getUnits(courses[0]) > getUnits(option):
-                                artUnitcnt = 0
-                                for metcourse in option:
-                                    artUnitcnt += getUnits(bestOption(reldict[metcourse]))
-                                    
-                                dictreqs[row[0]][len(dictreqs[row[0]]) - 1] = [option, getUnits(option), artUnitcnt]
-    return dictreqs
-def GetListofMetReqs(UniName):
-    df = pd.read_csv("csvs/UniSheets/"+UniName+"Gradreqs.csv", header=None, sep='\t')
-    row, column = df.shape
-    # print(row, column)
-    # print(df.iloc[0,1])
-    # print(df.iloc[0,2])
-    dictreqs = {}
-   
-    for i in range(row):
-        ccName = df.iloc[i,0]
-        courseName = df.iloc[i,1]
-        logical_exp = convert_to_logical_expression(convert_to_numerical(ast.literal_eval(courseName)))
-        # print(logical_exp)
-        articulationName = df.iloc[i,2]
-        booleanlists = []
-        for item in (ast.literal_eval(articulationName)):
-            exp = convert_to_logical_expression(convert_to_boolean(item))
-            # print(eval(exp))
-            booleanlists.append(eval(exp))
-        finalans = substitute_with_bool(logical_exp, booleanlists)
-        # print(eval(finalans))
-        if "Choose" in courseName or "choose" in courseName:
-            Req = CSVHandling.getListfromString(courseName)
-            articulation = CSVHandling.getListfromString(articulationName)
-            numofcourses = int(Req[0][0][len(Req[0][0]) - 1])
-            articulatedcoursescnt = 0
-            for art in articulation:
-                if art[0][0] in nolist:
-                    continue
-                else:
-                    articulatedcoursescnt += 1
-            if ccName not in list(dictreqs.keys()):
-                dictreqs[ccName]= []
-            if articulatedcoursescnt >= numofcourses:
-                dictreqs[ccName].append(courseName)
-                continue
+                        for noartphrase in nolist:
+                            if noartphrase in str(reldict[req]):
+                                print(getUnits([req]))
+                                subtractfromoption += getUnits([req])
+                                
+                            # if NotArticulated:
+                            #     break
 
-        if(ccName is np.nan):
-            continue
-        else:
-            if(ccName not in list(dictreqs.keys())):
-                dictreqs[ccName]= []
-                if eval(finalans) == True:
-                    dictreqs[ccName].append(courseName)
-                    # print(ccName, "requirement met", " in line ", 2*i+1 )
+                    courses = dictreqs[row[0]][len(dictreqs[row[0]]) - 1]
                     
-                firstone = True
-            else:
-                if eval(finalans) == True:
-                    dictreqs[ccName].append(courseName)
-                    # print(ccName, "requirement met", " in line ", 2*i-1 )
+                    if len(courses) == 0 or courses[1] > getUnits(option) or (courses[1] == getUnits(option) and courses[3] < (getUnits(option) - subtractfromoption)):
+                            artUnitcnt = 0
+                           
+                            for metcourse in option:
+                                if metcourse not in reldict.keys():
+                                    continue
+                                artUnitcnt += getUnits(bestOption(reldict[metcourse]))
+                                    
+                            dictreqs[row[0]][len(dictreqs[row[0]]) - 1] = [option, getUnits(option), artUnitcnt, getUnits(option) - subtractfromoption]
+
+    return dictreqs
+# getMetReqs("UCM")
+# def GetListofMetReqs(UniName):
+#     df = pd.read_csv("csvs/UniSheets/"+UniName+"Gradreqs.csv", header=None, sep='\t')
+#     row, column = df.shape
+#     # print(row, column)
+#     # print(df.iloc[0,1])
+#     # print(df.iloc[0,2])
+#     dictreqs = {}
+   
+#     for i in range(row):
+#         ccName = df.iloc[i,0]
+#         courseName = df.iloc[i,1]
+#         logical_exp = convert_to_logical_expression(convert_to_numerical(ast.literal_eval(courseName)))
+#         # print(logical_exp)
+#         articulationName = df.iloc[i,2]
+#         booleanlists = []
+#         for item in (ast.literal_eval(articulationName)):
+#             exp = convert_to_logical_expression(convert_to_boolean(item))
+#             # print(eval(exp))
+#             booleanlists.append(eval(exp))
+#         finalans = substitute_with_bool(logical_exp, booleanlists)
+#         # print(eval(finalans))
+#         if "Choose" in courseName or "choose" in courseName:
+#             Req = CSVHandling.getListfromString(courseName)
+#             articulation = CSVHandling.getListfromString(articulationName)
+#             numofcourses = int(Req[0][0][len(Req[0][0]) - 1])
+#             articulatedcoursescnt = 0
+#             for art in articulation:
+#                 if art[0][0] in nolist:
+#                     continue
+#                 else:
+#                     articulatedcoursescnt += 1
+#             if ccName not in list(dictreqs.keys()):
+#                 dictreqs[ccName]= []
+#             if articulatedcoursescnt >= numofcourses:
+#                 dictreqs[ccName].append(courseName)
+#                 continue
+
+#         if(ccName is np.nan):
+#             continue
+#         else:
+#             if(ccName not in list(dictreqs.keys())):
+#                 dictreqs[ccName]= []
+#                 if eval(finalans) == True:
+#                     dictreqs[ccName].append(courseName)
+#                     # print(ccName, "requirement met", " in line ", 2*i+1 )
+                    
+#                 firstone = True
+#             else:
+#                 if eval(finalans) == True:
+#                     dictreqs[ccName].append(courseName)
+#                     # print(ccName, "requirement met", " in line ", 2*i-1 )
                 
-    return dictreqs      
+#     return dictreqs      
 
 # produces dicts of met requirements for all unis and puts it into a csv
 def AllListsofMetReqs(UniList):
     with open("csvs/Findings/MetReqs.csv", 'w') as f:
         writer = csv.writer(f, delimiter='\t')
-        for uni in UniList:    
+        for uni in UniList:   
+            
             dictreqs = getMetReqs(uni)
             for key in dictreqs.keys():
                 for req in dictreqs[key]:
@@ -183,12 +260,16 @@ def TranslateReqsToGradReqs():
     with open("./csvs/Findings/MetReqs.csv") as metcsv:
         metreader = csv.reader(metcsv, delimiter='\t')
         for row in metreader:
+            if len(row) == 0:
+                continue
             if row[0] not in wholetranslation.keys():
                 wholetranslation[row[0]] = {row[1]:[]}
             elif row[1] not in wholetranslation[row[0]].keys():
                 wholetranslation[row[0]][row[1]] = []
             reqlst = CSVHandling.getListfromString(row[2])
             if len(reqlst) == 0:
+                continue
+            if 0 == reqlst[3]:
                 continue
 
             for reqstr in reqlst[0]:
@@ -198,11 +279,11 @@ def TranslateReqsToGradReqs():
                     #     print(reqstr, key)
                     if reqstr in key:
                         translatereqname = key
-            wholetranslation[row[0]][row[1]].append([translationdict[row[0]][translatereqname], float(reqlst[1]), float(reqlst[2])])
-    # print(type(wholetranslation["UCSD"]["Palomar College"][0][0]))
+            wholetranslation[row[0]][row[1]].append([translationdict[row[0]][translatereqname], float(reqlst[1]), float(reqlst[2]), float(reqlst[3])])
+  
     
     return wholetranslation
-# TranslateReqsToGradReqs()
+TranslateReqsToGradReqs()
 # Translates assit reqs to grad reqs and creates list of grad reqs met for each CC. Returns a dictionary: key = CCname value = list of grad reqs met
 # def TranslateReqsToGradReqs():
 #     # CSVHandling.delete_empty_rows("./csvs/ReqRelationships.csv", "./csvs/ReqRelationships.csv")
@@ -268,7 +349,7 @@ def LeftoverGradReqs(Reqtype):
         writer = csv.writer(leftovercsv, delimiter='\t')
         writer.writerow(["University", "Community Collge", "Precentage of Units Articulated", "Unmet Requirements", "Met Units", "Unmet Units"])
         # CSVHandling.delete_empty_rows("C:/Users/richa/OneDrive/Documents/GitHub/TransferPathwaysTool/graduationReqs/gradReqs" + Reqtype + ".csv", "C:/Users/richa/OneDrive/Documents/GitHub/TransferPathwaysTool/graduationReqs/gradReqs" + Reqtype + ".csv")
-        with open("C:/Users/richa/OneDrive/Documents/GitHub/TransferPathwaysTool/graduationReqs/gradReqs" + Reqtype + ".csv") as gradreqcsv:
+        with open("C:/Users/richa/OneDrive/Documents/GitHub/TransferPathwaysTool/graduationReqs/CSVs/gradReqs" + Reqtype + ".csv") as gradreqcsv:
             reader = csv.reader(gradreqcsv)
             # rows has all the CCs info: percentage of met reqs and list of unmet reqs
             # format: rows = [[UniName, CC, pecentage, [unmetreqs]], ...]
@@ -276,7 +357,7 @@ def LeftoverGradReqs(Reqtype):
            
             MetUnits = {}
             UnmetCCReqs = {}
-            UnmetUnits = {}
+            TotalUnits = {}
             ismet = False
             for row in reader: 
                 ismet = False
@@ -288,8 +369,11 @@ def LeftoverGradReqs(Reqtype):
                    
                     for CC in AssisttoGradTranslation[TranslateUniNames(row[0])].keys():
                         # print(row[0], CC, MetUnits[CC], Unmetunits)
-                        print(row[0], CC, MetUnits[CC], UnmetUnits[CC], UnmetCCReqs[CC])
-                        rows.append([TranslateUniNames(row[0]), CC, MetUnits[CC]/(MetUnits[CC] + UnmetUnits[CC]), UnmetCCReqs[CC], MetUnits[CC], UnmetUnits[CC]])
+                        # print(row[0], CC, MetUnits[CC], UnmetUnits[CC], UnmetCCReqs[CC])
+                        if TranslateUniNames(row[0]) in CSVHandling.semester:
+                            rows.append([TranslateUniNames(row[0]), CC, MetUnits[CC]/(TotalUnits[CC]),  UnmetCCReqs[CC], 1.5 * MetUnits[CC], 1.5 * TotalUnits[CC]])
+                        else: 
+                            rows.append([TranslateUniNames(row[0]), CC, MetUnits[CC]/(TotalUnits[CC]), UnmetCCReqs[CC], MetUnits[CC], TotalUnits[CC]])
                         # if "UC Berkeley" in row[0]:
                             # print(len(UnmetCCReqs[CC]))
                             # print(UnmetCCReqs[CC])
@@ -298,7 +382,7 @@ def LeftoverGradReqs(Reqtype):
                     writer.writerows(rows)
                     rows = []
                     UnmetCCReqs = {}
-                    UnmetUnits = {}
+                    TotalUnits = {}
                     MetUnits = {}
                     continue
                 # iterate through the CCs to see which CCs meet the row[1] req
@@ -308,7 +392,7 @@ def LeftoverGradReqs(Reqtype):
                     if CC not in UnmetCCReqs.keys():
                         UnmetCCReqs[CC] = []
                         MetUnits[CC] = 0
-                        UnmetUnits[CC] = 0
+                        TotalUnits[CC] = 0
 
                     # Check if the req is met
                     
@@ -317,12 +401,15 @@ def LeftoverGradReqs(Reqtype):
                         if len(Metreq) == 0:
                             continue
                         if Metreq[0] in row[1]:
-                            MetUnits[CC] += Metreq[1]
+                            MetUnits[CC] += Metreq[3]
+                            TotalUnits[CC] += Metreq[1]
+                            if Metreq[3] < Metreq[1]:
+                                UnmetCCReqs[CC].append(row[1])
                             ismet = True
                             break
                     if ismet == False:
                         UnmetCCReqs[CC].append(row[1])
-                        UnmetUnits[CC] += getUnits(bestOption(CSVHandling.getListfromString(row[1])))
+                        TotalUnits[CC] += getUnits(bestOption(CSVHandling.getListfromString(row[1])))
 
                 
                 
@@ -339,21 +426,45 @@ def LeftoverGradReqs(Reqtype):
     
                
                         
-            
-def GenerateScatterCOMB(Reqtype):
-    agreement = []
-    percents = []
-    with open("./csvs/Findings/LeftoverGradReqs" + Reqtype + ".csv", 'w') as leftovercsv:
+def getbestvia2types(Reqtypes):
+    Reqtype1Percents = {}
+    Reqtype2Percents = {}
+    with open("./csvs/Findings/LeftoverGradReqs" + Reqtypes[0] + ".csv", 'w') as leftovercsv:
+        reader = csv.reader(leftovercsv, delimiter='\t')
+
+def GenerateScatterCOMB(Reqtypes):
+    percentsreqtype2 = []
+    percentsreqtype1 = []
+    with open("./csvs/Findings/LeftoverGradReqs" + Reqtypes[0] + ".csv", 'w') as leftovercsv:
         reader = csv.reader(leftovercsv, delimiter='\t')
         for row in reader:
-            agreement.append(row[1] +" to ", row[0])
-            percents.append(row[2] * 100)
-    plt.scatter(agreement, percents) 
-    plt.xlabel('Agreements')
-    plt.ylabel('')
-    plt.title('Scatter Plot Example')   
+            percentsreqtype1.append(row[2] * 100)
+    with open("./csvs/Findings/LeftoverGradReqs" + Reqtypes[1] + ".csv", 'w') as leftovercsv:
+        reader = csv.reader(leftovercsv, delimiter='\t')
+        for row in reader:
+            percentsreqtype2.append(row[2] * 100)
+    plt.scatter(percentsreqtype1, percentsreqtype2) 
+    plt.xlabel(Reqtypes[0])
+    plt.ylabel(Reqtypes[1])
+    plt.title('Percentage of Graduation Requirement Units Covered by Agreements')   
 
-LeftoverGradReqs("LowerCS")     
-
+def agreementrankingcomparator(row):
+    return float(row[2])
+def RankAgreementsperuni(reqtype):
+    rankings = {}
+    with open("./csvs/Findings/LeftoverGradReqs" + reqtype + ".csv") as leftovercsv:
+        reader = csv.reader(leftovercsv, delimiter='\t')
+        for row in reader:
+            if len(row) == 0 or row[0] == "University":
+                continue
+            if row[0] not in rankings.keys():
+                rankings[row[0]] = []
+            rankings[row[0]].append(row)
+    with open("./csvs/Findings/AgreementRankings" + reqtype +".csv", 'w') as rank:
+        writer = csv.writer(rank, delimiter='\t')
+        for uni in rankings.keys():
+            sortedlst = sorted(rankings[uni], key=agreementrankingcomparator, reverse=True)
+            writer.writerows(sortedlst)
+RankAgreementsperuni("LowerMathCS")
 
                 

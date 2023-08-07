@@ -1,5 +1,5 @@
 import requests
-
+import CSVHandling
 
 
 # gets the API data
@@ -54,3 +54,15 @@ def getCCListWithAggreements(UniName):
     return CClst
 
 
+#get the cc's name from the id
+ccidlist = getCCIdList()
+print(ccidlist)
+
+cclist = []
+for ccid in ccidlist:
+    if(ccid in CSVHandling.CCsdups.values()):
+        continue
+    else:
+        print(getSchoolFromID(ccid))
+        cclist.append(getSchoolFromID(ccid))
+print(cclist)
