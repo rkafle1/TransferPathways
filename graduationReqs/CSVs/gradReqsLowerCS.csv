@@ -63,8 +63,8 @@ UC Los Angeles,[['COM SCI 31 - Introduction to Computer Science I (4.00)']]
 UC Los Angeles,[['COM SCI 32 - Introduction to Computer Science II (4.00)']]
 UC Los Angeles,[['COM SCI 33 - Introduction to Computer Organization (5.00)']]
 UC Los Angeles,[['COM SCI 35L - Software Construction (4.00)']]
-UC Los Angeles,[['MATH 61 - Introduction to Discrete Structures (4.00)']]
 UC Los Angeles,"[['COM SCI M51A - Logic Design of Digital Systems (4.00)'], ['EC ENGR M16 - Logic Design of Digital Systems (4.00)']]"
+UC Los Angeles,[['MATH 61 - Introduction to Discrete Structures (4.00)']]
 UC Los Angeles,Total units: 25.0
 Cal Poly Humboldt,[['CS 111 - Computer Science Foundations 1 (4.00)']]
 Cal Poly Humboldt,[['CS 112 - Computer Science Foundations 2 (4.00)']]
@@ -194,7 +194,9 @@ CSU Fullerton,[['CPSC 131 - Data Structures (3.00)']]
 CSU Fullerton,"[['CPSC 223C - C Programming (3.00)'], ['CPSC 223J - Java Programming (3.00)'], ['CPSC 223N - Visual C# Programming (3.00)'], ['CPSC 223P - Python Programming (3.00)']]"
 CSU Fullerton,[['CPSC 240 - Computer Organization and Assembly Language (3.00)']]
 CSU Fullerton,[['CPSC 253 - Cybersecurity Foundations and Principles (3.00)']]
-CSU Fullerton,Total units: 18.0
+CSU Fullerton,[['MATH 170A - Mathematical Structures I (3.00)']]
+CSU Fullerton,[['MATH 170B - Mathematical Structures II (3.00)']]
+CSU Fullerton,Total units: 24.0
 Cal Poly San Luis Obispo,[['CSC/CPE 101 - Fundamentals of Computer Science (4.00)']]
 Cal Poly San Luis Obispo,[['CSC/CPE 123 - Introduction to Computing 1 (4.00)']]
 Cal Poly San Luis Obispo,[['CSC/CPE 202 - Data Structures (4.00)']]

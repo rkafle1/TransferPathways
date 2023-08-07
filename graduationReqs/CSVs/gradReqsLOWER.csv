@@ -43,7 +43,7 @@ UC Irvine,[['I&C SCI 6B - Boolean Logic and Discrete Structures (4.00)']]
 UC Irvine,[['I&C SCI 6D - Discrete Mathematics for Computer Science (4.00)']]
 UC Irvine,"[['I&C SCI 6N - Computational Linear Algebra (4.00)'], ['MATH 3A - Introduction to Linear Algebra (4.00)']]"
 UC Irvine,[['STATS 67 - Introduction to Probability and Statistics for Computer Science (4.00)']]
-UC Irvine,"[['ELECTIVE SCIENCE: Two courses approved for General Education category II except those offered by CSE, Economics, Engineering, ICS, or Mathematics. University Studies courses can be used with the approval of the CS Vice Chair for Undergraduate Studies. (8.00)']]"
+UC Irvine,"[['--ELECTIVE SCIENCE: Two courses approved for General Education category II except those offered by CSE, Economics, Engineering, ICS, or Mathematics. University Studies courses can be used with the approval of the CS Vice Chair for Undergraduate Studies. (8.00)']]"
 UC Santa Cruz BS,[['CSE 13S - Computer Systems and C Programming (7.00)']]
 UC Santa Cruz BS,[['CSE 12 - Computer Systems and Assembly Language and Lab (7.00)']]
 UC Santa Cruz BS,[['CSE 16 - Applied Discrete Mathematics (5.00)']]
@@ -105,6 +105,7 @@ UC Los Angeles,[['COM SCI 31 - Introduction to Computer Science I (4.00)']]
 UC Los Angeles,[['COM SCI 32 - Introduction to Computer Science II (4.00)']]
 UC Los Angeles,[['COM SCI 33 - Introduction to Computer Organization (5.00)']]
 UC Los Angeles,[['COM SCI 35L - Software Construction (4.00)']]
+UC Los Angeles,"[['COM SCI M51A - Logic Design of Digital Systems (4.00)'], ['EC ENGR M16 - Logic Design of Digital Systems (4.00)']]"
 UC Los Angeles,[['MATH 31A - Differential and Integral Calculus (4.00)']]
 UC Los Angeles,[['MATH 31B - Integration and Infinite Series (4.00)']]
 UC Los Angeles,[['MATH 32A - Calculus of Several Variables (4.00)']]
@@ -116,7 +117,6 @@ UC Los Angeles,[['PHYSICS 1A - Physics for Scientists and Engineers - Mechanics 
 UC Los Angeles,"[['PHYSICS 1B - Physics for Scientists and Engineers - Oscillations, Waves, Electric and Magnetic Fields (5.00)']]"
 UC Los Angeles,"[['PHYSICS 1C - Physics for Scientists and Engineers - Electrodynamics, Optics, and Special Relativity (5.00)']]"
 UC Los Angeles,"[['PHYSICS 4AL - Physics Laboratory for Scientists and Engineers - Mechanics (2.00)'], ['PHYSICS 4BL - Physics Laboratory for Scientists and Engineers - Electricity and Magnetism (2.00)']]"
-UC Los Angeles,"[['COM SCI M51A - Logic Design of Digital Systems (4.00)'], ['EC ENGR M16 - Logic Design of Digital Systems (4.00)']]"
 Cal Poly Humboldt,[['CS 111 - Computer Science Foundations 1 (4.00)']]
 Cal Poly Humboldt,[['CS 112 - Computer Science Foundations 2 (4.00)']]
 Cal Poly Humboldt,[['CS 211 - Data Structures (4.00)']]
@@ -153,7 +153,7 @@ Sonoma State,[['CS 215 - Programming II (4.00)']]
 Sonoma State,[['CS 242 - Discrete Structures for Computer Science (4.00)']]
 Sonoma State,[['CS 252 - Introduction to Computer Organization (4.00)']]
 Sonoma State,[['MATH 161 - Differential and Integral Calculus I (4.00)']]
-Sonoma State,"[['--Two additional courses from the following: (7.00)'],['MATH 165 - Elementary Applied Statistics (4.00)'], ['MATH 211 - Differential and Integral Calculus II (4.00)'], ['MATH 222 - Elementary Applied Linear Algebra (3.00)'], ['MATH 241 - Linear Algebra with Applications in Differential Equations (4.00)'], ['PHYS 214 - Introduction to Physics II (4.00)']]"
+Sonoma State,"[['--ELECTIVE MATH/SCI: Two additional courses from the following: (7.00)'],['MATH 165 - Elementary Applied Statistics (4.00)'], ['MATH 211 - Differential and Integral Calculus II (4.00)'], ['MATH 222 - Elementary Applied Linear Algebra (3.00)'], ['MATH 241 - Linear Algebra with Applications in Differential Equations (4.00)'], ['PHYS 214 - Introduction to Physics II (4.00)']]"
 San Francisco State,[['MATH 226 - Calculus I (4.00)']]
 San Francisco State,[['MATH 227 - Calculus II (4.00)']]
 San Francisco State,[['MATH 324 - Probability and Statistics with Computing (3.00)']]
@@ -325,7 +325,7 @@ CSU Fullerton,[['MATH 150B - Calculus II (4.00)']]
 CSU Fullerton,[['MATH 170A - Mathematical Structures I (3.00)']]
 CSU Fullerton,[['MATH 170B - Mathematical Structures II (3.00)']]
 CSU Fullerton,[['MATH 338 - Statistics Applied to Natural Sciences (4.00)']]
-CSU Fullerton,"[['--ELECTIVE SCIENCE: 12 Units from the following (12.00)'],['BIOL 101 - Elements of Biology (3.00)'],['BIOL 101L - Elements of Biology Laboratory (1.00)'],['BIOL 151 - Cellular and Molecular Biology (4.00)'],['BIOL 152 - Evolution and Organismal Biology (4.00)'],['CHEM 120A - General Chemistry (5.00)'],['CHEM 120B - General Chemistry (5.00)'],['CHEM 123 - Chemistry for Engineers (3.00)'],['CHEM 125 - General Chemistry B Lecture (3.00)'],['GEOL 101 - Introduction to Geology (3.00)'],['GEOL 101L - Introduction to Geology Laboratory (1.00)'],['GEOL 201 - Earth History (3.00)'],['GEOL 201L - Earth History Supplemental Lab (1.00)'],['MATH 250A - Calculus III (4.00)'],['MATH 250B - Introduction to Linear Algebra and Differential Equations (4.00)'],['PHYS 225 - Fundamental Physics - Mechanics (3.00)'],['PHYS 225L - Fundamental Physics - Laboratory (1.00)'],['PHYS 226 - Fundamental Physics - Electricity and Magnetism (3.00)'],['PHYS 226L - Fundamental Physics - Laboratory (1.00)'],['PHYS 227 - Fundamental Physics - Waves, Optics, and Modern Physics (1-3)'],['PHYS 227L - Fundamental Physics - Laboratory (1.00)']]"
+CSU Fullerton,"[['--ELECTIVE MATH/SCI: 12 Units from the following (12.00)'],['BIOL 101 - Elements of Biology (3.00)'],['BIOL 101L - Elements of Biology Laboratory (1.00)'],['BIOL 151 - Cellular and Molecular Biology (4.00)'],['BIOL 152 - Evolution and Organismal Biology (4.00)'],['CHEM 120A - General Chemistry (5.00)'],['CHEM 120B - General Chemistry (5.00)'],['CHEM 123 - Chemistry for Engineers (3.00)'],['CHEM 125 - General Chemistry B Lecture (3.00)'],['GEOL 101 - Introduction to Geology (3.00)'],['GEOL 101L - Introduction to Geology Laboratory (1.00)'],['GEOL 201 - Earth History (3.00)'],['GEOL 201L - Earth History Supplemental Lab (1.00)'],['MATH 250A - Calculus III (4.00)'],['MATH 250B - Introduction to Linear Algebra and Differential Equations (4.00)'],['PHYS 225 - Fundamental Physics - Mechanics (3.00)'],['PHYS 225L - Fundamental Physics - Laboratory (1.00)'],['PHYS 226 - Fundamental Physics - Electricity and Magnetism (3.00)'],['PHYS 226L - Fundamental Physics - Laboratory (1.00)'],['PHYS 227 - Fundamental Physics - Waves, Optics, and Modern Physics (1-3)'],['PHYS 227L - Fundamental Physics - Laboratory (1.00)']]"
 Cal Poly San Luis Obispo,[['CSC/CPE 101 - Fundamentals of Computer Science (4.00)']]
 Cal Poly San Luis Obispo,[['CSC/CPE 123 - Introduction to Computing 1 (4.00)']]
 Cal Poly San Luis Obispo,[['CSC/CPE 202 - Data Structures (4.00)']]
