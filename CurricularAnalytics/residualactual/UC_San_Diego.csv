@@ -1,0 +1,31 @@
+Curriculum,UCSanDiegoActual,,,,,,,,,
+Institution,"University of California-San Diego",,,,,,,,,
+Degree Type,"BS",,,,,,,,,
+System Type,"quarter",,,,,,,,,
+CIP,"11.0701",,,,,,,,,
+Courses,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+1,"Introduction to Programming and Computational Problem-Solving I ","CSE","8A",,,,4,"","",2.0,1,2.0,0
+2,"Introduction to Programming and Computational Problem-Solving II","CSE","8B","1",,,4,"","",1.3,0,2.0,0
+5,"Software Tools and Techniques Laboratory","CSE","15L",,,,2,"","",10.7,12,4.0,0
+9,"Perspectives in Computer Science and Engineering","CSE","91",,,,2,"","",0.7,0,1.0,0
+17,"Statistical Methods","MATH","183",,,,4,"","",2.7,2,2.0,0
+18,"Advanced Data Structures","CSE","100","5",,,4,"","",7.3,7,4.0,20
+19,"Design and Analysis of Algorithms","CSE","101",,,,4,"","",2.7,2,2.0,0
+20,"Theory of Computability","CSE","105","5",,,4,"","",2.7,1,3.0,3
+21,"Software Engineering","CSE","110","18",,,4,"","",3.3,1,4.0,4
+22,"Principles of Computer Operating Systems","CSE","120","21;19",,,4,"","",2.7,0,4.0,0
+23,"Database System Principles","CSE","132A","18",,,4,"","",2.0,0,3.0,0
+24,"Introduction to Modern Cryptography","CSE","107","20;19",,,4,"","",2.0,0,3.0,0
+25,"Recommender Systems and Web Mining","CSE","158","5;17",,,4,"","",1.3,0,2.0,0
+26,"Components and Design Techniques for Digital Systems","CSE","140",,,"27",4,"","",1.3,0,2.0,0
+27,"Digital Systems Laboratory","CSE","140L",,,,2,"","",2.0,1,2.0,0
+28,"Introduction to Computer Architecture: A Software Perspective","CSE","142","18",,"29",4,"","",2.7,0,4.0,0
+29,"Software Project for Computer Architecture","CSE","142L","18",,,2,"","",3.3,1,4.0,4
+30,"Teaching Computation in the Digital World","EDS","124AR",,,,4,"","",0.7,0,1.0,0
+31,"Teaching Computational Thinking for Everyone","EDS","124BR",,,,4,"","",0.7,0,1.0,0
+32," Data Science in Practice","COGS","108",,,,4,"","",0.7,0,1.0,0
+33,"Introduction to Computer Vision I","CSE","152A","5",,,4,"","",1.3,0,2.0,0
+34,"Introduction to Artificial Intelligence: Search and Reasoning","CSE","150B","5;18;17",,,4,"","",2.0,0,3.0,0
+35,"Computer Graphics","CSE","167","18",,,4,"","",2.0,0,3.0,0
+36,"Topics in Computer Science and Engineering ","CSE","190",,,,4,"","",0.7,0,1.0,0

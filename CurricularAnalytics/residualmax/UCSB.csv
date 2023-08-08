@@ -1,0 +1,34 @@
+Curriculum,UCSB,,,,,,,,,
+Institution,"UCSB",,,,,,,,,
+Degree Type,"BS",,,,,,,,,
+System Type,"quarter",,,,,,,,,
+CIP,"11.0701",,,,,,,,,
+Courses,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+5,"Vector Calculus with Applications, First Course","MATH","6A",,,,4,"","",2.0,1,2.0,0
+6,"Probability and Statistics","PSTAT","120A",,,,4,"","",10.0,11,4.0,0
+11,"Introduction to Computer Science","CMPSC","8",,,,4,"","",0.7,0,1.0,0
+14,"Object Oriented Design and Implementation","CMPSC","32",,,,4,"","",10.0,11,4.0,0
+16,"Computer Organization and Logic Design","CMPSC","64",,,,4,"","",3.3,2,3.0,0
+17,"Basic Physics","PHYS","4",,,,3,"","",4.0,3,3.0,0
+18,"Physics Laboratory","PHYS","4L",,"17",,1,"","",1.3,0,2.0,0
+19,"Basic Physics","PHYS","5","17",,,3,"","",2.7,1,3.0,3
+20,"Physics Laboratory","PHYS","5L",,"19",,1,"","",2.0,0,3.0,0
+21,"Introduction to Computational Science","CMPSC","111","5",,,4,"","",1.3,0,2.0,0
+22,"Data Structures and Algorithms I","CMPSC","130A","6;14",,,4,"","",8.7,9,4.0,50
+23,"Data Structures and Algorithms II","CMPSC","130B","22",,,4,"","",3.3,1,4.0,8
+24,"Automata and Formal Languages","CMPSC","138",,,,4,"","",2.0,1,2.0,0
+25,"Software Engineering","CMPSC","172","22",,,4,"","",2.0,0,3.0,0
+26,"Computer Architecture","CMPSC","154","16;14",,,4,"","",2.7,1,3.0,6
+27,"Programming Languages","CMPSC","162","22;24",,,4,"","",2.0,0,3.0,0
+28,"Operating Systems","CMPSC","170","22;26",,,4,"","",2.0,0,3.0,0
+29,"Probability and Statistics","PSTAT","120B","6",,,4,"","",1.3,0,2.0,0
+30,"Ethics in Engineering","ENGR","101",,,,3,"","",0.7,0,1.0,0
+31,"Fundamentals of Database Systems","CMPSC","174A","22",,,4,"","",2.0,0,3.0,0
+32,"Artificial Intelligence","CMPSC","165A","22",,,4,"","",2.0,0,3.0,0
+33,"Machine Learning","CMPSC","165B","22",,,4,"","",2.0,0,3.0,0
+34,"Computer Graphics","CMPSC","180","22",,,4,"","",2.0,0,3.0,0
+35,"Introduction to Computer Vision","CMPSC","181",,,,4,"","",0.7,0,1.0,0
+36,"Mobile Application Development","CMPSC","184",,,,4,"","",0.7,0,1.0,0
+37,"Human-Computer Interaction","CMPSC","185",,,,4,"","",0.7,0,1.0,0
+38,"Design and Implementation Techniques of Database Systems","CMPSC","174B","23",,,4,"","",2.7,0,4.0,0

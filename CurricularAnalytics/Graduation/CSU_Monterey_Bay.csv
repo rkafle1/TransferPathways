@@ -1,0 +1,26 @@
+Curriculum,CSU_Monterey_Bay,,,,,,,,,
+Institution,"CSU Monterey Bay",,,,,,,,,
+Degree Type,"BS",,,,,,,,,
+System Type,"semester",,,,,,,,,
+CIP,"11.0701",,,,,,,,,
+Courses,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+1,"Precalculus","MATH","130",,,,5,"","",9.0,6,3.0,0
+2,"Calculus I","MATH","150","1",,,4,"","",4.0,1,3.0,3
+3,"Calculus II","MATH","151","2",,,4,"","",3.0,0,3.0,0
+4,"Discrete Mathematics","MATH","170","1",,,4,"","",4.0,1,3.0,3
+5,"Problm-Solving/Programng","CST","231",,,,4,"","",14.0,10,4.0,0
+6,"Intro to Computer Architecture","CST","237","5",,,4,"","",4.0,1,3.0,3
+7,"Introduction to Data Structures","CST","238","5",,,4,"","",12.0,8,4.0,22
+8,"Major ProSeminar","CST","300",,,,4,"","",3.0,1,2.0,0
+9,"Software Design","CST","338","7",,,4,"","",5.0,1,4.0,4
+10,"Operating Systems","CST","334","6;7;1",,,4,"","",3.0,0,3.0,0
+11,"Design and Analysis of Algorithms","CST","370","4;7",,,4,"","",3.0,0,3.0,0
+12,"Race, Gender, Class in the Digital World","CST","462S",,,,3,"","",1.0,0,1.0,0
+13,"Computer Science Capstone","CST","499","8",,,4,"","",2.0,0,2.0,0
+14,"Multimedia Design and Programming","CST","205",,,,4,"","",1.0,0,1.0,0
+15,"Game Development","CST","326","7",,,4,"","",3.0,0,3.0,0
+16,"Introduction to Computer Networks","CST","311","7;1",,,4,"","",3.0,0,3.0,0
+17,"Internet Programming","CST","336","7",,,4,"","",3.0,0,3.0,0
+18,"Software Engineering","CST","438","9",,,4,"","",4.0,0,4.0,0
+19,"Introduction to Data Science","CST","383","7",,,4,"","",3.0,0,3.0,0

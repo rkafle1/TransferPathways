@@ -1,0 +1,19 @@
+Curriculum,Sonoma_State,,,,,,,,,
+Institution,"Sonoma State",,,,,,,,,
+Degree Type,"BS",,,,,,,,,
+System Type,"semester",,,,,,,,,
+CIP,"11.0701",,,,,,,,,
+Courses,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+9,"Data Structures","CS","315",,,,4,"","",9.0,7,2.0,0
+10,"Computer Architecture","CS","351",,,,4,"","",1.0,0,1.0,0
+11,"Database Management Systems Design","CS","355",,,,4,"","",1.0,0,1.0,0
+12,"Software Design and Development","CS","370",,,,4,"","",3.0,1,2.0,0
+13,"Algorithm Analysis","CS","415","9",,,4,"","",2.0,0,2.0,0
+14,"Operating Systems","CS","450","9",,,4,"","",2.0,0,2.0,0
+15,"Theory of Computation","CS","454","9",,,4,"","",2.0,0,2.0,0
+16,"Programming Languages","CS","460","9",,,4,"","",2.0,0,2.0,0
+17,"Introduction to Game Programming","CS","330","9",,,3,"","",2.0,0,2.0,0
+18,"Computer Security and Malware","CS","340",,,,3,"","",1.0,0,1.0,0
+19,"Object-Oriented Programming","CS","360","9",,,3,"","",2.0,0,2.0,0
+20,"Advanced Software Design Project","CS","470","9;12",,,3,"","",2.0,0,2.0,0

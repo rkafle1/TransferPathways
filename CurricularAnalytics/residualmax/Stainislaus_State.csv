@@ -1,0 +1,21 @@
+Curriculum,Stainislaus_State,,,,,,,,,
+Institution,"Stainislaus State",,,,,,,,,
+Degree Type,"BS",,,,,,,,,
+System Type,"semester",,,,,,,,,
+CIP,"11.0701",,,,,,,,,
+Courses,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+12,"Data Structures and Algorithms","CS","3100",,,,3,"","",12.0,9,3.0,0
+13,"Computer Organization","CS","3740",,,,3,"","",3.0,1,2.0,0
+14,"Operating Systems I","CS","3750","13;12",,,3,"","",2.0,0,2.0,0
+15,"Programming Languages (WP)","CS","4100","12",,,3,"","",5.0,2,3.0,6
+16,"Seminar in Computer Science","CS","4960","15",,,3,"","",3.0,0,3.0,0
+17,"Compiler Theory","CS","4300","15",,,3,"","",3.0,0,3.0,0
+18,"Automata, Computability, and Formal Languages","CS","4410","12",,,3,"","",2.0,0,2.0,0
+19,"Theory of Algorithms","CS","4440","12",,,3,"","",2.0,0,2.0,0
+20,"Coding and Information Theory","CS","4450","12",,,3,"","",2.0,0,2.0,0
+21,"Software Engineering","CS","4800","12",,,3,"","",2.0,0,2.0,0
+22,"Computer Graphics I","CS","3600",,,,3,"","",3.0,1,2.0,0
+23,"Computer Graphics II","CS","4600","22",,,3,"","",2.0,0,2.0,0
+24,"Artificial Intelligence","CS","4480","12",,,3,"","",2.0,0,2.0,0
+25,"Neural Networks and Intelligent Machines","CS","3400",,,,3,"","",1.0,0,1.0,0

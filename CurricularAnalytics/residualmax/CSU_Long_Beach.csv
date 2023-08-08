@@ -1,0 +1,26 @@
+Curriculum,CSU_Long_Beach,,,,,,,,,
+Institution,"CSU Long Beach",,,,,,,,,
+Degree Type,"BS",,,,,,,,,
+System Type,"semester",,,,,,,,,
+CIP,"11.0701",,,,,,,,,
+Courses,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+16,"Database Fundamentals","CECS","323",,,,3,"","",5.0,2,3.0,0
+17,"System Programming","CECS","325",,,,3,"","",5.0,2,3.0,0
+18,"Operating Systems","CECS","326","17;19",,,3,"","",4.0,1,3.0,6
+19,"Computer Architecture and Organization","CECS","341",,,,3,"","",5.0,2,3.0,0
+20,"Introduction to Networks and Distributed Computing","CECS","327","18",,,3,"","",3.0,0,3.0,0
+21,"Algorithms","CECS","328",,,,3,"","",10.0,7,3.0,0
+22,"Concepts of Computer Science Theory","CECS","329","21",,,3,"","",4.0,1,3.0,3
+23,"Principles of Programming Languages","CECS","342","21",,,3,"","",2.0,0,2.0,0
+24,"Introduction to Software Engineering","CECS","343",,,,3,"","",6.0,3,3.0,0
+25,"Introduction to Computer Security Principles","CECS","378",,,,3,"","",1.0,0,1.0,0
+26,"Probability and Statistics with Applications to Computing","EE","381",,,,3,"","",1.0,0,1.0,0
+27,"Computers, Ethics and Society","ENGR","350",,,,3,"","",5.0,2,3.0,0
+28,"Computer Science Senior Project I","CECS","491A","27;24","16;21",,3,"","",4.0,1,3.0,12
+29,"Computer Science Senior Project II","CECS","491B","28",,,3,"","",3.0,0,3.0,0
+30,"Scientific Research Communication","ENGR","361",,,,3,"","",1.0,0,1.0,0
+31,"Theory of Computation","CECS","419","22",,,3,"","",3.0,0,3.0,0
+32,"Dynamic Networks","CECS","427","21",,,3,"","",2.0,0,2.0,0
+33,"Analysis of Algorithms","CECS","428","21",,,3,"","",2.0,0,2.0,0
+34,"Software Project Management and Testing","CECS","443","24",,,3,"","",2.0,0,2.0,0

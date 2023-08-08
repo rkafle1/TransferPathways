@@ -1,0 +1,21 @@
+Curriculum,SanFranciscoStateActual,,,,,,,,,
+Institution,"San Francisco State",,,,,,,,,
+Degree Type,"BS",,,,,,,,,
+System Type,"semester",,,,,,,,,
+CIP,"11.0701",,,,,,,,,
+Courses,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+4,"Probability and Statistics with Computing","MATH","324",,,,4,"","",9.0,6,3.0,0
+9,"Programming Paradigms and Languages","CSC","600",,"22;20",,3,"","",3.0,0,3.0,0
+17,"Ethics, Communication, and Tools for Software Development - GWAR","CSC","300GW",,,,3,"","",1.0,0,1.0,0
+18,"Introduction to Web Software Development","CSC","317",,,,3,"","",1.0,0,1.0,0
+19,"Programming Methodology","CSC","340",,,,3,"","",9.0,6,3.0,0
+20,"Software Development","CSC","413",,,,3,"","",5.0,3,2.0,0
+21,"Operating System Principles","CSC","415","4;19",,,3,"","",6.0,3,3.0,18
+22,"Analysis of Algorithms I","CSC","510","4;19",,,3,"","",4.0,1,3.0,6
+23,"Software Engineering","CSC","648","20;24",,,3,"","",2.0,0,2.0,0
+24,"Introduction to Web Software Development","CSC","317",,,,3,"","",3.0,1,2.0,0
+25,"UNIX Programming","CSC","615","21",,,3,"","",3.0,0,3.0,0
+26,"Computer Networks","CSC","645","21",,,3,"","",3.0,0,3.0,0
+27,"Software Techniques for Computer Music","CSC","637","20",,,3,"","",2.0,0,2.0,0
+28,"Computer Organization","CSC","656","21",,,3,"","",3.0,0,3.0,0

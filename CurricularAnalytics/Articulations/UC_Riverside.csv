@@ -1,0 +1,17 @@
+Curriculum,UC_Riverside,,,,,,,,,
+Institution,"UCR",,,,,,,,,
+Degree Type,"BS",,,,,,,,,
+System Type,"quarter",,,,,,,,,
+CIP,"11.0701",,,,,,,,,
+Courses,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+1,"The Principles of Calculus I","MATH","005A",,,,5,"","",8.7,9,4.0,0
+2,"First-Year Calculus","MATH","009A","1",,,5,"","",5.3,4,4.0,10
+3,"First-Year Calculus","MATH","009B","2",,,5,"","",3.3,1,4.0,4
+4,"First-Year Calculus","MATH","009C","3",,,5,"","",2.7,0,4.0,0
+5,"General Physics","PHYS","40A","2",,,5,"","",2.0,0,3.0,0
+6,"Introduction to CS for Science Mathematics, and Engineering I - C++","CS","10A","1",,,4,"","",5.3,4,4.0,10
+7,"Introduction to CS for Science, Mathematics, and Engineering II - C++","CS","10B","6",,,4,"","",3.3,1,4.0,4
+8,"Introduction to Data Structures and Algorithms","CS","10C","7",,,4,"","",2.7,0,4.0,0
+9,"Intro to Discrete Structures","CS","11","6;2",,,4,"","",2.0,0,3.0,0
+10,"Machine Organization and Assembly Language Programming","CS","61","6",,,4,"","",2.0,0,3.0,0

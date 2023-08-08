@@ -1,0 +1,37 @@
+Curriculum,Sacramento_State,,,,,,,,,
+Institution,"Sacramento State",,,,,,,,,
+Degree Type,"BS",,,,,,,,,
+System Type,"semester",,,,,,,,,
+CIP,"11.0701",,,,,,,,,
+Courses,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+1,"Programming Concepts and Methodology I","CSC","15","2",,,3,"","",27.0,18,9.0,327
+2,"Introduction to Programming Logic","CSC","10",,,,3,"","",28.0,19,9.0,0
+3,"Programming Concepts and Methodology II","CSC","20","1",,,3,"","",25.0,16,9.0,287
+4,"Discrete Structures for Computer Science","CSC","28","5","3",,3,"","",23.0,14,9.0,268
+5,"Pre-Calculus Mathematics","MATH","29",,,,4,"","",27.0,20,7.0,0
+6,"Introduction to Computer Architecture","CSC","35","1",,,3,"","",17.0,10,7.0,40
+7,"Calculus I","MATH","30","5",,,4,"","",8.0,4,4.0,10
+8,"Calculus II","MATH","31","7",,,4,"","",5.0,1,4.0,4
+9,"General Physics: Mechanics","PHYS","11A",,"8",,4,"","",4.0,0,4.0,0
+10,"Introduction to Systems Programming in UNIX","CSC","60","6;3",,,3,"","",13.0,6,7.0,48
+11,"Introduction to Probability and Statistics","STAT","50","7",,,4,"","",3.0,0,3.0,0
+12,"Introduction to Linear Algebra","MATH","35","7",,,3,"","",3.0,0,3.0,0
+13,"Basic Biological Concepts","BIO","10",,,,3,"","",1.0,0,1.0,0
+14,"Data Structures and Algorithm Analysis","CSC","130","3","4",,3,"","",22.0,13,9.0,321
+15,"Computer Software Engineering","CSC","131",,"14",,3,"","",13.0,4,9.0,66
+16,"Object-Oriented Computer Graphics Programming","CSC","133","15;14",,,3,"","",12.0,3,9.0,84
+17,"Database Management Systems","CSC","134","14",,,3,"","",11.0,3,8.0,39
+18,"Computing Theory and Programming Languages","CSC","135","4;6;14",,,3,"","",12.0,4,8.0,105
+19,"Computer Organization","CSC","137","4;10;14",,,3,"","",11.0,3,8.0,87
+20,"Computer Networking Fundamentals","CSC","138","10;14",,,3,"","",8.0,1,7.0,30
+21,"Operating System Principles","CSC","139","10;14;19",,,3,"","",7.0,0,7.0,0
+22,"Senior Project - Part I","CSC","190","15;16;18;14;17;23;19",,,2,"","",10.0,1,9.0,194
+23,"Preparing to Write in the Disciplines - Multilingual","ENGL","109M",,,,3,"","",5.0,2,3.0,0
+24,"Senior Project - Part II","CSC","191","22",,,2,"","",9.0,0,9.0,0
+25,"Business and Computer Ethics","PHIL","103",,,,3,"","",1.0,0,1.0,0
+26,"Career Planning","CSC","192","16;18;14;17",,,1,"","",8.0,0,8.0,0
+27,"Computer Science Seminar","CSC","194",,,,1,"","",1.0,0,1.0,0
+28,"Advanced Algorithm Design and Analysis","CSC","140","14",,,3,"","",6.0,0,6.0,0
+29,"Compiler Construction","CSC","151","18",,,3,"","",7.0,0,7.0,0
+30,"Computer Forensics Principles and Practices","CSC","153","20",,,3,"","",7.0,0,7.0,0

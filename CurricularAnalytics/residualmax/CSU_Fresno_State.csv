@@ -1,0 +1,20 @@
+Curriculum,CSU_Fresno_State,,,,,,,,,
+Institution,"Fresno State",,,,,,,,,
+Degree Type,"BS",,,,,,,,,
+System Type,"semester",,,,,,,,,
+CIP,"11.0701",,,,,,,,,
+Courses,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+9,"Introduction to Computer Organization","CSCI","113",,,,4,"","",1.0,0,1.0,0
+10,"Introduction to Operating Systems","CSCI","114",,,,3,"","",3.0,1,2.0,0
+11,"Algorithms and Data Structures","CSCI","115",,,,4,"","",4.0,2,2.0,0
+12,"Structures of Programming Languages","CSCI","117",,,,4,"","",5.0,2,3.0,0
+13,"Introduction to Formal Languages and Automata","CSCI","119",,,,3,"","",1.0,0,1.0,0
+14,"Database Systems","CSCI","126","11",,,3,"","",2.0,0,2.0,0
+15,"Web Programming","CSCI","130","11",,,3,"","",2.0,0,2.0,0
+16,"Introduction to Software Engineering","CSCI","150",,,,3,"","",3.0,1,2.0,0
+17,"Software Engineering","CSCI","152E","16",,,3,"","",2.0,0,2.0,0
+18,"Internetworking Systems and Protocols","CSCI","156","10",,,3,"","",2.0,0,2.0,0
+19,"Artificial Intelligence Programming","CSCI","164","12",,,3,"","",4.0,1,3.0,3
+20,"Principles of Artificial Intelligence","CSCI","166","19",,,3,"","",3.0,0,3.0,0
+21,"Project","CSCI","198",,,,3,"","",1.0,0,1.0,0

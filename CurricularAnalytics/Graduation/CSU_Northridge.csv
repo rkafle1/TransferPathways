@@ -1,0 +1,37 @@
+Curriculum,CSU_Northridge,,,,,,,,,
+Institution,"CSU Northridge",,,,,,,,,
+Degree Type,"BS",,,,,,,,,
+System Type,"semester",,,,,,,,,
+CIP,"11.0701",,,,,,,,,
+Courses,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+1," Introduction to Algorithms and Programming and Lab","COMP","110/L","2",,,4,"","",23.0,16,7.0,61
+2,"Mathematical Methods for Business","MATH","105",,,,3,"","",33.0,26,7.0,0
+3,"Computer Architecture and Assembly Language and Lab","COMP","122/L","2;1",,,2,"","",7.0,2,5.0,9
+4,"Data Structures and Program Design and Lab","COMP","182/L","2;1",,,4,"","",21.0,14,7.0,102
+5,"Computer Organization","COMP","222","4;3",,,3,"","",6.0,1,5.0,18
+6,"Discrete Structures for Computer Science and Lab","COMP","256/L","4;7;8",,,4,"","",7.0,2,5.0,32
+7,"Calculus I","MATH","150A","2",,,5,"","",26.0,20,6.0,70
+8,"Introduction to Formal Logic","PHIL","230",,,,3,"","",14.0,10,4.0,0
+9,"Advanced Data Structures","COMP","282","4;7",,,3,"","",16.0,9,7.0,109
+10,"Calculus II","MATH","150B","7",,,5,"","",10.0,5,5.0,17
+11,"Introduction to Linear Algebra","MATH","262","10",,,3,"","",6.0,1,5.0,5
+12,"Mechanics","PHYS","220A","7",,,3,"","",6.0,2,4.0,8
+13,"Mechanics Lab","PHYS","220AL","7",,,1,"","",3.0,0,3.0,0
+14,"Electricity and Magnetism","PHYS","220B","10;12",,,3,"","",4.0,0,4.0,0
+15,"Electricity and Magnetism Lab","PHYS","220BL","10;12",,,1,"","",4.0,0,4.0,0
+16,"Weather","GEOG","103",,,,3,"","",3.0,1,2.0,0
+17,"Weather Lab","GEOG","105",,"16",,1,"","",2.0,0,2.0,0
+18,"Automata, Languages and Computation","COMP","310","6",,,3,"","",5.0,0,5.0,0
+19,"Introduction to Operating Systems and System Architecture and Lab","COMP","322/L","5",,,4,"","",5.0,0,5.0,0
+20,"Concepts of Programming Languages","COMP","333","9",,,3,"","",5.0,0,5.0,0
+21,"Introduction to Software Engineering","COMP","380/L","9;8",,,3,"","",13.0,6,7.0,99
+22,"Algorithm Design and Analysis","COMP","482","6;9",,,3,"","",5.0,0,5.0,0
+23,"Senior Design Project","COMP","490/L","21",,,4,"","",8.0,1,7.0,23
+24,"Senior Project Lab","COMP","491L","23",,,1,"","",7.0,0,7.0,0
+25,"Introductory Probability","MATH","340","10",,,3,"","",4.0,0,4.0,0
+26,"Database Design","COMP","440","21",,,3,"","",6.0,0,6.0,0
+27,"Computer Graphic Systems and Design and Lab","COMP","465/L","11",,,3,"","",5.0,0,5.0,0
+28,"Multimedia Systems Design","COMP","467","21",,,3,"","",6.0,0,6.0,0
+29,"Web Engineering I and Lab","COMP","484/L","21",,,3,"","",6.0,0,6.0,0
+30,"Human-Computer Interaction","COMP","485","21",,,3,"","",6.0,0,6.0,0

@@ -1,0 +1,21 @@
+Curriculum,ChannelIslandsActual,,,,,,,,,
+Institution,"CSU Channel Islands",,,,,,,,,
+Degree Type,"BS",,,,,,,,,
+System Type,"semester",,,,,,,,,
+CIP,"11.0701",,,,,,,,,
+Courses,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+6,"Programming Languages","COMP","232",,,,3,"","",9.0,5,4.0,0
+7,"Computer Organization and Architecture","COMP","262",,,,3,"","",7.0,3,4.0,0
+13,"Introduction To Software Engineering","COMP","350","6;7",,,3,"","",6.0,2,4.0,8
+14,"Operating Systems","COMP","362","6",,,4,"","",7.0,3,4.0,7
+15,"Automata, Languages, and Computation","COMP","454",,,,3,"","",1.0,0,1.0,0
+17,"Probability and Statistics","MATH","352",,,,3,"","",1.0,0,1.0,0
+18,"Analysis of Algorithms","MATH","354",,,,3,"","",1.0,0,1.0,0
+19,"Human-Computer Interaction","COMP","449",,,,3,"","",1.0,0,1.0,0
+20,"Distributed Computing","COMP","351",,,,3,"","",1.0,0,1.0,0
+21,"Mobile Application Development","COMP","405",,,,3,"","",1.0,0,1.0,0
+22,"Database Theory and Design","COMP","420",,,,3,"","",1.0,0,1.0,0
+23,"Computer System Security","COMP","424","14",,,3,"","",3.0,0,3.0,0
+24,"Capstone Preparation","COMP","491","13;14",,,1,"","",5.0,1,4.0,12
+25,"Capstone Project","COMP","499","24",,,3,"","",4.0,0,4.0,0

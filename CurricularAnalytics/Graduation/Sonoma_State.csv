@@ -1,0 +1,27 @@
+Curriculum,Sonoma_State,,,,,,,,,
+Institution,"Sonoma State",,,,,,,,,
+Degree Type,"BS",,,,,,,,,
+System Type,"semester",,,,,,,,,
+CIP,"11.0701",,,,,,,,,
+Courses,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+1,"Differential and Integral Calculus I","MATH","161",,,,4,"","",18.0,14,4.0,0
+2,"Differential and Integral Calculus II","MATH","211","1",,,4,"","",4.0,1,3.0,3
+3,"Linear Algebra with Applications in Differential Equations","MATH","241","2",,,4,"","",3.0,0,3.0,0
+4,"Programming I","CS","115",,,,4,"","",21.0,16,5.0,0
+5,"Introduction to Unix","CS","210","4","6",,4,"","",13.0,8,5.0,63
+6,"Programming II","CS","215","4",,,4,"","",19.0,14,5.0,92
+7,"Discrete Structures for Computer Science","CS","242","4;1",,,4,"","",15.0,11,4.0,88
+8,"Introduction to Computer Organization","CS","252","6;7",,,4,"","",8.0,4,4.0,48
+9,"Data Structures","CS","315","5;6;7",,,4,"","",12.0,7,5.0,147
+10,"Computer Architecture","CS","351","6;8",,,4,"","",4.0,0,4.0,0
+11,"Database Management Systems Design","CS","355","6",,,4,"","",3.0,0,3.0,0
+12,"Software Design and Development","CS","370","6",,,4,"","",5.0,1,4.0,4
+13,"Algorithm Analysis","CS","415","9",,,4,"","",5.0,0,5.0,0
+14,"Operating Systems","CS","450","9;8",,,4,"","",5.0,0,5.0,0
+15,"Theory of Computation","CS","454","9",,,4,"","",5.0,0,5.0,0
+16,"Programming Languages","CS","460","9;8",,,4,"","",5.0,0,5.0,0
+17,"Introduction to Game Programming","CS","330","9",,,3,"","",5.0,0,5.0,0
+18,"Computer Security and Malware","CS","340","6;8",,,3,"","",4.0,0,4.0,0
+19,"Object-Oriented Programming","CS","360","9",,,3,"","",5.0,0,5.0,0
+20,"Advanced Software Design Project","CS","470","9;12",,,3,"","",5.0,0,5.0,0

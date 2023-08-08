@@ -1,0 +1,31 @@
+Curriculum,CSU_Dominguez_Hills,,,,,,,,,
+Institution,"CSU Dominguez Hills",,,,,,,,,
+Degree Type,"BS",,,,,,,,,
+System Type,"semester",,,,,,,,,
+CIP,"11.0701",,,,,,,,,
+Courses,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+1,"Intro to Comp. Sci. & Prog. I","CSC","121","2;3",,,4,"","",20.0,14,6.0,190
+2,"Introduction to Programming Concepts","CSC","115",,,,3,"","",21.0,15,6.0,0
+3,"Pre-Calculus with Trigonometry with Lab.","MAT","153",,,,4,"","",27.0,21,6.0,0
+4,"Intro to Comp. Sci. & Prog. II","CSC","123","1",,,4,"","",14.0,8,6.0,84
+5,"Assem. Lang. & Intro to Comp. Org","CSC","221","1",,,3,"","",7.0,2,5.0,10
+6,"Lower Division Computer Science Elective","CSC","2xx",,,,3,"","",1.0,0,1.0,0
+7,"Calculus I","MAT","191","3",,,5,"","",12.0,6,6.0,19
+8,"Calculus II","MAT","193","7",,,5,"","",10.0,4,6.0,15
+9,"Foundations of Higher Mathematics","MAT","271","8",,,3,"","",8.0,2,6.0,6
+10,"Discrete Mathematics","MAT","281","3;1",,,3,"","",15.0,9,6.0,109
+11,"General Physics I","PHY","130",,"7",,5,"","",5.0,1,4.0,4
+12,"General Physics II","PHY","132","11","8",,5,"","",4.0,0,4.0,0
+13,"Data Structures","CSC","311","4;10",,,3,"","",12.0,6,6.0,125
+14,"Programming Languages","CSC","321","4",,,3,"","",9.0,3,6.0,32
+15,"Computer Organization","CSC","331","5;10",,,3,"","",6.0,1,5.0,24
+16,"Operating Systems","CSC","341","13;15;17",,,3,"","",6.0,0,6.0,0
+17,"Probability and Statistics","MAT","321","9;8",,,3,"","",7.0,1,6.0,11
+18,"Computers And Society","CSC","301","1",,,3,"","",7.0,2,5.0,18
+19,"Analysis Of Algorithms","CSC","401","13",,,3,"","",5.0,0,5.0,0
+20,"Software Engineering","CSC","481","13;18;14",,,3,"","",7.0,1,6.0,51
+21,"Senior Design","CSC","492","20;18;14",,,3,"","",6.0,0,6.0,0
+22,"Finite Automata","MAT","361","10",,,3,"","",4.0,0,4.0,0
+23,"Artificial Intelligence","CSC","411","13;14",,,3,"","",5.0,0,5.0,0
+24,"Computer Networks","CSC","451","13;10",,,3,"","",5.0,0,5.0,0

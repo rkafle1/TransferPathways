@@ -1,0 +1,21 @@
+Curriculum,UC_Berkeley_BS,,,,,,,,,
+Institution,"UC Berkeley",,,,,,,,,
+Degree Type,"BS",,,,,,,,,
+System Type,"semester",,,,,,,,,
+CIP,"14.1001",,,,,,,,,
+Courses,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+1,"Designing Information Devices and Systems I","EE","16A",,"4",,4,"","",7.0,3,4.0,10
+4,"The Structure and Interpretation of Computer Programs","CS","61A",,,,4,"","",11.0,7,4.0,0
+5,"Designing Information Devices and Systems II","EE","16B","1",,,4,"","",5.0,1,4.0,4
+6,"Data Structures","CS","61B","4",,,4,"","",6.0,2,4.0,7
+7,"Great Ideas of Computer Architecture (Machine Structures)","CS","61C","4;6",,,4,"","",5.0,1,4.0,7
+8,"Discrete Mathematics and Probability Theory","CS","70",,,,4,"","",5.0,3,2.0,0
+12,"Introduction to Astrophysics","ASTRON","7A",,,,4,"","",1.0,0,1.0,0
+13,"Introduction to General Astronomy","ASTRON","10",,,,4,"","",1.0,0,1.0,0
+14,"Integrated-Circuit Devices","EE","130","5;1",,,4,"","",4.0,0,4.0,0
+15,"Microfabrication Technology","EE","143",,,,4,"","",1.0,0,1.0,0
+16,"Fundamental Algorithms for Systems Modeling, Analysis, and Optimization","EE","144","8;1",,,4,"","",3.0,0,3.0,0
+17,"Operating Systems and System Programming","CS","162","6;7;8",,,4,"","",4.0,0,4.0,0
+18,"Cryptography","CS","171","8",,,4,"","",2.0,0,2.0,0
+19,"Social Implications of Computer Technology","CS","195",,,,1,"","",1.0,0,1.0,0

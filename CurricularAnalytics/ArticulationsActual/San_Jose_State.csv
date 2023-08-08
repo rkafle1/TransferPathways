@@ -1,0 +1,19 @@
+Curriculum,SanJoseActual,,,,,,,,,
+Institution,"San Jose State",,,,,,,,,
+Degree Type,"BS",,,,,,,,,
+System Type,"semester",,,,,,,,,
+CIP,"11.0701",,,,,,,,,
+Courses,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+1,"Precalculus","MATH","19",,,,5,"","",13.0,9,4.0,0
+2,"Calculus I","MATH","30","1",,,3,"","",9.0,5,4.0,16
+3,"Calculus II","MATH","31","2",,,4,"","",7.0,3,4.0,12
+4,"Calculus III","MATH","32","3",,,3,"","",4.0,0,4.0,0
+5,"Discrete Mathematics","MATH","42","1",,,3,"","",4.0,1,3.0,3
+6,"Linear Algebra I","MATH","39","3",,,3,"","",4.0,0,4.0,0
+7,"General Physics/Mechanics","PHYS","50","2",,,4,"","",5.0,1,4.0,4
+8,"General Physics/Electricity and Magnetism","PHYS","51","7;3",,,4,"","",4.0,0,4.0,0
+11,"Introduction to Programming","CS","46A",,,,4,"","",5.0,2,3.0,0
+12,"Introduction to Data Structures","CS","46B","11;1",,,4,"","",4.0,1,3.0,6
+13,"Programming in Java","CS","49J",,,,3,"","",1.0,0,1.0,0
+14,"Introduction to Computer Systems","CS","47","5;12",,,3,"","",3.0,0,3.0,0

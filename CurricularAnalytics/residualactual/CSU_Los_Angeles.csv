@@ -1,0 +1,28 @@
+Curriculum,LosAngelesActual,,,,,,,,,
+Institution,"CSU Los Angeles",,,,,,,,,
+Degree Type,"BS",,,,,,,,,
+System Type,"semester",,,,,,,,,
+CIP,"11.0701",,,,,,,,,
+Courses,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+6,"Introduction to College Writing","ENGL","1004",,,,3,"","",1.0,0,1.0,0
+8,"Introduction to Technical Writing","ENGL","2030",,,,3,"","",7.0,3,4.0,0
+17,"Programming Paradigms","CS","3035",,,,3,"","",5.0,2,3.0,0
+18,"Analysis of Algorithms","CS","3112",,,,3,"","",10.0,7,3.0,0
+19,"Introduction to Automata Theory","CS","3186",,,,3,"","",5.0,2,3.0,0
+20,"Web and Internet Programming","CS","3220",,,,4,"","",1.0,0,1.0,0
+21,"Software Engineering","CS","3337",,,"8",3,"","",6.0,2,4.0,4
+22,"Societal and Ethical Issues in Computing","CS","3801",,,,3,"","",5.0,2,3.0,0
+23,"Introduction to Operating Systems","CS","4440",,,,3,"","",5.0,2,3.0,0
+24,"Software Design Laboratory I","CS","4961","22;21;18;17;19",,"23",3,"","",5.0,1,4.0,19
+25,"Software Design Laboratory II","CS","4962","24",,,3,"","",4.0,0,4.0,0
+26,"Computer Science Recapitulation","CS","4963","27",,,3,"","",2.0,0,2.0,0
+27,"General Physics II: Electromagnetism and Circuits","PHYS","2200",,,,5,"","",3.0,1,2.0,0
+28,"Competitive Programming","CS","4112","18",,,3,"","",2.0,0,2.0,0
+29,"Multimedia Software Systems","CS","4551","18",,,3,"","",2.0,0,2.0,0
+30,"Introduction to 3D Computer Game Programming","CS","4555","18",,,3,"","",2.0,0,2.0,0
+31,"Artificial Intelligence","CS","4660","18",,,3,"","",2.0,0,2.0,0
+32,"Cryptography and Information Security","CS","4780","18",,,3,"","",2.0,0,2.0,0
+33,"Computer Organization","EE","3445",,,,3,"","",1.0,0,1.0,0
+34,"Calculus I Workshop","MATH","2111",,,,1,"","",1.0,0,1.0,0
+35,"Calculus II Workshop","MATH","2121",,,,1,"","",1.0,0,1.0,0

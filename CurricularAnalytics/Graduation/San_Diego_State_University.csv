@@ -1,0 +1,36 @@
+Curriculum,San_Diego_State_University,,,,,,,,,
+Institution,"San Diego State University",,,,,,,,,
+Degree Type,"BS",,,,,,,,,
+System Type,"semester",,,,,,,,,
+CIP,"11.0701",,,,,,,,,
+Courses,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+1,"Introductory Computer Programming","CS","150",,"2",,3,"","",23.0,16,7.0,138
+2,"Introductory Computer Programming Laboratory","CS","150L",,,,1,"","",24.0,17,7.0,0
+3,"Intermediate Computer Programming","CS","160","1","4",,3,"","",21.0,14,7.0,138
+4,"Intermediate Computer Programming Laboratory","CS","160L","1",,,1,"","",22.0,15,7.0,75
+5,"Data Structures","CS","210","3",,,3,"","",16.0,9,7.0,90
+6,"Computer Organization","CS","240","3",,,3,"","",12.0,5,7.0,48
+7,"Introduction to Software Systems","CS","250","6",,,3,"","",6.0,0,6.0,0
+8,"Calculus I","MATH","150","9",,,4,"","",17.0,12,5.0,41
+9,"Precalculus","MATH","141",,,,3,"","",18.0,13,5.0,0
+10,"Calculus II","MATH","151","8",,,4,"","",11.0,6,5.0,28
+11,"Discrete Mathematics","MATH","245","8",,,3,"","",8.0,3,5.0,9
+12,"Introduction to Linear Algebra","MATH","254","10",,,3,"","",9.0,4,5.0,20
+13,"Principles of Physics","PHYS","195","8","14",,3,"","",5.0,1,4.0,7
+14,"Principles of Physics Laboratory","PHYS","195L",,,,1,"","",5.0,2,3.0,0
+15,"Principles of Physics","PHYS","196","13;10","16",,3,"","",4.0,0,4.0,0
+16,"Principles of Physics Laboratory","PHYS","196L",,,,1,"","",3.0,1,2.0,0
+17,"Statistical Principles and Practices","STAT","250",,,,3,"","",3.0,1,2.0,0
+18,"Computer Architecture","CS","370","6",,,3,"","",9.0,2,7.0,26
+19,"Introduction to Artificial Intelligence","CS","450","5;12;17",,,3,"","",6.0,0,6.0,0
+20,"Algorithms","CS","460","5;11",,,3,"","",8.0,1,7.0,18
+21,"Operating Systems","CS","480","5;18",,,3,"","",7.0,0,7.0,0
+22,"Advanced Programming Languages","CS","420","5",,,3,"","",6.0,0,6.0,0
+23,"Applied Probability","STAT","550","10;12",,,3,"","",5.0,0,5.0,0
+24,"UNIX System Administration","CS","470","18",,,3,"","",7.0,0,7.0,0
+25,"Systems Programming","CS","530","5;6",,,3,"","",6.0,0,6.0,0
+26,"Machine Learning","CS","549","5;12",,,3,"","",6.0,0,6.0,0
+27,"Neural Networks","CS","553","5;12",,,3,"","",6.0,0,6.0,0
+28,"Database Theory and Implementation","CS","514","5;11",,,3,"","",6.0,0,6.0,0
+29,"Undergraduate Research Seminar","CS","497","20",,,3,"","",7.0,0,7.0,0

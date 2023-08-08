@@ -1,0 +1,32 @@
+Curriculum,CSU_Channel_Islands,,,,,,,,,
+Institution,"CSU Channel Islands",,,,,,,,,
+Degree Type,"BS",,,,,,,,,
+System Type,"semester",,,,,,,,,
+CIP,"11.0701",,,,,,,,,
+Courses,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+1,"Object-Oriented Programming","COMP","150","2;3",,,4,"","",19.0,12,7.0,166
+2,"Pre-Calculus","MATH","105",,,,4,"","",25.0,18,7.0,0
+3,"Introduction to Programming","COMP","105",,,,3,"","",20.0,13,7.0,0
+4,"Data Structures And Program Design","COMP","151","1",,,4,"","",17.0,10,7.0,78
+5,"Computer Architecture and Assembly Language","COMP","162","1",,,3,"","",14.0,7,7.0,54
+6,"Programming Languages","COMP","232","5;4;1",,,3,"","",12.0,5,7.0,114
+7,"Computer Organization and Architecture","COMP","262","5;4",,,3,"","",10.0,3,7.0,28
+8,"Calculus I","MATH","150","2",,,4,"","",8.0,4,4.0,12
+9,"Calculus II","MATH","151","8",,,4,"","",7.0,3,4.0,12
+10,"Linear Algebra","MATH","240","9",,,3,"","",4.0,0,4.0,0
+11,"General Physics I","PHYS","200",,,,4,"","",3.0,1,2.0,0
+12,"General Physics II","PHYS","201","11;9",,,4,"","",4.0,0,4.0,0
+13,"Introduction To Software Engineering","COMP","350","6;7",,,3,"","",9.0,2,7.0,68
+14,"Operating Systems","COMP","362","6",,,4,"","",10.0,3,7.0,74
+15,"Automata, Languages, and Computation","COMP","454","16",,,3,"","",2.0,0,2.0,0
+16,"Discrete Mathematics","MATH","300",,,,3,"","",5.0,3,2.0,0
+17,"Probability and Statistics","MATH","352","9",,,3,"","",4.0,0,4.0,0
+18,"Analysis of Algorithms","MATH","354","16",,,3,"","",2.0,0,2.0,0
+19,"Human-Computer Interaction","COMP","449",,,,3,"","",1.0,0,1.0,0
+20,"Distributed Computing","COMP","351","4",,,3,"","",4.0,0,4.0,0
+21,"Mobile Application Development","COMP","405","4",,,3,"","",4.0,0,4.0,0
+22,"Database Theory and Design","COMP","420","4;16",,,3,"","",4.0,0,4.0,0
+23,"Computer System Security","COMP","424","14",,,3,"","",6.0,0,6.0,0
+24,"Capstone Preparation","COMP","491","13;14",,,1,"","",8.0,1,7.0,108
+25,"Capstone Project","COMP","499","24",,,3,"","",7.0,0,7.0,0
