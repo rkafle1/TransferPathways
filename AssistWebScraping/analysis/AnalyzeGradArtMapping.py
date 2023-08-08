@@ -29,8 +29,8 @@ def getrel(Unireq, articulations, cc):
     reldict = {}
     Unireqlst = CSVHandling.getListfromString(Unireq)
     Artlst = CSVHandling.getListfromString(articulations)
-    if "Citrus College" == cc:
-        print(Unireqlst[0])
+    # if "Citrus College" == cc:
+    #     print(Unireqlst[0])
     reqcnt = 0
     for reqlst in Unireqlst:
         for req in reqlst:
@@ -249,6 +249,7 @@ def AllListsofMetReqs(UniList):
 # AllListsofMetReqs(CSVHandling.UniNameShort)    
 def TranslateReqsToGradReqs():
     wholetranslation = {}
+    AllListsofMetReqs(CSVHandling.UniNameShort)
     with open("./csvs/ReqRelationships.csv") as relcsv:
         translationdict = {}
         relreader = csv.reader(relcsv, delimiter='\t')
@@ -283,7 +284,7 @@ def TranslateReqsToGradReqs():
   
     
     return wholetranslation
-TranslateReqsToGradReqs()
+# print(TranslateReqsToGradReqs()["Chico"])
 # Translates assit reqs to grad reqs and creates list of grad reqs met for each CC. Returns a dictionary: key = CCname value = list of grad reqs met
 # def TranslateReqsToGradReqs():
 #     # CSVHandling.delete_empty_rows("./csvs/ReqRelationships.csv", "./csvs/ReqRelationships.csv")
@@ -326,7 +327,7 @@ TranslateReqsToGradReqs()
 # dict = TranslateReqsToGradReqs()
 # print(dict["UCSD"]["Evergreen Valley College"])                    
 def TranslateUniNames(GradreqUniName):
-    UniNamesinGradreqs = {'UC Berkeley BA':'UCB', 'UC Davis':'UCD', 'UC Irvine':'UCI', 'UC Los Angeles':'UCLA', 'UC Merced':'UCM', 'UC Riverside':'UCR', 'UC San Diego':'UCSD', 'UC Santa Cruz BS': 'UCSC', 'UC Santa Barbara':'UCSB', 'CSU Los Angeles':'CSULA', 'CSU Fullerton':'CSUF', 'CSU Channel Islands':'CSUCI', 'Chino State':'Chico', 'CSU Dominguez Hills':'CSUDH', 'CSU East Bay':'CSUEB', 'Fresno State':'CSUFresno', 'Cal Poly Humboldt':'Humboldt', 'CSU Long Beach':'CSULB', 'CSU Northridge': 'CSUN', 'Cal Poly Pomona':'CPP', 'Sacramento State':'CSUS', 'CSU San Bernardino':'CSUSB', 'San Diego State':'SDSU', 'San Francisco State':'SFSU', 'San Jose State':'SJSU', 'CSU San Marcos':'CSUSM', 'Stainislaus State':'CSUStan', 'Sonoma State':'Sonoma', 'Cal Poly San Luis Obispo':'CPSLO', 'CSU Bakersfield':'CSUB', 'CSU Monterey Bay':'CSUMB'}
+    UniNamesinGradreqs = {'UC Berkeley BA':'UCB', 'UC Davis':'UCD', 'UC Irvine':'UCI', 'UC Los Angeles':'UCLA', 'UC Merced':'UCM', 'UC Riverside':'UCR', 'UC San Diego':'UCSD', 'UC Santa Cruz BS': 'UCSC', 'UC Santa Barbara':'UCSB', 'CSU Los Angeles':'CSULA', 'CSU Fullerton':'CSUF', 'CSU Channel Islands':'CSUCI', 'Chico State':'Chico', 'CSU Dominguez Hills':'CSUDH', 'CSU East Bay':'CSUEB', 'Fresno State':'CSUFresno', 'Cal Poly Humboldt':'Humboldt', 'CSU Long Beach':'CSULB', 'CSU Northridge': 'CSUN', 'Cal Poly Pomona':'CPP', 'Sacramento State':'CSUS', 'CSU San Bernardino':'CSUSB', 'San Diego State':'SDSU', 'San Francisco State':'SFSU', 'San Jose State':'SJSU', 'CSU San Marcos':'CSUSM', 'Stainislaus State':'CSUStan', 'Sonoma State':'Sonoma', 'Cal Poly San Luis Obispo':'CPSLO', 'CSU Bakersfield':'CSUB', 'CSU Monterey Bay':'CSUMB'}
     if GradreqUniName not in UniNamesinGradreqs.keys():
         return "not"
     return UniNamesinGradreqs[GradreqUniName]
