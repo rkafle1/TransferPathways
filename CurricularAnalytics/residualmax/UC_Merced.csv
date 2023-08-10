@@ -1,22 +1,22 @@
-Curriculum,UC_Merced,,,,,,,,,
-Institution,"UC Merced",,,,,,,,,
-Degree Type,"BS",,,,,,,,,
-System Type,"semester",,,,,,,,,
-CIP,"11.0701",,,,,,,,,
-Courses,,,,,,,,,,
+Curriculum,UC_Merced,,,,,,,,,,,,
+Institution,UC Merced,,,,,,,,,,,,
+Degree Type,BS,,,,,,,,,,,,
+System Type,semester,,,,,,,,,,,,
+CIP,11.0701,,,,,,,,,,,,
+Courses,,,,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
-11,"To Know Ourselves: Molecular Basis of Health and Disease","BIO","3",,,,4,"","",1.0,0,1.0,0
-12,"Discrete Mathematics","CSE","15",,,,4,"","",1.0,0,1.0,0
-15,"Data Structures","CSE","30",,,,4,"","",14.0,10,4.0,0
-16,"Computer Organization and Assembly Language","CSE","31","15",,,4,"","",13.0,9,4.0,35
-18,"Algorithm Design and Analysis","CSE","100","15","16",,4,"","",12.0,8,4.0,56
-19,"Software Engineering","CSE","120","16;18",,,4,"","",4.0,0,4.0,0
-20,"Professional Seminar","ENGR","191",,,,1,"","",1.0,0,1.0,0
-21,"Exploratory Computing","CSE","106","18",,,4,"","",4.0,0,4.0,0
-22,"Introduction to Digital Image Processing","CSE","107","18",,,4,"","",4.0,0,4.0,0
-23,"Database Systems","CSE","111","18",,,4,"","",4.0,0,4.0,0
-24,"Information Systems and Service Design","CSE","126",,,,4,"","",1.0,0,1.0,0
-25,"Introduction to Theory of Computation","CSE","135","18",,,4,"","",4.0,0,4.0,0
-26,"Introduction to Human-Computer Interaction","CSE","155","18",,,4,"","",4.0,0,4.0,0
-27,"Computer Networks","CSE","160","18",,,4,"","",4.0,0,4.0,0
-28,"Operating Systems","CSE","150","18",,,4,"","",4.0,0,4.0,0
+11,To Know Ourselves: Molecular Basis of Health and Disease,BIO,3,,,,4,,,1.0,0,1.0,0
+12,Discrete Mathematics,CSE,15,,,,4,,,1.0,0,1.0,0
+15,Data Structures,CSE,30,,,,4,,,14.0,10,4.0,0
+16,Computer Organization and Assembly Language,CSE,31,15,,,4,,,13.0,9,4.0,35
+18,Algorithm Design and Analysis,CSE,100,15,16,,4,,,12.0,8,4.0,56
+19,Software Engineering,CSE,120,16;18,,,4,,,4.0,0,4.0,0
+20,Professional Seminar,ENGR,191,,,,1,,,1.0,0,1.0,0
+21,Exploratory Computing,CSE,106,18,,,4,,,4.0,0,4.0,0
+22,Introduction to Digital Image Processing,CSE,107,18,,,4,,,4.0,0,4.0,0
+23,Database Systems,CSE,111,18,,,4,,,4.0,0,4.0,0
+24,Information Systems and Service Design,CSE,126,,,,4,,,1.0,0,1.0,0
+25,Introduction to Theory of Computation,CSE,135,18,,,4,,,4.0,0,4.0,0
+26,Introduction to Human-Computer Interaction,CSE,155,18,,,4,,,4.0,0,4.0,0
+27,Computer Networks,CSE,160,18,,,4,,,4.0,0,4.0,0
+28,Operating Systems,CSE,150,18,,,4,,,4.0,0,4.0,0

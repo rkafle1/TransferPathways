@@ -1,24 +1,24 @@
-Curriculum,CSU_Northridge,,,,,,,,,
-Institution,"CSU Northridge",,,,,,,,,
-Degree Type,"BS",,,,,,,,,
-System Type,"semester",,,,,,,,,
-CIP,"11.0701",,,,,,,,,
-Courses,,,,,,,,,,
+Curriculum,CSU_Northridge,,,,,,,,,,,,
+Institution,CSU Northridge,,,,,,,,,,,,
+Degree Type,BS,,,,,,,,,,,,
+System Type,semester,,,,,,,,,,,,
+CIP,11.0701,,,,,,,,,,,,
+Courses,,,,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
-1," Introduction to Algorithms and Programming and Lab","COMP","110/L",,,,4,"","",9.0,5,4.0,0
-3,"Computer Architecture and Assembly Language and Lab","COMP","122/L","1",,,2,"","",2.0,0,2.0,0
-4,"Data Structures and Program Design and Lab","COMP","182/L","1",,,4,"","",7.0,3,4.0,8
-6,"Discrete Structures for Computer Science and Lab","COMP","256/L","4",,,4,"","",6.0,2,4.0,8
-18,"Automata, Languages and Computation","COMP","310","6",,,3,"","",4.0,0,4.0,0
-19,"Introduction to Operating Systems and System Architecture and Lab","COMP","322/L",,,,4,"","",1.0,0,1.0,0
-20,"Concepts of Programming Languages","COMP","333",,,,3,"","",1.0,0,1.0,0
-21,"Introduction to Software Engineering","COMP","380/L",,,,3,"","",9.0,6,3.0,0
-22,"Algorithm Design and Analysis","COMP","482","6",,,3,"","",4.0,0,4.0,0
-23,"Senior Design Project","COMP","490/L","21",,,4,"","",4.0,1,3.0,3
-24,"Senior Project Lab","COMP","491L","23",,,1,"","",3.0,0,3.0,0
-25,"Introductory Probability","MATH","340",,,,3,"","",1.0,0,1.0,0
-26,"Database Design","COMP","440","21",,,3,"","",2.0,0,2.0,0
-27,"Computer Graphic Systems and Design and Lab","COMP","465/L",,,,3,"","",1.0,0,1.0,0
-28,"Multimedia Systems Design","COMP","467","21",,,3,"","",2.0,0,2.0,0
-29,"Web Engineering I and Lab","COMP","484/L","21",,,3,"","",2.0,0,2.0,0
-30,"Human-Computer Interaction","COMP","485","21",,,3,"","",2.0,0,2.0,0
+1, Introduction to Algorithms and Programming and Lab,COMP,110/L,,,,4,,,9.0,5,4.0,0
+3,Computer Architecture and Assembly Language and Lab,COMP,122/L,1,,,2,,,2.0,0,2.0,0
+4,Data Structures and Program Design and Lab,COMP,182/L,1,,,4,,,7.0,3,4.0,8
+6,Discrete Structures for Computer Science and Lab,COMP,256/L,4,,,4,,,6.0,2,4.0,8
+18,"Automata, Languages and Computation",COMP,310,6,,,3,,,4.0,0,4.0,0
+19,Introduction to Operating Systems and System Architecture and Lab,COMP,322/L,,,,4,,,1.0,0,1.0,0
+20,Concepts of Programming Languages,COMP,333,,,,3,,,1.0,0,1.0,0
+21,Introduction to Software Engineering,COMP,380/L,,,,3,,,9.0,6,3.0,0
+22,Algorithm Design and Analysis,COMP,482,6,,,3,,,4.0,0,4.0,0
+23,Senior Design Project,COMP,490/L,21,,,4,,,4.0,1,3.0,3
+24,Senior Project Lab,COMP,491L,23,,,1,,,3.0,0,3.0,0
+25,Introductory Probability,MATH,340,,,,3,,,1.0,0,1.0,0
+26,Database Design,COMP,440,21,,,3,,,2.0,0,2.0,0
+27,Computer Graphic Systems and Design and Lab,COMP,465/L,,,,3,,,1.0,0,1.0,0
+28,Multimedia Systems Design,COMP,467,21,,,3,,,2.0,0,2.0,0
+29,Web Engineering I and Lab,COMP,484/L,21,,,3,,,2.0,0,2.0,0
+30,Human-Computer Interaction,COMP,485,21,,,3,,,2.0,0,2.0,0

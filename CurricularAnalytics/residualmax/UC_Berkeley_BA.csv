@@ -1,0 +1,14 @@
+Curriculum,UC Berkeley BA,,,,,,,,,,,,
+Institution,UC Berkeley,,,,,,,,,,,,
+Degree Type,BA,,,,,,,,,,,,
+System Type,semester,,,,,,,,,,,,
+CIP,11.0701,,,,,,,,,,,,
+Courses,,,,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+7,Discrete Mathematics and Probability Theory,CS,70,,,,4,,,4.0,2,2.0,0
+8,Computer Architecture and Engineering,CS,152,,,,4,,,1.0,0,1.0,0
+9,Introduction to Artificial Intelligence,CS,188,7,,,4,,,2.0,0,2.0,0
+10,Introduction to Database Systems,CS,186,,,,4,,,1.0,0,1.0,0
+11,Programming Languages and Compilers,CS,164,,,,4,,,1.0,0,1.0,0
+12,Software Engineering,CS,163,7,,,4,,,2.0,0,2.0,0
+13,Principles of Computer Aided Architectural Design,ARCH,122,,,,4,,,1.0,0,1.0,0

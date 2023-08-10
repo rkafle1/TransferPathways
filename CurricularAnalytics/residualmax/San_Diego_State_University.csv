@@ -1,19 +1,19 @@
-Curriculum,San_Diego_State_University,,,,,,,,,
-Institution,"San Diego State University",,,,,,,,,
-Degree Type,"BS",,,,,,,,,
-System Type,"semester",,,,,,,,,
-CIP,"11.0701",,,,,,,,,
-Courses,,,,,,,,,,
+Curriculum,San_Diego_State_University,,,,,,,,,,,,
+Institution,San Diego State University,,,,,,,,,,,,
+Degree Type,BS,,,,,,,,,,,,
+System Type,semester,,,,,,,,,,,,
+CIP,11.0701,,,,,,,,,,,,
+Courses,,,,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
-18,"Computer Architecture","CS","370",,,,3,"","",4.0,2,2.0,0
-19,"Introduction to Artificial Intelligence","CS","450",,,,3,"","",1.0,0,1.0,0
-20,"Algorithms","CS","460",,,,3,"","",3.0,1,2.0,0
-21,"Operating Systems","CS","480","18",,,3,"","",2.0,0,2.0,0
-22,"Advanced Programming Languages","CS","420",,,,3,"","",1.0,0,1.0,0
-23,"Applied Probability","STAT","550",,,,3,"","",1.0,0,1.0,0
-24,"UNIX System Administration","CS","470","18",,,3,"","",2.0,0,2.0,0
-25,"Systems Programming","CS","530",,,,3,"","",1.0,0,1.0,0
-26,"Machine Learning","CS","549",,,,3,"","",1.0,0,1.0,0
-27,"Neural Networks","CS","553",,,,3,"","",1.0,0,1.0,0
-28,"Database Theory and Implementation","CS","514",,,,3,"","",1.0,0,1.0,0
-29,"Undergraduate Research Seminar","CS","497","20",,,3,"","",2.0,0,2.0,0
+18,Computer Architecture,CS,370,,,,3,,,4.0,2,2.0,0
+19,Introduction to Artificial Intelligence,CS,450,,,,3,,,1.0,0,1.0,0
+20,Algorithms,CS,460,,,,3,,,3.0,1,2.0,0
+21,Operating Systems,CS,480,18,,,3,,,2.0,0,2.0,0
+22,Advanced Programming Languages,CS,420,,,,3,,,1.0,0,1.0,0
+23,Applied Probability,STAT,550,,,,3,,,1.0,0,1.0,0
+24,UNIX System Administration,CS,470,18,,,3,,,2.0,0,2.0,0
+25,Systems Programming,CS,530,,,,3,,,1.0,0,1.0,0
+26,Machine Learning,CS,549,,,,3,,,1.0,0,1.0,0
+27,Neural Networks,CS,553,,,,3,,,1.0,0,1.0,0
+28,Database Theory and Implementation,CS,514,,,,3,,,1.0,0,1.0,0
+29,Undergraduate Research Seminar,CS,497,20,,,3,,,2.0,0,2.0,0

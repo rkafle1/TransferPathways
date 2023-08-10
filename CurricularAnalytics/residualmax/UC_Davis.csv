@@ -1,20 +1,20 @@
-Curriculum,UC_Davis,,,,,,,,,
-Institution,"UC Davis",,,,,,,,,
-Degree Type,"BS",,,,,,,,,
-System Type,"quarter",,,,,,,,,
-CIP,"11.0701",,,,,,,,,
-Courses,,,,,,,,,,
+Curriculum,UC_Davis,,,,,,,,,,,,
+Institution,UC Davis,,,,,,,,,,,,
+Degree Type,BS,,,,,,,,,,,,
+System Type,quarter,,,,,,,,,,,,
+CIP,11.0701,,,,,,,,,,,,
+Courses,,,,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
-14,"Algorithm Design & Analysis","ECS","122A",,,,4,"","",0.7,0,1.0,0
-15,"Theory of Computation","ECS","120",,,,4,"","",0.7,0,1.0,0
-16,"Programming Languages","ECS","140A",,,,4,"","",2.0,1,2.0,0
-17,"Operating Systems & System Programming","ECS","150","18",,,4,"","",2.7,1,3.0,3
-18,"Computer Architecture","ECS","154A",,,,4,"","",3.3,2,3.0,0
-19,"Probability & Statistical Modeling for Computer Science","ECS","132",,,,4,"","",3.3,2,3.0,0
-20,"Computer Networks","ECS","152A","19",,,4,"","",2.7,1,3.0,3
-21,"Computer Networks","ECS","152B","20;17",,,4,"","",2.0,0,3.0,0
-22,"Software Engineering","ECS","160","16",,,4,"","",1.3,0,2.0,0
-23,"Web Programming","ECS","162",,,,4,"","",0.7,0,1.0,0
-24,"Database Systems","ECS","165A",,,,4,"","",2.0,1,2.0,0
-25,"Database Systems","ECS","165B","24",,,4,"","",1.3,0,2.0,0
-26,"Number Theory","MAT","115A",,,,4,"","",0.7,0,1.0,0
+14,Algorithm Design & Analysis,ECS,122A,,,,4,,,0.7,0,1.0,0
+15,Theory of Computation,ECS,120,,,,4,,,0.7,0,1.0,0
+16,Programming Languages,ECS,140A,,,,4,,,2.0,1,2.0,0
+17,Operating Systems & System Programming,ECS,150,18,,,4,,,2.7,1,3.0,3
+18,Computer Architecture,ECS,154A,,,,4,,,3.3,2,3.0,0
+19,Probability & Statistical Modeling for Computer Science,ECS,132,,,,4,,,3.3,2,3.0,0
+20,Computer Networks,ECS,152A,19,,,4,,,2.7,1,3.0,3
+21,Computer Networks,ECS,152B,20;17,,,4,,,2.0,0,3.0,0
+22,Software Engineering,ECS,160,16,,,4,,,1.3,0,2.0,0
+23,Web Programming,ECS,162,,,,4,,,0.7,0,1.0,0
+24,Database Systems,ECS,165A,,,,4,,,2.0,1,2.0,0
+25,Database Systems,ECS,165B,24,,,4,,,1.3,0,2.0,0
+26,Number Theory,MAT,115A,,,,4,,,0.7,0,1.0,0

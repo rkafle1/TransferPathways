@@ -1,26 +1,26 @@
-Curriculum,Cal_Poly_Slo,,,,,,,,,
-Institution,"Cal Poly San Luis Obispo",,,,,,,,,
-Degree Type,"BS",,,,,,,,,
-System Type,"quarter",,,,,,,,,
-CIP,"11.0701",,,,,,,,,
-Courses,,,,,,,,,,
+Curriculum,Cal_Poly_Slo,,,,,,,,,,,,
+Institution,Cal Poly San Luis Obispo,,,,,,,,,,,,
+Degree Type,BS,,,,,,,,,,,,
+System Type,quarter,,,,,,,,,,,,
+CIP,11.0701,,,,,,,,,,,,
+Courses,,,,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
-6,"Statistical Methods for Engineers","STAT","312",,,,4,"","",0.7,0,1.0,0
-14,"Ethics, Science and Technology","PHIL","323",,,,4,"","",0.7,0,1.0,0
-15,"Introduction to Software Engineering","CSC","307","19",,,4,"","",2.7,1,3.0,3
-16,"Introduction to Computer Security","CSC","321","19",,,4,"","",2.7,1,3.0,3
-17,"Design and Analysis of Algorithms","CSC","349",,,,4,"","",3.3,2,3.0,0
-18,"Introduction to Networked, Distributed, and Parallel Computing","CSC","364",,,,4,"","",2.0,1,2.0,0
-19,"Systems Programming","CSC","357",,,,4,"","",6.7,7,3.0,0
-20,"Introduction to Database Systems","CSC","365",,,,4,"","",0.7,0,1.0,0
-21,"Programming Languages","CSC","430","17",,,4,"","",2.7,1,3.0,3
-22,"Theory of Computation I","CSC","445",,,,4,"","",0.7,0,1.0,0
-23,"Introduction to Operating Systems","CSC","453","19",,,4,"","",1.3,0,2.0,0
-24,"Senior Project I","CSC","491","15",,,2,"","",2.0,0,3.0,0
-25,"Gender, Race, Culture, Science & Technology","ES","350",,,,4,"","",0.7,0,1.0,0
-27,"Introduction to Computer Graphics","CSC","471","19",,,4,"","",2.7,1,3.0,3
-28,"Real-Time 3D Computer Graphics Software","CSC","476","27",,,4,"","",2.0,0,3.0,0
-29,"Network Security","CSC","422","18",,,4,"","",1.3,0,2.0,0
-30,"Compiler Construction","CSC","431","21",,,4,"","",2.0,0,3.0,0
-31,"Artificial Intelligence","CSC","480",,,,4,"","",0.7,0,1.0,0
-32,"Computer Security","CSC","521","16",,,4,"","",2.0,0,3.0,0
+6,Statistical Methods for Engineers,STAT,312,,,,4,,,0.7,0,1.0,0
+14,"Ethics, Science and Technology",PHIL,323,,,,4,,,0.7,0,1.0,0
+15,Introduction to Software Engineering,CSC,307,19,,,4,,,2.7,1,3.0,3
+16,Introduction to Computer Security,CSC,321,19,,,4,,,2.7,1,3.0,3
+17,Design and Analysis of Algorithms,CSC,349,,,,4,,,3.3,2,3.0,0
+18,"Introduction to Networked, Distributed, and Parallel Computing",CSC,364,,,,4,,,2.0,1,2.0,0
+19,Systems Programming,CSC,357,,,,4,,,6.7,7,3.0,0
+20,Introduction to Database Systems,CSC,365,,,,4,,,0.7,0,1.0,0
+21,Programming Languages,CSC,430,17,,,4,,,2.7,1,3.0,3
+22,Theory of Computation I,CSC,445,,,,4,,,0.7,0,1.0,0
+23,Introduction to Operating Systems,CSC,453,19,,,4,,,1.3,0,2.0,0
+24,Senior Project I,CSC,491,15,,,2,,,2.0,0,3.0,0
+25,"Gender, Race, Culture, Science & Technology",ES,350,,,,4,,,0.7,0,1.0,0
+27,Introduction to Computer Graphics,CSC,471,19,,,4,,,2.7,1,3.0,3
+28,Real-Time 3D Computer Graphics Software,CSC,476,27,,,4,,,2.0,0,3.0,0
+29,Network Security,CSC,422,18,,,4,,,1.3,0,2.0,0
+30,Compiler Construction,CSC,431,21,,,4,,,2.0,0,3.0,0
+31,Artificial Intelligence,CSC,480,,,,4,,,0.7,0,1.0,0
+32,Computer Security,CSC,521,16,,,4,,,2.0,0,3.0,0
