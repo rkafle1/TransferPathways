@@ -478,13 +478,76 @@ def heatmap():
     # selected_labels = df['University'].unique()[::2]  # select every second label
     # axis6.set_xticklabels(selected_labels, rotation=45)
 
+def heatmapPercentageCS():
+    df = pd.read_csv("csvs/Findings/LeftoverGradReqsLowerCS.csv", delimiter='\t')
+    print(df.head())
+    print(list(df.columns))
+    figure7 = plt.figure(figsize=(30, 20))
+    df = df.pivot(index='University', columns='Community Collge', values='Precentage of Units Articulated')
+    # df = df.reindex(index=CSVHandling.UniNameShort)
+    df = df.reindex(index=CSVHandling.UniNameShort, columns=CSVHandling.CCsName)
+    
+    axis7 = sns.heatmap(df, cmap="YlOrRd", annot=False, square=False )
+    # sns.set(font_scale=0.8)
+    #rainbow YlOrRd YlGnBu
+    axis7.set_title("Heatmap of Precentage of CS Units Articulated", fontsize=50)
+    axis7.set_xlabel("Community Colleges", fontsize=30)
+    axis7.set_ylabel("Universities", fontsize = 30)
+    # axis6.xaxis.tick_top()
+    axis7.set_xticklabels(CSVHandling.CCsName, fontsize=15)
+    axis7.set_yticklabels(CSVHandling.UniNameShort, fontsize=20, rotation=0)
+    
+def heatmapPercentageMATH():
+    df = pd.read_csv("csvs/Findings/LeftoverGradReqsLowerMATH.csv", delimiter='\t')
+    print(df.head())
+    print(list(df.columns))
+    figure8 = plt.figure(figsize=(30, 20))
+    df = df.pivot(index='University', columns='Community Collge', values='Precentage of Units Articulated')
+    # df = df.reindex(index=CSVHandling.UniNameShort)
+    df = df.reindex(index=CSVHandling.UniNameShort, columns=CSVHandling.CCsName)
+    
+    axis8 = sns.heatmap(df, cmap="YlOrRd", annot=False, square=False )
+    # sns.set(font_scale=0.8)
+    #rainbow YlOrRd YlGnBu
+    axis8.set_title("Heatmap of Precentage of MATH Units Articulated", fontsize=50)
+    axis8.set_xlabel("Community Colleges", fontsize=30)
+    axis8.set_ylabel("Universities", fontsize = 30)
+    # axis6.xaxis.tick_top()
+    axis8.set_xticklabels(CSVHandling.CCsName, fontsize=15)
+    axis8.set_yticklabels(CSVHandling.UniNameShort, fontsize=20, rotation=0)
+
+def heatmapPercentageMATHCS():
+    df = pd.read_csv("csvs/Findings/LeftoverGradReqsLowerCS.csv", delimiter='\t')
+    print(df.head())
+    print(list(df.columns))
+    figure9 = plt.figure(figsize=(30, 20))
+    df = df.pivot(index='University', columns='Community Collge', values='Precentage of Units Articulated')
+    # df = df.reindex(index=CSVHandling.UniNameShort)
+    df = df.reindex(index=CSVHandling.UniNameShort, columns=CSVHandling.CCsName)
+    
+    axis9 = sns.heatmap(df, cmap="YlOrRd", annot=False, square=False )
+    # sns.set(font_scale=0.8)
+    #rainbow YlOrRd YlGnBu
+    axis9.set_title("Heatmap of Precentage of MATHCS Units Articulated", fontsize=50)
+    axis9.set_xlabel("Community Colleges", fontsize=30)
+    axis9.set_ylabel("Universities", fontsize = 30)
+    # axis6.xaxis.tick_top()
+    axis9.set_xticklabels(CSVHandling.CCsName, fontsize=15)
+    axis9.set_yticklabels(CSVHandling.UniNameShort, fontsize=20, rotation=0)
 # not useful, violin graph for total
 # graph1()
 
 # useful, boxplot for percentage
 # graph2()
 # more useful, violin graph for percentage
-graph3()
+# graph3()
 # heatmap()
 # plt.savefig("heatmap.png", dpi=300)  # adjust DPI as necessary
+heatmapPercentageCS()
+plt.savefig("heatmapPercentageCS.png", dpi=300)  # adjust DPI as necessary
+heatmapPercentageMATH()
+plt.savefig("heatmapPercentageMATH.png", dpi=300)  # adjust DPI as necessary
+heatmapPercentageMATHCS()
+plt.savefig("heatmapPercentageMATHCS.png", dpi=300)  # adjust DPI as necessary
+
 plt.show()
