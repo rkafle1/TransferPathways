@@ -1,17 +1,3 @@
-'''
-Takes a CSV file of courses and puts CS, math, and science courses in their own CSV files.
-
-Example input:
-
-Enter CSV file path: CSVs/gradReqsLOWER.csv
-Enter desired path/name for CS CSV file: CSVs/gradReqsLowerCS
-Enter desired path/name for math CSV file: CSVs/gradReqsLowerMATH
-Enter desired path/name for science CSV file: CSVs/gradReqsLowerSCI
-
-This will put 3 new files in the folder "CSVs" in your current directory:
-gradReqsLowerCS.csv, gradReqsLowerMATH.csv, and gradReqsLowerSCI.csv
-'''
-
 import csv
 import re
 import sys
@@ -37,10 +23,46 @@ def count_courses(line):
 
     return min_course_count
 
+# Counts the minimum number of courses that can be taken and puts the result in a dictionary
+def get_course_count(csv_path, exclude, count_dict):
+    with open(csv_path, 'r') as csv_file:
+        csv_reader = csv.reader(csv_file)
+        count = 0
 
+        # NOTE: This will skip first row
+        first_row = next(csv_reader, None)
+
+        # Check first row for keywords
+        if all(s not in first_row[1] for s in exclude):
+            count += count_courses(first_row[1])
+            
+        # Get name of the school in the first row
+        # NOTE: Assumes the first row has a school name
+        prev_school = first_row[0]
+
+        # Repeat above steps for the remaining rows
+        for line in csv_reader:
+            if (not line):
+                continue
+            # Evaluates the second colomn with line[1]
+            # If a school has been fully evaluated, write total unit count
+            if prev_school != line[0]:
+                count_dict[prev_school] = count
+                count = 0
+            
+            if all(s not in line[1] for s in exclude):
+                count += count_courses(line[1])
+            
+            prev_school = line[0]
+        
+        # get last schools unit count
+        count_dict[prev_school] = count
+
+# Returns the minimum number units that could be comleted
 def count_units(line):
     units = "\d+\.\d+" # units will be floating point numbers
 
+    # A -- is an indicator to just read the floating point at the end of the line
     if '--' in line:
         return float( re.findall(units, line)[0] )
     
@@ -62,7 +84,7 @@ def count_units(line):
 
     return min_units_count
 
-
+# Calculates minimum number of units required for each school and writes the results to a CSV file
 def write_all(csv_path, name, count_dict):
     with open(csv_path, 'r') as csv_file:
         csv_reader = csv.reader(csv_file)
@@ -100,7 +122,7 @@ def write_all(csv_path, name, count_dict):
             csv_writer.writerow( [prev_school, "Total units: " + str(unit_count)] )
             count_dict[prev_school] = unit_count
 
-
+# Calculates minimum number of units required for a certain subject (i.e. math, science, etc.) for each school and puts result in a dictionary
 def get_type_unit_count(csv_path, matches, exclude, count_dict):
     with open(csv_path, 'r') as csv_file:
         csv_reader = csv.reader(csv_file)
@@ -136,7 +158,8 @@ def get_type_unit_count(csv_path, matches, exclude, count_dict):
         # get last schools unit count
         count_dict[prev_school] = unit_count
 
-
+# Calculates minimum number of units required for a certain subject (i.e. math, science, etc.) for each school
+# writes the results to a CSV file and in a dictionary
 def write_type_unit_count(csv_path, name, matches, exclude, count_dict):
     with open(csv_path, 'r') as csv_file:
         csv_reader = csv.reader(csv_file)
@@ -186,20 +209,18 @@ def write_type_unit_count(csv_path, name, matches, exclude, count_dict):
 
 if __name__ == '__main__':
 
+    # The course numbers of CS, math, and science courses from all UCs and CSUs.
     # Added space at the end of each abbreviation to ensure it checks only for the course numbers
-    cs_matches   = ['CS ', 'CSE ', 'ECS ', 'EEC ', 'I&C ', 'IN4MATX ', 'COM SCI ', 'CMPSC ', 'CPSC ', 'COMP ', 'CSCI', 'CSCI/EECE ', 'CINS ', 'CSC ', 'CPE ', 'CECS ', 'CMPS ', 'CST ', 'ENG ', 'ENGR ', 'ECE ', 'Discrete ']
+    cs_matches   = ['CS ', 'CSE ', 'ECS ', 'EEC ', 'I&C ', 'IN4MATX ', 'COM SCI ', 'CMPSC ', 'CPSC ', 'COMP ', 'CSCI', 'CSCI/EECE ', 'CINS ', 'CSC ', 'CPE ', 'CECS ', 'CMPS ', 'CST ', 'ENG ', 'ENGR ', 'ECE ', 'EE ', 'Discrete ', 'Mathematical Structures I']
     math_matches = ['Math ', 'MATH ', 'MAT ', 'PSTAT ', 'STATS ', 'STAT ', 'STA ', 'E E ']
     sci_matches  = ['Physics ', 'physics', 'PHYSICS ', 'PHYS ', 'PHY ', 'BIO ', 'BIOL ', 'CHEM ', 'CHE ', 'Chem ', 'ELECTIVE SCIENCE:']
-
-    # Stacked graph (sort by value): math, science, lower cs, upper elective, upper required
-    # Required vs Optional(Elective)
 
     lower_cs_count = {}
     lower_math_count = {}
     lower_sci_count = {}
     lower_other_count = {}
     get_type_unit_count('CSVs/gradReqsLOWER.csv', cs_matches  , sci_matches + ['Linear Algebra', 'Statistics'], lower_cs_count)
-    get_type_unit_count('CSVs/gradReqsLOWER.csv', math_matches, sci_matches + ['Discrete'], lower_math_count)
+    get_type_unit_count('CSVs/gradReqsLOWER.csv', math_matches, sci_matches + ['Discrete', 'Mathematical Structures I'], lower_math_count)
     get_type_unit_count('CSVs/gradReqsLOWER.csv', sci_matches , [], lower_sci_count)
     get_type_unit_count('CSVs/gradReqsLOWER.csv', ['PHIL ', 'ENGL '], cs_matches + math_matches + sci_matches, lower_other_count)
 
@@ -214,19 +235,22 @@ if __name__ == '__main__':
     get_type_unit_count('CSVs/gradReqsUPPER.csv', sci_matches , [], upper_sci_count)
     get_type_unit_count('CSVs/gradReqsUPPER.csv', ['PHIL ', 'ENGL ', 'ES/WGQS '], cs_matches + math_matches + sci_matches, upper_other_count)
 
+    # Convert semester units to quarter units
     for school in lower_cs_count:
-        if "UC" in school or "San Luis Obispo" in school:
-            if "Berkeley" not in school and "Merced" not in school:
-                lower_cs_count[school] /= 1.5
-                lower_math_count[school] /= 1.5
-                lower_sci_count[school] /= 1.5
-                lower_other_count[school] /= 1.5
-                upper_cs_count[school] /= 1.5
-                cs_elective_count[school] /= 1.5
-                upper_math_count[school] /= 1.5
-                upper_sci_count[school] /= 1.5
-                upper_other_count[school] /= 1.5
+        if "CSU" in school or "CP" in school or "State" in school or "Berkeley" in school or "Merced" in school:
+            if "San Luis Obispo" not in school:
+                lower_cs_count[school]    *= 1.5
+                lower_math_count[school]  *= 1.5
+                lower_sci_count[school]   *= 1.5
+                lower_other_count[school] *= 1.5
+                upper_cs_count[school]    *= 1.5
+                cs_elective_count[school] *= 1.5
+                upper_math_count[school]  *= 1.5
+                upper_sci_count[school]   *= 1.5
+                upper_other_count[school] *= 1.5
 
+    # Create a stacked bar chart with the data in the dictionaries
+    
     lower_cs = list(lower_cs_count.values())
     upper_cs = list(upper_cs_count.values())
     elective_cs = list(cs_elective_count.values())
@@ -245,12 +269,14 @@ if __name__ == '__main__':
 
     labels = list(lower_cs_count.keys())
 
-    plt.subplot().set_title('Unit Count of Major Required Courses')
-    plt.bar(labels, lower_cs, label="Lower Division CS")
-    plt.bar(labels, upper_cs, bottom=lower_cs, label="Required Upper Division CS")
+    font = {'size' : 16}
+    plt.rc('font', **font)
+
+    plt.bar(labels, lower_cs, label="CS Lower Division")
+    plt.bar(labels, upper_cs, bottom=lower_cs, label="CS Required Upper Division")
 
     bot = list(np.add(lower_cs, upper_cs))
-    plt.bar(labels, elective_cs, bottom=bot, label="Elective Upper Division CS")
+    plt.bar(labels, elective_cs, bottom=bot, label="CS Elective Upper Division")
 
     bot = list(np.add(bot, elective_cs))
     plt.bar(labels, math, bottom=bot, label="Math")
@@ -261,50 +287,9 @@ if __name__ == '__main__':
     bot = list(np.add(bot, science))
     plt.bar(labels, other, bottom=bot, label="Other")
 
-    plt.xticks(rotation='vertical')
+    plt.ylabel('Quarter Units')
+    plt.xticks(rotation=45, ha='right')
+    plt.legend(loc='upper center', bbox_to_anchor=(0.5, 1.1), ncol=2, fancybox=True, shadow=True)
 
-    plt.legend()
     plt.show()
 
-
-    '''
-    lower_count = {}
-    upper_count = {}
-
-    write_all('CSVs/gradReqsLOWER.csv', 'CSVs/gradReqsLOWERCount.csv', lower_count)
-    write_all('CSVs/gradReqsUPPER.csv', 'CSVs/gradReqsUPPERCount.csv', upper_count)
-
-    lower_cs_count = {}
-    lower_math_count = {}
-    lower_sci_count = {}
-    lower_other_count = {}
-    write_type_unit_count('CSVs/gradReqsLOWER.csv', 'CSVs/gradReqsLowerCS'  , cs_matches  , sci_matches + ['Linear Algebra', 'Statistics'], lower_cs_count)
-    write_type_unit_count('CSVs/gradReqsLOWER.csv', 'CSVs/gradReqsLowerMATH', math_matches, sci_matches + ['Discrete'], lower_math_count)
-    write_type_unit_count('CSVs/gradReqsLOWER.csv', 'CSVs/gradReqsLowerSCI' , sci_matches , [], lower_sci_count)
-    write_type_unit_count('CSVs/gradReqsLOWER.csv', 'CSVs/gradReqsLowerOTHER', ['PHIL ', 'ENGL '], cs_matches + math_matches + sci_matches, lower_other_count)
-
-    upper_cs_count = {}
-    upper_math_count = {}
-    upper_sci_count = {}
-    upper_other_count = {}
-    write_type_unit_count('CSVs/gradReqsUPPER.csv', 'CSVs/gradReqsUpperCS'  , cs_matches  , ['Statistics', 'Probability'], upper_cs_count)
-    write_type_unit_count('CSVs/gradReqsUPPER.csv', 'CSVs/gradReqsUpperMATH', math_matches, ['Discrete'], upper_math_count)
-    write_type_unit_count('CSVs/gradReqsUPPER.csv', 'CSVs/gradReqsUpperSCI' , sci_matches , [], upper_sci_count)
-    write_type_unit_count('CSVs/gradReqsUPPER.csv', 'CSVs/gradReqsUpperOTHER', ['PHIL ', 'ENGL ', 'ES/WGQS '], cs_matches + math_matches + sci_matches, upper_other_count)
-
-    total_count = {}
-    grand_total = 0
-    for school in lower_count:
-        total_count[school] = lower_count[school] + upper_count[school]
-        if "UC" in school or "San Luis Obispo" in school:
-            if "Berkeley" not in school and "Merced" not in school:
-                total_count[school] /= 1.5
-        grand_total += total_count[school]
-
-    highest = max(total_count, key=total_count.get)
-    lowest = min(total_count, key=total_count.get)
-
-    print("Mean of semester units: " + str(grand_total/len(total_count)))
-    print("Highest unit count: ", highest)
-    print("Lowest unit count: ", lowest)
-    '''
