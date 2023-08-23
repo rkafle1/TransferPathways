@@ -1,13 +1,10 @@
 
-const API_KEY = '';
-const CLIENT_ID = '';
-const SHEET_ID = '';
+const API_KEY = 'AIzaSyBgdJG0I6zU8elZzB7Bsl79Jhyls7fsT9U';
+const CLIENT_ID = '964029012495-khufmlfdkqe6qd5c6snnql5h1v22euo4.apps.googleusercontent.com';
+const SHEET_ID = '1_s_TiZGaR-WHfAV5KpKr4BJq0r61UTCsEcCQJuy_OSk';
 
 let data; // Global variable to store the data
 const schoolMap = new Map(); // Holds the data for each school
-
-let formattedLower = [];
-let formattedUpper = [];
 
 let moreInfo = document.getElementById('more-info');
 let totalMathSection = document.getElementById('total-math');
@@ -37,79 +34,6 @@ function initClient() {
     }).catch(error => {
         console.error('Error initializing API client:', error);
     });
-}
-
-// for comparing grad and articulation reqs
-function formatCourses(cell) {
-    /*
-                                    AND                      OR
-        Put in format [['course']], [['course', 'course']], [['course'], ['course']]
-    */
-    let arr = String(cell).split('\n');
-    let line = [];
-
-    // First pass
-    for (let i = 0; i < arr.length; i++) {
-
-        arr[i] = arr[i].replace(/ OR /g, `'], ['`);
-        arr[i] = arr[i].replace(/ AND /g, `', '`);
-        arr[i] = arr[i].replace(/\r/g, `''`);
-        
-        let or = arr[i].startsWith("OR ");
-        let and = arr[i].startsWith("AND ");
-        let star = arr[i].startsWith("*")
-        let title = arr[i].startsWith("^^");
-        let sublist = arr[i].indexOf("--");
-
-        if ((or || and) && !(arr[i] == "OR " || arr[i] == "AND "))
-        {
-            if (or) {
-                arr[i - 1] = arr[i - 1] + `, ['` + arr[i].substring(3, arr[i].length) + `']`;
-            }
-            if (and) {
-                arr[i - 1] = arr[i - 1].replace(']', ', ');
-                arr[i - 1] = arr[i - 1] + `'` + arr[i].substring(4, arr[i].length) + `']`;
-            }
-            arr.splice(i, 1);
-            i--;
-        }
-        else if (!star && !title && !(arr[i] == "OR " || arr[i] == "AND ")) {
-            arr[i] = `['` + arr[i] + `']`;
-        }
-    }
-
-    // Second pass
-    for (let i = 0; i < arr.length; i++) {
-        let star = String(arr[i][0]) == "*";
-        let title = arr[i].startsWith("^^");
-
-        if ( (arr[i] == "OR " || arr[i] == "AND ") ) {
-            
-            let s = "";
-            if (arr[i] == "AND ") {
-                s = arr[i - 1].substring(0, arr[i - 1].length - 1);// remove the ] at the end of the string
-                s = arr[i - 1] + `, '` + arr[i + 1];
-            }
-            else 
-                s = arr[i - 1] + `, ` + arr[i + 1];
-
-            line.splice(line.length - 1, 1); // remove the previous course since it's part of this OR/AND element
-
-            line.push(`[` + s + `]`);
-            
-            i += 2;
-        }
-        else if (!star && !title) {
-            line.push(`[` + arr[i] + `]`);
-        }
-    }
-    // put quotes around the line so the CSV file could read it properly
-    line[0] = `"` + line[0];
-    line[ line.length - 1 ] = line[ line.length - 1 ] + `"`;
-    // new line to indicate the end of the cell
-    line.push('\n');
-
-    return line;
 }
 
 // Reads and gathers data from the Google sheet. Puts the data in a map
@@ -169,18 +93,11 @@ function parseSheet() {
             // If the values are NOT undefined (an empty cell), add to courselist
             if (lower) {
                 schoolMap.get(programName).Lower.push(String(lower));
-                formattedLower.push( String(formatCourses(lower)) + ',');
             }
             if (upper) {
                 schoolMap.get(programName).Upper.push(String(upper));
-                formattedUpper.push( String(formatCourses(upper)) + `,`);
             }
         }
-
-        let file = new File([formattedLower, formattedUpper], "graduationReqs", {type: 'text/csv'});
-    
-        let a = document.getElementById('csv');
-        a.href = URL.createObjectURL(file);
 
     }).catch(error => {
         console.error('Error reading data:', error);
