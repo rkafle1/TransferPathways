@@ -5,6 +5,7 @@ Created on Tue Aug 22 09:42:48 2023
 
 @author: christalehr
 """
+#creates a tribar graph from complexity existing, residual ideal, and graduation info. Takes Complexity Ideal and Complexity Existing folders
 
 # Import necessary libraries/modules
 import os
@@ -48,8 +49,8 @@ def get_data_and_label_from_file(file_path):
         column_names = [i for i in range(0, column_count)]
         df = pd.read_csv(file_path, header=None, delimiter=data_file_delimiter, names=column_names)
         
-    value1 = df.iloc[6, 1]
-    value2 = df.iloc[5, 1]
+    value1 = df.iloc[6, 1] #change here if you need to change location of graduation complexity info
+    value2 = df.iloc[5, 1] #change here if you need to change location of residual complexity
     return float(value1), float(value2), label
 
 # Function to extract specific data from another file
@@ -61,7 +62,7 @@ def get_data_from_file_2(file_path):
         column_names = [i for i in range(0, column_count)]
         df = pd.read_csv(file_path, header=None, delimiter=data_file_delimiter, names=column_names)
         
-    value3 = df.iloc[5, 1]
+    value3 = df.iloc[5, 1] #change here if you need to change location of residual complexity
     return float(value3)
 
 # Function to build and display a bar chart
@@ -150,7 +151,7 @@ def main(folder_path, folder_path_2):
 # Entry point of the script
 if __name__ == "__main__":
     # Get folder paths from command line arguments
-    folder_path = sys.argv[1]
-    folder_path_2 = sys.argv[2]
+    folder_path = sys.argv[1] #This one currently takes the graduation and residual complexity
+    folder_path_2 = sys.argv[2] #residual complexity only
     # Call the main function with the specified folder paths
     main(folder_path, folder_path_2)

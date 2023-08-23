@@ -1,0 +1,23 @@
+Curriculum,PomonaActual,,,,,,,,,,,,
+Institution,Cal Poly Pamona,,,,,,,,,,,,
+Degree Type,BS,,,,,,,,,,,,
+System Type,semester,,,,,,,,,,,,
+CIP,11.0701,,,,,,,,,,,,
+Courses,,,,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+10,Numerical Methods and Computing,CS,3010,,,,3,,,1.0,0,1.0,0
+12,Formal Languages and Automata,CS,3110,,,,3,,,3.0,1,2.0,0
+13,Design and Analysis of Algorithms,CS,3310,15,,,3,,,5.0,2,3.0,6
+14,Object-Oriented Design and Programming,CS,3560,,,,3,,,1.0,0,1.0,0
+15,Probability and Statistics for Computer Scientists and Engineers,MAT,2260,,,,3,,,6.0,3,3.0,0
+16,Computer Architecture,CS,3650,,,,4,,,3.0,1,2.0,0
+17,Computers and Society,CS,3750,,,,3,,,1.0,0,1.0,0
+18,Concepts of Programming Languages,CS,4080,12,,,3,,,2.0,0,2.0,0
+19,Operating Systems,CS,4310,16;20,,,3,,,2.0,0,2.0,0
+20,Probability and Statistics for Computer Scientists and Engineers,STA,2260,,,,3,,,3.0,1,2.0,0
+21,Undergraduate Seminar,CS,4630,,,,1,,,1.0,0,1.0,0
+22,Software Engineering,CS,4800,,,,3,,,1.0,0,1.0,0
+28,Symbolic Programming,CS,3520,,,,3,,,1.0,0,1.0,0
+29,Parallel Processing,CS,3700,13,,,3,,,3.0,0,3.0,0
+30,Artificial Intelligence,CS,4200,13,,,3,,,3.0,0,3.0,0
+33,Internship inComputer Science,CS,4410,,,,2,,,1.0,0,1.0,0

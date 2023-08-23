@@ -1,4 +1,4 @@
-Curriculum,Cal_Poly_SLO,,,,,,,,,
+Curriculum,Cal_Poly_Slo,,,,,,,,,
 Institution,"Cal Poly San Luis Obispo",,,,,,,,,
 Degree Type,"BS",,,,,,,,,
 System Type,"quarter",,,,,,,,,
@@ -40,3 +40,4 @@ Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisit
 33,"General Physics I","PHYS","141","2","3",,4,"","",4.7,2,5.0,18
 34,"General Physics II","PHYS","142","33",,,4,"","",3.3,0,5.0,0
 35,"General Physics III","PHYS","143","33",,,4,"","",3.3,0,5.0,0
+36,"Introduction to Cell and Molecular Biology","BIO","161",,,,4,"","",0.7,0,1.0,0

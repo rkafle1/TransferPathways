@@ -6,6 +6,8 @@ Created on Tue Aug 22 10:50:07 2023
 @author: christalehr
 """
 
+#designed for use with folder of complexity files
+
 # Import necessary libraries
 import os                 # Operating system functions
 import pandas as pd       # Data manipulation library
@@ -60,7 +62,9 @@ def get_data_and_label_from_file(file_path):
         df = pd.read_csv(file_path, header=None, delimiter=data_file_delimiter, names=column_names)
             
     value1 = df.iloc[6, 1]  # Indexing starts from 0, so row 8 would be at index 7, column 2 would be at index 1
+                            # change this if you want to change graduation location
     value2 = df.iloc[5, 1]  # Assuming the second value is in column 2
+                            #chnage this if you want to change reisdual location
     return float(value1), float(value2), label
 
 # Function to build and display a bar chart

@@ -5,6 +5,7 @@ Created on Tue Aug 22 09:56:53 2023
 
 @author: christalehr
 """
+#this takes the same input as tribar2 but outputs a densite graph
 
 import os
 import pandas as pd
@@ -51,8 +52,8 @@ def get_data_from_file(file_path):
         column_names = [i for i in range(0, column_count)]
         df = pd.read_csv(file_path, header=None, delimiter=data_file_delimiter, names=column_names)
             
-    value1 = df.iloc[6, 1]
-    value2 = df.iloc[5, 1]
+    value1 = df.iloc[6, 1] #graduation. Change location here if needed
+    value2 = df.iloc[5, 1] #residual. Change location here if needed
     return float(value1), float(value2), label
 
 # Function to build and display a density chart

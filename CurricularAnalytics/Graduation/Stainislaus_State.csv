@@ -1,32 +1,32 @@
-Curriculum,Stainislaus_State,,,,,,,,,
-Institution,"Stainislaus State",,,,,,,,,
-Degree Type,"BS",,,,,,,,,
-System Type,"semester",,,,,,,,,
-CIP,"11.0701",,,,,,,,,
-Courses,,,,,,,,,,
+Curriculum,Stainislaus_State,,,,,,,,,,,,
+Institution,Stainislaus State,,,,,,,,,,,,
+Degree Type,BS,,,,,,,,,,,,
+System Type,semester,,,,,,,,,,,,
+CIP,11.0701,,,,,,,,,,,,
+Courses,,,,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
-1,"College Algebra","MATH","1070",,,,4,"","",7.0,4,3.0,0
-2,"Precalculus","MATH","1100",,,,4,"","",6.0,3,3.0,0
-3,"Calculus I","MATH","1410","2",,,4,"","",5.0,2,3.0,6
-4,"Calculus II","MATH","1420","3",,,4,"","",3.0,0,3.0,0
-5,"Probability and Statistics","MATH","1620","3",,,4,"","",3.0,0,3.0,0
-6,"Discrete Structures","MATH","2300","1",,,4,"","",6.0,3,3.0,9
-7,"General Biology I","BIOL","1050",,,,4,"","",3.0,1,2.0,0
-8,"General Biology II","BIOL","1150","7",,,4,"","",2.0,0,2.0,0
-9,"Computer Programmming I","CS","1500",,,,3,"","",21.0,16,5.0,0
-10,"Computer Programmming II","CS","2500","9",,,3,"","",20.0,15,5.0,46
-11," Assembly Language and Computer Architecture","CS","2700","10",,,3,"","",7.0,2,5.0,5
-12,"Data Structures and Algorithms","CS","3100","10",,,3,"","",14.0,9,5.0,34
-13,"Computer Organization","CS","3740","11",,,3,"","",6.0,1,5.0,5
-14,"Operating Systems I","CS","3750","13;12",,,3,"","",5.0,0,5.0,0
-15,"Programming Languages (WP)","CS","4100","12",,,3,"","",7.0,2,5.0,10
-16,"Seminar in Computer Science","CS","4960","15",,,3,"","",5.0,0,5.0,0
-17,"Compiler Theory","CS","4300","15",,,3,"","",5.0,0,5.0,0
-18,"Automata, Computability, and Formal Languages","CS","4410","6;12",,,3,"","",4.0,0,4.0,0
-19,"Theory of Algorithms","CS","4440","6;12",,,3,"","",4.0,0,4.0,0
-20,"Coding and Information Theory","CS","4450","6;12",,,3,"","",4.0,0,4.0,0
-21,"Software Engineering","CS","4800","12",,,3,"","",4.0,0,4.0,0
-22,"Computer Graphics I","CS","3600","10",,,3,"","",5.0,1,4.0,4
-23,"Computer Graphics II","CS","4600","22",,,3,"","",4.0,0,4.0,0
-24,"Artificial Intelligence","CS","4480","12",,,3,"","",4.0,0,4.0,0
-25,"Neural Networks and Intelligent Machines","CS","3400","10",,,3,"","",3.0,0,3.0,0
+1,College Algebra,MATH,1070,,,,4,,,7.0,4,3.0,0
+2,Precalculus,MATH,1100,,,,4,,,6.0,3,3.0,0
+3,Calculus I,MATH,1410,2,,,4,,,5.0,2,3.0,6
+4,Calculus II,MATH,1420,3,,,4,,,3.0,0,3.0,0
+5,Probability and Statistics,MATH,1620,3,,,4,,,3.0,0,3.0,0
+6,Discrete Structures,MATH,2300,1,,,4,,,6.0,3,3.0,9
+7,General Biology I,BIOL,1050,,,,4,,,3.0,1,2.0,0
+8,General Biology II,BIOL,1150,7,,,4,,,2.0,0,2.0,0
+9,Computer Programmming I,CS,1500,,,,3,,,21.0,16,5.0,0
+10,Computer Programmming II,CS,2500,9,,,3,,,20.0,15,5.0,46
+11, Assembly Language and Computer Architecture,CS,2700,10,,,3,,,7.0,2,5.0,5
+12,Data Structures and Algorithms,CS,3100,10,,,3,,,14.0,9,5.0,34
+13,Computer Organization,CS,3740,11,,,3,,,6.0,1,5.0,5
+14,Operating Systems I,CS,3750,13;12,,,3,,,5.0,0,5.0,0
+15,Programming Languages (WP),CS,4100,12,,,3,,,7.0,2,5.0,10
+16,Seminar in Computer Science,CS,4960,15,,,3,,,5.0,0,5.0,0
+17,Compiler Theory,CS,4300,15,,,3,,,5.0,0,5.0,0
+18,"Automata, Computability, and Formal Languages",CS,4410,6;12,,,3,,,4.0,0,4.0,0
+19,Theory of Algorithms,CS,4440,6;12,,,3,,,4.0,0,4.0,0
+20,Coding and Information Theory,CS,4450,6;12,,,3,,,4.0,0,4.0,0
+21,Software Engineering,CS,4800,12,,,3,,,4.0,0,4.0,0
+22,Computer Graphics I,CS,3600,10,,,3,,,5.0,1,4.0,4
+23,Computer Graphics II,CS,4600,22,,,3,,,4.0,0,4.0,0
+24,Artificial Intelligence,CS,4480,12,,,3,,,4.0,0,4.0,0
+25,Neural Networks and Intelligent Machines,CS,3400,10,,,3,,,3.0,0,3.0,0

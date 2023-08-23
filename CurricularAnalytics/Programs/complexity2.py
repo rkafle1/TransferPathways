@@ -5,12 +5,14 @@ Created on Wed Aug  9 15:21:08 2023
 
 @author: christalehr
 """
+#this program checks calculates complexities and filters out blocking classes below a certain threshold
 
 import pandas as pd
 import csv
 import os
 import sys
 
+#This is how blocking classes are filtered by a minimumn threshhold (defined later)
 def filter_rows_by_blocking_column(df, threshold, source):
     if 11 in df.columns:
         df[11] = pd.to_numeric(df[11], errors='coerce')
@@ -27,6 +29,8 @@ def find_matching_graduation_file(residual_file_path, graduation_folder_path):
     matching_grad_file = next((file for file in grad_files if file.startswith(title_res) and file.endswith('.csv')), None)
     return matching_grad_file
 
+#makes sure the fields are even. I never quite got this consisten across files, but for the repeatability of the process
+#leaving code as is
 def add_commas_to_13_fields(input_file):
     encodings = ['utf-8', 'ISO-8859-1', 'cp1252']  # List of encodings to try
 
@@ -81,13 +85,16 @@ def main(input_folder_path_res, input_folder_path_grad):
                         df_grad[col] = pd.to_numeric(df_grad[col], errors='coerce')
                     if col < df_res.shape[1]:
                         df_res[col] = pd.to_numeric(df_res[col], errors='coerce')
-
+                
+                #totals the graduation and residual complexity for each school
                 complexity_total_grad = df_grad[10].sum()
                 complexity_total_res = df_res[10].sum()
 
+                #does the actual filtering of blocking classes. Currently set at 5.00. Not used in paper
                 df_filtered_grad = filter_rows_by_blocking_column(df_grad, 5.00, 'Graduation')
                 df_filtered_res = filter_rows_by_blocking_column(df_res, 5.00, 'Residual')
 
+                #calculates residual complexity (not used in paper)
                 residual_complexity_difference = complexity_total_grad - complexity_total_res
 
                 df_filtered_grad['Source'] = 'Graduation'
@@ -123,8 +130,8 @@ def main(input_folder_path_res, input_folder_path_grad):
     print(f"Filtered data and desired rows have been written to the output folder: {output_folder}.")
 
 if __name__ == "__main__":
-    input_folder_path_res = sys.argv[1]
-    input_folder_path_grad = sys.argv[2]
+    input_folder_path_res = sys.argv[1] #articulation folder
+    input_folder_path_grad = sys.argv[2] #graduation folder
     main(input_folder_path_res, input_folder_path_grad)
 
 

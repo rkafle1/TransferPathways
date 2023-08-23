@@ -12,8 +12,10 @@ import matplotlib.pyplot as plt
 import sys
 import csv
 
-folder_path = sys.argv[1]
+folder_path = sys.argv[1] #single folder input
 
+
+#evens the files so there should be no missing (or extra) field errors
 def add_commas_to_15_fields(input_file):
     with open(input_file, 'r', newline='') as infile:
         reader = csv.reader(infile)
@@ -55,7 +57,7 @@ def get_data_and_label_from_file(file_path):
         # Read csv
         df = pd.read_csv(file_path, header=None, delimiter=data_file_delimiter, names=column_names)
             
-    value = df.iloc[7, 1]  # Indexing starts from 0, so row 8 would be at index 7, column 2 would be at index 1
+    value = df.iloc[7, 1]  # Indexing starts from 0, so row 8 would be at index 7, column 2 would be at index 1. This is where you'd change location if needed
     return float(value), label
 
 def build_bar_chart(data, labels):

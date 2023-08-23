@@ -1,35 +1,35 @@
-Curriculum,San_Francisco_State,,,,,,,,,
-Institution,"San Francisco State",,,,,,,,,
-Degree Type,"BS",,,,,,,,,
-System Type,"semester",,,,,,,,,
-CIP,"11.0701",,,,,,,,,
-Courses,,,,,,,,,,
+Curriculum,San_Francisco_State,,,,,,,,,,,,
+Institution,San Francisco State,,,,,,,,,,,,
+Degree Type,BS,,,,,,,,,,,,
+System Type,semester,,,,,,,,,,,,
+CIP,11.0701,,,,,,,,,,,,
+Courses,,,,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
-1,"Pre-Calculus","MATH","199",,,,4,"","",29.0,22,7.0,0
-2,"Calculus I","MATH","226","1",,,4,"","",28.0,21,7.0,169
-3,"Calculus II","MATH","227","2",,,4,"","",18.0,11,7.0,91
-4,"Probability and Statistics with Computing","MATH","324","3",,,4,"","",12.0,6,6.0,24
-5,"General Physics with Calculus I","PHYS","220","2",,"6",3,"","",11.0,5,6.0,33
-6,"General Physics with Calculus I Laboratory","PHYS","222",,,,1,"","",11.0,6,5.0,0
-7,"General Physics with Calculus II","PHYS","230","5;3",,"8",3,"","",10.0,4,6.0,63
-8,"General Physics with Calculus II Laboratory","PHYS","232",,,,1,"","",9.0,5,4.0,0
-9,"Programming Paradigms and Languages","CSC","600",,"22;20",,3,"","",7.0,0,7.0,0
-10,"Introduction to Linear Algebra","MATH","325","2",,,3,"","",3.0,0,3.0,0
-11,"Computer Programming","CSC","309","2",,,3,"","",20.0,13,7.0,57
-12,"Introduction to Computer Programming","CSC","210",,,"13",3,"","",16.0,10,6.0,45
-13,"Introduction to Software Lab","CSC","211",,,,1,"","",17.0,11,6.0,0
-14,"Data Structures","CSC","220","11",,,3,"","",19.0,12,7.0,57
-15,"Discrete Mathematical Structures for Computer Science","CSC","230","12;3",,,3,"","",15.0,8,7.0,91
-16,"Machine Structures","CSC","256","15",,,3,"","",11.0,4,7.0,39
-17,"Ethics, Communication, and Tools for Software Development - GWAR","CSC","300GW","12",,,3,"","",3.0,0,3.0,0
-18,"Introduction to Web Software Development","CSC","317","14",,,3,"","",5.0,0,5.0,0
-19,"Programming Methodology","CSC","340","15;14",,,3,"","",13.0,6,7.0,80
-20,"Software Development","CSC","413","14",,,3,"","",9.0,3,6.0,18
-21,"Operating System Principles","CSC","415","4;16;7;19",,,3,"","",10.0,3,7.0,180
-22,"Analysis of Algorithms I","CSC","510","4;19",,,3,"","",8.0,1,7.0,26
-23,"Software Engineering","CSC","648","20;24",,,3,"","",6.0,0,6.0,0
-24,"Introduction to Web Software Development","CSC","317","14",,,3,"","",7.0,1,6.0,6
-25,"UNIX Programming","CSC","615","21",,,3,"","",7.0,0,7.0,0
-26,"Computer Networks","CSC","645","21",,,3,"","",7.0,0,7.0,0
-27,"Software Techniques for Computer Music","CSC","637","20",,,3,"","",6.0,0,6.0,0
-28,"Computer Organization","CSC","656","21",,,3,"","",7.0,0,7.0,0
+1,Pre-Calculus,MATH,199,,,,4,,,29.0,22,7.0,0
+2,Calculus I,MATH,226,1,,,4,,,28.0,21,7.0,169
+3,Calculus II,MATH,227,2,,,4,,,18.0,11,7.0,91
+4,Probability and Statistics with Computing,MATH,324,3,,,4,,,12.0,6,6.0,24
+5,General Physics with Calculus I,PHYS,220,2,,6,3,,,11.0,5,6.0,33
+6,General Physics with Calculus I Laboratory,PHYS,222,,,,1,,,11.0,6,5.0,0
+7,General Physics with Calculus II,PHYS,230,5;3,,8,3,,,10.0,4,6.0,63
+8,General Physics with Calculus II Laboratory,PHYS,232,,,,1,,,9.0,5,4.0,0
+9,Programming Paradigms and Languages,CSC,600,,22;20,,3,,,7.0,0,7.0,0
+10,Introduction to Linear Algebra,MATH,325,2,,,3,,,3.0,0,3.0,0
+11,Computer Programming,CSC,309,2,,,3,,,20.0,13,7.0,57
+12,Introduction to Computer Programming,CSC,210,,,13,3,,,16.0,10,6.0,45
+13,Introduction to Software Lab,CSC,211,,,,1,,,17.0,11,6.0,0
+14,Data Structures,CSC,220,11,,,3,,,19.0,12,7.0,57
+15,Discrete Mathematical Structures for Computer Science,CSC,230,12;3,,,3,,,15.0,8,7.0,91
+16,Machine Structures,CSC,256,15,,,3,,,11.0,4,7.0,39
+17,"Ethics, Communication, and Tools for Software Development - GWAR",CSC,300GW,12,,,3,,,3.0,0,3.0,0
+18,Introduction to Web Software Development,CSC,317,14,,,3,,,5.0,0,5.0,0
+19,Programming Methodology,CSC,340,15;14,,,3,,,13.0,6,7.0,80
+20,Software Development,CSC,413,14,,,3,,,9.0,3,6.0,18
+21,Operating System Principles,CSC,415,4;16;7;19,,,3,,,10.0,3,7.0,180
+22,Analysis of Algorithms I,CSC,510,4;19,,,3,,,8.0,1,7.0,26
+23,Software Engineering,CSC,648,20;24,,,3,,,6.0,0,6.0,0
+24,Introduction to Web Software Development,CSC,317,14,,,3,,,7.0,1,6.0,6
+25,UNIX Programming,CSC,615,21,,,3,,,7.0,0,7.0,0
+26,Computer Networks,CSC,645,21,,,3,,,7.0,0,7.0,0
+27,Software Techniques for Computer Music,CSC,637,20,,,3,,,6.0,0,6.0,0
+28,Computer Organization,CSC,656,21,,,3,,,7.0,0,7.0,0

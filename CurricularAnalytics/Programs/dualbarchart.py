@@ -12,8 +12,11 @@ import matplotlib.pyplot as plt
 import sys
 import csv
 
+#program creates a dual bar chart from a folder of input. Designed with complexity files in mind
+
 folder_path = sys.argv[1]
 
+#evens fields
 def add_commas_to_15_fields(input_file):
     with open(input_file, 'r', newline='') as infile:
         reader = csv.reader(infile)
@@ -55,8 +58,10 @@ def get_data_and_label_from_file(file_path):
         # Read csv
         df = pd.read_csv(file_path, header=None, delimiter=data_file_delimiter, names=column_names)
             
-    value1 = df.iloc[6, 1]  # Indexing starts from 0, so row 8 would be at index 7, column 2 would be at index 1
+    value1 = df.iloc[6, 1]  # Indexing starts from 0, so row 8 would be at index 7, column 2 would be at index 1.
+                            # change this if you want to change where graduation complexity comes from
     value2 = df.iloc[5, 1]  # Assuming the second value is in column 2
+                            # change this if you want to change where residual complexity comes from
     return float(value1), float(value2), label
 
 def build_bar_chart(data1, data2, labels):
