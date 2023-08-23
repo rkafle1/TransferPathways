@@ -1,7 +1,7 @@
 import requests
 
 
-CCsdups = {"Compton Colleg": "Compton Community College", "Santa Ana College": "Rancho Santiago College", "Reedley College":"Kings River College",
+CCsdups = {"Compton College": "Compton Community College", "Santa Ana College": "Rancho Santiago College", "Reedley College":"Kings River College",
            "Berkeley City College":"Vista Community College"}
 # gets the API data
 def getAPIData(APIType):

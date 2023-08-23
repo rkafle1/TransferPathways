@@ -18,7 +18,9 @@ def delete_empty_rows(csv_file, output_file):
 
 
 
-CCsdups = {"Compton Colleg": "Compton Community College", "Santa Ana College": "Rancho Santiago College", "Reedley College":"Kings River College",
+CCsdups = {"Compton College": "Compton Community College", 
+           "Santa Ana College": "Rancho Santiago College", 
+           "Reedley College":"Kings River College",
            "Berkeley City College":"Vista Community College"}
 UniNameShort = ["CSUF", "Sonoma","CPSLO", "Chico", "CSUSM", "SDSU", "SJSU", "CSULA", "CSUMB", "CSUN", "CSUB", "CSUSB", "CSUDH", "CSUEB", "CSUStan", "CSUS"
                 , "SFSU", "Humboldt", "CSUFresno", "CSULB", "CSUCI", "CPP", "UCI", "UCB", "UCSD", "UCM", "UCSC", "UCSB", "UCD", "UCLA", "UCR"]
@@ -31,7 +33,7 @@ UnisSemester = []
 CCsQuarter = []
 CCsSemester = []
 # CCsName = AssistAPIInformationGetter.getUniqueCCNamelst()
-# print(CCsName)
+
 CCsName = ['Evergreen Valley College', 'Los Angeles City College', 'College of Marin', 'College of San Mateo', 'College of the Sequoias', 'Butte College',
             'Cerro Coso Community College', 'Columbia College', 'Merritt College', 'Cuesta College', 'Merced College', 'Las Positas College',
             'Victor Valley College', 'Barstow Community College', 'Los Angeles Trade Technical College', 'American River College', 'Contra Costa College',
@@ -50,8 +52,8 @@ CCsName = ['Evergreen Valley College', 'Los Angeles City College', 'College of M
             'Irvine Valley College', 'Porterville College', 'Sacramento City College', 'Skyline College', 'Los Angeles Southwest College', 'San Bernardino Valley College',
             'Monterey Peninsula College', 'Fullerton College', 'Long Beach City College', 'San Jose City College', 'Santa Monica College', 'Southwestern College', 'Moorpark College',
             'College of the Canyons', 'Cosumnes River College', 'Folsom Lake College', 'West Hills College Lemoore', 'Woodland Community College', 'Norco College', 'Moreno Valley College',
-            'Clovis Community College', 'Compton College', 'Madera Community College']
-
+            'Clovis Community College', 'Compton College', 'Madera Community College', 'Santa Ana College', 'Reedley College', 'Berkeley City College']
+# print(len(CCsName))
 # deletes unnessary rows(does special things for different schools)
 def FixCSV(uniName, CSVFileName):
     
