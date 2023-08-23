@@ -17,6 +17,7 @@ import pandas as pd
 import numpy as np
 import math
 
+import matplotlib as mpl
 import csv
 import CSVHandling
 import matplotlib.pyplot as plt
@@ -257,6 +258,30 @@ def getListOfValues(UniList):
     print(data)
     return data
 
+def transform_violin():
+    columns_to_extract = [0, 2]  # Indexes of columns extracted
+
+    ucdata = []
+    csudata = []
+    with open("csvs/Findings/RankofallAgreementsLowerMathCS.csv", "r") as csvfile:
+        csvreader = csv.reader(csvfile, delimiter="\t")
+        for row in csvreader:
+            if(len(row) >=1):
+            # print(row[0], row[2])
+                extracted_row = [row[i] for i in columns_to_extract]
+                if row[0].startswith("UC"):
+                    ucdata.append(extracted_row)
+                else:
+                    csudata.append(extracted_row)
+
+    # Create a DataFrame from the extracted data
+    header = ["University", "Percentages"]
+    df1 = pd.DataFrame(ucdata, columns=header)
+    df2 = pd.DataFrame(csudata, columns=header)
+    df1.to_csv("csvs/Findings/transformUC_violin.csv", index=False)
+    df2.to_csv("csvs/Findings/transformCSU_violin.csv", index=False)
+    return df1, df2
+
 
 #11,11,9, make them to 3 seperate csvs
 def transform_csv():
@@ -464,6 +489,56 @@ def graph3():
     axis5.set_xticklabels(csu2, rotation=45)
 
 
+#violin graphs for lower mathcs percentages
+#22 + 9 = 31
+def graph4():
+    dfuc, dfcsu = transform_violin()
+    dfuc["Percentages"] = pd.to_numeric(dfuc["Percentages"])
+    median_by_university_uc = dfuc.groupby("University")["Percentages"].median().sort_values()
+    # Sort the universities based on median values
+    sorted_universities_uc = median_by_university_uc.index
+    figure6 = plt.figure(figsize=(10, 8))
+
+    axis6 = sns.violinplot(data = dfuc, x = "University", y = "Percentages", order=sorted_universities_uc)
+    axis6.set_title("Total requirements met Violin plot")
+    axis6.set_xlabel("Universities")
+    axis6.set_ylabel("Percentage of Requirements Met")
+    # axis6.set_xticklabels(CSVHandling.UniNameShort, rotation=90)
+
+    # Annotate max and min values on the plot
+    for idx, university in enumerate(sorted_universities_uc):
+        max_value = dfuc[dfuc["University"] == university]["Percentages"].max()
+        min_value = dfuc[dfuc["University"] == university]["Percentages"].min()
+        
+        # axis6.annotate(f"Max: {max_value:.2f}", xy=(idx, max_value), xytext=(5, 5), textcoords="offset points", color="red")
+        # axis6.annotate(f"Min: {min_value:.2f}", xy=(idx, min_value), xytext=(5, -15), textcoords="offset points", color="blue")
+        axis6.scatter([idx], [max_value], color="red", marker="o", s=50, label=f"Max: {max_value:.2f}")
+        axis6.scatter([idx], [min_value], color="blue", marker="o", s=50, label=f"Min: {min_value:.2f}")
+    
+    dfcsu["Percentages"] = pd.to_numeric(dfcsu["Percentages"])
+    median_by_university_csu = dfcsu.groupby("University")["Percentages"].median().sort_values()
+    # Sort the universities based on median values
+    sorted_universities_csu = median_by_university_csu.index
+    figure7 = plt.figure(figsize=(10, 8))
+
+    axis7 = sns.violinplot(data = dfcsu, x = "University", y = "Percentages", order=sorted_universities_csu)
+    axis7.set_title("Total requirements met Violin plot")
+    axis7.set_xlabel("Universities")
+    axis7.set_ylabel("Percentage of Requirements Met")
+    # sns.set(rc={'xtick.labelsize': 5})
+    # axis7.set_xticklabels(rotation=30)
+    # axis6.set_xticklabels(CSVHandling.UniNameShort, rotation=90)
+
+    # Annotate max and min values on the plot
+    for idx, university in enumerate(sorted_universities_csu):
+        max_value = dfcsu[dfcsu["University"] == university]["Percentages"].max()
+        min_value = dfcsu[dfcsu["University"] == university]["Percentages"].min()
+        
+        # axis6.annotate(f"Max: {max_value:.2f}", xy=(idx, max_value), xytext=(5, 5), textcoords="offset points", color="red")
+        # axis6.annotate(f"Min: {min_value:.2f}", xy=(idx, min_value), xytext=(5, -15), textcoords="offset points", color="blue")
+        axis7.scatter([idx], [max_value], color="red", marker="o", s=50, label=f"Max: {max_value:.2f}")
+        axis7.scatter([idx], [min_value], color="blue", marker="o", s=50, label=f"Min: {min_value:.2f}")
+    
 # #px package
 #     figure6 = px.violin(df3, x="University", y="Values",  points="all", box=True, color="University")
 #     figure6.show()
@@ -480,21 +555,26 @@ def graph3():
 def rank_heatmap():
     transform_rank_heatmap()
     df = pd.read_csv("csvs/Findings/rank_heatmap.csv", delimiter=',')
-    figure7 = plt.figure(figsize=(50, 20))
+    figure7 = plt.figure(figsize=(60, 30))
     df = df.pivot(index='University', columns='CC', values='Percentages')
     df = df.reindex(index=CSVHandling.UniNameShort, columns=CSVHandling.CCsName)
+    # df = df.reindex(index=CSVHandling.UniNameShort)
     axis7 = sns.heatmap(df, cmap="YlOrRd", annot=False, square=False )
     # sns.set(font_scale=0.8)
     #rainbow YlOrRd YlGnBu
-    axis7.set_title("Heatmap of percentages of Met Math/CS Requirements", fontsize=50)
-    axis7.set_xlabel("Community Colleges", fontsize=30)
-    axis7.set_ylabel("Universities", fontsize = 30)
+    axis7.set_title("Heatmap of Percentages of Met Math/CS Requirement Units", fontsize=50)
+    axis7.set_xlabel("Community Colleges", fontsize=40)
+    axis7.set_ylabel("Universities", fontsize = 40)
     # axis6.xaxis.tick_top()
-    axis7.set_yticklabels(CSVHandling.UniNameShort, fontsize=15)
+    
+    axis7.set_yticklabels(CSVHandling.UniNameShort, fontsize=30, rotation=0)
+    cbar = axis7.collections[0].colorbar
+    cbar.ax.tick_params(labelsize=30)  # Adjust font size of color bar ticks
+    #get rid of the numbers
     ccNameNumber = [(i+1) for i in range(len(CSVHandling.CCsName))]
     # for i, cc_number in enumerate(ccNameNumber):
-    #     axis6.annotate(f"{cc_number}: {CSVHandling.CCsName[i]}", xy=(100, i+ 0.1), ha="center", fontsize=10)
-    axis7.set_xticklabels(ccNameNumber, fontsize=7, rotation=0)
+    #     axis7.annotate(f"{cc_number}: {CSVHandling.CCsName[i]}", xy=(100, i+ 0.1), ha="center", fontsize=10)
+    axis7.set_xticklabels(ccNameNumber, fontsize=15, rotation=90)
 
 def heatmap():
     transform_heatmap()
@@ -514,7 +594,9 @@ def heatmap():
     axis6.set_ylabel("Universities", fontsize = 30)
     # axis6.xaxis.tick_top()
     axis6.set_yticklabels(CSVHandling.UniNameShort, fontsize=15)
+    #cc numbers
     ccNameNumber = [(i+1) for i in range(len(CSVHandling.CCsName))]
+    #cc names
     # for i, cc_number in enumerate(ccNameNumber):
     #     axis6.annotate(f"{cc_number}: {CSVHandling.CCsName[i]}", xy=(100, i+ 0.1), ha="center", fontsize=10)
     axis6.set_xticklabels(ccNameNumber, fontsize=7, rotation=0)
@@ -586,6 +668,7 @@ def heatmapPercentageMATHCS():
 # more useful, violin graph for percentage
 # graph3()
 
+# graph4()
 # heatmap()
 # plt.savefig("heatmap.png", dpi=300)  # adjust DPI as necessary
 
@@ -596,5 +679,6 @@ def heatmapPercentageMATHCS():
 # heatmapPercentageMATHCS()
 # plt.savefig("heatmapPercentageMATHCS.png", dpi=300)  # adjust DPI as necessary
 rank_heatmap()
-plt.savefig("rank_heatmap.png", dpi=300)  # adjust DPI as necessary
+plt.savefig("rank_second.png", dpi=300)
+# plt.savefig("rank_heatmap.png", dpi=300)  # adjust DPI as necessary
 plt.show()
