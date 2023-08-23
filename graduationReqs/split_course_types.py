@@ -60,6 +60,7 @@ def get_course_count(csv_path, exclude, count_dict):
 def count_units(line):
     units = "\d+\.\d+" # units will be floating point numbers
 
+    # A -- is an indicator to just read the floating point at the end of the line
     if '--' in line:
         return float( re.findall(units, line)[0] )
     
