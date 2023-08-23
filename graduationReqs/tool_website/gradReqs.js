@@ -1,7 +1,7 @@
 
-const API_KEY = 'AIzaSyBgdJG0I6zU8elZzB7Bsl79Jhyls7fsT9U';
-const CLIENT_ID = '964029012495-khufmlfdkqe6qd5c6snnql5h1v22euo4.apps.googleusercontent.com';
-const SHEET_ID = '1_s_TiZGaR-WHfAV5KpKr4BJq0r61UTCsEcCQJuy_OSk';
+const API_KEY = '';
+const CLIENT_ID = '';
+const SHEET_ID = '';
 
 let data; // Global variable to store the data
 const schoolMap = new Map(); // Holds the data for each school
