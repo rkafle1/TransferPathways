@@ -879,6 +879,7 @@ UCM	Cuyamaca College	0.8	"[""[['MATH 032 - Probability and Statistics (4.00)']]"
 UCM	Mendocino College	0.8	"[""[['MATH 032 - Probability and Statistics (4.00)']]""]"	24.0	30.0
 UCM	San Diego Mesa College	0.8	"[""[['MATH 032 - Probability and Statistics (4.00)']]""]"	24.0	30.0
 UCM	College of the Siskiyous	0.8	"[""[['MATH 032 - Probability and Statistics (4.00)']]""]"	24.0	30.0
+UCM	Madera Community College	0.8	"[""[['MATH 032 - Probability and Statistics (4.00)']]""]"	24.0	30.0
 UCLA	Evergreen Valley College	1.0	[]	24.0	24.0
 UCLA	Los Angeles City College	1.0	[]	24.0	24.0
 UCLA	College of Marin	1.0	[]	24.0	24.0
@@ -954,6 +955,7 @@ UCLA	Cuyamaca College	1.0	[]	24.0	24.0
 UCLA	Mendocino College	1.0	[]	24.0	24.0
 UCLA	San Diego Mesa College	1.0	[]	24.0	24.0
 UCLA	College of the Siskiyous	1.0	[]	24.0	24.0
+UCLA	Madera Community College	1.0	[]	24.0	24.0
 Humboldt	Evergreen Valley College	1.0	[]	9.0	9.0
 Humboldt	Los Angeles City College	1.0	[]	9.0	9.0
 Humboldt	College of Marin	1.0	[]	9.0	9.0
@@ -1609,6 +1611,7 @@ SFSU	Coastline Community College	0.5333333333333333	"[""[['MATH 324 - Probabilit
 SFSU	Grossmont College	0.5333333333333333	"[""[['MATH 324 - Probability and Statistics with Computing (3.00)']]"", ""[['MATH 325 - Linear Algebra (4.00)']]""]"	12.0	22.5
 SFSU	Imperial Valley College	0.5333333333333333	"[""[['MATH 324 - Probability and Statistics with Computing (3.00)']]"", ""[['MATH 325 - Linear Algebra (4.00)']]""]"	12.0	22.5
 SFSU	MiraCosta College	0.5333333333333333	"[""[['MATH 324 - Probability and Statistics with Computing (3.00)']]"", ""[['MATH 325 - Linear Algebra (4.00)']]""]"	12.0	22.5
+SFSU	Madera Community College	0.5333333333333333	"[""[['MATH 324 - Probability and Statistics with Computing (3.00)']]"", ""[['MATH 325 - Linear Algebra (4.00)']]""]"	12.0	22.5
 CSUSM	San Diego Miramar College	1.0	[]	22.5	22.5
 CSUSM	Mt. San Jacinto College	0.8	"[""[['MATH 242 - Introduction to Statistics (3.00)'], ['MATH 440 - Introduction to Mathematical Probability and Statistics (4.00)']]""]"	18.0	22.5
 CSUSM	San Diego City College	1.0	[]	22.5	22.5
@@ -1656,6 +1659,7 @@ CSUDH	Los Angeles Valley College	0.7692307692307693	"[""[['MAT 271 - Foundations
 CSUDH	San Diego Miramar College	0.7692307692307693	"[""[['MAT 271 - Foundations of Higher Mathematics (3.00)']]""]"	15.0	19.5
 CSUDH	Los Angeles Mission College	0.7692307692307693	"[""[['MAT 271 - Foundations of Higher Mathematics (3.00)']]""]"	15.0	19.5
 CSUDH	Ohlone College	0.7692307692307693	"[""[['MAT 271 - Foundations of Higher Mathematics (3.00)']]""]"	15.0	19.5
+CSUDH	Madera Community College	0.7692307692307693	"[""[['MAT 271 - Foundations of Higher Mathematics (3.00)']]""]"	15.0	19.5
 CSUFresno	Evergreen Valley College	1.0	[]	12.0	12.0
 CSUFresno	Los Angeles City College	1.0	[]	12.0	12.0
 CSUFresno	College of San Mateo	1.0	[]	12.0	12.0
@@ -1676,6 +1680,7 @@ CSUFresno	Fresno City College	1.0	[]	12.0	12.0
 CSUFresno	Reedley College	1.0	[]	12.0	12.0
 CSUFresno	Shasta College	1.0	[]	12.0	12.0
 CSUFresno	Cabrillo College	1.0	[]	12.0	12.0
+CSUFresno	Madera Community College	1.0	[]	12.0	12.0
 CSUCI	Evergreen Valley College	1.0	[]	16.5	16.5
 CSUCI	Los Angeles City College	1.0	[]	16.5	16.5
 CSUCI	College of Marin	1.0	[]	16.5	16.5
@@ -2269,6 +2274,7 @@ CSUN	Butte College	1.0	[]	19.5	19.5
 CSUN	Cerro Coso Community College	1.0	[]	19.5	19.5
 CSUN	Columbia College	1.0	[]	19.5	19.5
 CSUN	Merritt College	1.0	[]	19.5	19.5
+CSUN	Madera Community College	0.7692307692307693	"[""[['MATH 262 - Introduction to Linear Algebra (3.00)']]""]"	15.0	19.5
 CSUB	Evergreen Valley College	1.0	[]	12.0	12.0
 CSUB	Los Angeles City College	1.0	[]	12.0	12.0
 CSUB	College of Marin	1.0	[]	12.0	12.0

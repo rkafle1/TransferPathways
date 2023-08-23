@@ -851,6 +851,7 @@ UCM	Sierra College	0.7272727272727273	"[""[['MATH 032 - Probability and Statisti
 UCM	Solano Community College	0.7272727272727273	"[""[['MATH 032 - Probability and Statistics (4.00)']]"", ""[['CSE 015 - Discrete Mathematics (4.00)', 'CSE 022 - Introduction to Programming (4.00)', 'CSE 024 - Advanced Programming (4.00)', 'CSE 030 - Data Structures (4.00)', 'CSE 031 - Computer Organization and Assembly Language (4.00)', 'ENGR 065 - Circuit Theory (4.00)']]""]"	48.0	66.0
 UCM	Mendocino College	0.7272727272727273	"[""[['MATH 032 - Probability and Statistics (4.00)']]"", ""[['CSE 015 - Discrete Mathematics (4.00)', 'CSE 022 - Introduction to Programming (4.00)', 'CSE 024 - Advanced Programming (4.00)', 'CSE 030 - Data Structures (4.00)', 'CSE 031 - Computer Organization and Assembly Language (4.00)', 'ENGR 065 - Circuit Theory (4.00)']]""]"	48.0	66.0
 UCM	San Diego Mesa College	0.7272727272727273	"[""[['MATH 032 - Probability and Statistics (4.00)']]"", ""[['CSE 015 - Discrete Mathematics (4.00)', 'CSE 022 - Introduction to Programming (4.00)', 'CSE 024 - Advanced Programming (4.00)', 'CSE 030 - Data Structures (4.00)', 'CSE 031 - Computer Organization and Assembly Language (4.00)', 'ENGR 065 - Circuit Theory (4.00)']]""]"	48.0	66.0
+UCM	Madera Community College	0.7272727272727273	"[""[['MATH 032 - Probability and Statistics (4.00)']]"", ""[['CSE 015 - Discrete Mathematics (4.00)', 'CSE 022 - Introduction to Programming (4.00)', 'CSE 024 - Advanced Programming (4.00)', 'CSE 030 - Data Structures (4.00)', 'CSE 031 - Computer Organization and Assembly Language (4.00)', 'ENGR 065 - Circuit Theory (4.00)']]""]"	48.0	66.0
 UCM	Los Angeles City College	0.6363636363636364	"[""[['MATH 032 - Probability and Statistics (4.00)']]"", ""[['CSE 015 - Discrete Mathematics (4.00)', 'CSE 022 - Introduction to Programming (4.00)', 'CSE 024 - Advanced Programming (4.00)', 'CSE 030 - Data Structures (4.00)', 'CSE 031 - Computer Organization and Assembly Language (4.00)', 'ENGR 065 - Circuit Theory (4.00)']]""]"	42.0	66.0
 UCM	College of the Sequoias	0.6363636363636364	"[""[['MATH 032 - Probability and Statistics (4.00)']]"", ""[['CSE 015 - Discrete Mathematics (4.00)', 'CSE 022 - Introduction to Programming (4.00)', 'CSE 024 - Advanced Programming (4.00)', 'CSE 030 - Data Structures (4.00)', 'CSE 031 - Computer Organization and Assembly Language (4.00)', 'ENGR 065 - Circuit Theory (4.00)']]""]"	42.0	66.0
 UCM	Butte College	0.6363636363636364	"[""[['MATH 032 - Probability and Statistics (4.00)']]"", ""[['CSE 015 - Discrete Mathematics (4.00)', 'CSE 022 - Introduction to Programming (4.00)', 'CSE 024 - Advanced Programming (4.00)', 'CSE 030 - Data Structures (4.00)', 'CSE 031 - Computer Organization and Assembly Language (4.00)', 'ENGR 065 - Circuit Theory (4.00)']]""]"	42.0	66.0
@@ -948,6 +949,7 @@ UCLA	Cuyamaca College	0.36363636363636365	"[""[['COM SCI 31 - Introduction to Co
 UCLA	Mendocino College	0.36363636363636365	"[""[['COM SCI 31 - Introduction to Computer Science I (4.00)']]"", ""[['COM SCI 32 - Introduction to Computer Science II (4.00)']]"", ""[['COM SCI 33 - Introduction to Computer Organization (5.00)']]"", ""[['COM SCI 35L - Software Construction (4.00)']]"", ""[['MATH 61 - Introduction to Discrete Structures (4.00)']]"", ""[['PHYSICS 1A - Physics for Scientists and Engineers - Mechanics (5.00)']]"", ""[['PHYSICS 1B - Physics for Scientists and Engineers - Oscillations, Waves, Electric and Magnetic Fields (5.00)']]"", ""[['PHYSICS 1C - Physics for Scientists and Engineers - Electrodynamics, Optics, and Special Relativity (5.00)']]"", ""[['PHYSICS 4AL - Physics Laboratory for Scientists and Engineers - Mechanics (2.00)'], ['PHYSICS 4BL - Physics Laboratory for Scientists and Engineers - Electricity and Magnetism (2.00)']]"", ""[['COM SCI M51A - Logic Design of Digital Systems (4.00)'], ['EC ENGR M16 - Logic Design of Digital Systems (4.00)']]""]"	24.0	66.0
 UCLA	San Diego Mesa College	0.36363636363636365	"[""[['COM SCI 31 - Introduction to Computer Science I (4.00)']]"", ""[['COM SCI 32 - Introduction to Computer Science II (4.00)']]"", ""[['COM SCI 33 - Introduction to Computer Organization (5.00)']]"", ""[['COM SCI 35L - Software Construction (4.00)']]"", ""[['MATH 61 - Introduction to Discrete Structures (4.00)']]"", ""[['PHYSICS 1A - Physics for Scientists and Engineers - Mechanics (5.00)']]"", ""[['PHYSICS 1B - Physics for Scientists and Engineers - Oscillations, Waves, Electric and Magnetic Fields (5.00)']]"", ""[['PHYSICS 1C - Physics for Scientists and Engineers - Electrodynamics, Optics, and Special Relativity (5.00)']]"", ""[['PHYSICS 4AL - Physics Laboratory for Scientists and Engineers - Mechanics (2.00)'], ['PHYSICS 4BL - Physics Laboratory for Scientists and Engineers - Electricity and Magnetism (2.00)']]"", ""[['COM SCI M51A - Logic Design of Digital Systems (4.00)'], ['EC ENGR M16 - Logic Design of Digital Systems (4.00)']]""]"	24.0	66.0
 UCLA	College of the Siskiyous	0.36363636363636365	"[""[['COM SCI 31 - Introduction to Computer Science I (4.00)']]"", ""[['COM SCI 32 - Introduction to Computer Science II (4.00)']]"", ""[['COM SCI 33 - Introduction to Computer Organization (5.00)']]"", ""[['COM SCI 35L - Software Construction (4.00)']]"", ""[['MATH 61 - Introduction to Discrete Structures (4.00)']]"", ""[['PHYSICS 1A - Physics for Scientists and Engineers - Mechanics (5.00)']]"", ""[['PHYSICS 1B - Physics for Scientists and Engineers - Oscillations, Waves, Electric and Magnetic Fields (5.00)']]"", ""[['PHYSICS 1C - Physics for Scientists and Engineers - Electrodynamics, Optics, and Special Relativity (5.00)']]"", ""[['PHYSICS 4AL - Physics Laboratory for Scientists and Engineers - Mechanics (2.00)'], ['PHYSICS 4BL - Physics Laboratory for Scientists and Engineers - Electricity and Magnetism (2.00)']]"", ""[['COM SCI M51A - Logic Design of Digital Systems (4.00)'], ['EC ENGR M16 - Logic Design of Digital Systems (4.00)']]""]"	24.0	66.0
+UCLA	Madera Community College	0.36363636363636365	"[""[['COM SCI 31 - Introduction to Computer Science I (4.00)']]"", ""[['COM SCI 32 - Introduction to Computer Science II (4.00)']]"", ""[['COM SCI 33 - Introduction to Computer Organization (5.00)']]"", ""[['COM SCI 35L - Software Construction (4.00)']]"", ""[['MATH 61 - Introduction to Discrete Structures (4.00)']]"", ""[['PHYSICS 1A - Physics for Scientists and Engineers - Mechanics (5.00)']]"", ""[['PHYSICS 1B - Physics for Scientists and Engineers - Oscillations, Waves, Electric and Magnetic Fields (5.00)']]"", ""[['PHYSICS 1C - Physics for Scientists and Engineers - Electrodynamics, Optics, and Special Relativity (5.00)']]"", ""[['PHYSICS 4AL - Physics Laboratory for Scientists and Engineers - Mechanics (2.00)'], ['PHYSICS 4BL - Physics Laboratory for Scientists and Engineers - Electricity and Magnetism (2.00)']]"", ""[['COM SCI M51A - Logic Design of Digital Systems (4.00)'], ['EC ENGR M16 - Logic Design of Digital Systems (4.00)']]""]"	24.0	66.0
 UCLA	West Hills College Coalinga	0.30303030303030304	"[""[['COM SCI 31 - Introduction to Computer Science I (4.00)']]"", ""[['COM SCI 32 - Introduction to Computer Science II (4.00)']]"", ""[['COM SCI 33 - Introduction to Computer Organization (5.00)']]"", ""[['COM SCI 35L - Software Construction (4.00)']]"", ""[['MATH 33A - Linear Algebra and Applications (4.00)']]"", ""[['MATH 61 - Introduction to Discrete Structures (4.00)']]"", ""[['PHYSICS 1A - Physics for Scientists and Engineers - Mechanics (5.00)']]"", ""[['PHYSICS 1B - Physics for Scientists and Engineers - Oscillations, Waves, Electric and Magnetic Fields (5.00)']]"", ""[['PHYSICS 1C - Physics for Scientists and Engineers - Electrodynamics, Optics, and Special Relativity (5.00)']]"", ""[['PHYSICS 4AL - Physics Laboratory for Scientists and Engineers - Mechanics (2.00)'], ['PHYSICS 4BL - Physics Laboratory for Scientists and Engineers - Electricity and Magnetism (2.00)']]"", ""[['COM SCI M51A - Logic Design of Digital Systems (4.00)'], ['EC ENGR M16 - Logic Design of Digital Systems (4.00)']]""]"	20.0	66.0
 UCLA	Barstow Community College	0.24242424242424243	"[""[['COM SCI 31 - Introduction to Computer Science I (4.00)']]"", ""[['COM SCI 32 - Introduction to Computer Science II (4.00)']]"", ""[['COM SCI 33 - Introduction to Computer Organization (5.00)']]"", ""[['COM SCI 35L - Software Construction (4.00)']]"", ""[['MATH 33A - Linear Algebra and Applications (4.00)']]"", ""[['MATH 33B - Differential Equations (4.00)']]"", ""[['MATH 61 - Introduction to Discrete Structures (4.00)']]"", ""[['PHYSICS 1A - Physics for Scientists and Engineers - Mechanics (5.00)']]"", ""[['PHYSICS 1B - Physics for Scientists and Engineers - Oscillations, Waves, Electric and Magnetic Fields (5.00)']]"", ""[['PHYSICS 1C - Physics for Scientists and Engineers - Electrodynamics, Optics, and Special Relativity (5.00)']]"", ""[['PHYSICS 4AL - Physics Laboratory for Scientists and Engineers - Mechanics (2.00)'], ['PHYSICS 4BL - Physics Laboratory for Scientists and Engineers - Electricity and Magnetism (2.00)']]"", ""[['COM SCI M51A - Logic Design of Digital Systems (4.00)'], ['EC ENGR M16 - Logic Design of Digital Systems (4.00)']]""]"	16.0	66.0
 UCLA	Palo Verde College	0.24242424242424243	"[""[['COM SCI 31 - Introduction to Computer Science I (4.00)']]"", ""[['COM SCI 32 - Introduction to Computer Science II (4.00)']]"", ""[['COM SCI 33 - Introduction to Computer Organization (5.00)']]"", ""[['COM SCI 35L - Software Construction (4.00)']]"", ""[['MATH 33A - Linear Algebra and Applications (4.00)']]"", ""[['MATH 33B - Differential Equations (4.00)']]"", ""[['MATH 61 - Introduction to Discrete Structures (4.00)']]"", ""[['PHYSICS 1A - Physics for Scientists and Engineers - Mechanics (5.00)']]"", ""[['PHYSICS 1B - Physics for Scientists and Engineers - Oscillations, Waves, Electric and Magnetic Fields (5.00)']]"", ""[['PHYSICS 1C - Physics for Scientists and Engineers - Electrodynamics, Optics, and Special Relativity (5.00)']]"", ""[['PHYSICS 4AL - Physics Laboratory for Scientists and Engineers - Mechanics (2.00)'], ['PHYSICS 4BL - Physics Laboratory for Scientists and Engineers - Electricity and Magnetism (2.00)']]"", ""[['COM SCI M51A - Logic Design of Digital Systems (4.00)'], ['EC ENGR M16 - Logic Design of Digital Systems (4.00)']]""]"	16.0	66.0
@@ -1587,6 +1589,7 @@ SFSU	Yuba College	0.6428571428571429	"[""[['MATH 324 - Probability and Statistic
 SFSU	West Los Angeles College	0.6428571428571429	"[""[['MATH 324 - Probability and Statistics with Computing (3.00)']]"", ""[['MATH 325 - Linear Algebra (4.00)']]"", ""[['CSC 220 - Data Structures (3.00)']]""]"	27.0	42.0
 SFSU	Citrus College	0.6428571428571429	"[""[['MATH 324 - Probability and Statistics with Computing (3.00)']]"", ""[['MATH 325 - Linear Algebra (4.00)']]"", ""[['CSC 220 - Data Structures (3.00)']]""]"	27.0	42.0
 SFSU	Imperial Valley College	0.6428571428571429	"[""[['MATH 324 - Probability and Statistics with Computing (3.00)']]"", ""[['MATH 325 - Linear Algebra (4.00)']]"", ""[['CSC 220 - Data Structures (3.00)']]""]"	27.0	42.0
+SFSU	Madera Community College	0.6428571428571429	"[""[['MATH 324 - Probability and Statistics with Computing (3.00)']]"", ""[['MATH 325 - Linear Algebra (4.00)']]"", ""[['CSC 220 - Data Structures (3.00)']]""]"	27.0	42.0
 SFSU	Glendale Community College	0.6296296296296297	"[""[['MATH 324 - Probability and Statistics with Computing (3.00)']]"", ""[['CSC 210 - Introduction to Computer Programming (3.00)']]"", ""[['CSC 211 - Introduction to Software Lab (1.00)']]"", ""[['CSC 220 - Data Structures (3.00)']]""]"	25.5	40.5
 SFSU	Columbia College	0.5555555555555556	"[""[['MATH 324 - Probability and Statistics with Computing (3.00)']]"", ""[['CSC 220 - Data Structures (3.00)']]"", ""[['CSC 230 - Discrete Mathematical Structures for Computer Science (3.00)']]"", ""[['CSC 256 - Machine Structures (3.00)']]""]"	22.5	40.5
 SFSU	Lake Tahoe Community College	0.5555555555555556	"[""[['MATH 324 - Probability and Statistics with Computing (3.00)']]"", ""[['CSC 220 - Data Structures (3.00)']]"", ""[['CSC 230 - Discrete Mathematical Structures for Computer Science (3.00)']]"", ""[['CSC 256 - Machine Structures (3.00)']]""]"	22.5	40.5
@@ -1645,6 +1648,7 @@ CSUDH	Glendale Community College	0.9	"[""[['MAT 271 - Foundations of Higher Math
 CSUDH	San Diego Miramar College	0.9	"[""[['MAT 271 - Foundations of Higher Mathematics (3.00)']]""]"	40.5	45.0
 CSUDH	Los Angeles Mission College	0.9	"[""[['MAT 271 - Foundations of Higher Mathematics (3.00)']]""]"	40.5	45.0
 CSUDH	Ohlone College	0.9	"[""[['MAT 271 - Foundations of Higher Mathematics (3.00)']]""]"	40.5	45.0
+CSUDH	Madera Community College	0.9	"[""[['MAT 271 - Foundations of Higher Mathematics (3.00)']]""]"	40.5	45.0
 CSUDH	Cuesta College	0.8	"[""[['MAT 271 - Foundations of Higher Mathematics (3.00)']]"", ""[['MAT 281 - Discrete Mathematics (3.00)']]""]"	36.0	45.0
 CSUDH	Los Angeles Valley College	0.8	"[""[['MAT 271 - Foundations of Higher Mathematics (3.00)']]"", ""[['MAT 281 - Discrete Mathematics (3.00)']]""]"	36.0	45.0
 CSUDH	Los Angeles Harbor College	0.7666666666666667	"[""[['CSC 121 - Intro to Comp. Sci. & Prog. I (4.00)']]"", ""[['MAT 271 - Foundations of Higher Mathematics (3.00)']]""]"	34.5	45.0
@@ -1669,6 +1673,7 @@ CSUFresno	Fresno City College	1.0	[]	30.0	30.0
 CSUFresno	Reedley College	1.0	[]	30.0	30.0
 CSUFresno	Shasta College	1.0	[]	30.0	30.0
 CSUFresno	Cabrillo College	1.0	[]	30.0	30.0
+CSUFresno	Madera Community College	1.0	[]	30.0	30.0
 CSUFresno	Cerro Coso Community College	0.8	"[""[['CSCI 60 - Foundations of Computer Science (4.00)']]""]"	24.0	30.0
 CSUFresno	Columbia College	0.8	"[""[['CSCI 60 - Foundations of Computer Science (4.00)']]""]"	24.0	30.0
 CSUFresno	Contra Costa College	0.8	"[""[['CSCI 60 - Foundations of Computer Science (4.00)']]""]"	24.0	30.0
@@ -2144,6 +2149,121 @@ CPP	Porterville College	0.25806451612903225	"[""[['CS 1300 - Discrete Structures
 CPP	West Hills College Lemoore	0.25806451612903225	"[""[['CS 1300 - Discrete Structures (3.00)']]"", ""[['CS 1400 - Introduction to Programming and Problem Solving (4.00)']]"", ""[['CS 2400 - Data Structures and Advanced Programming (4.00)']]"", ""[['CS 2600 - Systems Programming (3.00)']]"", ""[['CS 2610 - Introduction to Cyber Security and Network Communications (3.00)']]"", ""[['CS 2640 - Computer Organization and Assembly Programming (3.00)']]"", ""[['STA 2260 - Probability and Statistics for Computer Scientists and Engineers (3.00)']]""]"	12.0	46.5
 CPP	Woodland Community College	0.25806451612903225	"[""[['CS 1300 - Discrete Structures (3.00)']]"", ""[['CS 1400 - Introduction to Programming and Problem Solving (4.00)']]"", ""[['CS 2400 - Data Structures and Advanced Programming (4.00)']]"", ""[['CS 2600 - Systems Programming (3.00)']]"", ""[['CS 2610 - Introduction to Cyber Security and Network Communications (3.00)']]"", ""[['CS 2640 - Computer Organization and Assembly Programming (3.00)']]"", ""[['STA 2260 - Probability and Statistics for Computer Scientists and Engineers (3.00)']]""]"	12.0	46.5
 CPP	Palo Verde College	0.0	"[""[['CS 1300 - Discrete Structures (3.00)']]"", ""[['CS 1400 - Introduction to Programming and Problem Solving (4.00)']]"", ""[['CS 2400 - Data Structures and Advanced Programming (4.00)']]"", ""[['CS 2600 - Systems Programming (3.00)']]"", ""[['CS 2610 - Introduction to Cyber Security and Network Communications (3.00)']]"", ""[['CS 2640 - Computer Organization and Assembly Programming (3.00)']]"", ""[['MAT 1140 - Calculus I (4.00)']]"", ""[['MAT 1150 - Calculus II (4.00)']]"", ""[['STA 2260 - Probability and Statistics for Computer Scientists and Engineers (3.00)']]""]"	0.0	46.5
+Chico	Evergreen Valley College	1.0	[]	33.0	33.0
+Chico	Los Angeles City College	1.0	[]	33.0	33.0
+Chico	College of San Mateo	1.0	[]	33.0	33.0
+Chico	College of the Sequoias	1.0	[]	33.0	33.0
+Chico	Butte College	1.0	[]	33.0	33.0
+Chico	Cerro Coso Community College	1.0	[]	33.0	33.0
+Chico	Santa Ana College	1.0	[]	33.0	33.0
+Chico	Merced College	1.0	[]	33.0	33.0
+Chico	Las Positas College	1.0	[]	33.0	33.0
+Chico	Victor Valley College	1.0	[]	33.0	33.0
+Chico	Barstow Community College	1.0	[]	33.0	33.0
+Chico	American River College	1.0	[]	33.0	33.0
+Chico	Contra Costa College	1.0	[]	33.0	33.0
+Chico	College of the Desert	1.0	[]	33.0	33.0
+Chico	Los Angeles Harbor College	1.0	[]	33.0	33.0
+Chico	City College of San Francisco	1.0	[]	33.0	33.0
+Chico	Reedley College	1.0	[]	33.0	33.0
+Chico	Shasta College	1.0	[]	33.0	33.0
+Chico	Cabrillo College	1.0	[]	33.0	33.0
+Chico	Glendale Community College	1.0	[]	33.0	33.0
+Chico	San Diego Miramar College	1.0	[]	33.0	33.0
+Chico	Los Angeles Mission College	1.0	[]	33.0	33.0
+Chico	Ohlone College	1.0	[]	33.0	33.0
+Chico	Pasadena City College	1.0	[]	33.0	33.0
+Chico	Foothill College	1.0	[]	33.0	33.0
+Chico	Modesto Junior College	1.0	[]	33.0	33.0
+Chico	Mt. San Jacinto College	1.0	[]	33.0	33.0
+Chico	Golden West College	1.0	[]	33.0	33.0
+Chico	Palomar College	1.0	[]	33.0	33.0
+Chico	Santa Rosa Junior College	1.0	[]	33.0	33.0
+Chico	Los Medanos College	1.0	[]	33.0	33.0
+Chico	Rio Hondo College	1.0	[]	33.0	33.0
+Chico	Saddleback College	1.0	[]	33.0	33.0
+Chico	Santiago Canyon College	1.0	[]	33.0	33.0
+Chico	Canada College	1.0	[]	33.0	33.0
+Chico	Chaffey College	1.0	[]	33.0	33.0
+Chico	Crafton Hills College	1.0	[]	33.0	33.0
+Chico	Cypress College	1.0	[]	33.0	33.0
+Chico	Gavilan College	1.0	[]	33.0	33.0
+Chico	Napa Valley College	1.0	[]	33.0	33.0
+Chico	Orange Coast College	1.0	[]	33.0	33.0
+Chico	Riverside City College	1.0	[]	33.0	33.0
+Chico	West Valley College	1.0	[]	33.0	33.0
+Chico	Bakersfield College	1.0	[]	33.0	33.0
+Chico	Los Angeles Pierce College	1.0	[]	33.0	33.0
+Chico	Yuba College	1.0	[]	33.0	33.0
+Chico	West Los Angeles College	1.0	[]	33.0	33.0
+Chico	Santa Barbara City College	1.0	[]	33.0	33.0
+Chico	Solano Community College	1.0	[]	33.0	33.0
+Chico	Ventura College	1.0	[]	33.0	33.0
+Chico	Citrus College	1.0	[]	33.0	33.0
+Chico	Cuyamaca College	1.0	[]	33.0	33.0
+Chico	Mendocino College	1.0	[]	33.0	33.0
+Chico	College of the Siskiyous	1.0	[]	33.0	33.0
+Chico	Cerritos College	1.0	[]	33.0	33.0
+Chico	Imperial Valley College	1.0	[]	33.0	33.0
+Chico	MiraCosta College	1.0	[]	33.0	33.0
+Chico	San Joaquin Delta College	1.0	[]	33.0	33.0
+Chico	Allan Hancock College	1.0	[]	33.0	33.0
+Chico	Copper Mountain College	1.0	[]	33.0	33.0
+Chico	De Anza College	1.0	[]	33.0	33.0
+Chico	Diablo Valley College	1.0	[]	33.0	33.0
+Chico	East Los Angeles College	1.0	[]	33.0	33.0
+Chico	Antelope Valley College	1.0	[]	33.0	33.0
+Chico	Hartnell College	1.0	[]	33.0	33.0
+Chico	Irvine Valley College	1.0	[]	33.0	33.0
+Chico	Sacramento City College	1.0	[]	33.0	33.0
+Chico	Skyline College	1.0	[]	33.0	33.0
+Chico	Los Angeles Southwest College	1.0	[]	33.0	33.0
+Chico	San Bernardino Valley College	1.0	[]	33.0	33.0
+Chico	Monterey Peninsula College	1.0	[]	33.0	33.0
+Chico	Fullerton College	1.0	[]	33.0	33.0
+Chico	Long Beach City College	1.0	[]	33.0	33.0
+Chico	San Jose City College	1.0	[]	33.0	33.0
+Chico	Southwestern College	1.0	[]	33.0	33.0
+Chico	Moorpark College	1.0	[]	33.0	33.0
+Chico	College of the Canyons	1.0	[]	33.0	33.0
+Chico	Cosumnes River College	1.0	[]	33.0	33.0
+Chico	Folsom Lake College	1.0	[]	33.0	33.0
+Chico	Norco College	1.0	[]	33.0	33.0
+Chico	Moreno Valley College	1.0	[]	33.0	33.0
+Chico	Clovis Community College	1.0	[]	33.0	33.0
+Chico	Madera Community College	1.0	[]	33.0	33.0
+Chico	Cuesta College	0.8636363636363636	"[""[['CSCI/MATH 217 - Discrete Mathematics (3.00)']]""]"	28.5	33.0
+Chico	Fresno City College	0.8636363636363636	"[""[['CSCI 221 - Assembly Language Programming (3.00)'], ['EECE 237 - Embedded Systems Development (3.00)']]""]"	28.5	33.0
+Chico	Chabot College	0.8636363636363636	"[""[['CSCI/MATH 217 - Discrete Mathematics (3.00)']]""]"	28.5	33.0
+Chico	El Camino College	0.8636363636363636	"[""[['CSCI/MATH 217 - Discrete Mathematics (3.00)']]""]"	28.5	33.0
+Chico	Merritt College	0.8181818181818182	"[""[['CSCI 211 - Programming and Algorithms II (4.00)']]""]"	27.0	33.0
+Chico	Mission College	0.8181818181818182	"[""[['CSCI 211 - Programming and Algorithms II (4.00)']]""]"	27.0	33.0
+Chico	Berkeley City College	0.8181818181818182	"[""[['CSCI 211 - Programming and Algorithms II (4.00)']]""]"	27.0	33.0
+Chico	Laney College	0.8181818181818182	"[""[['CSCI 211 - Programming and Algorithms II (4.00)']]""]"	27.0	33.0
+Chico	Sierra College	0.8181818181818182	"[""[['CSCI 211 - Programming and Algorithms II (4.00)']]""]"	27.0	33.0
+Chico	Grossmont College	0.8181818181818182	"[""[['CSCI 211 - Programming and Algorithms II (4.00)']]""]"	27.0	33.0
+Chico	Columbia College	0.7272727272727273	"[""[['CSCI/MATH 217 - Discrete Mathematics (3.00)']]"", ""[['CSCI 221 - Assembly Language Programming (3.00)'], ['EECE 237 - Embedded Systems Development (3.00)']]""]"	24.0	33.0
+Chico	Lake Tahoe Community College	0.7272727272727273	"[""[['CSCI/MATH 217 - Discrete Mathematics (3.00)']]"", ""[['CSCI 221 - Assembly Language Programming (3.00)'], ['EECE 237 - Embedded Systems Development (3.00)']]""]"	24.0	33.0
+Chico	San Diego City College	0.7272727272727273	"[""[['CSCI/MATH 217 - Discrete Mathematics (3.00)']]"", ""[['CSCI 221 - Assembly Language Programming (3.00)'], ['EECE 237 - Embedded Systems Development (3.00)']]""]"	24.0	33.0
+Chico	San Diego Mesa College	0.7272727272727273	"[""[['CSCI/MATH 217 - Discrete Mathematics (3.00)']]"", ""[['CSCI 221 - Assembly Language Programming (3.00)'], ['EECE 237 - Embedded Systems Development (3.00)']]""]"	24.0	33.0
+Chico	Feather River College	0.7272727272727273	"[""[['CSCI/MATH 217 - Discrete Mathematics (3.00)']]"", ""[['CSCI 221 - Assembly Language Programming (3.00)'], ['EECE 237 - Embedded Systems Development (3.00)']]""]"	24.0	33.0
+Chico	College of Marin	0.6818181818181818	"[""[['CSCI 211 - Programming and Algorithms II (4.00)']]"", ""[['CSCI/MATH 217 - Discrete Mathematics (3.00)']]""]"	22.5	33.0
+Chico	Mount San Antonio College	0.6818181818181818	"[""[['CSCI 211 - Programming and Algorithms II (4.00)']]"", ""[['CSCI 221 - Assembly Language Programming (3.00)'], ['EECE 237 - Embedded Systems Development (3.00)']]""]"	22.5	33.0
+Chico	Santa Monica College	0.6818181818181818	"[""[['CSCI 111 - Programming and Algorithms I (4.00)']]"", ""[['CSCI/MATH 217 - Discrete Mathematics (3.00)']]""]"	22.5	33.0
+Chico	Los Angeles Trade Technical College	0.5454545454545454	"[""[['CSCI 211 - Programming and Algorithms II (4.00)']]"", ""[['CSCI/MATH 217 - Discrete Mathematics (3.00)']]"", ""[['CSCI 221 - Assembly Language Programming (3.00)'], ['EECE 237 - Embedded Systems Development (3.00)']]""]"	18.0	33.0
+Chico	College of the Redwoods	0.5454545454545454	"[""[['CSCI 211 - Programming and Algorithms II (4.00)']]"", ""[['CSCI/MATH 217 - Discrete Mathematics (3.00)']]"", ""[['CSCI 221 - Assembly Language Programming (3.00)'], ['EECE 237 - Embedded Systems Development (3.00)']]""]"	18.0	33.0
+Chico	College of Alameda	0.5454545454545454	"[""[['CSCI 211 - Programming and Algorithms II (4.00)']]"", ""[['CSCI/MATH 217 - Discrete Mathematics (3.00)']]"", ""[['CSCI 221 - Assembly Language Programming (3.00)'], ['EECE 237 - Embedded Systems Development (3.00)']]""]"	18.0	33.0
+Chico	Compton College	0.5	"[""[['CSCI 111 - Programming and Algorithms I (4.00)']]"", ""[['CSCI 211 - Programming and Algorithms II (4.00)']]"", ""[['CSCI 221 - Assembly Language Programming (3.00)'], ['EECE 237 - Embedded Systems Development (3.00)']]""]"	16.5	33.0
+Chico	West Hills College Coalinga	0.36363636363636365	"[""[['CSCI 111 - Programming and Algorithms I (4.00)']]"", ""[['CSCI 211 - Programming and Algorithms II (4.00)']]"", ""[['CSCI/MATH 217 - Discrete Mathematics (3.00)']]"", ""[['CSCI 221 - Assembly Language Programming (3.00)'], ['EECE 237 - Embedded Systems Development (3.00)']]""]"	12.0	33.0
+Chico	Lassen Community College	0.36363636363636365	"[""[['CSCI 111 - Programming and Algorithms I (4.00)']]"", ""[['CSCI 211 - Programming and Algorithms II (4.00)']]"", ""[['CSCI/MATH 217 - Discrete Mathematics (3.00)']]"", ""[['CSCI 221 - Assembly Language Programming (3.00)'], ['EECE 237 - Embedded Systems Development (3.00)']]""]"	12.0	33.0
+Chico	Oxnard College	0.36363636363636365	"[""[['CSCI 111 - Programming and Algorithms I (4.00)']]"", ""[['CSCI 211 - Programming and Algorithms II (4.00)']]"", ""[['CSCI/MATH 217 - Discrete Mathematics (3.00)']]"", ""[['CSCI 221 - Assembly Language Programming (3.00)'], ['EECE 237 - Embedded Systems Development (3.00)']]""]"	12.0	33.0
+Chico	Coastline Community College	0.36363636363636365	"[""[['CSCI 111 - Programming and Algorithms I (4.00)']]"", ""[['CSCI 211 - Programming and Algorithms II (4.00)']]"", ""[['CSCI/MATH 217 - Discrete Mathematics (3.00)']]"", ""[['CSCI 221 - Assembly Language Programming (3.00)'], ['EECE 237 - Embedded Systems Development (3.00)']]""]"	12.0	33.0
+Chico	Taft College	0.36363636363636365	"[""[['CSCI 111 - Programming and Algorithms I (4.00)']]"", ""[['CSCI 211 - Programming and Algorithms II (4.00)']]"", ""[['CSCI/MATH 217 - Discrete Mathematics (3.00)']]"", ""[['CSCI 221 - Assembly Language Programming (3.00)'], ['EECE 237 - Embedded Systems Development (3.00)']]""]"	12.0	33.0
+Chico	Porterville College	0.36363636363636365	"[""[['CSCI 111 - Programming and Algorithms I (4.00)']]"", ""[['CSCI 211 - Programming and Algorithms II (4.00)']]"", ""[['CSCI/MATH 217 - Discrete Mathematics (3.00)']]"", ""[['CSCI 221 - Assembly Language Programming (3.00)'], ['EECE 237 - Embedded Systems Development (3.00)']]""]"	12.0	33.0
+Chico	West Hills College Lemoore	0.36363636363636365	"[""[['CSCI 111 - Programming and Algorithms I (4.00)']]"", ""[['CSCI 211 - Programming and Algorithms II (4.00)']]"", ""[['CSCI/MATH 217 - Discrete Mathematics (3.00)']]"", ""[['CSCI 221 - Assembly Language Programming (3.00)'], ['EECE 237 - Embedded Systems Development (3.00)']]""]"	12.0	33.0
+Chico	Woodland Community College	0.36363636363636365	"[""[['CSCI 111 - Programming and Algorithms I (4.00)']]"", ""[['CSCI 211 - Programming and Algorithms II (4.00)']]"", ""[['CSCI/MATH 217 - Discrete Mathematics (3.00)']]"", ""[['CSCI 221 - Assembly Language Programming (3.00)'], ['EECE 237 - Embedded Systems Development (3.00)']]""]"	12.0	33.0
+Chico	Los Angeles Valley College	0.18181818181818182	"[""[['CSCI 111 - Programming and Algorithms I (4.00)']]"", ""[['CSCI 211 - Programming and Algorithms II (4.00)']]"", ""[['CSCI/MATH 217 - Discrete Mathematics (3.00)']]"", ""[['MATH 121 - Analytic Geometry and Calculus (4.00)']]"", ""[['CSCI 221 - Assembly Language Programming (3.00)'], ['EECE 237 - Embedded Systems Development (3.00)']]""]"	6.0	33.0
+Chico	Palo Verde College	0.0	"[""[['CSCI 111 - Programming and Algorithms I (4.00)']]"", ""[['CSCI 211 - Programming and Algorithms II (4.00)']]"", ""[['CSCI/MATH 217 - Discrete Mathematics (3.00)']]"", ""[['MATH 120 - Analytic Geometry and Calculus (4.00)']]"", ""[['MATH 121 - Analytic Geometry and Calculus (4.00)']]"", ""[['CSCI 221 - Assembly Language Programming (3.00)'], ['EECE 237 - Embedded Systems Development (3.00)']]""]"	0.0	33.0
 CSUN	Evergreen Valley College	0.8181818181818182	"[""[['COMP 222 - Computer Organization (3.00)']]"", ""[['COMP 282 - Advanced Data Structures (3.00)']]""]"	40.5	49.5
 CSUN	Los Angeles City College	0.8181818181818182	"[""[['COMP 222 - Computer Organization (3.00)']]"", ""[['COMP 282 - Advanced Data Structures (3.00)']]""]"	40.5	49.5
 CSUN	College of Marin	0.8181818181818182	"[""[['COMP 222 - Computer Organization (3.00)']]"", ""[['COMP 282 - Advanced Data Structures (3.00)']]""]"	40.5	49.5
@@ -2151,6 +2271,7 @@ CSUN	College of the Sequoias	0.8181818181818182	"[""[['COMP 222 - Computer Organ
 CSUN	Butte College	0.8181818181818182	"[""[['COMP 222 - Computer Organization (3.00)']]"", ""[['COMP 282 - Advanced Data Structures (3.00)']]""]"	40.5	49.5
 CSUN	Cerro Coso Community College	0.8181818181818182	"[""[['COMP 222 - Computer Organization (3.00)']]"", ""[['COMP 282 - Advanced Data Structures (3.00)']]""]"	40.5	49.5
 CSUN	Merritt College	0.8181818181818182	"[""[['COMP 222 - Computer Organization (3.00)']]"", ""[['COMP 282 - Advanced Data Structures (3.00)']]""]"	40.5	49.5
+CSUN	Madera Community College	0.7272727272727273	"[""[['COMP 222 - Computer Organization (3.00)']]"", ""[['COMP 282 - Advanced Data Structures (3.00)']]"", ""[['MATH 262 - Introduction to Linear Algebra (3.00)']]""]"	36.0	49.5
 CSUN	College of San Mateo	0.696969696969697	"[""[['COMP 222 - Computer Organization (3.00)']]"", ""[['COMP 256/L - Discrete Structures for Computer Science and Lab (4.00)']]"", ""[['COMP 282 - Advanced Data Structures (3.00)']]""]"	34.5	49.5
 CSUN	Columbia College	0.6363636363636364	"[""[['COMP 122/L - Computer Architecture and Assembly Language and Lab (2.00)']]"", ""[['COMP 222 - Computer Organization (3.00)']]"", ""[['COMP 256/L - Discrete Structures for Computer Science and Lab (4.00)']]"", ""[['COMP 282 - Advanced Data Structures (3.00)']]""]"	31.5	49.5
 CSUB	Evergreen Valley College	1.0	[]	40.5	40.5

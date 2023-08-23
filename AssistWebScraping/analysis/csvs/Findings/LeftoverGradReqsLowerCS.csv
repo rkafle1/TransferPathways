@@ -879,6 +879,7 @@ UCM	Cuyamaca College	0.5	"[""[['CSE 015 - Discrete Mathematics (4.00)', 'CSE 022
 UCM	Mendocino College	0.6666666666666666	"[""[['CSE 015 - Discrete Mathematics (4.00)', 'CSE 022 - Introduction to Programming (4.00)', 'CSE 024 - Advanced Programming (4.00)', 'CSE 030 - Data Structures (4.00)', 'CSE 031 - Computer Organization and Assembly Language (4.00)', 'ENGR 065 - Circuit Theory (4.00)']]""]"	24.0	36.0
 UCM	San Diego Mesa College	0.6666666666666666	"[""[['CSE 015 - Discrete Mathematics (4.00)', 'CSE 022 - Introduction to Programming (4.00)', 'CSE 024 - Advanced Programming (4.00)', 'CSE 030 - Data Structures (4.00)', 'CSE 031 - Computer Organization and Assembly Language (4.00)', 'ENGR 065 - Circuit Theory (4.00)']]""]"	24.0	36.0
 UCM	College of the Siskiyous	0.5	"[""[['CSE 015 - Discrete Mathematics (4.00)', 'CSE 022 - Introduction to Programming (4.00)', 'CSE 024 - Advanced Programming (4.00)', 'CSE 030 - Data Structures (4.00)', 'CSE 031 - Computer Organization and Assembly Language (4.00)', 'ENGR 065 - Circuit Theory (4.00)']]""]"	18.0	36.0
+UCM	Madera Community College	0.6666666666666666	"[""[['CSE 015 - Discrete Mathematics (4.00)', 'CSE 022 - Introduction to Programming (4.00)', 'CSE 024 - Advanced Programming (4.00)', 'CSE 030 - Data Structures (4.00)', 'CSE 031 - Computer Organization and Assembly Language (4.00)', 'ENGR 065 - Circuit Theory (4.00)']]""]"	24.0	36.0
 UCLA	Evergreen Valley College	0.0	"[""[['COM SCI 31 - Introduction to Computer Science I (4.00)']]"", ""[['COM SCI 32 - Introduction to Computer Science II (4.00)']]"", ""[['COM SCI 33 - Introduction to Computer Organization (5.00)']]"", ""[['COM SCI 35L - Software Construction (4.00)']]"", ""[['MATH 61 - Introduction to Discrete Structures (4.00)']]"", ""[['COM SCI M51A - Logic Design of Digital Systems (4.00)'], ['EC ENGR M16 - Logic Design of Digital Systems (4.00)']]""]"	0	25.0
 UCLA	Los Angeles City College	0.0	"[""[['COM SCI 31 - Introduction to Computer Science I (4.00)']]"", ""[['COM SCI 32 - Introduction to Computer Science II (4.00)']]"", ""[['COM SCI 33 - Introduction to Computer Organization (5.00)']]"", ""[['COM SCI 35L - Software Construction (4.00)']]"", ""[['MATH 61 - Introduction to Discrete Structures (4.00)']]"", ""[['COM SCI M51A - Logic Design of Digital Systems (4.00)'], ['EC ENGR M16 - Logic Design of Digital Systems (4.00)']]""]"	0	25.0
 UCLA	College of Marin	0.0	"[""[['COM SCI 31 - Introduction to Computer Science I (4.00)']]"", ""[['COM SCI 32 - Introduction to Computer Science II (4.00)']]"", ""[['COM SCI 33 - Introduction to Computer Organization (5.00)']]"", ""[['COM SCI 35L - Software Construction (4.00)']]"", ""[['MATH 61 - Introduction to Discrete Structures (4.00)']]"", ""[['COM SCI M51A - Logic Design of Digital Systems (4.00)'], ['EC ENGR M16 - Logic Design of Digital Systems (4.00)']]""]"	0	25.0
@@ -954,6 +955,7 @@ UCLA	Cuyamaca College	0.0	"[""[['COM SCI 31 - Introduction to Computer Science I
 UCLA	Mendocino College	0.0	"[""[['COM SCI 31 - Introduction to Computer Science I (4.00)']]"", ""[['COM SCI 32 - Introduction to Computer Science II (4.00)']]"", ""[['COM SCI 33 - Introduction to Computer Organization (5.00)']]"", ""[['COM SCI 35L - Software Construction (4.00)']]"", ""[['MATH 61 - Introduction to Discrete Structures (4.00)']]"", ""[['COM SCI M51A - Logic Design of Digital Systems (4.00)'], ['EC ENGR M16 - Logic Design of Digital Systems (4.00)']]""]"	0	25.0
 UCLA	San Diego Mesa College	0.0	"[""[['COM SCI 31 - Introduction to Computer Science I (4.00)']]"", ""[['COM SCI 32 - Introduction to Computer Science II (4.00)']]"", ""[['COM SCI 33 - Introduction to Computer Organization (5.00)']]"", ""[['COM SCI 35L - Software Construction (4.00)']]"", ""[['MATH 61 - Introduction to Discrete Structures (4.00)']]"", ""[['COM SCI M51A - Logic Design of Digital Systems (4.00)'], ['EC ENGR M16 - Logic Design of Digital Systems (4.00)']]""]"	0	25.0
 UCLA	College of the Siskiyous	0.0	"[""[['COM SCI 31 - Introduction to Computer Science I (4.00)']]"", ""[['COM SCI 32 - Introduction to Computer Science II (4.00)']]"", ""[['COM SCI 33 - Introduction to Computer Organization (5.00)']]"", ""[['COM SCI 35L - Software Construction (4.00)']]"", ""[['MATH 61 - Introduction to Discrete Structures (4.00)']]"", ""[['COM SCI M51A - Logic Design of Digital Systems (4.00)'], ['EC ENGR M16 - Logic Design of Digital Systems (4.00)']]""]"	0	25.0
+UCLA	Madera Community College	0.0	"[""[['COM SCI 31 - Introduction to Computer Science I (4.00)']]"", ""[['COM SCI 32 - Introduction to Computer Science II (4.00)']]"", ""[['COM SCI 33 - Introduction to Computer Organization (5.00)']]"", ""[['COM SCI 35L - Software Construction (4.00)']]"", ""[['MATH 61 - Introduction to Discrete Structures (4.00)']]"", ""[['COM SCI M51A - Logic Design of Digital Systems (4.00)'], ['EC ENGR M16 - Logic Design of Digital Systems (4.00)']]""]"	0	25.0
 Humboldt	Evergreen Valley College	0.5789473684210527	"[""[['CS 211 - Data Structures (4.00)']]"", ""[['CS 243 - Architecture (4.00)']]""]"	16.5	28.5
 Humboldt	Los Angeles City College	0.7894736842105263	"[""[['CS 243 - Architecture (4.00)']]""]"	22.5	28.5
 Humboldt	College of Marin	0.15789473684210525	"[""[['CS 111 - Computer Science Foundations 1 (4.00)']]"", ""[['CS 112 - Computer Science Foundations 2 (4.00)']]"", ""[['CS 211 - Data Structures (4.00)']]"", ""[['CS 243 - Architecture (4.00)']]""]"	4.5	28.5
@@ -1609,6 +1611,7 @@ SFSU	Coastline Community College	0.3076923076923077	"[""[['CSC 220 - Data Struct
 SFSU	Grossmont College	1.0	[]	19.5	19.5
 SFSU	Imperial Valley College	0.7692307692307693	"[""[['CSC 220 - Data Structures (3.00)']]""]"	15.0	19.5
 SFSU	MiraCosta College	1.0	[]	19.5	19.5
+SFSU	Madera Community College	0.7692307692307693	"[""[['CSC 220 - Data Structures (3.00)']]""]"	15.0	19.5
 CSUSM	San Diego Miramar College	1.0	[]	22.5	22.5
 CSUSM	Mt. San Jacinto College	0.7333333333333333	"[""[['CS 231 - Assembly Language and Digital Circuits (4.00)']]""]"	16.5	22.5
 CSUSM	San Diego City College	0.7333333333333333	"[""[['CS 211 - Computer Science II (4.00)']]""]"	16.5	22.5
@@ -1656,6 +1659,7 @@ CSUDH	Los Angeles Valley College	0.8235294117647058	"[""[['MAT 281 - Discrete Ma
 CSUDH	San Diego Miramar College	1.0	[]	25.5	25.5
 CSUDH	Los Angeles Mission College	1.0	[]	25.5	25.5
 CSUDH	Ohlone College	1.0	[]	25.5	25.5
+CSUDH	Madera Community College	1.0	[]	25.5	25.5
 CSUFresno	Evergreen Valley College	1.0	[]	18.0	18.0
 CSUFresno	Los Angeles City College	1.0	[]	18.0	18.0
 CSUFresno	College of San Mateo	1.0	[]	18.0	18.0
@@ -1676,6 +1680,7 @@ CSUFresno	Fresno City College	1.0	[]	18.0	18.0
 CSUFresno	Reedley College	1.0	[]	18.0	18.0
 CSUFresno	Shasta College	1.0	[]	18.0	18.0
 CSUFresno	Cabrillo College	1.0	[]	18.0	18.0
+CSUFresno	Madera Community College	1.0	[]	18.0	18.0
 CSUCI	Evergreen Valley College	0.6470588235294118	"[""[['COMP 232 - Programming Languages (3.00)']]"", ""[['COMP 262 - Computer Organization and Architecture (3.00)']]""]"	16.5	25.5
 CSUCI	Los Angeles City College	0.17647058823529413	"[""[['COMP 150 - Object-Oriented Programming (4.00)']]"", ""[['COMP 151 - Data Structures And Program Design (4.00)']]"", ""[['COMP 232 - Programming Languages (3.00)']]"", ""[['COMP 262 - Computer Organization and Architecture (3.00)']]""]"	4.5	25.5
 CSUCI	College of Marin	0.17647058823529413	"[""[['COMP 150 - Object-Oriented Programming (4.00)']]"", ""[['COMP 151 - Data Structures And Program Design (4.00)']]"", ""[['COMP 232 - Programming Languages (3.00)']]"", ""[['COMP 262 - Computer Organization and Architecture (3.00)']]""]"	4.5	25.5
@@ -2269,6 +2274,7 @@ CSUN	Butte College	0.7	"[""[['COMP 222 - Computer Organization (3.00)']]"", ""[[
 CSUN	Cerro Coso Community College	0.7	"[""[['COMP 222 - Computer Organization (3.00)']]"", ""[['COMP 282 - Advanced Data Structures (3.00)']]""]"	21.0	30.0
 CSUN	Columbia College	0.4	"[""[['COMP 122/L - Computer Architecture and Assembly Language and Lab (2.00)']]"", ""[['COMP 222 - Computer Organization (3.00)']]"", ""[['COMP 256/L - Discrete Structures for Computer Science and Lab (4.00)']]"", ""[['COMP 282 - Advanced Data Structures (3.00)']]""]"	12.0	30.0
 CSUN	Merritt College	0.7	"[""[['COMP 222 - Computer Organization (3.00)']]"", ""[['COMP 282 - Advanced Data Structures (3.00)']]""]"	21.0	30.0
+CSUN	Madera Community College	0.7	"[""[['COMP 222 - Computer Organization (3.00)']]"", ""[['COMP 282 - Advanced Data Structures (3.00)']]""]"	21.0	30.0
 CSUB	Evergreen Valley College	1.0	[]	24.0	24.0
 CSUB	Los Angeles City College	1.0	[]	24.0	24.0
 CSUB	College of Marin	0.75	"[""[['CMPS 2010 - Programming I - Programming Fundamentals (4.00)']]""]"	18.0	24.0
