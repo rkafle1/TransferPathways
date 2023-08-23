@@ -215,25 +215,26 @@ if __name__ == '__main__':
     math_matches = ['Math ', 'MATH ', 'MAT ', 'PSTAT ', 'STATS ', 'STAT ', 'STA ', 'E E ']
     sci_matches  = ['Physics ', 'physics', 'PHYSICS ', 'PHYS ', 'PHY ', 'BIO ', 'BIOL ', 'CHEM ', 'CHE ', 'Chem ', 'ELECTIVE SCIENCE:']
 
+
     lower_cs_count = {}
     lower_math_count = {}
     lower_sci_count = {}
     lower_other_count = {}
-    get_type_unit_count('CSVs/gradReqsLOWER.csv', cs_matches  , sci_matches + ['Linear Algebra', 'Statistics'], lower_cs_count)
-    get_type_unit_count('CSVs/gradReqsLOWER.csv', math_matches, sci_matches + ['Discrete', 'Mathematical Structures I'], lower_math_count)
-    get_type_unit_count('CSVs/gradReqsLOWER.csv', sci_matches , [], lower_sci_count)
-    get_type_unit_count('CSVs/gradReqsLOWER.csv', ['PHIL ', 'ENGL '], cs_matches + math_matches + sci_matches, lower_other_count)
+    write_type_unit_count('CSVs/gradReqsLOWER.csv', 'CSVs/gradReqsLowerCS'   , cs_matches  , sci_matches + ['Linear Algebra', 'Statistics'], lower_cs_count)
+    write_type_unit_count('CSVs/gradReqsLOWER.csv', 'CSVs/gradReqsLowerMATH' , math_matches, sci_matches + ['Discrete', 'Mathematical Structures I'], lower_math_count)
+    write_type_unit_count('CSVs/gradReqsLOWER.csv', 'CSVs/gradReqsLowerSCI'  , sci_matches , [], lower_sci_count)
+    write_type_unit_count('CSVs/gradReqsLOWER.csv', 'CSVs/gradReqsLowerOTHER', ['PHIL ', 'ENGL '], cs_matches + math_matches + sci_matches, lower_other_count)
 
     upper_cs_count = {}
     cs_elective_count = {}
     upper_math_count = {}
     upper_sci_count = {}
     upper_other_count = {}
-    get_type_unit_count('CSVs/gradReqsUPPER.csv', cs_matches  , ['ELECTIVE:', 'Statistics', 'Probability'], upper_cs_count)
-    get_type_unit_count('CSVs/gradReqsUPPER.csv', ['ELECTIVE: '], [], cs_elective_count)
-    get_type_unit_count('CSVs/gradReqsUPPER.csv', math_matches, ['Discrete'], upper_math_count)
-    get_type_unit_count('CSVs/gradReqsUPPER.csv', sci_matches , [], upper_sci_count)
-    get_type_unit_count('CSVs/gradReqsUPPER.csv', ['PHIL ', 'ENGL ', 'ES/WGQS '], cs_matches + math_matches + sci_matches, upper_other_count)
+    write_type_unit_count('CSVs/gradReqsUPPER.csv', 'CSVs/gradReqsUpperCS'   ,cs_matches  , ['ELECTIVE:', 'Statistics', 'Probability'], upper_cs_count)
+    write_type_unit_count('CSVs/gradReqsUPPER.csv', 'CSVs/gradReqsUpperMATH' ,['ELECTIVE: '], [], cs_elective_count)
+    write_type_unit_count('CSVs/gradReqsUPPER.csv', 'CSVs/gradReqsUpperMATH' ,math_matches, ['Discrete'], upper_math_count)
+    write_type_unit_count('CSVs/gradReqsUPPER.csv', 'CSVs/gradReqsUpperSCI'  ,sci_matches , [], upper_sci_count)
+    write_type_unit_count('CSVs/gradReqsUPPER.csv', 'CSVs/gradReqsUpperOTHER',['PHIL ', 'ENGL ', 'ES/WGQS '], cs_matches + math_matches + sci_matches, upper_other_count)
 
     # Convert semester units to quarter units
     for school in lower_cs_count:
@@ -250,7 +251,7 @@ if __name__ == '__main__':
                 upper_other_count[school] *= 1.5
 
     # Create a stacked bar chart with the data in the dictionaries
-    
+
     lower_cs = list(lower_cs_count.values())
     upper_cs = list(upper_cs_count.values())
     elective_cs = list(cs_elective_count.values())
@@ -269,7 +270,7 @@ if __name__ == '__main__':
 
     labels = list(lower_cs_count.keys())
 
-    font = {'size' : 16}
+    font = {'size' : 21}
     plt.rc('font', **font)
 
     plt.bar(labels, lower_cs, label="CS Lower Division")
@@ -292,4 +293,3 @@ if __name__ == '__main__':
     plt.legend(loc='upper center', bbox_to_anchor=(0.5, 1.1), ncol=2, fancybox=True, shadow=True)
 
     plt.show()
-
