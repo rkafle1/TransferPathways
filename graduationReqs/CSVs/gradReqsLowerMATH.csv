@@ -5,23 +5,23 @@ UC Berkeley BA,Total units: 12.0
 UC Santa Cruz BA,"[['MATH 19A - Calculus for Science, Engineering, and Mathematics (5.00)', 'MATH 19B - Calculus for Science, Engineering, and Mathematics (5.00)'], ['MATH 20A - Honors Calculus (5.00)', 'MATH 20B - Honors Calculus (5.00)']]"
 UC Santa Cruz BA,"[['AM 10 - Mathematical Methods for Engineers I (5.00)'], ['MATH 21 - Linear Algebra (5.00)']]"
 UC Santa Cruz BA,Total units: 15.0
-UC Berkeley BS,[['Math 1A - Calculus I (4.00)']]
-UC Berkeley BS,[['Math 1B - Calculus II (4.00)']]
-UC Berkeley BS,[['Math 53 - Multivariable Calculus (4.00)']]
-UC Berkeley BS,Total units: 12.0
 UC Davis,[['MAT 21A - Calculus (4.00)']]
 UC Davis,[['MAT 21B - Calculus (4.00)']]
 UC Davis,[['MAT 21C - Calculus (4.00)']]
 UC Davis,"[['MAT 22A - Linear Algebra (3.00)'], ['MAT 27A - Linear Algebra with Applications to Biology (4.00)'], ['MAT 67 - Modern Linear Algebra (4.00)']]"
 UC Davis,Total units: 15.0
-UC Irvine,"[['MATH 2A- 2B - Single-Variable Calculus I (4.00)', 'Single-Variable Calculus II (4.00)']]"
-UC Irvine,"[['I&C SCI 6N - Computational Linear Algebra (4.00)'], ['MATH 3A - Introduction to Linear Algebra (4.00)']]"
-UC Irvine,[['STATS 67 - Introduction to Probability and Statistics for Computer Science (4.00)']]
-UC Irvine,Total units: 16.0
+UC Berkeley BS,[['Math 1A - Calculus I (4.00)']]
+UC Berkeley BS,[['Math 1B - Calculus II (4.00)']]
+UC Berkeley BS,[['Math 53 - Multivariable Calculus (4.00)']]
+UC Berkeley BS,Total units: 12.0
 UC Santa Cruz BS,"[['MATH 19A - Calculus for Science, Engineering, and Mathematics (5.00)', 'MATH 19B - Calculus for Science, Engineering, and Mathematics (5.00)'], ['MATH 20A - Honors Calculus (5.00)', 'MATH 20B - Honors Calculus (5.00)']]"
 UC Santa Cruz BS,"[['AM 10 - Mathematical Methods for Engineers I (5.00)'], ['MATH 21 - Linear Algebra (5.00)']]"
 UC Santa Cruz BS,"[['AM 30 - Multivariate Calculus for Engineers (5.00)'], ['MATH 23A - Vector Calculus (5.00)']]"
 UC Santa Cruz BS,Total units: 20.0
+UC Irvine,"[['MATH 2A- 2B - Single-Variable Calculus I (4.00)', 'Single-Variable Calculus II (4.00)']]"
+UC Irvine,"[['I&C SCI 6N - Computational Linear Algebra (4.00)'], ['MATH 3A - Introduction to Linear Algebra (4.00)']]"
+UC Irvine,[['STATS 67 - Introduction to Probability and Statistics for Computer Science (4.00)']]
+UC Irvine,Total units: 16.0
 UC San Diego,[['MATH 20A - Calculus for Science and Engineering (4.00)']]
 UC San Diego,[['MATH 20B - Calculus for Science and Engineering (4.00)']]
 UC San Diego,"[['MATH 20C - Calculus and Analytic Geometry for Science and Engineering (4.00)'], ['MATH 31BH - Honors Multivariable Calculus (4.00)']]"
@@ -52,13 +52,15 @@ UC Los Angeles,[['MATH 32B - Calculus of Several Variables (4.00)']]
 UC Los Angeles,[['MATH 33A - Linear Algebra and Applications (4.00)']]
 UC Los Angeles,[['MATH 33B - Differential Equations (4.00)']]
 UC Los Angeles,Total units: 24.0
-Cal Poly Humboldt,"[['STAT 108 - Elementary Statistics (3.00)'], ['STAT 108I - Elementary Statistics with Integrated Support (3.00)']]"
-Cal Poly Humboldt,"[['MATH 109 - Calculus I (4.00)'], ['MATH 105 - Calculus for the Biological Sciences and Natural Resources (3.00)']]"
-Cal Poly Humboldt,Total units: 6.0
+CP Humboldt,"[['STAT 108 - Elementary Statistics (3.00)'], ['STAT 108I - Elementary Statistics with Integrated Support (3.00)']]"
+CP Humboldt,"[['MATH 109 - Calculus I (4.00)'], ['MATH 105 - Calculus for the Biological Sciences and Natural Resources (3.00)']]"
+CP Humboldt,Total units: 6.0
 Stainislaus State,[['MATH 1410 - Calculus I (4.00)']]
 Stainislaus State,[['MATH 1420 - Calculus II (4.00)']]
 Stainislaus State,"[['MATH 1620 - Probability and Statistics (4.00)'], ['MATH 1600 - Statistics (4.00)'], ['MATH 1602 - Statistics with Support II (3.00)']]"
 Stainislaus State,Total units: 11.0
+Fresno State,"[['MATH 75 - Calculus I (4.00)', 'MATH 76 - Calculus II (4.00)']]"
+Fresno State,Total units: 8.0
 CSU East Bay,[['MATH 130 - Calculus I (4.00)']]
 CSU East Bay,[['MATH 131 - Calculus II (3.00)']]
 CSU East Bay,[['MATH 225 - Numerical Algorithms and Linear Algebra for Computer Science (3.00)']]
@@ -82,8 +84,6 @@ CSU Dominguez Hills,[['MAT 191 - Calculus I (5.00)']]
 CSU Dominguez Hills,[['MAT 193 - Calculus II (5.00)']]
 CSU Dominguez Hills,[['MAT 271 - Foundations of Higher Mathematics (3.00)']]
 CSU Dominguez Hills,Total units: 13.0
-Fresno State,"[['MATH 75 - Calculus I (4.00)', 'MATH 76 - Calculus II (4.00)']]"
-Fresno State,Total units: 8.0
 CSU Channel Islands,[['MATH 150 - Calculus I (4.00)']]
 CSU Channel Islands,[['MATH 151 - Calculus II (4.00)']]
 CSU Channel Islands,[['MATH 240 - Linear Algebra (3.00)']]
@@ -103,10 +103,10 @@ San Jose State,[['MATH 31 - Calculus II (4.00)']]
 San Jose State,[['MATH 39 - Linear Algebra I (3.00)']]
 San Jose State,"[['MATH 32 - Calculus III (3.00)'], ['MATH 142 - Introduction to Combinatorics (3.00)'], ['MATH 161A - Applied Probability and Statistics I (3.00)']]"
 San Jose State,Total units: 13.0
-Cal Poly Pomona,[['MAT 1140 - Calculus I (4.00)']]
-Cal Poly Pomona,[['MAT 1150 - Calculus II (4.00)']]
-Cal Poly Pomona,[['STA 2260 - Probability and Statistics for Computer Scientists and Engineers (3.00)']]
-Cal Poly Pomona,Total units: 11.0
+CP Pomona,[['MAT 1140 - Calculus I (4.00)']]
+CP Pomona,[['MAT 1150 - Calculus II (4.00)']]
+CP Pomona,[['STA 2260 - Probability and Statistics for Computer Scientists and Engineers (3.00)']]
+CP Pomona,Total units: 11.0
 Chico State,[['MATH 120 - Analytic Geometry and Calculus (4.00)']]
 Chico State,[['MATH 121 - Analytic Geometry and Calculus (4.00)']]
 Chico State,Total units: 8.0
@@ -133,8 +133,8 @@ CSU Fullerton,[['MATH 150A - Calculus I (4.00)']]
 CSU Fullerton,[['MATH 150B - Calculus II (4.00)']]
 CSU Fullerton,[['MATH 338 - Statistics Applied to Natural Sciences (4.00)']]
 CSU Fullerton,Total units: 12.0
-Cal Poly San Luis Obispo,[['MATH 141 - Calculus I (4.00)']]
-Cal Poly San Luis Obispo,[['MATH 142 - Calculus II (4.00)']]
-Cal Poly San Luis Obispo,[['MATH 143 - Calculus III (4.00)']]
-Cal Poly San Luis Obispo,"[['MATH 206 - Linear Algebra I (4.00)'], ['MATH 244 - Linear Analysis I (4.00)']]"
-Cal Poly San Luis Obispo,Total units: 16.0
+CP San Luis Obispo,[['MATH 141 - Calculus I (4.00)']]
+CP San Luis Obispo,[['MATH 142 - Calculus II (4.00)']]
+CP San Luis Obispo,[['MATH 143 - Calculus III (4.00)']]
+CP San Luis Obispo,"[['MATH 206 - Linear Algebra I (4.00)'], ['MATH 244 - Linear Analysis I (4.00)']]"
+CP San Luis Obispo,Total units: 16.0
