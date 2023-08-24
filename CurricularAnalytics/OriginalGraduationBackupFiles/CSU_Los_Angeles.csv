@@ -1,0 +1,42 @@
+Curriculum,Computer Science,,,,,,
+Institution,CSU Los Angeles,,,,,,
+Degree Type,BS,,,,,,
+System Type,semester,,,,,,
+CIP,11.0701,,,,,,
+Courses,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours
+1,Precalculus: Functions and Trigonometry,MATH,1040,,,,6
+2,Calculus I,MATH,2110,1,34,,4
+3,Calculus II,MATH,2120,2,35,,4
+4,Introduction to Linear Algebra,MATH,2550,3,,,3
+5,General Physics I: Mechanics,PHYS,2100,2,,,5
+6,Introduction to College Writing,ENGL,1004,,,,3
+7,Accelerated College Writing,ENGL,1010,6,,,3
+8,Introduction to Technical Writing,ENGL,2030,7,,,3
+9,Introduction to Higher Education for Computer Science Majors,CS,1010,,,,3
+10,Introduction to Relational Databases,CS,1222,9,,,3
+11,Introduction to Programming I,CS,2011,1;9,,,4
+12,Introduction to Programming II,CS,2012,11,,,4
+13,Programming with Data Structures,CS,2013,12,,,4
+14,Discrete Structures,CS,2148,11;2,,,4
+15,Introduction to Computer Systems,CS,2445,11,,,3
+16,Fundamentals of Network Systems and Cybersecurity,CS,2470,11,,,3
+17,Programming Paradigms,CS,3035,13,,,3
+18,Analysis of Algorithms,CS,3112,13;14,,,3
+19,Introduction to Automata Theory,CS,3186,13;14,,,3
+20,Web and Internet Programming,CS,3220,10;13,,,4
+21,Software Engineering,CS,3337,13,8,8,3
+22,Societal and Ethical Issues in Computing,CS,3801,13,,,3
+23,Introduction to Operating Systems,CS,4440,13;15;16,,,3
+24,Software Design Laboratory I,CS,4961,18;17;21;19;22,23,23,3
+25,Software Design Laboratory II,CS,4962,24,,,3
+26,Computer Science Recapitulation,CS,4963,4;27,,,3
+27,General Physics II: Electromagnetism and Circuits,PHYS,2200,5,,,5
+28,Competitive Programming,CS,4112,18,,,3
+29,Multimedia Software Systems,CS,4551,18,,,3
+30,Introduction to 3D Computer Game Programming,CS,4555,18,,,3
+31,Artificial Intelligence,CS,4660,18,,,3
+32,Cryptography and Information Security,CS,4780,18,,,3
+33,Computer Organization,EE,3445,13,,,3
+34,Calculus I Workshop,MATH,2111,,,,1
+35,Calculus II Workshop,MATH,2121,,,,1
