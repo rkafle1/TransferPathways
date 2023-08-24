@@ -32,6 +32,15 @@ UC Berkeley BS,[['CS 61A - Structure and Interpretation of Computer Programs (4.
 UC Berkeley BS,[['CS 61B/BL - Data Structures (4.00)']]
 UC Berkeley BS,[['CS 61C - Machine Structures (4.00)']]
 UC Berkeley BS,[['CS 70 - Discrete Mathematics and Probability Theory (4.00)']]
+UC Santa Cruz BS,[['CSE 13S - Computer Systems and C Programming (7.00)']]
+UC Santa Cruz BS,[['CSE 12 - Computer Systems and Assembly Language and Lab (7.00)']]
+UC Santa Cruz BS,[['CSE 16 - Applied Discrete Mathematics (5.00)']]
+UC Santa Cruz BS,[['CSE 20 - Beginning Programming in Python (5.00)']]
+UC Santa Cruz BS,[['CSE 30 - Programming Abstractions: Python (7.00)']]
+UC Santa Cruz BS,"[['MATH 19A - Calculus for Science, Engineering, and Mathematics (5.00)', 'MATH 19B - Calculus for Science, Engineering, and Mathematics (5.00)'], ['MATH 20A - Honors Calculus (5.00)', 'MATH 20B - Honors Calculus (5.00)']]"
+UC Santa Cruz BS,"[['AM 10 - Mathematical Methods for Engineers I (5.00)'], ['MATH 21 - Linear Algebra (5.00)']]"
+UC Santa Cruz BS,"[['AM 30 - Multivariate Calculus for Engineers (5.00)'], ['MATH 23A - Vector Calculus (5.00)']]"
+UC Santa Cruz BS,[['ECE 30 - Engineering Principles of Electronics (5.00)']]
 UC Irvine,"[['I&C SCI 31- 32- 33 - Introduction to Programming (4.00)', 'Programming with Software Libraries (4.00)', 'Intermediate Programming (4.00)'], ['I&C SCI 32A- 33 - Python Programming and Libraries (Accelerated) (4.00)', 'Intermediate Programming (4.00)']]"
 UC Irvine,[['I&C SCI 45C - Programming in C/C++ as a Second Language (4.00)']]
 UC Irvine,[['I&C SCI 46 - Data Structure Implementation and Analysis (4.00)']]
@@ -44,15 +53,6 @@ UC Irvine,[['I&C SCI 6D - Discrete Mathematics for Computer Science (4.00)']]
 UC Irvine,"[['I&C SCI 6N - Computational Linear Algebra (4.00)'], ['MATH 3A - Introduction to Linear Algebra (4.00)']]"
 UC Irvine,[['STATS 67 - Introduction to Probability and Statistics for Computer Science (4.00)']]
 UC Irvine,"[['--ELECTIVE SCIENCE: Two courses approved for General Education category II except those offered by CSE, Economics, Engineering, ICS, or Mathematics. University Studies courses can be used with the approval of the CS Vice Chair for Undergraduate Studies. (8.00)']]"
-UC Santa Cruz BS,[['CSE 13S - Computer Systems and C Programming (7.00)']]
-UC Santa Cruz BS,[['CSE 12 - Computer Systems and Assembly Language and Lab (7.00)']]
-UC Santa Cruz BS,[['CSE 16 - Applied Discrete Mathematics (5.00)']]
-UC Santa Cruz BS,[['CSE 20 - Beginning Programming in Python (5.00)']]
-UC Santa Cruz BS,[['CSE 30 - Programming Abstractions: Python (7.00)']]
-UC Santa Cruz BS,"[['MATH 19A - Calculus for Science, Engineering, and Mathematics (5.00)', 'MATH 19B - Calculus for Science, Engineering, and Mathematics (5.00)'], ['MATH 20A - Honors Calculus (5.00)', 'MATH 20B - Honors Calculus (5.00)']]"
-UC Santa Cruz BS,"[['AM 10 - Mathematical Methods for Engineers I (5.00)'], ['MATH 21 - Linear Algebra (5.00)']]"
-UC Santa Cruz BS,"[['AM 30 - Multivariate Calculus for Engineers (5.00)'], ['MATH 23A - Vector Calculus (5.00)']]"
-UC Santa Cruz BS,[['ECE 30 - Engineering Principles of Electronics (5.00)']]
 UC San Diego,"[['CSE 8B -  Introduction to Programming and Computational Problem-Solving II (4.00)'], ['CSE 11 - Introduction to Programming and Computational Problem-Solving - Accelerated Pace (4.00)']]"
 UC San Diego,[['CSE 12 - Basic Data Structures and Object-Oriented Design (4.00)']]
 UC San Diego,[['CSE 15L - Software Tools and Techniques Laboratory (2.00)']]
