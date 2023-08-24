@@ -1,8 +1,5 @@
 # from ProcessFile import *
 from Requirements import *
-import sys
-#absolute path for the assist web scraping folder
-sys.path.insert(1, 'C:/Users/a2576/Documents/GitHub/TransferPathways/AssistWebScraping')
 import ProcessFile
 from AssistAPIInformationGetter import *
 from writeToCSV import *
@@ -10,32 +7,23 @@ import statistics
 import pandas as pd
 import numpy as np
 import math
-
 import re
 import ast
-df = pd.read_csv("./csvs/csvs/Assist PDF scraped agreements - SJSU.csv", header=None)
-row = df.shape[0]
 
-#makes sure that all of them is of type string
-# firstone = df.iloc[0,2]
-# print(type(firstone))
-# print(len(firstone))
-# for i in range(len(firstone)):
-#     print(firstone[i])
-# secondone = df.iloc[2,2]
-# print(type(secondone))
-# print(len(secondone))
-# for i in range(len(secondone)):
-#     print(secondone[i])
 
+
+#checks the validity of an input element based on matching pairs of characters (parentheses, brackets, quotes) using the pairs dictionary.
+#return true/false, and the error message
 def isValid(element):
-    pairs1 = {
+    #if element has matching ones
+    pairs = {
             ")": "(",
             "]": "[",
-            "b": "a",
-            "d": "c"
+            "b": "a", #single quotes, b is the second quote, a is the first quote
+            "d": "c"  #double quotes, d is the second quote, c is the first quote
         }
     list1 = ["(", "[", "]", ")" ]
+    #only store the characters that are in the pairs dictionary, delete the ones that are not in the pairs dictionary
     s = ""
     countsingle = 0
     countdouble = 0
@@ -54,16 +42,22 @@ def isValid(element):
                 s += "c"
             elif (countdouble % 2 == 0):
                 s += "d"    
+    #simple check if it has matching quotes
     if(((s.count("a") + s.count("b")) % 2 != 0) or ((s.count("c") + s.count("d")) % 2 != 0)):
+        #There might be situations where there is a single quote insite double quotes, eg."Intro to Biology's scientific method"
+        #Therefore, we need to manually check if it is the case or it is the quote missmatching
         return (False, s + " has no matching quotes(might have both quotes at the same time, need to validate)")
 
     
-    #if element has matching [], and ()
+    #if element has matching pair in pairs, the stack is used to keep track of opening characters (like '(', '[', 'a', 'c'),
+    # as they need to be matched withclosing characters.
     stack = list()
     for ch in s:
-        if ch in pairs1:
-            if not stack or stack[-1] != pairs1[ch]:
+        if ch in pairs:
+            # Check if the stack is empty or the top of the stack doesn't match the expected pair
+            if not stack or stack[-1] != pairs[ch]:
                 return (False, s + " has no matching [] or () or quotes")
+            # If the pairs match, pop the corresponding opening character from the stack
             stack.pop()
         else:
             stack.append(ch)
@@ -75,7 +69,7 @@ def isValid(element):
 
 def iterate(df, row):
     for i in range(row):
-        #skip if it is empty
+        #skip if it is empty, depends on the csv file, if we have an empty line or not between the classes
         element = df.iloc[i,2]
         if(element is np.nan):
             continue
@@ -86,6 +80,7 @@ def iterate(df, row):
             if (x == False):
                 print("Not valid on index " + str(i)+ ". The message is " + y)
             #if element has units for a class
+            #all possible no articulation cases
             if 'No Course Articulated' not in element\
                 and 'This course must be taken at the university after transfer' not in element \
                 and 'Course(s) Denied' not in element \
@@ -114,4 +109,8 @@ def iterate(df, row):
                     # If the string couldn't be converted back into a list of lists, return False
                     print("Try error on index " + str(i), "missing or extra new line")
 
+
+#CHANGE if needed, change the according csv file path to validate each university
+df = pd.read_csv("./csvs/csvs/Assist PDF scraped agreements - SJSU.csv", header=None)
+row = df.shape[0]
 iterate(df, row)
