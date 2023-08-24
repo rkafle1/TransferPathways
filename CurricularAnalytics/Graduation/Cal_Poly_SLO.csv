@@ -1,0 +1,43 @@
+Curriculum,Cal_Poly_Slo,,,,,,,,,
+Institution,"Cal Poly San Luis Obispo",,,,,,,,,
+Degree Type,"BS",,,,,,,,,
+System Type,"quarter",,,,,,,,,
+CIP,"11.0701",,,,,,,,,
+Courses,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+1,"Precalculus Algebra II","MATH","117",,,,3,"","",24.7,29,8.0,0
+2,"Calculus I","MATH","141","1",,,4,"","",10.7,10,6.0,33
+3,"Calculus II","MATH","142","2",,,4,"","",10.0,9,6.0,25
+4,"Calculus III","MATH","143","3",,,4,"","",4.0,1,5.0,5
+5,"Linear Algebra I","MATH","206","4",,,4,"","",3.3,0,5.0,0
+6,"Statistical Methods for Engineers","STAT","312","3",,,4,"","",2.7,0,4.0,0
+7,"Philosophical Classics: Knowledge and Reality","PHIL","230",,,,4,"","",0.7,0,1.0,0
+8,"Fundamentals of Computer Science","CSC","101","1",,,4,"","",18.7,20,8.0,155
+9,"Introduction to Computing","CSC","123",,,,4,"","",0.7,0,1.0,0
+10,"Data Structures","CSC","202","8",,,4,"","",18.0,19,8.0,155
+11,"Project-Based Object-Oriented Programming and Design","CSC","203","10",,,4,"","",16.0,16,8.0,67
+12,"Introduction to Computer Organization","CSC","225","10",,,4,"","",10.0,8,7.0,32
+13,"Discrete Structures","CSC","248","11;10",,,4,"","",10.0,7,8.0,50
+14,"Ethics, Science and Technology","PHIL","323",,,,4,"","",0.7,0,1.0,0
+15,"Introduction to Software Engineering","CSC","307","13;19",,,4,"","",5.3,1,7.0,33
+16,"Introduction to Computer Security","CSC","321","19",,,4,"","",5.3,1,7.0,20
+17,"Design and Analysis of Algorithms","CSC","349","13;11;10;3",,,4,"","",6.7,2,8.0,34
+18,"Introduction to Networked, Distributed, and Parallel Computing","CSC","364","11",,,4,"","",4.7,1,6.0,6
+19,"Systems Programming","CSC","357","11;10;12",,,4,"","",9.3,7,7.0,77
+20,"Introduction to Database Systems","CSC","365","13",,,4,"","",4.0,0,6.0,0
+21,"Programming Languages","CSC","430","17",,,4,"","",6.0,1,8.0,34
+22,"Theory of Computation I","CSC","445","13",,,4,"","",4.0,0,6.0,0
+23,"Introduction to Operating Systems","CSC","453","12;19",,,4,"","",4.0,0,6.0,0
+24,"Senior Project I","CSC","491","15",,,2,"","",4.7,0,7.0,0
+25,"Gender, Race, Culture, Science & Technology","ES","350",,,,4,"","",0.7,0,1.0,0
+26,"General Biology","BIO","111",,,,4,"","",0.7,0,1.0,0
+27,"Introduction to Computer Graphics","CSC","471","19",,,4,"","",5.3,1,7.0,20
+28,"Real-Time 3D Computer Graphics Software","CSC","476","27",,,4,"","",4.7,0,7.0,0
+29,"Network Security","CSC","422","18",,,4,"","",4.0,0,6.0,0
+30,"Compiler Construction","CSC","431","21",,,4,"","",5.3,0,8.0,0
+31,"Artificial Intelligence","CSC","480","10",,,4,"","",2.7,0,4.0,0
+32,"Computer Security","CSC","521","16",,,4,"","",4.7,0,7.0,0
+33,"General Physics I","PHYS","141","2","3",,4,"","",4.7,2,5.0,18
+34,"General Physics II","PHYS","142","33",,,4,"","",3.3,0,5.0,0
+35,"General Physics III","PHYS","143","33",,,4,"","",3.3,0,5.0,0
+36,"Introduction to Cell and Molecular Biology","BIO","161",,,,4,"","",0.7,0,1.0,0

@@ -1,0 +1,26 @@
+Curriculum,CSU_NorthridgeActual,,,,,,,,,
+Institution,"CSU_Northridge",,,,,,,,,
+Degree Type,"BS",,,,,,,,,
+System Type,"semester",,,,,,,,,
+CIP,"11.0701",,,,,,,,,
+Courses,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+1,"Introduction to Algorithms and Programming","COMP","110","3",,,3,"","",10.0,6,4.0,22
+2,"Introduction to Algorithms and Programming Laboratory","COMP","110L","3",,,1,"","",10.0,6,4.0,22
+3,"Mathematical Methods for Business","MATH","105",,,,3,"","",19.0,15,4.0,0
+4,"Computer Architectureand Assembly Language","COMP","122","2;3;1",,,1,"","",3.0,0,3.0,0
+5,"Computer Architectureand Assembly LanguageLab","COMP","122L","2;3;1",,,1,"","",3.0,0,3.0,0
+6,"Data Structures and Program Design","COMP","182","2;3;1",,,3,"","",6.0,2,4.0,22
+7,"Data Structures and Program Design Lab","COMP","182L","2;3;1",,,1,"","",6.0,2,4.0,22
+9,"Discrete Structures for Computer Science","COMP","256","6;7;11;12",,,3,"","",4.0,0,4.0,0
+10,"Discrete Structures for Computer ScienceLab","COMP","256L","6;7;11;12",,,1,"","",4.0,0,4.0,0
+11,"Calculus I","MATH","150A","3",,,5,"","",12.0,8,4.0,29
+12,"Introduction to Formal Logic","PHIL","230",,,,3,"","",4.0,2,2.0,0
+14,"Calculus II","MATH","150B","11",,,5,"","",7.0,3,4.0,12
+15,"Introduction to Linear Algebra","MATH","262","14",,,3,"","",4.0,0,4.0,0
+16,"Mechanics","PHYS","220A","11",,,3,"","",6.0,2,4.0,8
+17," Mechanics Laboratory","PHYS","220AL","11",,,1,"","",3.0,0,3.0,0
+18,"Electricity and Magnetism","PHYS","220B","16;14",,,3,"","",4.0,0,4.0,0
+19,"Electricity and Magnetism Laboratory","PHYS","220BL","16;14",,,1,"","",4.0,0,4.0,0
+20,"Weather","GEOG","103",,,,3,"","",3.0,1,2.0,0
+21,"Weather Lab","GEOG","105",,"20",,1,"","",2.0,0,2.0,0

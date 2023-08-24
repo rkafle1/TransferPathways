@@ -1,0 +1,23 @@
+,NorthridgeActual,,,,,,,,,,,,
+,CSU Northridge,,,,,,,,,,,,
+,BS,,,,,,,,,,,,
+,semester,,,,,,,,,,,,
+,11.0701,,,,,,,,,,,,
+Residual Complexity Total:,151.0,,,,,,,,,,,,,
+Graduation Complexity Total:,272.0,,,,,,,,,,,,,
+Residual Difference:,121.0,,,,,,,,,,,,,,
+
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality,Source
+1.0, Introduction to Algorithms and Programming and Lab,COMP,110/L,2,,,4.0,,,23.0,16.0,7.0,61.0,Graduation
+2.0,Mathematical Methods for Business,MATH,105,,,,3.0,,,33.0,26.0,7.0,0.0,Graduation
+4.0,Data Structures and Program Design and Lab,COMP,182/L,2;1,,,4.0,,,21.0,14.0,7.0,102.0,Graduation
+7.0,Calculus I,MATH,150A,2,,,5.0,,,26.0,20.0,6.0,70.0,Graduation
+8.0,Introduction to Formal Logic,PHIL,230,,,,3.0,,,14.0,10.0,4.0,0.0,Graduation
+9.0,Advanced Data Structures,COMP,282,4;7,,,3.0,,,16.0,9.0,7.0,109.0,Graduation
+10.0,Calculus II,MATH,150B,7,,,5.0,,,10.0,5.0,5.0,17.0,Graduation
+21.0,Introduction to Software Engineering,COMP,380/L,9;8,,,3.0,,,13.0,6.0,7.0,99.0,Graduation
+1.0, Introduction to Algorithms and Programming and Lab,COMP,110/L,,,,4.0,,,22.0,16.0,6.0,0.0,Residual
+4.0,Data Structures and Program Design and Lab,COMP,182/L,1,,,4.0,,,20.0,14.0,6.0,46.0,Residual
+8.0,Introduction to Formal Logic,PHIL,230,,,,3.0,,,14.0,10.0,4.0,0.0,Residual
+9.0,Advanced Data Structures,COMP,282,4,,,3.0,,,15.0,9.0,6.0,34.0,Residual
+21.0,Introduction to Software Engineering,COMP,380/L,9;8,,,3.0,,,12.0,6.0,6.0,42.0,Residual

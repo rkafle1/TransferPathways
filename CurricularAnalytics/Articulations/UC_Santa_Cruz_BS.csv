@@ -1,0 +1,14 @@
+Curriculum,UC_Santa_Cruz_BS,,,,,,,,,
+Institution,"University of California-Santa Cruz",,,,,,,,,
+Degree Type,"BS",,,,,,,,,
+System Type,"quarter",,,,,,,,,
+CIP,"11.0701",,,,,,,,,
+Courses,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+1,"Precalculus.","MATH","3",,,,5,"","",4.0,3,3.0,0
+2,"Calculus for Science, Engineering, and Mathematics","MATH","19A","1",,,5,"","",3.3,2,3.0,6
+3,"Calculus for Science, Engineering, and Mathematics","MATH","19B","2",,,5,"","",2.0,0,3.0,0
+4,"Beginning Programming in Python","CSE","20",,,,5,"","",4.0,3,3.0,0
+5,"Computer Systems and Assembly Language and Lab","CSE","12","4",,,7,"","",2.7,1,3.0,3
+6,"Computer Systems and C Programming","CSE","13S","5",,,7,"","",2.0,0,3.0,0
+7,"Programming Abstractions: Python","CSE","30","4;2",,,7,"","",2.0,0,3.0,0

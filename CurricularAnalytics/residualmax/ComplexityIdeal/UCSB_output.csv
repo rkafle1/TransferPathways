@@ -1,0 +1,26 @@
+,UCSB,,,,,,,,,,,,
+,UCSB,,,,,,,,,,,,
+,BS,,,,,,,,,,,,
+,quarter,,,,,,,,,,,,
+,11.0701,,,,,,,,,,,,
+Residual Complexity Total:,74.80000000000001,,,,,,,,,,,,,
+Graduation Complexity Total:,284.09999999999997,,,,,,,,,,,,,
+Residual Difference:,209.29999999999995,,,,,,,,,,,,,,
+
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality,Source
+1.0,"Calculus with Applications, First Course",MATH,3A,,,,4.0,,,26.0,32.0,7.0,0.0,Graduation
+2.0,"Calculus with Applications, Second Course",MATH,3B,1,,,4.0,,,24.0,29.0,7.0,220.0,Graduation
+3.0,Linear Algebra with Applications,MATH,4A,2,,,4.0,,,21.3,25.0,7.0,143.0,Graduation
+6.0,Probability and Statistics,PSTAT,120A,3,,,4.0,,,12.0,11.0,7.0,54.0,Graduation
+7.0,Basic Physics,PHYS,1,1,,,4.0,,,9.3,7.0,7.0,18.0,Graduation
+8.0,Basic Physics,PHYS,2,7;2,,,4.0,,,8.7,6.0,7.0,36.0,Graduation
+9.0,Basic Physics,PHYS,3,8;3,,,3.0,,,8.0,5.0,7.0,54.0,Graduation
+11.0,Introduction to Computer Science,CMPSC,8,,,,4.0,,,16.7,18.0,7.0,0.0,Graduation
+12.0,Problem Solving with Computers I,CMPSC,16,11;1,,,4.0,,,16.0,17.0,7.0,220.0,Graduation
+13.0,Problem Solving with Computers II,CMPSC,24,2;12,,,4.0,,,13.3,13.0,7.0,177.0,Graduation
+14.0,Object Oriented Design and Implementation,CMPSC,32,13,,,4.0,,,12.0,11.0,7.0,165.0,Graduation
+15.0,Foundations of Computer Science,CMPSC,40,12;3,,,5.0,,,12.0,11.0,7.0,147.0,Graduation
+22.0,Data Structures and Algorithms I,CMPSC,130A,6;15;14,,,4.0,,,10.7,9.0,7.0,327.0,Graduation
+6.0,Probability and Statistics,PSTAT,120A,,,,4.0,,,10.0,11.0,4.0,0.0,Residual
+14.0,Object Oriented Design and Implementation,CMPSC,32,,,,4.0,,,10.0,11.0,4.0,0.0,Residual
+22.0,Data Structures and Algorithms I,CMPSC,130A,6;14,,,4.0,,,8.7,9.0,4.0,50.0,Residual

@@ -1,0 +1,24 @@
+Curriculum,PomonaActual,,,,,,,,,
+Institution,"Cal_Poly_Pamona",,,,,,,,,
+Degree Type,"BS",,,,,,,,,
+System Type,"semester",,,,,,,,,
+CIP,"11.0701",,,,,,,,,
+Courses,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+1,"Life Science","BIO","1110",,,,2,"","",3.0,1,2.0,0
+2,"Life Science Laboratory","BIO","1110L",,"1",,1,"","",2.0,0,2.0,0
+3,"Systems Programming","CS","2600","4",,,3,"","",6.0,1,5.0,15
+4,"Introduction to Programming and Problem Solving","CS","1400","5",,,4,"","",11.0,6,5.0,63
+5,"Calculus I ","MAT","1140","6;7;8",,,4,"","",15.0,10,5.0,114
+6,"College Algebra","MAT","1050",,,,3,"","",16.0,11,5.0,0
+7,"Trigonometry","MAT","1060",,,,3,"","",16.0,11,5.0,0
+8,"Precalculus","MAT","1070",,,,5,"","",16.0,11,5.0,0
+9,"Introduction to Cyber Security and Network Communications","CS","2610","3",,,3,"","",5.0,0,5.0,0
+11,"Discrete Structures","CS","1300","5",,,3,"","",6.0,2,4.0,24
+12,"Data Structures and Advanced Programming","CS","2400","5;4;11",,,4,"","",4.0,0,4.0,0
+13,"Computer Organization and Assembly Programming","CS","2640","4;11",,,3,"","",4.0,0,4.0,0
+14,"Calculus II","MAT","1150","5",,,4,"","",3.0,0,3.0,0
+15,"Introduction to Newtonian Mechanics","PHY","1510","5","16",,3,"","",3.0,0,3.0,0
+16,"Newtonian Mechanics Laboratory","PHY","1510L",,,,1,"","",3.0,1,2.0,0
+17,"Introduction to Web Science and Technology","CS","2250","4",,,3,"","",4.0,0,4.0,0
+18,"User Interface Design and Programming","CS","2450","4",,,3,"","",4.0,0,4.0,0

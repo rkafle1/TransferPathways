@@ -1,0 +1,35 @@
+Curriculum,UC_Merced,,,,,,,,,,,,
+Institution,UC Merced,,,,,,,,,,,,
+Degree Type,BS,,,,,,,,,,,,
+System Type,semester,,,,,,,,,,,,
+CIP,11.0701,,,,,,,,,,,,
+Courses,,,,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+1,Preparatory Calculus,MATH,5,,,,4,,,26.0,19,7.0,0
+2,Calculus I for Physical Sciences and Engineering,MATH,21,1,,,4,,,25.0,18,7.0,116
+3,Calculus II for Physical Sciences and Engineering,MATH,22,2,,,4,,,19.0,12,7.0,104
+4,Vector Calculus,MATH,23,3,,,4,,,17.0,10,7.0,56
+5,Linear Algebra and Differential Equations,MATH,24,3,,,4,,,15.0,9,6.0,48
+6,Probability and Statistics,MATH,32,4,,,4,,,16.0,9,7.0,56
+7,Introductory Physics I for Physical Sciences,PHYS,8,2,,,3,,,10.0,4,6.0,12
+8,Introductory Physics I for Physical Sciences Lab,PHYS,8L,,7,,1,,,9.0,3,6.0,12
+9,Introductory Physics II for Physical Sciences,PHYS,9,8,,,3,,,8.0,2,6.0,12
+10,Introductory Physics II for Physical Sciences Lab,PHYS,9L,,9,,1,,,6.0,0,6.0,0
+11,To Know Ourselves: Molecular Basis of Health and Disease,BIO,3,,,,4,,,1.0,0,1.0,0
+12,Discrete Mathematics,CSE,15,,,,4,,,1.0,0,1.0,0
+13,Introduction to Programming,CSE,22,,,,4,,,19.0,13,6.0,0
+14,Advanced Programming,CSE,24,13,,,4,,,18.0,12,6.0,96
+15,Data Structures,CSE,30,14,,,4,,,16.0,10,6.0,93
+16,Computer Organization and Assembly Language,CSE,31,15,,,4,,,15.0,9,6.0,53
+17,Circuit Theory,ENGR,65,9;14,,,4,,,6.0,0,6.0,0
+18,Algorithm Design and Analysis,CSE,100,15;6,5;16,,4,,,15.0,8,7.0,192
+19,Software Engineering,CSE,120,16;18,,,4,,,7.0,0,7.0,0
+20,Professional Seminar,ENGR,191,,,,1,,,1.0,0,1.0,0
+21,Exploratory Computing,CSE,106,18,,,4,,,7.0,0,7.0,0
+22,Introduction to Digital Image Processing,CSE,107,18,,,4,,,7.0,0,7.0,0
+23,Database Systems,CSE,111,18,,,4,,,7.0,0,7.0,0
+24,Information Systems and Service Design,CSE,126,,,,4,,,1.0,0,1.0,0
+25,Introduction to Theory of Computation,CSE,135,18,,,4,,,7.0,0,7.0,0
+26,Introduction to Human-Computer Interaction,CSE,155,18,,,4,,,7.0,0,7.0,0
+27,Computer Networks,CSE,160,18,,,4,,,7.0,0,7.0,0
+28,Operating Systems,CSE,150,18,,,4,,,7.0,0,7.0,0

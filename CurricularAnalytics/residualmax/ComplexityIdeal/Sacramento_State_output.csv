@@ -1,0 +1,19 @@
+,SacramentoState,,,,,,,,,,,,
+,Sacramento State,,,,,,,,,,,,
+,BS,,,,,,,,,,,,
+,semester,,,,,,,,,,,,
+,11.0701,,,,,,,,,,,,
+Residual Complexity Total:,95.0,,,,,,,,,,,,,
+Graduation Complexity Total:,334.0,,,,,,,,,,,,,
+Residual Difference:,239.0,,,,,,,,,,,,,,
+
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality,Source
+1.0,Programming Concepts and Methodology I,CSC,15,2,,,3.0,,,27.0,18.0,9.0,327.0,Graduation
+2.0,Introduction to Programming Logic,CSC,10,,,,3.0,,,28.0,19.0,9.0,0.0,Graduation
+3.0,Programming Concepts and Methodology II,CSC,20,1,,,3.0,,,25.0,16.0,9.0,287.0,Graduation
+4.0,Discrete Structures for Computer Science,CSC,28,5,3,,3.0,,,23.0,14.0,9.0,268.0,Graduation
+5.0,Pre-Calculus Mathematics,MATH,29,,,,4.0,,,27.0,20.0,7.0,0.0,Graduation
+6.0,Introduction to Computer Architecture,CSC,35,1,,,3.0,,,17.0,10.0,7.0,40.0,Graduation
+10.0,Introduction to Systems Programming in UNIX,CSC,60,6;3,,,3.0,,,13.0,6.0,7.0,48.0,Graduation
+14.0,Data Structures and Algorithm Analysis,CSC,130,3,4,,3.0,,,22.0,13.0,9.0,321.0,Graduation
+14.0,Data Structures and Algorithm Analysis,CSC,130,,,,3.0,,,18.0,13.0,5.0,0.0,Residual

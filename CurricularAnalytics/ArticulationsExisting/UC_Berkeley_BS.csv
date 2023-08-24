@@ -1,0 +1,14 @@
+Curriculum,UCBerkeleyBSActual,,,,,,,,,
+Institution,"UC Berkeley",,,,,,,,,
+Degree Type,"BS",,,,,,,,,
+System Type,"semester",,,,,,,,,
+CIP,"14.1001",,,,,,,,,
+Courses,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+1,"Calculus","MATH","1A",,,,4,"","",11.0,6,5.0,0
+2,"Calculus","MATH","1B","1",,,4,"","",10.0,5,5.0,29
+3,"Multivariable Calculus","MATH","53","2",,,4,"","",7.0,2,5.0,9
+4,"Linear Algebra and DifferentialEquations","MATH","54","2;1",,,4,"","",5.0,1,4.0,7
+5,"Physics for Scientists and Engineers","PHYSICS","7A","1","2",,4,"","",7.0,2,5.0,16
+6,"Physics for Scientists and Engineers","PHYSICS","7B","5;2;1","3",,4,"","",6.0,1,5.0,21
+7," Physics for Scientists and Engineers","PHYSICS","7C","5;6;2;3;1","4",,4,"","",5.0,0,5.0,0
