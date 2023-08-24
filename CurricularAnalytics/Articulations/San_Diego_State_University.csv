@@ -1,0 +1,24 @@
+Curriculum,San_Diego_State_University,,,,,,,,,
+Institution,"San Diego State University",,,,,,,,,
+Degree Type,"BS",,,,,,,,,
+System Type,"semester",,,,,,,,,
+CIP,"11.0701",,,,,,,,,
+Courses,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+1,"Introductory Computer Programming","CS","150",,,,3,"","",11.0,6,5.0,0
+2,"Introductory Computer Programming Laboratory","CS","150L",,"1",,1,"","",2.0,0,2.0,0
+3,"Intermediate Computer Programming","CS","160","1","4",,3,"","",8.0,3,5.0,16
+4,"Intermediate Computer Programming Laboratory","CS","160L","1",,,1,"","",9.0,4,5.0,9
+5,"Data Structures","CS","210","3",,,3,"","",4.0,0,4.0,0
+6,"Computer Organization","CS","240","3",,,3,"","",6.0,1,5.0,9
+7,"Introduction to Software Systems","CS","250","6",,,3,"","",5.0,0,5.0,0
+8,"Calculus I","MATH","150","9",,,4,"","",12.0,7,5.0,21
+9,"Precalculus","MATH","141",,,,3,"","",13.0,8,5.0,0
+10,"Calculus II","MATH","151","8",,,4,"","",8.0,3,5.0,9
+11,"Discrete Mathematics","MATH","245","8",,,3,"","",3.0,0,3.0,0
+12,"Introduction to Linear Algebra","MATH","254","10",,,3,"","",4.0,0,4.0,0
+13,"Principles of Physics","PHYS","195","8",,,3,"","",8.0,3,5.0,9
+14,"Principles of Physics Laboratory","PHYS","195L",,"13",,1,"","",4.0,0,4.0,0
+15,"Principles of Physics","PHYS","196","13;10",,,3,"","",6.0,1,5.0,10
+16,"Principles of Physics Laboratory","PHYS","196L",,"15",,1,"","",5.0,0,5.0,0
+17,"Statistical Principles and Practices","STAT","250",,,,3,"","",1.0,0,1.0,0

@@ -1,0 +1,23 @@
+Curriculum,CSU_Bakersfield,,,,,,,,,,,,
+Institution,CSU Bakersfield,,,,,,,,,,,,
+Degree Type,BS,,,,,,,,,,,,
+System Type,semester,,,,,,,,,,,,
+CIP,11.0701,,,,,,,,,,,,
+Courses,,,,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+4,Probability Theory,MATH,3200,,,,4,,,1.0,0,1.0,0
+8,Professional Ethics,PHIL,3318,,,,4,,,1.0,0,1.0,0
+13,Algorithm Analysis,CMPS,3120,,,,4,,,6.0,3,3.0,0
+14,Theory of Computation,CMPS,3140,13,,,4,,,2.0,0,2.0,0
+15,Computer Architecture II: Organization,CMPS,3240,,,,4,,,3.0,1,2.0,0
+16,Software Engineering,CMPS,3350,,,,4,,,3.0,1,2.0,0
+17,Database Systems,CMPS,3420,,,,4,,,1.0,0,1.0,0
+18,Programming Languages,CMPS,3500,,,,4,,,1.0,0,1.0,0
+19,Artificial Intelligence,CMPS,3560,,,,4,,,1.0,0,1.0,0
+20,Operating Systems,CMPS,3600,,,,4,,,3.0,1,2.0,0
+21,Computer Networks,CMPS,3620,,,,4,,,3.0,1,2.0,0
+22,Distributed and Parallel Computation,CMPS,3640,20;21,,,4,,,2.0,0,2.0,0
+23,Senior Project I,CMPS,4910,13,,,2,,,4.0,1,3.0,3
+24,Senior Project II,CMPS,4928,23,,,2,,,3.0,0,3.0,0
+25,Advanced Computer Architecture,CMPS,4210,15,,,4,,,2.0,0,2.0,0
+26,Advanced Software Engineering,CMPS,4350,16,,,4,,,2.0,0,2.0,0

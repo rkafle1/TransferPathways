@@ -1,0 +1,17 @@
+,Sonoma_State,,,,,,,,,,,,
+,Sonoma State,,,,,,,,,,,,
+,BS,,,,,,,,,,,,
+,semester,,,,,,,,,,,,
+,11.0701,,,,,,,,,,,,
+Residual Complexity Total:,29.0,,,,,,,,,,,,,
+Graduation Complexity Total:,164.0,,,,,,,,,,,,,
+Residual Difference:,135.0,,,,,,,,,,,,,,
+
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality,Source
+1.0,Differential and Integral Calculus I,MATH,161,,,,4.0,,,18.0,14.0,4.0,0.0,Graduation
+4.0,Programming I,CS,115,,,,4.0,,,21.0,16.0,5.0,0.0,Graduation
+5.0,Introduction to Unix,CS,210,4,6,,4.0,,,13.0,8.0,5.0,63.0,Graduation
+6.0,Programming II,CS,215,4,,,4.0,,,19.0,14.0,5.0,92.0,Graduation
+7.0,Discrete Structures for Computer Science,CS,242,4;1,,,4.0,,,15.0,11.0,4.0,88.0,Graduation
+9.0,Data Structures,CS,315,5;6;7,,,4.0,,,12.0,7.0,5.0,147.0,Graduation
+9.0,Data Structures,CS,315,,,,4.0,,,9.0,7.0,2.0,0.0,Residual

@@ -1,0 +1,28 @@
+Curriculum,Fresno_State,,,,,,,,,,,,
+Institution,Fresno State,,,,,,,,,,,,
+Degree Type,BS,,,,,,,,,,,,
+System Type,semester,,,,,,,,,,,,
+CIP,11.0701,,,,,,,,,,,,
+Courses,,,,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+1,Calculus I,MATH,75,,,,4,,,25.0,19,6.0,0
+2,Calculus II,MATH,76,1,,,4,,,2.0,0,2.0,0
+3,General Physics,PHYS,2A,1,,,4,,,4.0,1,3.0,3
+4,General Physics,PHYS,2B,3,,,4,,,3.0,0,3.0,0
+5,Introduction to Programming and Problem Solving,CSCI,40,1,,,4,,,21.0,15,6.0,72
+6,Introduction to Data Structures,CSCI,41,5,,,4,,,19.0,13,6.0,41
+7,Foundations of Computer Science,CSCI,60,5,,,3,,,17.0,11,6.0,31
+8,Introduction to Computer Systems,CSCI,112,6;7,,,3,,,9.0,3,6.0,22
+9,Introduction to Computer Organization,CSCI,113,8,,,4,,,5.0,0,5.0,0
+10,Introduction to Operating Systems,CSCI,114,6;8,,,3,,,7.0,1,6.0,17
+11,Algorithms and Data Structures,CSCI,115,6;7;1,,,4,,,7.0,2,5.0,26
+12,Structures of Programming Languages,CSCI,117,6;7,,,4,,,8.0,2,6.0,12
+13,Introduction to Formal Languages and Automata,CSCI,119,6;7,,,3,,,4.0,0,4.0,0
+14,Database Systems,CSCI,126,11,,,3,,,5.0,0,5.0,0
+15,Web Programming,CSCI,130,11,,,3,,,5.0,0,5.0,0
+16,Introduction to Software Engineering,CSCI,150,6,,,3,,,6.0,1,5.0,5
+17,Software Engineering,CSCI,152E,16,,,3,,,5.0,0,5.0,0
+18,Internetworking Systems and Protocols,CSCI,156,10,,,3,,,6.0,0,6.0,0
+19,Artificial Intelligence Programming,CSCI,164,12,,,3,,,7.0,1,6.0,12
+20,Principles of Artificial Intelligence,CSCI,166,19,,,3,,,6.0,0,6.0,0
+21,Project,CSCI,198,,,,3,,,1.0,0,1.0,0

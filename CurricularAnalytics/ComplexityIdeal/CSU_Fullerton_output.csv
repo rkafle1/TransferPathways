@@ -1,0 +1,14 @@
+,CSU_Fullerton,,,,,,,,,,,,,
+,CSU Fullerton,,,,,,,,,,,,,
+,BS,,,,,,,,,,,,,
+,semester,,,,,,,,,,,,,
+,11.0701,,,,,,,,,,,,,
+Residual Complexity Total:,33.0,,,,,,,,,,,,,
+Graduation Complexity Total:,252.0,,,,,,,,,,,,,
+Residual Difference:,219.0,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality,Source
+1.0,Introduction to Programming,CPSC,120,,2,,3.0,,,26.0,19.0,7.0,65.0,Graduation
+2.0,Precalculus,MATH,125,,,,5.0,,,30.0,23.0,7.0,0.0,Graduation
+3.0,Object-Oriented Programming,CPSC,121,1,,,3.0,,,25.0,18.0,7.0,65.0,Graduation
+4.0,Data Structures,CPSC,131,3,,,3.0,,,24.0,17.0,7.0,65.0,Graduation

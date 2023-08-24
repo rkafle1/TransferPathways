@@ -1,0 +1,33 @@
+Curriculum,CSU_Bakersfield,,,,,,,,,,,,
+Institution,CSU Bakersfield,,,,,,,,,,,,
+Degree Type,BS,,,,,,,,,,,,
+System Type,semester,,,,,,,,,,,,
+CIP,11.0701,,,,,,,,,,,,
+Courses,,,,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+1,Precalculus I and II Combined,MATH,1040,,,,4,,,30.0,24,6.0,0
+2,Single Variable Calculus I for Engineers,MATH,2310,1,,,4,,,9.0,5,4.0,15
+3,Single Variable Calculus II for Engineers,MATH,2320,2,,,4,,,6.0,2,4.0,8
+4,Probability Theory,MATH,3200,3,,,4,,,4.0,0,4.0,0
+5,Linear Algebra I,MATH,2610,2,,,4,,,3.0,0,3.0,0
+6,Physics for Scientists and Engineers I,PHYS,2210,2,,,4,,,5.0,1,4.0,4
+7,Physics for Scientists and Engineers II,PHYS,2220,6;3,,,4,,,4.0,0,4.0,0
+8,Professional Ethics,PHIL,3318,,,,4,,,1.0,0,1.0,0
+9,Programming I: Programming Fundamentals,CMPS,2010,1,,,4,,,23.0,17,6.0,77
+10,Programming II: Data Structures and Algorithms,CMPS,2020,9;1,,,4,,,18.0,12,6.0,77
+11,Discrete Structures,CMPS,2120,9;1,,,4,,,12.0,6,6.0,43
+12,Computer Architecture I: Assembly Language Programming,CMPS,2240,9;1,,,4,,,9.0,4,5.0,18
+13,Algorithm Analysis,CMPS,3120,11;10,,,4,,,9.0,3,6.0,40
+14,Theory of Computation,CMPS,3140,13,,,4,,,5.0,0,5.0,0
+15,Computer Architecture II: Organization,CMPS,3240,12,,,4,,,6.0,1,5.0,9
+16,Software Engineering,CMPS,3350,10,,,4,,,6.0,1,5.0,9
+17,Database Systems,CMPS,3420,11;10,,,4,,,4.0,0,4.0,0
+18,Programming Languages,CMPS,3500,10,,,4,,,4.0,0,4.0,0
+19,Artificial Intelligence,CMPS,3560,11;10,,,4,,,4.0,0,4.0,0
+20,Operating Systems,CMPS,3600,10,,,4,,,6.0,1,5.0,9
+21,Computer Networks,CMPS,3620,10,,,4,,,6.0,1,5.0,9
+22,Distributed and Parallel Computation,CMPS,3640,20;21,,,4,,,5.0,0,5.0,0
+23,Senior Project I,CMPS,4910,13;11;10;12,,,2,,,7.0,1,6.0,49
+24,Senior Project II,CMPS,4928,23,,,2,,,6.0,0,6.0,0
+25,Advanced Computer Architecture,CMPS,4210,15,,,4,,,5.0,0,5.0,0
+26,Advanced Software Engineering,CMPS,4350,16,,,4,,,5.0,0,5.0,0

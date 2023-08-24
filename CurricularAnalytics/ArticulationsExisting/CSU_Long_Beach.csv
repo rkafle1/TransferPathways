@@ -1,0 +1,21 @@
+Curriculum,LongBeachActual,,,,,,,,,
+Institution,"CSU_Long_beach",,,,,,,,,
+Degree Type,"BS",,,,,,,,,
+System Type,"semester",,,,,,,,,
+CIP,"11.0701",,,,,,,,,
+Courses,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+2,"Introduction to Programming and Problem Solving","CECS","174",,"3",,3,"","",10.0,5,5.0,34
+3,"Calculus I","MATH","122","5;4",,,4,"","",15.0,10,5.0,64
+4,"Precalculus Trigonometry","MATH","111",,,,3,"","",16.0,11,5.0,0
+5,"Precalculus Algebra","MATH","113",,,,3,"","",16.0,11,5.0,0
+6,"Digital Logicand Assembly Programming","CECS","225","2",,,3,"","",4.0,0,4.0,0
+7,"Discrete Structures with Computing Applications","CECS","228","2;3",,,3,"","",6.0,1,5.0,18
+8,"DiscreteStructures with Computing Applications II","CECS","229","7;9",,,3,"","",5.0,0,5.0,0
+9,"Calculus II","MATH","123","3",,,4,"","",5.0,1,4.0,8
+10,"Data Structures","CECS","274","2",,,3,"","",4.0,0,4.0,0
+11,"Object Oriented Application Development","CECS","277","2",,,3,"","",4.0,0,4.0,0
+12,"Introduction to Engineering Profession","ENGR","101",,"3",,1,"","",5.0,1,4.0,8
+13,"AcademicSuccess Skills","ENGR","102","12",,,1,"","",4.0,0,4.0,0
+14,"Mechanics and Heat","PHYS","151","3",,,4,"","",3.0,0,3.0,0
+15,"General Biology","BIOL","200",,,,4,"","",1.0,0,1.0,0
