@@ -1,0 +1,18 @@
+Curriculum,UCSB,,,,,,,,,
+Institution,"UCSB",,,,,,,,,
+Degree Type,"BS",,,,,,,,,
+System Type,"quarter",,,,,,,,,
+CIP,"11.0701",,,,,,,,,
+Courses,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+1,"Calculus with Applications, First Course","MATH","3A",,,,4,"","",10.0,10,5.0,0
+2,"Calculus with Applications, Second Course","MATH","3B","1",,,4,"","",8.0,7,5.0,21
+3,"Linear Algebra with Applications","MATH","4A","2",,,4,"","",6.0,4,5.0,13
+4,"Differential Equations","MATH","4B","3",,,4,"","",2.7,0,4.0,0
+5,"Basic Physics","PHYS","1","1",,,4,"","",5.3,3,5.0,5
+6,"Basic Physics","PHYS","2","5;2",,,4,"","",4.7,2,5.0,10
+7,"Basic Physics","PHYS","3","6;3",,,3,"","",4.0,1,5.0,15
+8,"Physics Laboratory","PHYS","3L",,"7",,1,"","",3.3,0,5.0,0
+9,"Problem Solving with Computers I","CMPSC","16",,"1",,4,"","",3.3,2,3.0,6
+10,"Problem Solving with Computers II","CMPSC","24","2;9",,,4,"","",2.0,0,3.0,0
+11,"Foundations of Computer Science","CMPSC","40","9;3",,,5,"","",2.7,0,4.0,0

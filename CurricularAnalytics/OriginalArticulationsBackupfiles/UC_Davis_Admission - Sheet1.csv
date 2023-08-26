@@ -1,0 +1,20 @@
+Curriculum,Computer Science,,,,,,
+Institution,UC Davis,,,,,,
+Degree Type,BS,,,,,,
+System Type,quarter,,,,,,
+CIP,11.0701,,,,,,
+Courses,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours
+1,Calculus,MAT,021A,,,,4
+2,Calculus,MAT,021B,1,,,4
+3,Calculus,MAT,021C,2,,,4
+4,Linear Algebra,MAT,022A,3,,,3
+5,Discrete Mathematics For Computer Science,ECS,20,1,,,4
+6,Introduction to Programming,ECS,032A,,,,4
+7,Programming & Problem Solving,ECS,036A,6,,,4
+8,Software Development & Object-Oriented Programming in C++,ECS,036B,7,,,4
+9,"Data Structures, Algorithms, & Programming",ECS,036C,5;8,,,4
+10,Computer Organization & Machine-Dependent Programming,ECS,50,8,,,4
+11,General Chemistry,CHE,002A,,,,5
+12,General Chemistry,CHE,002B,11,,,5
+13,General Chemistry,CHE,002C,12,,,5

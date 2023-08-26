@@ -1,0 +1,20 @@
+Curriculum,CSU_East_Bay,,,,,,,,,,,,
+Institution,CSU East Bay,,,,,,,,,,,,
+Degree Type,BS,,,,,,,,,,,,
+System Type,semester,,,,,,,,,,,,
+CIP,11.0701,,,,,,,,,,,,
+Courses,,,,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+11,Data Structures and Algorithms,CS,301,,,,3,,,10.0,8,2.0,0
+12,Programming Language Concepts,CS,311,,,,3,,,1.0,0,1.0,0
+13,Computer Architecture,CS,321,,,,3,,,1.0,0,1.0,0
+14,Software Engineering,CS,401,11,,,3,,,2.0,0,2.0,0
+15,Automata and Computation,CS,411,,,,3,,,1.0,0,1.0,0
+16,Analysis of Algorithms,CS,413,11,,,3,,,2.0,0,2.0,0
+17,Operating Systems,CS,421,11,,,3,,,2.0,0,2.0,0
+18,Computer Networks,CS,441,11,,,3,,,2.0,0,2.0,0
+19,Statistics and Probability for Science and Engineering,STAT,316,,,,3,,,1.0,0,1.0,0
+20,Website Development,CS,351,11,,,3,,,2.0,0,2.0,0
+21,Database Architecture,CS,431,11,,,3,,,2.0,0,2.0,0
+22,Mobile Programming,CS,453,11,,,3,,,2.0,0,2.0,0
+23,Computer Graphics,CS,455,11,,,3,,,2.0,0,2.0,0

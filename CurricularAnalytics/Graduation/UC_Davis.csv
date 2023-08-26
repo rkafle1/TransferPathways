@@ -1,0 +1,33 @@
+Curriculum,UC_Davis,,,,,,,,,,,,
+Institution,UC Davis,,,,,,,,,,,,
+Degree Type,BS,,,,,,,,,,,,
+System Type,quarter,,,,,,,,,,,,
+CIP,11.0701,,,,,,,,,,,,
+Courses,,,,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+1,Calculus,MAT,021A,,,,4,,,15.3,16,7.0,0
+2,Calculus,MAT,021B,1,,,4,,,8.7,6,7.0,10
+3,Calculus,MAT,021C,2,,,4,,,7.3,4,7.0,7
+4,Linear Algebra,MAT,022A,3,,,3,,,6.7,3,7.0,7
+5,Discrete Mathematics For Computer Science,ECS,20,1,,,4,,,10.7,11,5.0,31
+6,Introduction to Programming,ECS,032A,,,,4,,,14.0,14,7.0,0
+7,Programming & Problem Solving,ECS,036A,6,,,4,,,13.3,13,7.0,47
+8,Software Development & Object-Oriented Programming in C++,ECS,036B,7,,,4,,,12.7,12,7.0,47
+9,"Data Structures, Algorithms, & Programming",ECS,036C,5;8,,,4,,,8.7,7,6.0,44
+10,Computer Organization & Machine-Dependent Programming,ECS,50,8,,,4,,,8.0,5,7.0,13
+11,General Chemistry,CHE,002A,,,,5,,,3.3,2,3.0,0
+12,General Chemistry,CHE,002B,11,,,5,,,2.7,1,3.0,3
+13,General Chemistry,CHE,002C,12,,,5,,,2.0,0,3.0,0
+14,Algorithm Design & Analysis,ECS,122A,5,,,4,,,2.0,0,3.0,0
+15,Theory of Computation,ECS,120,5,,,4,,,2.0,0,3.0,0
+16,Programming Languages,ECS,140A,10;9,,,4,,,4.7,1,6.0,17
+17,Operating Systems & System Programming,ECS,150,18;9,,,4,,,5.3,1,7.0,18
+18,Computer Architecture,ECS,154A,10,,,4,,,6.0,2,7.0,7
+19,Probability & Statistical Modeling for Computer Science,ECS,132,5;4;8,,,4,,,6.0,2,7.0,18
+20,Computer Networks,ECS,152A,9;19,,,4,,,5.3,1,7.0,29
+21,Computer Networks,ECS,152B,20;17,,,4,,,4.7,0,7.0,0
+22,Software Engineering,ECS,160,16,,,4,,,4.0,0,6.0,0
+23,Web Programming,ECS,162,8,,,4,,,2.7,0,4.0,0
+24,Database Systems,ECS,165A,9,,,4,,,4.7,1,6.0,11
+25,Database Systems,ECS,165B,24,,,4,,,4.0,0,6.0,0
+26,Number Theory,MAT,115A,2,,,4,,,2.0,0,3.0,0

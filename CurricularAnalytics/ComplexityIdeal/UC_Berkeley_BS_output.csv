@@ -1,0 +1,14 @@
+,UC_Berkeley_BS,,,,,,,,,,,,,
+,UC Berkeley BS,,,,,,,,,,,,,
+,BS,,,,,,,,,,,,,
+,semester,,,,,,,,,,,,,
+,14.1001,,,,,,,,,,,,,
+Residual Complexity Total:,56.0,,,,,,,,,,,,,
+Graduation Complexity Total:,128.0,,,,,,,,,,,,,
+Residual Difference:,72.0,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality,Source
+2.0,Calculus,MATH,1A,,,,4.0,,,19.0,14.0,5.0,0.0,Graduation
+3.0,Calculus,MATH,1B,2,,,4.0,,,14.0,9.0,5.0,48.0,Graduation
+4.0,The Structure and Interpretation of Computer Programs,CS,61A,,2,,4.0,,,12.0,7.0,5.0,26.0,Graduation
+4.0,The Structure and Interpretation of Computer Programs,CS,61A,,,,4.0,,,11.0,7.0,4.0,0.0,Residual

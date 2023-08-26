@@ -38,8 +38,8 @@ CCsName = ['Evergreen Valley College', 'Los Angeles City College', 'College of M
             'Irvine Valley College', 'Porterville College', 'Sacramento City College', 'Skyline College', 'Los Angeles Southwest College', 'San Bernardino Valley College',
             'Monterey Peninsula College', 'Fullerton College', 'Long Beach City College', 'San Jose City College', 'Santa Monica College', 'Southwestern College', 'Moorpark College',
             'College of the Canyons', 'Cosumnes River College', 'Folsom Lake College', 'West Hills College Lemoore', 'Woodland Community College', 'Norco College', 'Moreno Valley College',
-            'Clovis Community College', 'Compton College', 'Madera Community College']
-
+            'Clovis Community College', 'Compton College', 'Madera Community College', 'Santa Ana College', 'Reedley College', 'Berkeley City College']
+# print(len(CCsName))
 # deletes unnessary rows(does special things for different schools)
 def FixCSV(uniName, CSVFileName):
     

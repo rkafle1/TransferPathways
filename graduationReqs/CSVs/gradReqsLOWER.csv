@@ -12,6 +12,15 @@ UC Santa Cruz BA,[['CSE 20 - Beginning Programming in Python (5.00)']]
 UC Santa Cruz BA,[['CSE 30 - Programming Abstractions: Python (7.00)']]
 UC Santa Cruz BA,"[['MATH 19A - Calculus for Science, Engineering, and Mathematics (5.00)', 'MATH 19B - Calculus for Science, Engineering, and Mathematics (5.00)'], ['MATH 20A - Honors Calculus (5.00)', 'MATH 20B - Honors Calculus (5.00)']]"
 UC Santa Cruz BA,"[['AM 10 - Mathematical Methods for Engineers I (5.00)'], ['MATH 21 - Linear Algebra (5.00)']]"
+UC Davis,[['ECS 20 - Discrete Mathematics for Computer Science (4.00)']]
+UC Davis,"[['ECS 36A - Programming & Problem Solving (4.00)'], ['ECS 32A - Introduction to Programming (4.00)']]"
+UC Davis,"[['ECS 36B - Software Development & Object-Oriented Programming in C++ (4.00)', 'ECS 36C - Data Structures, Algorithms, & Programming (4.00)'], ['ECS 32B - Introduction to Data Structures (4.00)', 'ECS 32C - Implementation of Data Structures in C (4.00)', 'ECS 34 - Software Development in UNIX & C++ (4.00)']]"
+UC Davis,[['ECS 50 - Computer Organization & Machine Dependent Programming (4.00)']]
+UC Davis,[['MAT 21A - Calculus (4.00)']]
+UC Davis,[['MAT 21B - Calculus (4.00)']]
+UC Davis,[['MAT 21C - Calculus (4.00)']]
+UC Davis,"[['MAT 22A - Linear Algebra (3.00)'], ['MAT 27A - Linear Algebra with Applications to Biology (4.00)'], ['MAT 67 - Modern Linear Algebra (4.00)']]"
+UC Davis,"[['--Choose three: (15.00)'],['BIS 002A Introduction to Biology: Essentials of Life on Earth'],['BIS 002B Introduction to Biology: Principles of Ecology & Evolution'],['BIS 002C Introduction to Biology: Biodiversity & the Tree of Life'],['CHE 002A General Chemistry'],['CHE 002B General Chemistry'],['CHE 002C General Chemistry'],['CHE 004A General Chemistry for the Physical Sciences & Engineering'],['CHE 004B General Chemistry for the Physical Sciences & Engineering'],['CHE 004C General Chemistry for the Physical Sciences & Engineering'],['PHY 009A Classical Physics'],['PHY 009B Classical Physics'],['PHY 009C Classical Physics']]"
 UC Berkeley BS,[['Math 1A - Calculus I (4.00)']]
 UC Berkeley BS,[['Math 1B - Calculus II (4.00)']]
 UC Berkeley BS,[['Math 53 - Multivariable Calculus (4.00)']]
@@ -23,15 +32,15 @@ UC Berkeley BS,[['CS 61A - Structure and Interpretation of Computer Programs (4.
 UC Berkeley BS,[['CS 61B/BL - Data Structures (4.00)']]
 UC Berkeley BS,[['CS 61C - Machine Structures (4.00)']]
 UC Berkeley BS,[['CS 70 - Discrete Mathematics and Probability Theory (4.00)']]
-UC Davis,[['ECS 20 - Discrete Mathematics for Computer Science (4.00)']]
-UC Davis,"[['ECS 36A - Programming & Problem Solving (4.00)'], ['ECS 32A - Introduction to Programming (4.00)']]"
-UC Davis,"[['ECS 36B - Software Development & Object-Oriented Programming in C++ (4.00)', 'ECS 36C - Data Structures, Algorithms, & Programming (4.00)'], ['ECS 32B - Introduction to Data Structures (4.00)', 'ECS 32C - Implementation of Data Structures in C (4.00)', 'ECS 34 - Software Development in UNIX & C++ (4.00)']]"
-UC Davis,[['ECS 50 - Computer Organization & Machine Dependent Programming (4.00)']]
-UC Davis,[['MAT 21A - Calculus (4.00)']]
-UC Davis,[['MAT 21B - Calculus (4.00)']]
-UC Davis,[['MAT 21C - Calculus (4.00)']]
-UC Davis,"[['MAT 22A - Linear Algebra (3.00)'], ['MAT 27A - Linear Algebra with Applications to Biology (4.00)'], ['MAT 67 - Modern Linear Algebra (4.00)']]"
-UC Davis,"[['--Choose three: (15.00)'],['BIS 002A Introduction to Biology: Essentials of Life on Earth'],['BIS 002B Introduction to Biology: Principles of Ecology & Evolution'],['BIS 002C Introduction to Biology: Biodiversity & the Tree of Life'],['CHE 002A General Chemistry'],['CHE 002B General Chemistry'],['CHE 002C General Chemistry'],['CHE 004A General Chemistry for the Physical Sciences & Engineering'],['CHE 004B General Chemistry for the Physical Sciences & Engineering'],['CHE 004C General Chemistry for the Physical Sciences & Engineering'],['PHY 009A Classical Physics'],['PHY 009B Classical Physics'],['PHY 009C Classical Physics']]"
+UC Santa Cruz BS,[['CSE 13S - Computer Systems and C Programming (7.00)']]
+UC Santa Cruz BS,[['CSE 12 - Computer Systems and Assembly Language and Lab (7.00)']]
+UC Santa Cruz BS,[['CSE 16 - Applied Discrete Mathematics (5.00)']]
+UC Santa Cruz BS,[['CSE 20 - Beginning Programming in Python (5.00)']]
+UC Santa Cruz BS,[['CSE 30 - Programming Abstractions: Python (7.00)']]
+UC Santa Cruz BS,"[['MATH 19A - Calculus for Science, Engineering, and Mathematics (5.00)', 'MATH 19B - Calculus for Science, Engineering, and Mathematics (5.00)'], ['MATH 20A - Honors Calculus (5.00)', 'MATH 20B - Honors Calculus (5.00)']]"
+UC Santa Cruz BS,"[['AM 10 - Mathematical Methods for Engineers I (5.00)'], ['MATH 21 - Linear Algebra (5.00)']]"
+UC Santa Cruz BS,"[['AM 30 - Multivariate Calculus for Engineers (5.00)'], ['MATH 23A - Vector Calculus (5.00)']]"
+UC Santa Cruz BS,[['ECE 30 - Engineering Principles of Electronics (5.00)']]
 UC Irvine,"[['I&C SCI 31- 32- 33 - Introduction to Programming (4.00)', 'Programming with Software Libraries (4.00)', 'Intermediate Programming (4.00)'], ['I&C SCI 32A- 33 - Python Programming and Libraries (Accelerated) (4.00)', 'Intermediate Programming (4.00)']]"
 UC Irvine,[['I&C SCI 45C - Programming in C/C++ as a Second Language (4.00)']]
 UC Irvine,[['I&C SCI 46 - Data Structure Implementation and Analysis (4.00)']]
@@ -43,16 +52,7 @@ UC Irvine,[['I&C SCI 6B - Boolean Logic and Discrete Structures (4.00)']]
 UC Irvine,[['I&C SCI 6D - Discrete Mathematics for Computer Science (4.00)']]
 UC Irvine,"[['I&C SCI 6N - Computational Linear Algebra (4.00)'], ['MATH 3A - Introduction to Linear Algebra (4.00)']]"
 UC Irvine,[['STATS 67 - Introduction to Probability and Statistics for Computer Science (4.00)']]
-UC Irvine,"[['ELECTIVE SCIENCE: Two courses approved for General Education category II except those offered by CSE, Economics, Engineering, ICS, or Mathematics. University Studies courses can be used with the approval of the CS Vice Chair for Undergraduate Studies. (8.00)']]"
-UC Santa Cruz BS,[['CSE 13S - Computer Systems and C Programming (7.00)']]
-UC Santa Cruz BS,[['CSE 12 - Computer Systems and Assembly Language and Lab (7.00)']]
-UC Santa Cruz BS,[['CSE 16 - Applied Discrete Mathematics (5.00)']]
-UC Santa Cruz BS,[['CSE 20 - Beginning Programming in Python (5.00)']]
-UC Santa Cruz BS,[['CSE 30 - Programming Abstractions: Python (7.00)']]
-UC Santa Cruz BS,"[['MATH 19A - Calculus for Science, Engineering, and Mathematics (5.00)', 'MATH 19B - Calculus for Science, Engineering, and Mathematics (5.00)'], ['MATH 20A - Honors Calculus (5.00)', 'MATH 20B - Honors Calculus (5.00)']]"
-UC Santa Cruz BS,"[['AM 10 - Mathematical Methods for Engineers I (5.00)'], ['MATH 21 - Linear Algebra (5.00)']]"
-UC Santa Cruz BS,"[['AM 30 - Multivariate Calculus for Engineers (5.00)'], ['MATH 23A - Vector Calculus (5.00)']]"
-UC Santa Cruz BS,[['ECE 30 - Engineering Principles of Electronics (5.00)']]
+UC Irvine,"[['--ELECTIVE SCIENCE: Two courses approved for General Education category II except those offered by CSE, Economics, Engineering, ICS, or Mathematics. University Studies courses can be used with the approval of the CS Vice Chair for Undergraduate Studies. (8.00)']]"
 UC San Diego,"[['CSE 8B -  Introduction to Programming and Computational Problem-Solving II (4.00)'], ['CSE 11 - Introduction to Programming and Computational Problem-Solving - Accelerated Pace (4.00)']]"
 UC San Diego,[['CSE 12 - Basic Data Structures and Object-Oriented Design (4.00)']]
 UC San Diego,[['CSE 15L - Software Tools and Techniques Laboratory (2.00)']]
@@ -80,7 +80,7 @@ UC Riverside,"[['MATH 031 - Applied Linear Algebra (5.00)'], ['EE 020B - Linear 
 UC Riverside,[['PHYS 040A - Physics (Mechanics) (5.00)']]
 UC Riverside,[['PHYS 040B - Physics (Heat/Waves/Sound) (5.00)']]
 UC Riverside,[['PHYS 040C - Physics (Electricity/Magnetism) (5.00)']]
-UC Riverside,[['--ELECTIVE: At least 9 additional units. One course of 4 or more units in an engineering discipline outside the field of computer science to be selected in consultation with a faculty advisor. (Either a lower-division or an upper-division course may be used to satisfy this requirement.) (9.00)']]
+UC Riverside,[['--ELECTIVE: At least 8 additional units. One course of 4 or more units in an engineering discipline outside the field of computer science to be selected in consultation with a faculty advisor. (Either a lower-division or an upper-division course may be used to satisfy this requirement.) (8.00)']]
 UC Santa Barbara,"[['Math 3A, 3B - Calculus with Applications, Courses 1-2 (8.00)']]"
 UC Santa Barbara,"[['Math 4A, 4B - Linear Algebra with Applications; Differential Equations (8.00)']]"
 UC Santa Barbara,[['Math 6A - Vector Calculus (4.00)']]
@@ -105,6 +105,7 @@ UC Los Angeles,[['COM SCI 31 - Introduction to Computer Science I (4.00)']]
 UC Los Angeles,[['COM SCI 32 - Introduction to Computer Science II (4.00)']]
 UC Los Angeles,[['COM SCI 33 - Introduction to Computer Organization (5.00)']]
 UC Los Angeles,[['COM SCI 35L - Software Construction (4.00)']]
+UC Los Angeles,"[['COM SCI M51A - Logic Design of Digital Systems (4.00)'], ['EC ENGR M16 - Logic Design of Digital Systems (4.00)']]"
 UC Los Angeles,[['MATH 31A - Differential and Integral Calculus (4.00)']]
 UC Los Angeles,[['MATH 31B - Integration and Infinite Series (4.00)']]
 UC Los Angeles,[['MATH 32A - Calculus of Several Variables (4.00)']]
@@ -116,14 +117,13 @@ UC Los Angeles,[['PHYSICS 1A - Physics for Scientists and Engineers - Mechanics 
 UC Los Angeles,"[['PHYSICS 1B - Physics for Scientists and Engineers - Oscillations, Waves, Electric and Magnetic Fields (5.00)']]"
 UC Los Angeles,"[['PHYSICS 1C - Physics for Scientists and Engineers - Electrodynamics, Optics, and Special Relativity (5.00)']]"
 UC Los Angeles,"[['PHYSICS 4AL - Physics Laboratory for Scientists and Engineers - Mechanics (2.00)'], ['PHYSICS 4BL - Physics Laboratory for Scientists and Engineers - Electricity and Magnetism (2.00)']]"
-UC Los Angeles,"[['COM SCI M51A - Logic Design of Digital Systems (4.00)'], ['EC ENGR M16 - Logic Design of Digital Systems (4.00)']]"
-Cal Poly Humboldt,[['CS 111 - Computer Science Foundations 1 (4.00)']]
-Cal Poly Humboldt,[['CS 112 - Computer Science Foundations 2 (4.00)']]
-Cal Poly Humboldt,[['CS 211 - Data Structures (4.00)']]
-Cal Poly Humboldt,[['CS 243 - Architecture (4.00)']]
-Cal Poly Humboldt,"[['STAT 108 - Elementary Statistics (3.00)'], ['STAT 108I - Elementary Statistics with Integrated Support (3.00)']]"
-Cal Poly Humboldt,"[['MATH 109 - Calculus I (4.00)'], ['MATH 105 - Calculus for the Biological Sciences and Natural Resources (3.00)']]"
-Cal Poly Humboldt,[['MATH 253 - Discrete Mathematics (3.00)']]
+CP Humboldt,[['CS 111 - Computer Science Foundations 1 (4.00)']]
+CP Humboldt,[['CS 112 - Computer Science Foundations 2 (4.00)']]
+CP Humboldt,[['CS 211 - Data Structures (4.00)']]
+CP Humboldt,[['CS 243 - Architecture (4.00)']]
+CP Humboldt,"[['STAT 108 - Elementary Statistics (3.00)'], ['STAT 108I - Elementary Statistics with Integrated Support (3.00)']]"
+CP Humboldt,"[['MATH 109 - Calculus I (4.00)'], ['MATH 105 - Calculus for the Biological Sciences and Natural Resources (3.00)']]"
+CP Humboldt,[['MATH 253 - Discrete Mathematics (3.00)']]
 Stainislaus State,[['CS 1500 - Computer Programming I (3.00)']]
 Stainislaus State,[['CS 2500 - Computer Programming II (3.00)']]
 Stainislaus State,[['CS 2700 - Assembly Language and Computer Architecture (3.00)']]
@@ -132,6 +132,11 @@ Stainislaus State,[['MATH 1420 - Calculus II (4.00)']]
 Stainislaus State,"[['MATH 1620 - Probability and Statistics (4.00)'], ['MATH 1600 - Statistics (4.00)'], ['MATH 1602 - Statistics with Support II (3.00)']]"
 Stainislaus State,[['MATH 2300 - Discrete Structures (3.00)']]
 Stainislaus State,"[['PHYS 2250 - General Physics I (4.00)', 'PHYS 2252 - General Physics I Laboratory (1.00)', 'PHYS 2260 - General Physics II (4.00)', 'PHYS 2262 - General Physics II Laboratory (1.00)'], ['CHEM 1100 - General Chemistry I (4.00)', 'CHEM 1102 - General Chemistry I Laboratory (1.00)', 'CHEM 1110 - General Chemistry II (4.00)', 'CHEM 1112 - General Chemistry II Laboratory (1.00)'],['BIOL 1050 - General Biology I (4.00)', 'BIOL 1150 - General Biology II (4.00)']]"
+Fresno State,[['CSCI 40 - Introduction to Programming and Problem Solving (4.00)']]
+Fresno State,[['CSCI 41 - Introduction to Data Structures (4.00)']]
+Fresno State,[['CSCI 60 - Foundations of Computer Science (4.00)']]
+Fresno State,"[['MATH 75 - Calculus I (4.00)', 'MATH 76 - Calculus II (4.00)']]"
+Fresno State,"[['PHYS 2A - General Physics (3.00)', 'PHYS 2B - General Physics (3.00)'], ['PHYS 4AL - Laboratory in Mechanics and Wave Motion (1.00)', 'PHYS 4A - Mechanics and Wave Motion (3.00)', 'PHYS 4B - Electricity, Magnetism, and Heat (3.00)', 'PHYS 4BL - Laboratory in Electricity, Magnetism, and Heat (1.00)']]"
 CSU East Bay,[['CS 101 - Computer Science I (4.00)']]
 CSU East Bay,[['CS 201 - Computer Science II (4.00)']]
 CSU East Bay,[['CS 211 - Discrete Structures (3.00)']]
@@ -153,7 +158,7 @@ Sonoma State,[['CS 215 - Programming II (4.00)']]
 Sonoma State,[['CS 242 - Discrete Structures for Computer Science (4.00)']]
 Sonoma State,[['CS 252 - Introduction to Computer Organization (4.00)']]
 Sonoma State,[['MATH 161 - Differential and Integral Calculus I (4.00)']]
-Sonoma State,"[['--Two additional courses from the following: (7.00)'],['MATH 165 - Elementary Applied Statistics (4.00)'], ['MATH 211 - Differential and Integral Calculus II (4.00)'], ['MATH 222 - Elementary Applied Linear Algebra (3.00)'], ['MATH 241 - Linear Algebra with Applications in Differential Equations (4.00)'], ['PHYS 214 - Introduction to Physics II (4.00)']]"
+Sonoma State,"[['--ELECTIVE MATH/SCI: Two additional courses from the following: (7.00)'],['MATH 165 - Elementary Applied Statistics (4.00)'], ['MATH 211 - Differential and Integral Calculus II (4.00)'], ['MATH 222 - Elementary Applied Linear Algebra (3.00)'], ['MATH 241 - Linear Algebra with Applications in Differential Equations (4.00)'], ['PHYS 214 - Introduction to Physics II (4.00)']]"
 San Francisco State,[['MATH 226 - Calculus I (4.00)']]
 San Francisco State,[['MATH 227 - Calculus II (4.00)']]
 San Francisco State,[['MATH 324 - Probability and Statistics with Computing (3.00)']]
@@ -186,12 +191,6 @@ CSU Dominguez Hills,[['MAT 271 - Foundations of Higher Mathematics (3.00)']]
 CSU Dominguez Hills,[['MAT 281 - Discrete Mathematics (3.00)']]
 CSU Dominguez Hills,[['PHY 130 - General Physics I (5.00)']]
 CSU Dominguez Hills,[['PHY 132 - General Physics II (5.00)']]
-Fresno State,[['CSCI 40 - Introduction to Programming and Problem Solving (4.00)']]
-Fresno State,[['CSCI 41 - Introduction to Data Structures (4.00)']]
-Fresno State,[['CSCI 60 - Foundations of Computer Science (4.00)']]
-Fresno State,"[['MATH 75 - Calculus I (4.00)', 'MATH 76 - Calculus II (4.00)']]"
-Fresno State,"[['PHYS 2A - General Physics (3.00)', 'PHYS 2B - General Physics (3.00)']]"
-Fresno State,"[['PHYS 4AL - Laboratory in Mechanics and Wave Motion (1.00)', 'PHYS 4A - Mechanics and Wave Motion (3.00)', 'PHYS 4B - Electricity, Magnetism, and Heat (3.00)', 'PHYS 4BL - Laboratory in Electricity, Magnetism, and Heat (1.00)']]"
 CSU Channel Islands,[['COMP 150 - Object-Oriented Programming (4.00)']]
 CSU Channel Islands,[['COMP 151 - Data Structures And Program Design (4.00)']]
 CSU Channel Islands,[['COMP 162 - Computer Architecture and Assembly Language (3.00)']]
@@ -237,19 +236,19 @@ San Jose State,"[['--Students must complete a total of 8 units of science electi
 San Jose State,"[['CS 46A - Introduction to Programming (4.00)'], ['CS 46AX - Introduction to Programming (4.00)']]"
 San Jose State,[['CS 46B - Introduction to Data Structures (4.00)']]
 San Jose State,[['CS 47 - Introduction to Computer Systems (3.00)']]
-Cal Poly Pomona,[['BIO 1110 - Life Science (2.00)']]
-Cal Poly Pomona,[['BIO 1110L - Life Science Laboratory (1.00)']]
-Cal Poly Pomona,[['CS 1300 - Discrete Structures (3.00)']]
-Cal Poly Pomona,[['CS 1400 - Introduction to Programming and Problem Solving (4.00)']]
-Cal Poly Pomona,[['CS 2400 - Data Structures and Advanced Programming (4.00)']]
-Cal Poly Pomona,[['CS 2600 - Systems Programming (3.00)']]
-Cal Poly Pomona,[['CS 2610 - Introduction to Cyber Security and Network Communications (3.00)']]
-Cal Poly Pomona,[['CS 2640 - Computer Organization and Assembly Programming (3.00)']]
-Cal Poly Pomona,[['MAT 1140 - Calculus I (4.00)']]
-Cal Poly Pomona,[['MAT 1150 - Calculus II (4.00)']]
-Cal Poly Pomona,[['PHY 1510 - Introduction to Newtonian Mechanics (3.00)']]
-Cal Poly Pomona,[['PHY 1510L - Newtonian Mechanics Laboratory (1.00)']]
-Cal Poly Pomona,[['STA 2260 - Probability and Statistics for Computer Scientists and Engineers (3.00)']]
+CP Pomona,[['BIO 1110 - Life Science (2.00)']]
+CP Pomona,[['BIO 1110L - Life Science Laboratory (1.00)']]
+CP Pomona,[['CS 1300 - Discrete Structures (3.00)']]
+CP Pomona,[['CS 1400 - Introduction to Programming and Problem Solving (4.00)']]
+CP Pomona,[['CS 2400 - Data Structures and Advanced Programming (4.00)']]
+CP Pomona,[['CS 2600 - Systems Programming (3.00)']]
+CP Pomona,[['CS 2610 - Introduction to Cyber Security and Network Communications (3.00)']]
+CP Pomona,[['CS 2640 - Computer Organization and Assembly Programming (3.00)']]
+CP Pomona,[['MAT 1140 - Calculus I (4.00)']]
+CP Pomona,[['MAT 1150 - Calculus II (4.00)']]
+CP Pomona,[['PHY 1510 - Introduction to Newtonian Mechanics (3.00)']]
+CP Pomona,[['PHY 1510L - Newtonian Mechanics Laboratory (1.00)']]
+CP Pomona,[['STA 2260 - Probability and Statistics for Computer Scientists and Engineers (3.00)']]
 Chico State,[['CSCI 111 - Programming and Algorithms I (4.00)']]
 Chico State,[['CSCI 211 - Programming and Algorithms II (4.00)']]
 Chico State,[['CSCI/MATH 217 - Discrete Mathematics (3.00)']]
@@ -325,18 +324,18 @@ CSU Fullerton,[['MATH 150B - Calculus II (4.00)']]
 CSU Fullerton,[['MATH 170A - Mathematical Structures I (3.00)']]
 CSU Fullerton,[['MATH 170B - Mathematical Structures II (3.00)']]
 CSU Fullerton,[['MATH 338 - Statistics Applied to Natural Sciences (4.00)']]
-CSU Fullerton,"[['--ELECTIVE SCIENCE: 12 Units from the following (12.00)'],['BIOL 101 - Elements of Biology (3.00)'],['BIOL 101L - Elements of Biology Laboratory (1.00)'],['BIOL 151 - Cellular and Molecular Biology (4.00)'],['BIOL 152 - Evolution and Organismal Biology (4.00)'],['CHEM 120A - General Chemistry (5.00)'],['CHEM 120B - General Chemistry (5.00)'],['CHEM 123 - Chemistry for Engineers (3.00)'],['CHEM 125 - General Chemistry B Lecture (3.00)'],['GEOL 101 - Introduction to Geology (3.00)'],['GEOL 101L - Introduction to Geology Laboratory (1.00)'],['GEOL 201 - Earth History (3.00)'],['GEOL 201L - Earth History Supplemental Lab (1.00)'],['MATH 250A - Calculus III (4.00)'],['MATH 250B - Introduction to Linear Algebra and Differential Equations (4.00)'],['PHYS 225 - Fundamental Physics - Mechanics (3.00)'],['PHYS 225L - Fundamental Physics - Laboratory (1.00)'],['PHYS 226 - Fundamental Physics - Electricity and Magnetism (3.00)'],['PHYS 226L - Fundamental Physics - Laboratory (1.00)'],['PHYS 227 - Fundamental Physics - Waves, Optics, and Modern Physics (1-3)'],['PHYS 227L - Fundamental Physics - Laboratory (1.00)']]"
-Cal Poly San Luis Obispo,[['CSC/CPE 101 - Fundamentals of Computer Science (4.00)']]
-Cal Poly San Luis Obispo,[['CSC/CPE 123 - Introduction to Computing 1 (4.00)']]
-Cal Poly San Luis Obispo,[['CSC/CPE 202 - Data Structures (4.00)']]
-Cal Poly San Luis Obispo,[['CSC/CPE 203 - Project-Based Object-Oriented Programming and Design (4.00)']]
-Cal Poly San Luis Obispo,[['CSC 225 - Introduction to Computer Organization (4.00)']]
-Cal Poly San Luis Obispo,[['CSC 248 - Discrete Structures (4.00)']]
-Cal Poly San Luis Obispo,[['MATH 141 - Calculus I (4.00)']]
-Cal Poly San Luis Obispo,[['MATH 142 - Calculus II (4.00)']]
-Cal Poly San Luis Obispo,[['MATH 143 - Calculus III (4.00)']]
-Cal Poly San Luis Obispo,"[['MATH 206 - Linear Algebra I (4.00)'], ['MATH 244 - Linear Analysis I (4.00)']]"
-Cal Poly San Luis Obispo,"[['PHIL 230 - Philosophical Classics - Knowledge and Reality (4.00)'], ['PHIL 231 - Philosophical Classics - Ethics and Political Philosophy (4.00)']]"
-Cal Poly San Luis Obispo,"[['BIO 111 - General Biology (4.00)'], ['BIO 161 - Introduction to Cell and Molecular Biology (4.00)'], ['BIO 213 & BMED 213 - Life Science for Engineers and Bioengineering Fundamentals (4.00)'], ['BOT 121 - General Botany (4.00)'], ['MCRO 221 - Microbiology (4.00)']]"
-Cal Poly San Luis Obispo,"[['CHEM 124 & CHEM 125 & CHEM 126 - General Chemistry for Physical Science and Engineering I and General Chemistry for Physical Science and Engineering II and General Chemistry for Physical Science and Engineering III (12.00)'], ['PHYS 141 & PHYS 142 & PHYS 143 - General Physics I and General Physics II and General Physics III (12.00)']]"
-Cal Poly San Luis Obispo,"[['BIO 111 - General Biology (4.00)'], ['BIO 161 - Introduction to Cell and Molecular Biology (4.00)'], ['BOT 121 - General Botany (4.00)'], ['CHEM 124 - General Chemistry for Physical Science and Engineering I (4.00)'], ['MCRO 221 - Microbiology (4.00)'], ['PHYS 141 - General Physics I (4.00)']]"
+CSU Fullerton,"[['--ELECTIVE MATH/SCI: 12 Units from the following (12.00)'],['BIOL 101 - Elements of Biology (3.00)'],['BIOL 101L - Elements of Biology Laboratory (1.00)'],['BIOL 151 - Cellular and Molecular Biology (4.00)'],['BIOL 152 - Evolution and Organismal Biology (4.00)'],['CHEM 120A - General Chemistry (5.00)'],['CHEM 120B - General Chemistry (5.00)'],['CHEM 123 - Chemistry for Engineers (3.00)'],['CHEM 125 - General Chemistry B Lecture (3.00)'],['GEOL 101 - Introduction to Geology (3.00)'],['GEOL 101L - Introduction to Geology Laboratory (1.00)'],['GEOL 201 - Earth History (3.00)'],['GEOL 201L - Earth History Supplemental Lab (1.00)'],['MATH 250A - Calculus III (4.00)'],['MATH 250B - Introduction to Linear Algebra and Differential Equations (4.00)'],['PHYS 225 - Fundamental Physics - Mechanics (3.00)'],['PHYS 225L - Fundamental Physics - Laboratory (1.00)'],['PHYS 226 - Fundamental Physics - Electricity and Magnetism (3.00)'],['PHYS 226L - Fundamental Physics - Laboratory (1.00)'],['PHYS 227 - Fundamental Physics - Waves, Optics, and Modern Physics (1-3)'],['PHYS 227L - Fundamental Physics - Laboratory (1.00)']]"
+CP San Luis Obispo,[['CSC/CPE 101 - Fundamentals of Computer Science (4.00)']]
+CP San Luis Obispo,[['CSC/CPE 123 - Introduction to Computing 1 (4.00)']]
+CP San Luis Obispo,[['CSC/CPE 202 - Data Structures (4.00)']]
+CP San Luis Obispo,[['CSC/CPE 203 - Project-Based Object-Oriented Programming and Design (4.00)']]
+CP San Luis Obispo,[['CSC 225 - Introduction to Computer Organization (4.00)']]
+CP San Luis Obispo,[['CSC 248 - Discrete Structures (4.00)']]
+CP San Luis Obispo,[['MATH 141 - Calculus I (4.00)']]
+CP San Luis Obispo,[['MATH 142 - Calculus II (4.00)']]
+CP San Luis Obispo,[['MATH 143 - Calculus III (4.00)']]
+CP San Luis Obispo,"[['MATH 206 - Linear Algebra I (4.00)'], ['MATH 244 - Linear Analysis I (4.00)']]"
+CP San Luis Obispo,"[['PHIL 230 - Philosophical Classics - Knowledge and Reality (4.00)'], ['PHIL 231 - Philosophical Classics - Ethics and Political Philosophy (4.00)']]"
+CP San Luis Obispo,"[['BIO 111 - General Biology (4.00)'], ['BIO 161 - Introduction to Cell and Molecular Biology (4.00)'], ['BIO 213 & BMED 213 - Life Science for Engineers and Bioengineering Fundamentals (4.00)'], ['BOT 121 - General Botany (4.00)'], ['MCRO 221 - Microbiology (4.00)']]"
+CP San Luis Obispo,"[['CHEM 124 & CHEM 125 & CHEM 126 - General Chemistry for Physical Science and Engineering I and General Chemistry for Physical Science and Engineering II and General Chemistry for Physical Science and Engineering III (12.00)'], ['PHYS 141 & PHYS 142 & PHYS 143 - General Physics I and General Physics II and General Physics III (12.00)']]"
+CP San Luis Obispo,"[['BIO 111 - General Biology (4.00)'], ['BIO 161 - Introduction to Cell and Molecular Biology (4.00)'], ['BOT 121 - General Botany (4.00)'], ['CHEM 124 - General Chemistry for Physical Science and Engineering I (4.00)'], ['MCRO 221 - Microbiology (4.00)'], ['PHYS 141 - General Physics I (4.00)']]"

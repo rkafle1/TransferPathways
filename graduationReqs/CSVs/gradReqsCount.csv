@@ -1,0 +1,684 @@
+UC Berkeley BA,[['Math 1A - Calculus I (4.00)']]
+UC Berkeley BA,[['Math 1B - Calculus II (4.00)']]
+UC Berkeley BA,"[['EECS 16A - Designing Information Devices and Systems I (4.00)'], ['Math 54 - Linear Algebra and Differential Equations (4.00)']]"
+UC Berkeley BA,[['CS 61A - Structure and Interpretation of Computer Programs (4.00)']]
+UC Berkeley BA,[['CS 61B/BL - Data Structures (4.00)']]
+UC Berkeley BA,[['CS 61C - Machine Structures (4.00)']]
+UC Berkeley BA,[['CS 70 - Discrete Mathematics and Probability Theory (4.00)']]
+UC Berkeley BA,"[['CS 152 - Computer Architecture and Engineering (4.00)'], ['CS 160 - User Interface Design and Development (4.00)'], ['CS 161 - Computer Security (4.00)'], ['CS 162 - Operating Systems and System Programming (4.00)'], ['CS 164 - Programming Languages and Compilers (4.00)'], ['CS 168 - Introduction to the Internet - Architecture and Protocols (4.00)'], ['CS 169 - Introduction to Software Engineering (4.00)'], ['CS 169A - Software Engineering (4.00)'], ['CS 182 - Designing, Visualizing and Understanding Deep Neural Networks (4.00)'], ['CS 184 - Foundations of Computer Graphics (4.00)'], ['CS 186 - Introduction to Database Systems (4.00)'], ['EE C128 - Feedback Control Systems (4.00)'], ['EE 130 - Integrated-Circuit Devices (4.00)'], ['EE 140 - Linear Integrated Circuits (4.00)'], ['EE 143 - Microfabrication Technology (4.00)'], ['EE 192 - Mechatronic Design Laboratory (4.00)'], ['EE C106A - Introduction to Robotics (4.00)'], ['EE C106B - Robotic Manipulation and Interaction (4.00)'], ['EECS 149 - Introduction to Embedded and Cyber Physical Systems (4.00)'], ['EECS 151 - Introduction to Digital Design and Integrated Circuits (3.00)', 'CS 169L - Software Engineering Team Project (2.00)']]"
+UC Berkeley BA,[['--ELECTIVE: 8 units of upper division CS courses (8.00)']]
+UC Berkeley BA,[['--ELECTIVE: 8 units of upper division CS/EE/EECS courses (8.00)']]
+UC Berkeley BA,[['--ELECTIVE: 4 units of upper division technical electives (4.00)']]
+UC Berkeley BA,Total units: 52.0
+UC Santa Cruz BA,[['CSE 13S - Computer Systems and C Programming (7.00)']]
+UC Santa Cruz BA,[['CSE 12 - Computer Systems and Assembly Language and Lab (7.00)']]
+UC Santa Cruz BA,[['CSE 16 - Applied Discrete Mathematics (5.00)']]
+UC Santa Cruz BA,[['CSE 20 - Beginning Programming in Python (5.00)']]
+UC Santa Cruz BA,[['CSE 30 - Programming Abstractions: Python (7.00)']]
+UC Santa Cruz BA,"[['MATH 19A - Calculus for Science, Engineering, and Mathematics (5.00)', 'MATH 19B - Calculus for Science, Engineering, and Mathematics (5.00)'], ['MATH 20A - Honors Calculus (5.00)', 'MATH 20B - Honors Calculus (5.00)']]"
+UC Santa Cruz BA,"[['AM 10 - Mathematical Methods for Engineers I (5.00)'], ['MATH 21 - Linear Algebra (5.00)']]"
+UC Santa Cruz BA,[['CSE 101 - Introduction to Data Structures and Algorithms (5.00)']]
+UC Santa Cruz BA,"[['--Three of the following breadth courses: (15.00)'],['CSE 102 - Introduction to Analysis of Algorithms (5.00)'],['CSE 103 - Computational Models (5.00)'],['CSE 110A - Fundamentals of Compiler Design I (5.00)'],['CSE 112 - Comparative Programming Languages (5.00)'],['CSE 114A - Foundations of Programming Languages (5.00)'],['CSE 120 - Computer Architecture (5.00)'],['CSE 130 - Principles of Computer Systems Design (5.00)'],['CSE 132 - Computer Security (5.00)'],['CSE 138 - Distributed Systems (5.00)'],['CSE 140 - Artificial Intelligence (5.00)'],['CSE 142 - Machine Learning (5.00)'],['CSE 143 - Introduction to Natural Language Processing (5.00)'],['CSE 144 - Applied Machine Learning (5.00)'],['CSE 160 - Introduction to Computer Graphics (7.00)'],['CSE 180 - Database Systems I (5.00)']]"
+UC Santa Cruz BA,"[['--ELECTIVE: Three courses from the list of B.A. electives below, including at least one upper-division computer science and engineering course(s) numbered below 170, or numbered between 180 and 189, or CSE 195. (10.00)']]"
+UC Santa Cruz BA,"[['CSE 115A - Introduction to Software Engineering (5.00)'],['CSE 185E/CSE 185S - Technical Writing for Computer Science and Engineering (5.00)'],['CSE 195 - Senior Thesis Research (5.00)']]"
+UC Santa Cruz BA,"[['CSE 195 - Senior Thesis Research (5.00)'], ['CSE 110B - Fundamentals of Compiler Design II (5.00)'],['CSE 115C - Software Design Project II (5.00)'],['CSE 115D - Software Design Project - Accelerated (5.00)'],['CSE 134 - Embedded Operating Systems (5.00)'],['CSE 138 - Distributed Systems (5.00)'],['CSE 140 - Artificial Intelligence (5.00)'],['CSE 143 - Introduction to Natural Language Processing (5.00)'],['CSE 144 - Applied Machine Learning (5.00)'],['CSE 145 - Introduction to Data Mining (5.00)'],['CSE 156L - Network Programming Laboratory (2.00)','CSE 156 - Network Programming (5.00)'],['CSE 157 - Internet of Things (7.00)'],['CSE 160 - Introduction to Computer Graphics (7.00)'],['CSE 161 - Introduction to Data Visualization (5.00)','CSE 161L - Data Visualization Laboratory (2.00)'],['CSE 162 - Advanced Computer Graphics and Animation (5.00)','CSE 162L - Advanced Computer Graphics and Animation Laboratory (2.00)'],['CSE 163 - Data Programming for Visualization (5.00)'],['CSE 168 - Introduction to Augmented Reality and Virtual Reality (7.00)'],['CSE 181 - Database Systems II (5.00)'],['CSE 183 - Web Applications (5.00)'],['CSE 184 - Data Wrangling and Web Scraping (5.00)'],['CMPM 172 - Game Design Studio III (7.00)']]"
+UC Santa Cruz BA,Total units: 86.0
+UC Davis,[['ECS 20 - Discrete Mathematics for Computer Science (4.00)']]
+UC Davis,"[['ECS 36A - Programming & Problem Solving (4.00)'], ['ECS 32A - Introduction to Programming (4.00)']]"
+UC Davis,"[['ECS 36B - Software Development & Object-Oriented Programming in C++ (4.00)', 'ECS 36C - Data Structures, Algorithms, & Programming (4.00)'], ['ECS 32B - Introduction to Data Structures (4.00)', 'ECS 32C - Implementation of Data Structures in C (4.00)', 'ECS 34 - Software Development in UNIX & C++ (4.00)']]"
+UC Davis,[['ECS 50 - Computer Organization & Machine Dependent Programming (4.00)']]
+UC Davis,[['MAT 21A - Calculus (4.00)']]
+UC Davis,[['MAT 21B - Calculus (4.00)']]
+UC Davis,[['MAT 21C - Calculus (4.00)']]
+UC Davis,"[['MAT 22A - Linear Algebra (3.00)'], ['MAT 27A - Linear Algebra with Applications to Biology (4.00)'], ['MAT 67 - Modern Linear Algebra (4.00)']]"
+UC Davis,"[['--Choose three: (15.00)'],['BIS 002A Introduction to Biology: Essentials of Life on Earth'],['BIS 002B Introduction to Biology: Principles of Ecology & Evolution'],['BIS 002C Introduction to Biology: Biodiversity & the Tree of Life'],['CHE 002A General Chemistry'],['CHE 002B General Chemistry'],['CHE 002C General Chemistry'],['CHE 004A General Chemistry for the Physical Sciences & Engineering'],['CHE 004B General Chemistry for the Physical Sciences & Engineering'],['CHE 004C General Chemistry for the Physical Sciences & Engineering'],['PHY 009A Classical Physics'],['PHY 009B Classical Physics'],['PHY 009C Classical Physics']]"
+UC Davis,[['ECS 122A - Algorithm Design & Analysis (4.00)']]
+UC Davis,"[['ECS 120 - Theory of Computation (4.00)'], ['ECS 122B - Algorithm Design & Analysis (4.00)']]"
+UC Davis,"[['ECS 132 - Probability & Statistical Modeling for Computer Science (4.00)'], ['MAT 135A - Probability (4.00)'], ['STA 131A - Introduction to Probability Theory (4.00)']]"
+UC Davis,[['ECS 140A - Programming Languages (4.00)']]
+UC Davis,[['ECS 150 - Operating Systems & System Programming (4.00)']]
+UC Davis,[['ECS 154A - Computer Architecture (4.00)']]
+UC Davis,"[['--ELECTIVE: Choose a minimum of seven courses, See catalog (26.00)']]"
+UC Davis,Total units: 100.0
+UC Berkeley BS,[['Math 1A - Calculus I (4.00)']]
+UC Berkeley BS,[['Math 1B - Calculus II (4.00)']]
+UC Berkeley BS,[['Math 53 - Multivariable Calculus (4.00)']]
+UC Berkeley BS,[['EECS 16A - Designing Information Devices and Systems I (4.00)']]
+UC Berkeley BS,"[['Physics 7A - Physics for Scientists and Engineers (4.00)', 'Physics 7B - Physics for Scientists and Engineers (4.00)'], ['Physics 5A - Introductory Mechanics and Relativity (3.00)', 'Physics 5B - Introductory Electromagnetism, Waves, and Optics (3.00)', 'Physics 5BL - Introduction to Experimental Physics I (2.00)']]"
+UC Berkeley BS,"[['Physics 5C/5CL (5.00)'], ['Physics 7C (4.00)'], ['Chem 1A/AL (5.00)'], ['Chem 1B (4.00)'], ['Chem 3A/3AL (5.00)'], ['Chem 3B/3BL (5.00)'], ['Chem 4A, 4B, or 5 (5.00)'], ['Biology 1A/1AL (5.00)'], ['Biology 1B (4.00)'], ['Astro 7A, or B (4.00)'], ['MCB 32/32L (5.00)'], ['any upper-division, letter-graded course of 3 or more semester units in Astronomy, Biology, Chemistry, Earth and Planetary Science (except EPS 170AC), Integrative Biology, Molecular and Cell Biology, Physics or Plant and Microbial Biology (3.00)']]"
+UC Berkeley BS,"[['--ELECTIVE: Choose a lower or upper div 4 unit technical course in one of the following departments - Astro, Chem, Data Sci, EPS, IB, Math, MCB, Physics, PMB, Stat, or any Engin dept. See course lists in the Electrical Engineering & Computer Sciences - Berkeley Engineering (4.00)']]"
+UC Berkeley BS,[['CS 61A - Structure and Interpretation of Computer Programs (4.00)']]
+UC Berkeley BS,[['CS 61B/BL - Data Structures (4.00)']]
+UC Berkeley BS,[['CS 61C - Machine Structures (4.00)']]
+UC Berkeley BS,[['CS 70 - Discrete Mathematics and Probability Theory (4.00)']]
+UC Berkeley BS,[['--ELECTIVE: Students must complete a minimum of 20 units of upper division EECS courses. (16.00)']]
+UC Berkeley BS," ""[['EE C106A - Introduction to Robotics (4.00)']",['EE C106B - Robotic Manipulation and Interaction (4.00)'],['EE C128 - Feedback Control Systems (4.00)'],['EE 130 - Integrated-Circuit Devices (4.00)'],['EE 140 - Linear Integrated Circuits (4.00)'],['EE 143 - Microfabrication Technology (4.00)'],['EE C149 - Introduction to Embedded Systems (4.00)'],['EE 192 - Mechatronic Design Laboratory (4.00)'],['CS C149 - Introduction to Embedded Systems (4.00)'],['CS 160 - User Interface Design and Development (4.00)'],['CS 162 - Operating Systems and System Programming (4.00)'],['CS 164 - Programming Languages and Compilers (4.00)'],['CS 169 - Software Engineering (4.00)'],['CS 182 - Designing, Visualizing and Understanding Deep Neural Network (4.00)'],['CS 184 - Foundations of Computer Graphics (4.00)'],['CS 186 - Introduction to Database Systems (4.00)'],['CS W186 - Introduction to Database Systems (4.00)'],['EECS 149 - Introduction to Embedded and Cyber Physical Systems (4.00)'],['EECS 151 - Introduction to Digital Design and Integrated Circuits (3.00)', 'EECS 151LA - Application Specific Integrated Circuits Laboratory (2.00)'],['EECS 151 - Introduction to Digital Design and Integrated Circuits (3.00)'," 'EECS 151LB - Field-Programmable Gate Array Laboratory (2.00)']]"""
+UC Berkeley BS,"[['BioE 100 - Ethics in Science and Engineering (3.00)'], ['CS or H195 - Social Implications of Computer Technology (1.00)'], ['Data C104 - Human Contexts and Ethics of Data (also History C184 and STS C104D) (4.00)'], ['ENERES C100 - Energy and Society (4.00)'], ['ENGIN 125 - Ethics, Engineering and Society (3.00)'], ['ENGIN 157AC - Engineering, The Environment, and Society (4.00)'], ['ENGIN 185 - The Art of STEM Communication (3.00)'], ['Info 88A - Data and Ethics (4.00)'], ['SF 100D - Introduction to Technology, Society, and Culture (4.00)'], ['SF 100G - Introduction to Science, Society, and Ethics (4.00)'], ['NWMEDIA 151AC - Transforming Tech: Issues and Interventions in STEM and Silicon Valley (4.00)'], ['PUBPOL C184 or W184: Energy and Society (4.00)']]"
+UC Berkeley BS,[['--ELECTIVE: 4 units of upper division technical electives (4.00)']]
+UC Berkeley BS,Total units: 72.0
+UC Irvine,"[['I&C SCI 31- 32- 33 - Introduction to Programming (4.00)', 'Programming with Software Libraries (4.00)', 'Intermediate Programming (4.00)'], ['I&C SCI 32A- 33 - Python Programming and Libraries (Accelerated) (4.00)', 'Intermediate Programming (4.00)']]"
+UC Irvine,[['I&C SCI 45C - Programming in C/C++ as a Second Language (4.00)']]
+UC Irvine,[['I&C SCI 46 - Data Structure Implementation and Analysis (4.00)']]
+UC Irvine,[['I&C SCI 51 - Introductory Computer Organization (6.00)']]
+UC Irvine,[['I&C SCI 53 - Principles in System Design (4.00)']]
+UC Irvine,[['IN4MATX 43 - Introduction to Software Engineering (4.00)']]
+UC Irvine,"[['MATH 2A- 2B - Single-Variable Calculus I (4.00)', 'Single-Variable Calculus II (4.00)']]"
+UC Irvine,[['I&C SCI 6B - Boolean Logic and Discrete Structures (4.00)']]
+UC Irvine,[['I&C SCI 6D - Discrete Mathematics for Computer Science (4.00)']]
+UC Irvine,"[['I&C SCI 6N - Computational Linear Algebra (4.00)'], ['MATH 3A - Introduction to Linear Algebra (4.00)']]"
+UC Irvine,[['STATS 67 - Introduction to Probability and Statistics for Computer Science (4.00)']]
+UC Irvine,"[['--ELECTIVE SCIENCE: Two courses approved for General Education category II except those offered by CSE, Economics, Engineering, ICS, or Mathematics. University Studies courses can be used with the approval of the CS Vice Chair for Undergraduate Studies. (8.00)']]"
+UC Irvine,"[['COMPSCI 161 - Design and Analysis of Algorithms (4.00)','I&C SCI 139W - Critical Writing on Information Technology (4.00)']]"
+UC Irvine,"[['--ELECTIVE: Select 11 upper-division courses from the list below. Sections B-1 and B-2 must be completed as part of the 11 upper-division electives. (44.00)'],['COMPSCI 103–160, 162-189'],['IN4MATX 102 - Concepts of Programming Language II'],['IN4MATX 113 - Requirements Analysis and Engineering'],['IN4MATX 115 - Software Testing, Analysis, and Quality Assurance'],['IN4MATX 117 - Project in Software System Design'],['IN4MATX 121 - Software Design - Applications'],['IN4MATX 122 - Software Design - Structure and Implementation'],['IN4MATX 124 - Internet Applications Engineering'],['IN4MATX 131 - Human Computer Interaction'],['IN4MATX 133 - User Interaction Software'],['IN4MATX 134 - Project in User Interaction Software'],['I&C SCI 161 - Game Engine Lab'],['I&C SCI 162 - Modeling and World Building']]"
+UC Irvine,"[['--ELECTIVE: Choose at least two projects courses from the following list (0.00)'],['COMPSCI 113 - Computer Game Development'],['COMPSCI 114 - Projects in Advanced 3D Computer Graphics'],['COMPSCI 117 - Project in Computer Vision'],['COMPSCI 118 - Introduction to Virtual Reality'],['COMPSCI 122B - Project in Databases and Web Applications'],['COMPSCI 122C - Principles of Data Management'],['COMPSCI 122D - Beyond SQL Data Management'],['COMPSCI 125 - Next Generation Search Systems'],['COMPSCI 133 - Advanced Computer Networks'],['COMPSCI 142B - Language Processor Construction'],['COMPSCI 143B - Project in Operating System Organization'],['COMPSCI 145 - Embedded Software'],['COMPSCI 147 - Internet of Things (IoT) Software and Systems'],['COMPSCI 153 - Logic Design Laboratory'],['COMPSCI 154 - Computer Design Laboratory'],['COMPSCI 165 - Project in Algorithms and Data Structures'],['COMPSCI 175 - Project in Artificial Intelligence'],['IN4MATX 117 - Project in Software System Design'],['IN4MATX 134 - Project in User Interaction Software']]"
+UC Irvine,"[['--ELECTIVE: Some of the specializations include recommended electives. These are courses related to the specialization and intended to help students choose courses to take toward their upper-division elective requirement. (0.00)'],['--Algorithms - Four courses from the following list'],['COMPSCI 162 - Formal Languages and Automata'],['COMPSCI 163 - Graph Algorithms'],['COMPSCI 164 - Computational Geometry and Geometric Modeling'],['COMPSCI 165 - Project in Algorithms and Data Structures'],['COMPSCI 166 - Quantum Computation and Information'],['COMPSCI 167 - Introduction to Applied Cryptography'],['COMPSCI 169 - Introduction to Optimization'],['--Architecture and Embedded Systems - four courses from the following list'],['COMPSCI 145 - Embedded Software'],['COMPSCI 147 - Internet of Things (IoT) Software and Systems'],['COMPSCI 151 - Digital Logic Design'],['COMPSCI 152 - Computer Systems Architecture'],['COMPSCI 153 - Logic Design Laboratory'],['COMPSCI 154 - Computer Design Laboratory'],['--Bioinformatics - three courses from the following list'],['COMPSCI 184A - Artificial Intelligence in Biology and Medicine'],['COMPSCI 172B - Neural Networks and Deep Learning'],['COMPSCI 172C - Artificial Intelligence Frontiers - Technical, Ethical, and Societal'],['COMPSCI 184C - Computational Systems Biology'],['--General CS track - 11 courses from the following list - (1.00)'],['COMPSCI 103-189, except COMPSCI 161'],['--Information (3.00)'],['COMPSCI 121 - Information Retrieval'],['COMPSCI 122A - Introduction to Data Management'],['COMPSCI 178 - Machine Learning and Data-Mining'],['--Four courses from - (4.00)'],['I&C SCI 45J - Programming in Java as a Second Language'],['COMPSCI 122B - Project in Databases and Web Applications'],['COMPSCI 122C - Principles of Data Management'],['COMPSCI 122D - Beyond SQL Data Management'],['COMPSCI 125 - Next Generation Search Systems'],['COMPSCI 132 - Computer Networks'],['COMPSCI 134 - Computer and Network Security'],['COMPSCI 141 - Concepts in Programming Languages I'],['COMPSCI 142A - Compilers and Interpreters'],['COMPSCI 143A - Principles of Operating Systems'],['COMPSCI 163 - Graph Algorithms'],['COMPSCI 165 - Project in Algorithms and Data Structures'],['COMPSCI 167 - Introduction to Applied Cryptography'],['COMPSCI 179 - Algorithms for Probabilistic and Deterministic Graphical Models'],['COMPSCI 122B - Project in Databases and Web Applications'],['COMPSCI 122C - Principles of Data Management'],['COMPSCI 122D - Beyond SQL Data Management'],['COMPSCI 125 - Next Generation Search Systems'],['COMPSCI 179 - Algorithms for Probabilistic and Deterministic Graphical Models'],['--Intelligent Systems (1.00)'],['COMPSCI 171 - Introduction to Artificial Intelligence'],['COMPSCI 175 - Project in Artificial Intelligence'],['COMPSCI 178 - Machine Learning and Data-Mining '],['COMPSCI 116 - Computational Photography and Vision'],['COMPSCI 121 - Information Retrieval'],['COMPSCI 125 - Next Generation Search Systems'],['COMPSCI 162 - Formal Languages and Automata'],['COMPSCI 163 - Graph Algorithms'],['COMPSCI 164 - Computational Geometry and Geometric Modeling'],['COMPSCI 169 - Introduction to Optimization'],['COMPSCI 177 - Applications of Probability in Computer Science'],['COMPSCI 179 - Algorithms for Probabilistic and Deterministic Graphical Models'],['--Networked Systems'],['COMPSCI 132 - Computer Networks'],['COMPSCI 133 - Advanced Computer Networks'],['COMPSCI 134 - Computer and Network Security'],['COMPSCI 143A - Principles of Operating Systems'],['--Systems and Software - three courses from the following list'],['COMPSCI 131 - Parallel and Distributed Computing'],['COMPSCI 141 - Concepts in Programming Languages I'],['COMPSCI 142A - Compilers and Interpreters'],['COMPSCI 142B - Language Processor Construction'],['COMPSCI 143A - Principles of Operating Systems'],['COMPSCI 143B - Project in Operating System Organization'],['--Visual Computing - four courses from the following list'],['COMPSCI 111 - Digital Image Processing'],['COMPSCI 112 - Computer Graphics'],['COMPSCI 114 - Projects in Advanced 3D Computer Graphics'],['COMPSCI 116 - Computational Photography and Vision'],['COMPSCI 117 - Project in Computer Vision'],['COMPSCI 118 - Introduction to Virtual Reality'],['I&C SCI 162 - Modeling and World Building']]"
+UC Irvine,Total units: 114.0
+UC Santa Cruz BS,[['CSE 13S - Computer Systems and C Programming (7.00)']]
+UC Santa Cruz BS,[['CSE 12 - Computer Systems and Assembly Language and Lab (7.00)']]
+UC Santa Cruz BS,[['CSE 16 - Applied Discrete Mathematics (5.00)']]
+UC Santa Cruz BS,[['CSE 20 - Beginning Programming in Python (5.00)']]
+UC Santa Cruz BS,[['CSE 30 - Programming Abstractions: Python (7.00)']]
+UC Santa Cruz BS,"[['MATH 19A - Calculus for Science, Engineering, and Mathematics (5.00)', 'MATH 19B - Calculus for Science, Engineering, and Mathematics (5.00)'], ['MATH 20A - Honors Calculus (5.00)', 'MATH 20B - Honors Calculus (5.00)']]"
+UC Santa Cruz BS,"[['AM 10 - Mathematical Methods for Engineers I (5.00)'], ['MATH 21 - Linear Algebra (5.00)']]"
+UC Santa Cruz BS,"[['AM 30 - Multivariate Calculus for Engineers (5.00)'], ['MATH 23A - Vector Calculus (5.00)']]"
+UC Santa Cruz BS,[['ECE 30 - Engineering Principles of Electronics (5.00)']]
+UC Santa Cruz BS,"[['CSE 101 - Introduction to Data Structures and Algorithms (5.00)', 'CSE 102 - Introduction to Analysis of Algorithms (5.00)', 'CSE 103 - Computational Models (5.00)', 'CSE 120 - Computer Architecture (5.00)', 'CSE 130 - Principles of Computer Systems Design (5.00)']]"
+UC Santa Cruz BS,"[['CSE 112 - Comparative Programming Languages (5.00)'], ['CSE 114A - Foundations of Programming Languages (5.00)']]"
+UC Santa Cruz BS,"[['STAT 131 - Introduction to Probability Theory (5.00)'], ['CSE 107 - Probability and Statistics for Engineers (5.00)']]"
+UC Santa Cruz BS,[['--ELECTIVE: Four courses must be completed from the list below. At least one course must be a computer science and engineering course. See catalog (10.00)']]
+UC Santa Cruz BS,"[['CSE 115A - Introduction to Software Engineering (5.00)'],['CSE 185E/CSE 185S - Technical Writing for Computer Science and Engineering (5.00)'],['CSE 195 - Senior Thesis Research (5.00)']]"
+UC Santa Cruz BS,"[['CSE 195 - Senior Thesis Research (5.00)'],['CSE 110B - Fundamentals of Compiler Design II (5.00)'],['CSE 115C - Software Design Project II (5.00)'],['CSE 115D - Software Design Project - Accelerated (5.00)'],['CSE 121 - Embedded System Design (7.00)'],['CSE 134 - Embedded Operating Systems (5.00)'],['CSE 138 - Distributed Systems (5.00)'],['CSE 140 - Artificial Intelligence (5.00)'],['CSE 143 - Introduction to Natural Language Processing (5.00)'],['CSE 144 - Applied Machine Learning (5.00)'],['CSE 145 - Introduction to Data Mining (5.00)'],['CSE 156L - Network Programming Laboratory (2.00)','CSE 156 - Network Programming (5.00)'],['CSE 157 - Internet of Things (7.00)'],['CSE 160 - Introduction to Computer Graphics (7.00)'],['CSE 161 - Introduction to Data Visualization (5.00)','CSE 161L - Data Visualization Laboratory (2.00)'],['CSE 162 - Advanced Computer Graphics and Animation (5.00)','CSE 162L - Advanced Computer Graphics and Animation Laboratory (2.00)'],['CSE 163 - Data Programming for Visualization (5.00)'],['CSE 168 - Introduction to Augmented Reality and Virtual Reality (7.00)'],['CSE 181 - Database Systems II (5.00)'],['CSE 183 - Web Applications (5.00)'],['CSE 184 - Data Wrangling and Web Scraping (5.00)'],['CMPM 172 - Game Design Studio III (7.00)']]"
+UC Santa Cruz BS,Total units: 111.0
+UC San Diego,"[['CSE 8B -  Introduction to Programming and Computational Problem-Solving II (4.00)'], ['CSE 11 - Introduction to Programming and Computational Problem-Solving - Accelerated Pace (4.00)']]"
+UC San Diego,[['CSE 12 - Basic Data Structures and Object-Oriented Design (4.00)']]
+UC San Diego,[['CSE 15L - Software Tools and Techniques Laboratory (2.00)']]
+UC San Diego,"[['CSE 20 - Discrete Mathematics (4.00)'], ['MATH 15A - Introduction to Discrete Mathematics (4.00)'], ['MATH 31CH - Honors Vector Calculus (4.00)'], ['MATH 109 - Mathematical Reasoning (4.00)']]"
+UC San Diego,"[['CSE 21 - Mathematics for Algorithms and Systems (4.00)'], ['MATH 154 - Discrete Mathematics and Graph Theory (4.00)'], ['MATH 184 - Enumerative Combinatorics (4.00)']]"
+UC San Diego,[['CSE 30 - Computer Organization and Systems Programming (4.00)']]
+UC San Diego,"[[--Two units from: (2.00)], ['CSE 3 - Fluency in Information Technology (4.00)'], ['CSE 4GS - Mathematical Beauty in Rome (4.00)'], ['CSE 6R - Introduction to Computer Science and Object-Oriented Programming - Python (4.00)'], ['CSE 6GS - Mathematical Beauty in Rome Lab (4.00)'], ['CSE 8A - Introduction to Programming and Computational Problem-Solving I (4.00)'], ['CSE 42 - Building and Programming Electronic Devices (2.00)'], ['CSE 86 - C++ for Java Programmers (2.00)'], ['CSE 90 - Undergraduate Seminar (1.00)'], ['CSE 91 - Perspectives in Computer Science and Engineering (2.00)'], ['CSE 95 - Tutor Apprenticeship (2.00)'], ['CSE 99 - Independent Study in Computer Science and Engineering (4.00)'], ['CSE 180 - Biology Meets Computing (4.00)'], ['MAE 8 - MATLAB Programming for Engineering Analysis (4.00)'], ['COGS 9 - Introduction to Data Science (4.00)'], ['COGS 10 - Cognitive Consequences of Technology (4.00)'], ['COGS 18 - Introduction to Python (4.00)'], ['ECE 15 - Engineering Computation (4.00)'], ['ENG 10 - Fundamentals of Engineering Applications (2.00)'], ['ENG 15 - Engineer Your Success (2.00)'], ['NANO 15 - Engineering Computation Using MATLAB (4.00)'], ['CENG 15 - Engineering Computation Using Matlab (4.00)']]"
+UC San Diego,[['MATH 20A - Calculus for Science and Engineering (4.00)']]
+UC San Diego,[['MATH 20B - Calculus for Science and Engineering (4.00)']]
+UC San Diego,"[['MATH 20C - Calculus and Analytic Geometry for Science and Engineering (4.00)'], ['MATH 31BH - Honors Multivariable Calculus (4.00)']]"
+UC San Diego,"[['MATH 18 - Linear Algebra (4.00)'], ['MATH 31AH - Honors Linear Algebra (4.00)']]"
+UC San Diego,"[['MATH 181A - Introduction to Mathematical Statistics I (4.00)'], ['MATH 183 - Statistical Methods (4.00)'], ['ECE 109 - Engineering Probability and Statistics (4.00)'], ['ECON 120A - Econometrics A (4.00)'], ['CSE 103 - A Practical Introduction to Probability and Statistics (4.00)']]"
+UC San Diego,"[['--Two courses chosen from: (8.00)'],['PHYS 2A - Physics Mechanics (4.00)'],['PHYS 2B - Physics - Electricity and Magnetism (4.00)'],['PHYS 4A - Physics for Physics Majors - Mechanics (4.00)'],['PHYS 4B - Physics for Physics Majors - Fluids, Waves, Statistical and Thermal Physics (4.00)'],['CHEM 6A - General Chemistry I (4.00)'], ['CHEM 6AH - Honors General Chemistry I (4.00)'],['CHEM 6B - General Chemistry II (4.00)'], ['CHEM 6BH - Honors General Chemistry II (4.00)'],['BILD 1 - The Cell (4.00)'],['BILD 2 - Multicellular Life (4.00)'],['BILD 3 - Organismic and Evolutionary Biology (4.00)'],['BICD 100 - Genetics (4.00)'],['BIMM 101 - Recombinant DNA Techniques (4.00)'],['BIMM 121 - Laboratory in Microbiology (4.00)'],['COGS 107A - Neuroanatomy and Physiology (4.00)'],['COGS 107B - Systems Neuroscience (4.00)'],['COGS 115 - Neurological Development and Cognitive Change (4.00)'],['ESYS 101 - Environmental Biology (4.00)'],['HDS 110 - Brain and Behavioral Development (4.00)'],['SIO 126 - Marine Microbiology (4.00)'], ['SIO 128 - Microbial Life in Extreme Environments (4.00)']]"
+UC San Diego,"[['CSE 100 - Advanced Data Structures (4.00)', 'CSE 101 - Design and Analysis of Algorithms (4.00)', 'CSE 105 - Theory of Computability (4.00)', 'CSE 110 - Software Engineering (4.00)']]"
+UC San Diego,"[['CSE 140 - Components and Design Techniques for Digital Systems (4.00)', 'CSE 140L - Digital Systems Laboratory (2.00)']]"
+UC San Diego,"[['CSE 141 - Introduction to Computer Architecture (4.00)', 'CSE 141L - Project in Computer Architecture (2.00)'], ['CSE 142 - Introduction to Computer Architecture - A Software Perspective (4.00)', 'CSE 142L - Software Project for Computer Architecture (2.00)']]"
+UC San Diego,"[['CSE 130 - Programming Languages - Principles and Paradigms (4.00)'], ['CSE 132A - Database System Principles (4.00)']]"
+UC San Diego,"[['CSE 120: Principles of Computer Operating Systems (4.00)'], ['CSE 123: Computer Networks (4.00)'], ['CSE 124: Networked Services (4.00)']]"
+UC San Diego,"[['CSE 107 - Introduction to Modern Cryptography (4.00)'], ['CSE 127 - Introduction to Computer Security (4.00)']]"
+UC San Diego,"[['CSE 150A - Introduction to Artificial Intelligence - Probabilistic Reasoning and Decision-Making (4.00)'], ['CSE 150B - Introduction to Artificial Intelligence - Search and Reasoning (4.00)'], ['CSE 151A - Introduction to Machine Learning (4.00)'], ['CSE 151B - Deep Learning (4.00)'], ['CSE 152A - Introduction to Computer Vision I (4.00)'], ['CSE 158 - Recommender Systems and Web Mining (4.00)'], ['CSE 167 - Computer Graphics (4.00)']]"
+UC San Diego,"[['--ELECTIVE: (28.00)'], ['A minimum of twenty units of computer science-related courses, which may include courses listed under the ""Core Courses"" requirement but not already used by the student to satisfy the ""Core Courses"" requirement area. The following courses may also be applied to the twenty-unit minimum (20.00)'],['Any CSE upper-division course between CSE 100–194 that is not being used for another major requirement, with the exception of CSE 180/180R and CSE 191 which are not allowed to meet CSE upper-division CSE elective or technical elective requirements.'],['Undergraduate students may petition to use graduate-level course work toward their elective requirements.'],['Students may use twelve units of CSE 190 toward CSE elective credit. CSE 190 topics may vary from quarter to quarter. May be repeated for credit a maximum of three times (maximum of twelve units; courses must be taken for a different topic). The graduate analogue, CSE 291, applies to this twelve-unit maximum, as well.'],['COGS 108, COGS 109, COGS 118A-C, COGS 120, COGS 120-127, COGS 160, COGS 181, COGS 185, COGS 187A-B, COGS 189'],['DSC 102'],['ECE 140A-B'],['EDS 124AR, EDS 124BR'],['Students may use up to eight units of ENG 100D/L courses toward upper-division CSE elective/technical elective credits (as part of the twelve-unit maximum of special studies courses—CSE 197, 198, 199, 199H)'],['Students must take ENG 100L twice (two units each time) to receive credit for one elective credit [technical elective or upper-division CSE elective (not exceeding the twelve units of special studies courses)]; students may no longer combine this course with another two- or six-unit course'],['LIGN 165, LIGN 167']]"
+UC San Diego,Total units: 124.0
+UC Riverside,[['ENGR 001-I - Professional Development and Mentoring (1.00)']]
+UC Riverside,"[['CS 010A - Introduction to CS for Science Mathematics, and Engineering I - C++ (4.00)']]"
+UC Riverside,"[['CS 010B - Introduction to CS for Science, Mathematics, and Engineering II - C++ (4.00)']]"
+UC Riverside,[['CS 010C - Introduction to Data Structures and Algorithms (4.00)']]
+UC Riverside,[['CS 061 - Machine Organization & Assembly Language Programming (4.00)']]
+UC Riverside,[['CS 011/MATH 011 - Intro to Discrete Structures (4.00)']]
+UC Riverside,[['MATH 009A - First Year Calculus (4.00)']]
+UC Riverside,[['MATH 009B - First Year Calculus (4.00)']]
+UC Riverside,[['MATH 009C - First Year Calculus (4.00)']]
+UC Riverside,[['MATH 010A - Calculus of Several Variables I (4.00)']]
+UC Riverside,"[['MATH 031 - Applied Linear Algebra (5.00)'], ['EE 020B - Linear Methods for Engineering Analysis and Design Using Matlab (4.00)']]"
+UC Riverside,[['PHYS 040A - Physics (Mechanics) (5.00)']]
+UC Riverside,[['PHYS 040B - Physics (Heat/Waves/Sound) (5.00)']]
+UC Riverside,[['PHYS 040C - Physics (Electricity/Magnetism) (5.00)']]
+UC Riverside,[['--ELECTIVE: At least 8 additional units. One course of 4 or more units in an engineering discipline outside the field of computer science to be selected in consultation with a faculty advisor. (Either a lower-division or an upper-division course may be used to satisfy this requirement.) (8.00)']]
+UC Riverside,[['ENGR 101-I - Professional Development and Mentoring (1.00)']]
+UC Riverside,[['CS 100 - Software Construction (5.00)']]
+UC Riverside,[['CS 141 - Intermediate Data Structures and Algorithms (4.00)']]
+UC Riverside,[['CS 150 - Automata and Formal Languages (4.00)']]
+UC Riverside,[['CS 152 - Compiler Design (4.00)']]
+UC Riverside,[['CS 153 - Design of Operating Systems (4.00)']]
+UC Riverside,[['CS 161 - Design and Architecture of Computer Systems (4.00)']]
+UC Riverside,[['CS 179 (E-Z) (4.00)']]
+UC Riverside,[['CS 120A/EE 120A - Logic Design (5.00)']]
+UC Riverside,[['CS 111 - Discrete Structures (4.00)']]
+UC Riverside,[['ENGR 180W - Technical Communications (4.00)']]
+UC Riverside,[['STAT 155 - Probability & Statistics for Engineers (4.00)']]
+UC Riverside,[['--ELECTIVE: At least 28 units of technical electives to be chosen from an approved list of courses which currently includes: see catalog (28.00)']]
+UC Riverside,Total units: 139.0
+UC Santa Barbara,"[['Math 3A, 3B - Calculus with Applications, Courses 1-2 (8.00)']]"
+UC Santa Barbara,"[['Math 4A, 4B - Linear Algebra with Applications; Differential Equations (8.00)']]"
+UC Santa Barbara,[['Math 6A - Vector Calculus (4.00)']]
+UC Santa Barbara,[['CMPSC 16 - Problem Solving with Computers I (4.00)']]
+UC Santa Barbara,[['CMPSC 24 - Problem Solving with Computers II (4.00)']]
+UC Santa Barbara,[['CMPSC 32 - Object Oriented Design and Implementation (4.00)']]
+UC Santa Barbara,[['CMPSC 40 - Foundations of Computer Science (5.00)']]
+UC Santa Barbara,[['CMPSC 64 - Computer Organization and Logic Design (4.00)']]
+UC Santa Barbara,[['PSTAT 120A - Probability and Statistics (4.00)']]
+UC Santa Barbara,"[['PHYS 1 - Basic Physics (4.00)', 'PHYS 2 - Basic Physics (4.00)', 'PHYS 3 - Basic Physics (3.00)', 'PHYS 3L - Physics Laboratory (1.00)']]"
+UC Santa Barbara,"[['--8 units required- The science electives must be selected from the following set of approved courses and taken for a LETTER GRADE. (8.00)'],['ANTH 5 - Intro Biological Anthropology'],['AP Biology - Advanced Placement Biology Exam (score of 3 or higher will credit you with 8 science elective units)'],['ASTRO 1 - Basic Astronomy'],['ASTRO 2 - History of the Universe'],['CHEM 1A + CHEM 1AL - General Chemistry and Laboratory'],['CHEM 1B + CHEM 1BL - General Chemistry and Laboratory'],['CHEM 1C + CHEM 1CL - General Chemistry and Laboratory'],['EARTH 2 - Principles of Physical Geology '],['EARTH 4 or EARTH 4 W - Introduction to Oceanography'],['EARTH 6 - Mountains, Boots, and Backpacks'],['EARTH 7 - Dinosaurs'],['EARTH 8 - Africa Climate & Human Evolution'],['EARTH 9 - Giant Earthquakes'],['EARTH 10 - Antarctica The Last Place on Earth'],['EARTH 20 or Earth W 20 - Geological Catastrophes'],['EARTH 30 - The History of Life'],['EARTH 111 - Principles of Paleontology'],['EARTH 123 - The Solar System'],['EARTH 130 - Global Warming - Science and Society'],['EEMB 21 - General Botany'],['EEMB 22 - Concepts & Controversies in Bio Sciences'],['EEMB 40 - Ecology of Infectious Disease'],['EEMB 50 - Biology of Non-Infectious Disease'],['ENV S 2 - Intro to Environmental Science'],['GEOG 3 - Oceans & Atmosphere'],['GEOG 4 - Land, Water & Life'],['GEOG 8 - Intro to Global Warming'],['GEOG 12 or GEOG W 12 - Maps & Spatial Reasoning'],['GEOG 115A - Remote Sensing of the Environment I'],['GEOG 115B - Remote Sensing of the Environment II'],['MCDB 1A + 1AL - Introductory Biology I and Laboratory'],['MCDB 1B', 'EEMB 2', plus either MCDB 1BL or EEMB 2L - Introductory Biology II and Laboratory'],['MCDB 20 - Concepts of Biology'],['MCDB 21 - The Immune System and Aids'],['MCDB 23 - Biology of Cancer'],['MCDB 26 - Contemporary Nutrition'],['MCDB 29 - Fundamentals of Biomedical Research'],['PHYS 4 + PHYS 4L - Basic Physics and Laboratory'],['PHYS 5 + PHYS 5L - Basic Physics and Laboratory'],['PSY 108 - Intro to Cognitive Psychology'],['PSY 129 - Perception']]"
+UC Santa Barbara,"[['CMPSC 111 - Intro to Computational Science (4.00)'], ['CMPSC 40 - Parallel Scientific Computing (4.00)']]"
+UC Santa Barbara,"[['CMPSC 130A - Data Structures and Algorithms I (4.00)', 'CMPSC 130B - Data Structures and Algorithms II (4.00)']]"
+UC Santa Barbara,[['CMPSC 138 - Automata and Formal Languages (4.00)']]
+UC Santa Barbara,[['CMPSC 148 or 156 or 172 - Computer Science Project or Advanced Applications Programming or Software Engineering (4.00)']]
+UC Santa Barbara,[['CMPSC 154 - Computer Architecture (4.00)']]
+UC Santa Barbara,[['CMPSC 160 or 162 - Translation of Programming Languages or Programming Languages (4.00)']]
+UC Santa Barbara,[['CMPSC 170 - Operating Systems (4.00)']]
+UC Santa Barbara,[['PSTAT 120B - Probability and Statistics (4.00)']]
+UC Santa Barbara,[['ENGR 101 - Ethics in Engineering (3.00)']]
+UC Santa Barbara,[['--ELECTIVE: 32 units (GEAR years 2020-21 and 2021-22) of upper-division major field electives. At least 8 units of these electives must be Computer Science courses. (32.00)']]
+UC Santa Barbara,Total units: 136.0
+UC Merced,[['ENGR 191 - Professional Seminar (1.00)']]
+UC Merced,[['MATH 021 - Calculus I for Physical Sciences and Engineering (4.00)']]
+UC Merced,[['MATH 022 - Calculus II for Physical Sciences and Engineering (4.00)']]
+UC Merced,"[['MATH 023 - Vector Calculus (4.00)'], ['MATH 023H - Honors Vector Calculus (4.00)']]"
+UC Merced,[['MATH 024 - Linear Algebra and Differential Equations (4.00)']]
+UC Merced,[['MATH 032 - Probability and Statistics (4.00)']]
+UC Merced,"[['PHYS 008 - Introductory Physics I for Physical Sciences (3.00)', 'PHYS 008L - Introductory Physics I for Physical Sciences Lab (1.00)']]"
+UC Merced,"[['PHYS 009 - Introductory Physics II for Physical Sciences (3.00)', 'PHYS 009L - Introductory Physics II for Physical Sciences Lab (1.00)']]"
+UC Merced,"[['BIO 003 - To Know Ourselves - Molecular Basis of Health and Disease (4.00)'], ['BIO 005 - Concepts and Issues in Biology Today (4.00)'], ['BIO 043 - Biodiversity and Conservation (4.00)'], ['BIO 047 - Astrobiology (4.00)'], ['ESS 001 - Introduction to Earth Systems Science (4.00)'], ['ESS 005 - Introduction to Biological Earth Systems (4.00)']]"
+UC Merced,"[['CSE 015 - Discrete Mathematics (4.00)', 'CSE 022 - Introduction to Programming (4.00)', 'CSE 024 - Advanced Programming (4.00)', 'CSE 030 - Data Structures (4.00)', 'CSE 031 - Computer Organization and Assembly Language (4.00)', 'ENGR 065 - Circuit Theory (4.00)']]"
+UC Merced,[['CSE 100 - Algorithm Design and Analysis (4.00)']]
+UC Merced,[['CSE 120 - Software Engineering (4.00)']]
+UC Merced,[['--ELECTIVE: A total of 30 units of Engineering technical electives are required.(30.00)']]
+UC Merced,Total units: 95.0
+UC Los Angeles,[['COM SCI 31 - Introduction to Computer Science I (4.00)']]
+UC Los Angeles,[['COM SCI 32 - Introduction to Computer Science II (4.00)']]
+UC Los Angeles,[['COM SCI 33 - Introduction to Computer Organization (5.00)']]
+UC Los Angeles,[['COM SCI 35L - Software Construction (4.00)']]
+UC Los Angeles,"[['COM SCI M51A - Logic Design of Digital Systems (4.00)'], ['EC ENGR M16 - Logic Design of Digital Systems (4.00)']]"
+UC Los Angeles,[['MATH 31A - Differential and Integral Calculus (4.00)']]
+UC Los Angeles,[['MATH 31B - Integration and Infinite Series (4.00)']]
+UC Los Angeles,[['MATH 32A - Calculus of Several Variables (4.00)']]
+UC Los Angeles,[['MATH 32B - Calculus of Several Variables (4.00)']]
+UC Los Angeles,[['MATH 33A - Linear Algebra and Applications (4.00)']]
+UC Los Angeles,[['MATH 33B - Differential Equations (4.00)']]
+UC Los Angeles,[['MATH 61 - Introduction to Discrete Structures (4.00)']]
+UC Los Angeles,[['PHYSICS 1A - Physics for Scientists and Engineers - Mechanics (5.00)']]
+UC Los Angeles,"[['PHYSICS 1B - Physics for Scientists and Engineers - Oscillations, Waves, Electric and Magnetic Fields (5.00)']]"
+UC Los Angeles,"[['PHYSICS 1C - Physics for Scientists and Engineers - Electrodynamics, Optics, and Special Relativity (5.00)']]"
+UC Los Angeles,"[['PHYSICS 4AL - Physics Laboratory for Scientists and Engineers - Mechanics (2.00)'], ['PHYSICS 4BL - Physics Laboratory for Scientists and Engineers - Electricity and Magnetism (2.00)']]"
+UC Los Angeles,[['COM SCI 111 - Operating Systems Principles (5.00)']]
+UC Los Angeles,[['COM SCI 118 - Computer Network Fundamentals (4.00)']]
+UC Los Angeles,[['COM SCI 131 - Programming Languages (4.00)']]
+UC Los Angeles,[['COM SCI 180 - Introduction to Algorithms and Complexity (4.00)']]
+UC Los Angeles,[['COM SCI 181 - Introduction to Formal Languages and Automata Theory (4.00)']]
+UC Los Angeles,"[['COM SCI M151B - Computer Systems Architecture (4.00)'], ['EC ENGR M116C - Computer Systems Architecture (4.00)']]"
+UC Los Angeles,"[['COM SCI M152A - Introductory Digital Design Laboratory (2.00)'], ['EC ENGR M116L - Introductory Digital Design Laboratory (2.00)']]"
+UC Los Angeles,"[['C&EE 110 - Introduction to Probability and Statistics for Engineers (4.00)'], ['EC ENGR 131A - Probability and Statistics (4.00)'], ['MATH 170A - Probability Theory I (4.00)'], ['MATH 170E - Introduction to Probability and Statistics 1 - Probability (4.00)'], ['STATS 100A - Introduction to Probability (4.00)']]"
+UC Los Angeles,"[['COM SCI 130 - Software Engineering (4.00)'], ['COM SCI 152B - Digital Design Project Laboratory (4.00)']]"
+UC Los Angeles,"[['--ELECTIVE: Select a minimum of 20 units and five elective courses from Computer Science 111 through CM187, and up to 8 units of Computer Science 188. (20.00)']]"
+UC Los Angeles,[['--ELECTIVE: Select a minimum of 12 units and three science and technology courses (not used to satisfy other requirements) that may include 12 units of upper-division computer science courses or 12 units of courses selected from an approved list available in the Office of Academic and Student Affairs. (12.00)']]
+UC Los Angeles,[['--ELECTIVE: Select 12 units of technical breadth courses from an approved list available in the Office of Academic and Student Affairs. (12.00)']]
+UC Los Angeles,Total units: 145.0
+CP Humboldt,[['CS 111 - Computer Science Foundations 1 (4.00)']]
+CP Humboldt,[['CS 112 - Computer Science Foundations 2 (4.00)']]
+CP Humboldt,[['CS 211 - Data Structures (4.00)']]
+CP Humboldt,[['CS 243 - Architecture (4.00)']]
+CP Humboldt,"[['STAT 108 - Elementary Statistics (3.00)'], ['STAT 108I - Elementary Statistics with Integrated Support (3.00)']]"
+CP Humboldt,"[['MATH 109 - Calculus I (4.00)'], ['MATH 105 - Calculus for the Biological Sciences and Natural Resources (3.00)']]"
+CP Humboldt,[['MATH 253 - Discrete Mathematics (3.00)']]
+CP Humboldt,[['CS 312 - Algorithms (4.00)']]
+CP Humboldt,[['CS 325 - Database Design (4.00)']]
+CP Humboldt,[['CS 328 - Web-Apps Using Databases (4.00)']]
+CP Humboldt,[['CS 346 - Telecommunications and Networks (4.00)']]
+CP Humboldt,[['CS 374 - Operating Systems (4.00)']]
+CP Humboldt,[['CS 449 - Computer Security (4.00)']]
+CP Humboldt,[['CS 458 - Software Engineering (4.00)']]
+CP Humboldt,[['CS 461 - Computational Models (4.00)']]
+CP Humboldt,"[['--ELECTIVE: Complete at least two elective courses from the list below, totaling at least 6 units. (6.00)'],['At least one elective course must be from Computer Science (CS prefix)'],['At least one elective must be an upper division course.'],['The total combined units from CS 482 and CS 499 cannot count for more than 3 units of electives.'],['CS 232 - Python Programming (3.00)'],['CS 235 - Java Programming (3.00)'],['CS 237 - Bioinformatics Programming (3.00)'],['CS 279 - Introduction to Linux (4.00)'],['CS 280 - Selected Topics in Computing 1-3'],['CS 280L - Selected Topics in Computing 1-2'],['CS 444 - Robotics (4.00)'],['CS 480 - Advanced Topics in Computing 1-3'],['CS 480L - Advanced Topics in Computing 1-2'],['CS 482 - Internship 1-4'],['CS 499 - Directed Study 1-4'],['GSP 318 - Geospatial Programming I (3.00)'],['PHYX 316 - Electronic Instrumentation and Control Systems (4.00)']]"
+CP Humboldt,Total units: 63.0
+Stainislaus State,[['CS 1500 - Computer Programming I (3.00)']]
+Stainislaus State,[['CS 2500 - Computer Programming II (3.00)']]
+Stainislaus State,[['CS 2700 - Assembly Language and Computer Architecture (3.00)']]
+Stainislaus State,[['MATH 1410 - Calculus I (4.00)']]
+Stainislaus State,[['MATH 1420 - Calculus II (4.00)']]
+Stainislaus State,"[['MATH 1620 - Probability and Statistics (4.00)'], ['MATH 1600 - Statistics (4.00)'], ['MATH 1602 - Statistics with Support II (3.00)']]"
+Stainislaus State,[['MATH 2300 - Discrete Structures (3.00)']]
+Stainislaus State,"[['PHYS 2250 - General Physics I (4.00)', 'PHYS 2252 - General Physics I Laboratory (1.00)', 'PHYS 2260 - General Physics II (4.00)', 'PHYS 2262 - General Physics II Laboratory (1.00)'], ['CHEM 1100 - General Chemistry I (4.00)', 'CHEM 1102 - General Chemistry I Laboratory (1.00)', 'CHEM 1110 - General Chemistry II (4.00)', 'CHEM 1112 - General Chemistry II Laboratory (1.00)'],['BIOL 1050 - General Biology I (4.00)', 'BIOL 1150 - General Biology II (4.00)']]"
+Stainislaus State,"[['CS 3100 - Data Structures and Algorithms (3.00)', 'CS 3740 - Computer Organization (3.00)', 'CS 3750 - Operating Systems I (3.00)', 'CS 4100 - Programming Languages (WP) (3.00)', 'CS 4960 - Seminar in Computer Science (1.00)']]"
+Stainislaus State,"[['--Complete two of the following: (6.00)'],['CS 4300 - Compiler Theory (3.00)'],['CS 4410 - Automata, Computability, and Formal Languages (3.00)'],['CS 4440 - Theory of Algorithms (3.00)'],['CS 4450 - Coding and Information Theory (3.00)']]"
+Stainislaus State,"[['CS 4250 - Database Management Systems (3.00)'], ['CS 4270 - Ecommerce Systems Design (3.00)'], ['CS 4800 - Software Engineering (3.00)']]"
+Stainislaus State,[['--ELECTIVE: Select 12 units from the following courses. See catalog (12.00)']]
+Stainislaus State,"[['--The Cybersecurity Concentration (CC) provides guidance to students about courses that are particularly relevant to cybersecurity careers. This concentration requires students to place a particular focus in their choice of courses. (0.00)'],['--Specifically, to complete the Practice Requirement (#3 above), CC students must take:'],['CS 4250 - Database Management Systems '],['--To complete the 12 unit elective requirement (#4 above) for the major, CC students must take - '],['CS 3000 - Communication Networks and'],['CS 4840 - Cybersecurity Fundamentals '],['The remaining 6 units of electives are to be completed using the guidelines of section #4 above.']]"
+Stainislaus State,Total units: 65.0
+Fresno State,[['CSCI 40 - Introduction to Programming and Problem Solving (4.00)']]
+Fresno State,[['CSCI 41 - Introduction to Data Structures (4.00)']]
+Fresno State,[['CSCI 60 - Foundations of Computer Science (4.00)']]
+Fresno State,"[['MATH 75 - Calculus I (4.00)', 'MATH 76 - Calculus II (4.00)']]"
+Fresno State,"[['PHYS 2A - General Physics (3.00)', 'PHYS 2B - General Physics (3.00)'], ['PHYS 4AL - Laboratory in Mechanics and Wave Motion (1.00)', 'PHYS 4A - Mechanics and Wave Motion (3.00)', 'PHYS 4B - Electricity, Magnetism, and Heat (3.00)', 'PHYS 4BL - Laboratory in Electricity, Magnetism, and Heat (1.00)']]"
+Fresno State,[['CSCI 112 - Introduction to Computer Systems (3.00)']]
+Fresno State,[['CSCI 113 - Introduction to Computer Organization (4.00)']]
+Fresno State,[['CSCI 114 - Introduction to Operating Systems (3.00)']]
+Fresno State,[['CSCI 115 - Algorithms and Data Structures (4.00)']]
+Fresno State,[['CSCI 117 - Structures of Programming Languages (4.00)']]
+Fresno State,[['CSCI 119 - Introduction to Formal Languages and Automata (4.00)']]
+Fresno State,"[['--ELECTIVE: Select seven of the following, including one of the sequences (21.00)'],['CSCI 124 - Introduction to File Processing (3.00)'],['CSCI 126 - Database Systems (3.00)'],['CSCI 130 - Web Programming (3.00)'],['CSCI 134 - Compiler Design (3.00)'],['CSCI 146 - Systems Architecture (3.00)'],['CSCI 148 - Systems Programming (3.00)'],['CSCI 150 - Introduction to Software Engineering (3.00)'],['CSCI 152E - Software Engineering (3.00)'],['CSCI 154 - Simulation (3.00)'],['CSCI 156 - Internetworking Systems and Protocols (3.00)'],['CSCI 164 - Artificial Intelligence Programming (3.00)'],['CSCI 166 - Principles of Artificial Intelligence (3.00)'],['CSCI 167 - Introduction to Deep Learning (3.00)'],['CSCI 168E - Big Data Analytics (3.00)'],['CSCI 172 - Computer Graphics (3.00)'],['CSCI 173 - Advanced Computer Graphics (3.00)'],['CSCI 174 - Design and Analysis of Algorithms (3.00)'],['CSCI 176 - Parallel Processing (3.00)'],['CSCI 177 - Distributed Computer Systems (3.00)'],['CSCI 186 - Formal Languages and Automata (3.00)'],['CSCI 188 - Introduction to Computability (3.00)'],['CSCI 191T - Topics in Computer Science (3.00)']]"
+Fresno State,"[['--Approved Sequences: (0.00)'], ['CSCI 126 - CSCI 130'], ['CSCI 114 - CSCI 146'], ['CSCI 114 - CSCI 148'], ['CSCI 150 - CSCI 152'], ['CSCI 156 - ECE 146'], ['CSCI 164 - CSCI 166'], ['CSCI 172 - CSCI 173'], ['CSCI 176 - CSCI 177'], ['CSCI 186 - CSCI 188'], ['And, complete an eighth course, either CSCI 198, CSCI 198S or an additional second course in one of the sequences above (3.00)']]"
+Fresno State,Total units: 69.0
+CSU East Bay,[['CS 101 - Computer Science I (4.00)']]
+CSU East Bay,[['CS 201 - Computer Science II (4.00)']]
+CSU East Bay,[['CS 211 - Discrete Structures (3.00)']]
+CSU East Bay,[['CS 221 - Computer Organization and Assembly Language (3.00)']]
+CSU East Bay,[['CS 230 - Computing and Social Responsibility (3.00)']]
+CSU East Bay,[['MATH 130 - Calculus I (4.00)']]
+CSU East Bay,[['MATH 131 - Calculus II (3.00)']]
+CSU East Bay,[['MATH 225 - Numerical Algorithms and Linear Algebra for Computer Science (3.00)']]
+CSU East Bay,[['PHYS 135 - Physics for Scientists and Engineers I (4.00)']]
+CSU East Bay,[['CS 301 - Data Structures and Algorithms (3.00)']]
+CSU East Bay,[['CS 311 - Programming Language Concepts (3.00)']]
+CSU East Bay,[['CS 321 - Computer Architecture (3.00)']]
+CSU East Bay,[['CS 401 - Software Engineering (3.00)']]
+CSU East Bay,[['CS 411 - Automata and Computation (3.00)']]
+CSU East Bay,[['CS 413 - Analysis of Algorithms (3.00)']]
+CSU East Bay,[['CS 421 - Operating Systems (3.00)']]
+CSU East Bay,[['CS 441 - Computer Networks (3.00)']]
+CSU East Bay,[['STAT 316 - Statistics and Probability for Science and Engineering (3.00)']]
+CSU East Bay,"[['--Students must complete two (2) courses of the following for 6 units (6.00)'],['CS 351 - Website Development (3.00)'],['CS 431 - Database Architecture (3.00)'],['CS 453 - Mobile Programming (3.00)'],['CS 455 - Computer Graphics (3.00)'],['CS 461 - Artificial Intelligence (3.00)'],['CS 471 - Security and Information Assurance (3.00)']]"
+CSU East Bay,[['--ELECTIVE: Students must take two (2) courses with the CS prefix numbered 300 or above for a minimum of 6 units. Courses must not be the same as those already used.  Note - 1-3 units of CS 498 Cooperative Education and/or 1-3 units of CS 490 Independent Study may be used to fulfill the Electives category. (6.00)']]
+CSU East Bay,Total units: 70.0
+CSU Monterey Bay,[['MATH 170 - Discrete Mathematics (4.00)']]
+CSU Monterey Bay,[['CST 231 - Problm-Solving/Programng (4.00)']]
+CSU Monterey Bay,[['CST 237 - Intro to Computer Architecture (4.00)']]
+CSU Monterey Bay,[['CST 238 - Introduction to Data Structures (4.00)']]
+CSU Monterey Bay,[['MATH 150 - Calculus I (4.00)']]
+CSU Monterey Bay,"[['MATH 151 - Calculus II (4.00)'], ['MATH 270 - Mathematics for Computing (4.00)']]"
+CSU Monterey Bay,[['CST 300 - Major ProSeminar (4.00)']]
+CSU Monterey Bay,[['CST 338 - Software Design (4.00)']]
+CSU Monterey Bay,[['CST 334 - Operating Systems (4.00)']]
+CSU Monterey Bay,[['CST 370 - Design and Analysis of Algorithms (4.00)']]
+CSU Monterey Bay,"[['CST 462S - Race, Gender, Class in the Digital World (3.00)']]"
+CSU Monterey Bay,[['CST 499 - Computer Science Capstone (4.00)']]
+CSU Monterey Bay,"[['--ELECTIVE: Please note: Twelve (12) of the units taken to complete a concentration (all of which are upper division) may not be used in fulfillment of other minors or concentrations. (12.00)'],['Network & Security Concentration'],['Data Science Concentration'],['Software Engineering Concentration'],['Game Development Concentration']]"
+CSU Monterey Bay,"[['--ELECTIVE: All students must complete twelve (12) units of CS elective coursework from the list below, and not used in fulfillment of concentration requirements. (12.00)'], ['CST 205 - Multimedia Design and Programming (4.00)'], ['CST 311 - Introduction to Computer Networks (4.00)'], ['CST 312 - Network Security (4.00)'],['CST 325 - Graphics Programming (4.00)'], ['CST 326 - Game Development (4.00)'], ['CST 336 - Internet Programming (4.00)'], ['CST 363 - Introduction to Database Systems (4.00)'], ['CST 383 - Introduction to Data Science (4.00)'], ['CST 438 - Software Engineering (4.00)']]"
+CSU Monterey Bay,Total units: 71.0
+Sonoma State,[['CS 115 - Programming I (4.00)']]
+Sonoma State,[['CS 210 - Introduction to Unix (1.00)']]
+Sonoma State,[['CS 215 - Programming II (4.00)']]
+Sonoma State,[['CS 242 - Discrete Structures for Computer Science (4.00)']]
+Sonoma State,[['CS 252 - Introduction to Computer Organization (4.00)']]
+Sonoma State,[['MATH 161 - Differential and Integral Calculus I (4.00)']]
+Sonoma State,"[['--ELECTIVE MATH/SCI: Two additional courses from the following: (7.00)'],['MATH 165 - Elementary Applied Statistics (4.00)'], ['MATH 211 - Differential and Integral Calculus II (4.00)'], ['MATH 222 - Elementary Applied Linear Algebra (3.00)'], ['MATH 241 - Linear Algebra with Applications in Differential Equations (4.00)'], ['PHYS 214 - Introduction to Physics II (4.00)']]"
+Sonoma State,[['CS 315 - Data Structures (4.00)']]
+Sonoma State,[['CS 351 - Computer Architecture (4.00)']]
+Sonoma State,[['CS 355 - Database Management Systems Design (4.00)']]
+Sonoma State,[['CS 370 - Software Design and Development (4.00)']]
+Sonoma State,[['CS 415 - Algorithm Analysis (4.00)']]
+Sonoma State,[['CS 450 - Operating Systems (4.00)']]
+Sonoma State,[['CS 454 - Theory of Computation (4.00)']]
+Sonoma State,[['CS 460 - Programming Languages (4.00)']]
+Sonoma State,"[['--ELECTIVE: Choose 9 units of upper-division CS electives (see list below). No more than 3 units can be satisfied by a combination of CS 349, CS 390, CS 495, and CS 497. (9.00)'],['CS 330 - Introduction to Game Programming (3.00)'],['CS 340 - Computer Security and Malware (3.00)'],['CS 349 - Problem Solving in a Team Environment (1.00)'],['CS 360 - Object-Oriented Programming (3.00)'],['CS 365 - Computer Networking and the Internet (3.00)'],['CS 375 - Computer Graphics (3.00)'],['CS 385 - Selected Topics in Computer Science 1-4'],['CS 386 - Selected Topics in CS with Lab (3.00)'],['CS 390 - Computer Science Colloquium (1.00)'],['CS 425 - Parallel Computing (3.00)'],['CS 452 - Compiler Design and Construction (3.00)'],['CS 465 - Data Communications (3.00)'],['CS 480 - Artificial Intelligence (3.00)'],['CS 495 - Special Studies 1-4'],['CS 497 - Internship 1-3']]"
+Sonoma State,"[['CS 470 - Advanced Software Design Project (3.00)'], ['CS 496 - Senior Research Project (3.00)']]"
+Sonoma State,Total units: 72.0
+San Francisco State,[['MATH 226 - Calculus I (4.00)']]
+San Francisco State,[['MATH 227 - Calculus II (4.00)']]
+San Francisco State,[['MATH 324 - Probability and Statistics with Computing (3.00)']]
+San Francisco State,[['MATH 325 - Linear Algebra (4.00)']]
+San Francisco State,[['PHYS 220 - General Physics with Calculus I' (3.00)]]
+San Francisco State,[['PHYS 222 - General Physics with Calculus I Laboratory (1.00)']]
+San Francisco State,[['PHYS 230 - General Physics with Calculus II (3.00)']]
+San Francisco State,[['PHYS 232 - General Physics with Calculus II Laboratory (1.00)']]
+San Francisco State,[['CSC 210 - Introduction to Computer Programming (3.00)']]
+San Francisco State,[['CSC 211 - Introduction to Software Lab (1.00)']]
+San Francisco State,[['CSC 220 - Data Structures (3.00)']]
+San Francisco State,[['CSC 230 - Discrete Mathematical Structures for Computer Science (3.00)']]
+San Francisco State,[['CSC 256 - Machine Structures (3.00)']]
+San Francisco State,"[['CSC 300GW - Ethics, Communication, and Tools for Software Development - GWAR (3.00)']]"
+San Francisco State,[['CSC 317 - Introduction to Web Software Development (3.00)']]
+San Francisco State,[['CSC 340 - Programming Methodology (3.00)']]
+San Francisco State,[['CSC 413 - Software Development (3.00)']]
+San Francisco State,[['CSC 415 - Operating System Principles (3.00)']]
+San Francisco State,[['CSC 510 - Analysis of Algorithms I (3.00)']]
+San Francisco State,[['CSC 600 - Programming Paradigms and Languages (3.00)']]
+San Francisco State,[['CSC 648 - Software Engineering (3.00)']]
+San Francisco State,"[['--ELECTIVE: All students must complete four 3-unit senior electives. At least 9 units must be CSC courses. In addition to the courses listed below, any 600-level CSC course, with the exception of the advanced requirements courses CSC 600 and CSC 648, can be used as an elective. The department also allows one CSC graduate course to be used as a senior elective (700-level or higher, and non-paired excluding 895, 898, 897, 899). Exceptions must be approved in advance by a senior advisor. (12.00)']]"
+San Francisco State,Total units: 72.0
+CSU San Marcos,[['CS 111 - Computer Science I (4.00)']]
+CSU San Marcos,[['CS 211 - Computer Science II (4.00)']]
+CSU San Marcos,[['CS 231 - Assembly Language and Digital Circuits (4.00)']]
+CSU San Marcos,"[['MATH 160 - Calculus with Applications, I (5.00)']]"
+CSU San Marcos,"[['MATH 162 - Calculus with Applications, II (4.00)']]"
+CSU San Marcos,[['MATH 270 - Basic Discrete Mathematics (3.00)']]
+CSU San Marcos,"[['8 units of coursework in biology, chemistry, or physics that are counted toward a science major. (8.00)']]"
+CSU San Marcos,"[['MATH 242 - Introduction to Statistics (3.00)'], ['MATH 440 - Introduction to Mathematical Probability and Statistics (4.00)']]"
+CSU San Marcos,"[['MATH 264 - Introduction to Linear Algebra (3.00)'], ['MATH 374 - Linear Algebra (3.00)']]"
+CSU San Marcos,[['CS 310L - Social Issues and Professional Practices in Computing - Activities and Lab (1.00)']]
+CSU San Marcos,[['CS 311 - Data Structures and Algorithms (3.00)']]
+CSU San Marcos,[['CS 331 - Computer Architecture (3.00)']]
+CSU San Marcos,[['CS 351 - Programming Languages (3.00)']]
+CSU San Marcos,"[['CS 370 - Introduction to Software Engineering (3.00)'], ['SE 370 - Introduction to Software Engineering (3.00)']]"
+CSU San Marcos,[['CS 433 - Operating Systems (3.00)']]
+CSU San Marcos,[['CS 436 - Introduction to Networking (3.00)']]
+CSU San Marcos,[['CS 443 - Fundamentals of Database Systems (3.00)']]
+CSU San Marcos,[['CS 471 - Introduction to Artificial Intelligence (3.00)']]
+CSU San Marcos,[['CS 490 - Capstone Project (3.00)']]
+CSU San Marcos,"[['--ELECTIVE: Computer Science Electives chosen from CS courses numbered 400 or higher, CS 440, MATH: 464, or MATH: 480. (9.00)']]"
+CSU San Marcos,Total units: 75.0
+CSU Dominguez Hills,[['CSC 121 - Intro to Comp. Sci. & Prog. I (4.00)']]
+CSU Dominguez Hills,[['CSC 123 - Intro to Comp. Sci. & Prog. II (4.00)']]
+CSU Dominguez Hills,[['CSC 221 - Assem. Lang. & Intro to Comp. Org. (3.00)']]
+CSU Dominguez Hills,[['CSC 2xx - Lower Division Computer Science Elective (3.00)']]
+CSU Dominguez Hills,[['MAT 191 - Calculus I (5.00)']]
+CSU Dominguez Hills,[['MAT 193 - Calculus II (5.00)']]
+CSU Dominguez Hills,[['MAT 271 - Foundations of Higher Mathematics (3.00)']]
+CSU Dominguez Hills,[['MAT 281 - Discrete Mathematics (3.00)']]
+CSU Dominguez Hills,[['PHY 130 - General Physics I (5.00)']]
+CSU Dominguez Hills,[['PHY 132 - General Physics II (5.00)']]
+CSU Dominguez Hills,"[['CSC 311 - Data Structures (3.00)', 'CSC 321 - Programming Languages (3.00)', 'CSC 331 - Computer Organization (3.00)', 'CSC 341 - Operating Systems (3.00)']]"
+CSU Dominguez Hills,"[['CSC 301 - Computer and Society (3.00)', 'CSC 401 - Analysis of Algorithms (3.00)', 'CSC 481 - Software Engineering (3.00)', 'CSC 492 - Senior Project (3.00)']]"
+CSU Dominguez Hills,"[['MAT 321 - Probability and Statistics (3.00)', 'MAT 361 - Finite Automata (3.00)']]"
+CSU Dominguez Hills,[['--ELECTIVE: Select two courses from the following (6.00)']]
+CSU Dominguez Hills,Total units: 76.0
+CSU Channel Islands,[['COMP 150 - Object-Oriented Programming (4.00)']]
+CSU Channel Islands,[['COMP 151 - Data Structures And Program Design (4.00)']]
+CSU Channel Islands,[['COMP 162 - Computer Architecture and Assembly Language (3.00)']]
+CSU Channel Islands,[['COMP 232 - Programming Languages (3.00)']]
+CSU Channel Islands,[['COMP 262 - Computer Organization and Architecture (3.00)']]
+CSU Channel Islands,[['MATH 150 - Calculus I (4.00)']]
+CSU Channel Islands,[['MATH 151 - Calculus II (4.00)']]
+CSU Channel Islands,[['MATH 240 - Linear Algebra (3.00)']]
+CSU Channel Islands,"[['One course from GE Area B2 (3.00)', 'PHYS 200 - General Physics I (4.00)', 'PHYS 201 - General Physics II (4.00)'],['BIOL 200 - Principles of Organismal and Population Biology (4.00)', 'BIOL 212 - Neurobiology and Cognitive Science (Cross-listed as PSY 212) (3.00)', 'PHYS 200 - General Physics I (4.00)']]"
+CSU Channel Islands,[['COMP 350 - Introduction To Software Engineering (3.00)']]
+CSU Channel Islands,[['COMP 362 - Operating Systems (4.00)']]
+CSU Channel Islands,"[['COMP 454 - Automata, Languages, and Computation (3.00)']]"
+CSU Channel Islands,[['COMP 491 - Capstone Preparation (1.00)']]
+CSU Channel Islands,[['COMP 499 - Capstone Project (3.00)']]
+CSU Channel Islands,[['MATH 300 - Discrete Mathematics (3.00)']]
+CSU Channel Islands,[['MATH 352 - Probability and Statistics (3.00)']]
+CSU Channel Islands,[['COMP 354 - Analysis of Algorithms (Cross-listed as MATH-354) (3.00)']]
+CSU Channel Islands,"[['COMP 447 - Societal Issues in Computing (3.00)'], ['COMP 449 - Human-Computer Interaction (3.00)']]"
+CSU Channel Islands,[['--ELECTIVE: Complete 12 units from the following: See catalog (12.00)']]
+CSU Channel Islands,Total units: 77.0
+Sacramento State,[['CSC 15 - Programming Concepts and Methodology I (3.00)']]
+Sacramento State,[['CSC 20 - Programming Concepts and Methodology II (3.00)']]
+Sacramento State,[['CSC 28 - Discrete Structures for Computer Science (3.00)']]
+Sacramento State,[['CSC 35 - Introduction to Computer Architecture (3.00)']]
+Sacramento State,[['CSC 60 - Introduction to Systems Programming in UNIX (3.00)']]
+Sacramento State,[['MATH 30 - Calculus I (4.00)']]
+Sacramento State,[['MATH 31 - Calculus II (4.00)']]
+Sacramento State,[['PHYS 11A - General Physics Mechanics (4.00)']]
+Sacramento State,"[['STAT 50 - Introduction to Probability and Statistics (4.00)'], ['ENGR 115 - Statistics For Engineers (3.00)']]"
+Sacramento State,"[['MATH 35 - Introduction to Linear Algebra (3.00)'], ['MATH 100 - Applied Linear Algebra (3.00)'], ['MATH 101 - Combinatorics (3.00)'], ['MATH 102 - Number Theory (3.00)'], ['MATH 150 - Introduction to Numerical Analysis (3.00)'], ['PHIL 160 - Deductive Logic II (3.00)'], ['STAT 103 - Intermediate Statistics (3.00)'], ['STAT 115A - Introduction to Probability Theory (3.00)'], ['STAT 155 - Introduction to Techniques of Operations Research (3.00)']]"
+Sacramento State,"[['BIO 1 - Biodiversity, Evolution and Ecology (5.00)'], ['BIO 10 - Basic Biological Concepts (3.00)'], ['CHEM 1A - General Chemistry I (5.00)'], ['CHEM 1E - General Chemistry for Engineering (4.00)'], ['PHYS 11B - General Physics Heat, Light, Sound, Modern Physics (4.00)'], ['PHYS 11C - General Physics Electricity and Magnetism (4.00)']]"
+Sacramento State,[['CSC 130 - Data Structures and Algorithm Analysis (3.00)']]
+Sacramento State,[['CSC 131 - Computer Software Engineering (3.00)']]
+Sacramento State,[['CSC 133 - Object-Oriented Computer Graphics Programming (3.00)']]
+Sacramento State,[['CSC 134 - Database Management Systems (3.00)']]
+Sacramento State,[['CSC 135 - Computing Theory and Programming Languages (3.00)']]
+Sacramento State,[['CSC 137 - Computer Organization (3.00)']]
+Sacramento State,[['CSC/CPE 138 - Computer Networking Fundamentals (3.00)']]
+Sacramento State,[['CSC 139 - Operating System Principles (3.00)']]
+Sacramento State,[['CSC 190 - Senior Project - Part I (2.00)']]
+Sacramento State,[['CSC 191 - Senior Project - Part II (2.00)']]
+Sacramento State,[['PHIL 103 - Business and Computer Ethics (3.00)']]
+Sacramento State,"[['--Select two units from the following (2.00)'],['CSC 192 - Career Planning'], ['CSC 194 - Computer Science Seminar'], ['CSC 195 - Fieldwork in Computer Science'], ['CSC 195A - Professional Practice'], ['CSC 198 - Co-Curricular Activities in Computer Science'], ['CSC 199 - Special Problems']]"
+Sacramento State,[['--ELECTIVE: Select 9 units of CSC courses 140 or above (9.00)']]
+Sacramento State,Total units: 78.0
+San Diego State,[['CS 150 - Introduction to Computer Programming (3.00)']]
+San Diego State,[['CS 150L - Introduction to Computer Programming Laboratory (1.00)']]
+San Diego State,[['CS 160 - Intermediate Computer Programming (3.00)']]
+San Diego State,[['CS 160L - Intermediate Computer Programming Laboratory (1.00)']]
+San Diego State,[['CS 210 - Data Structures (3.00)']]
+San Diego State,[['CS 240 - Machine Organization and Assembly Language (3.00)']]
+San Diego State,[['CS 250 - Introduction to Software Systems (3.00)']]
+San Diego State,[['MATH 150 - Calculus I (4.00)']]
+San Diego State,[['MATH 151 - Calculus II (4.00)']]
+San Diego State,[['MATH 245 - Discrete Mathematics (3.00)']]
+San Diego State,[['MATH 254 - Introduction to Linear Algebra (3.00)']]
+San Diego State,[['PHYS 195 - Principles of Physics (3.00)']]
+San Diego State,[['PHYS 195L - Principles of Physics Laboratory (1.00)']]
+San Diego State,[['PHYS 196 - Principles of Physics (3.00)']]
+San Diego State,[['PHYS 196L - Principles of Physics Laboratory (1.00)']]
+San Diego State,"[['STAT 250 - Basic Statistical Methods (3.00) '], ['STAT 119 - Elementary Statistics (3.00)']]"
+San Diego State,[['CS 370 - Computer Architecture (3.00)']]
+San Diego State,[['CS 450 - Introduction to Artificial Intelligence (3.00)']]
+San Diego State,[['CS 460 - Algorithms (Formerly CS 560) (3.00)']]
+San Diego State,[['CS 480 - Operating Systems (Formerly CS 570) (3.00)']]
+San Diego State,[['CS 520 - Advanced Programming Languages (equivalent to the new CS 420) (3.00)']]
+San Diego State,[['STAT 550 - Applied Probability (3.00)']]
+San Diego State,"[['--ELECTIVE: 18 units of courses are required from courses listed under the following areas A, B, C and D with no more than six units from area D. (All courses are 3 units each, unless noted.) (18.00)'], ['--A. Computer Systems'],['CS 470 - UNIX System Administration'],['CS 530 - Systems Programming'],['CS 532 - Software Engineering'],['CS 545 - Introduction to Web Application Development'],['CS 546 - Human Computer Interfaces'],['CS 562 - Automata Theory'],['CS 572 - Microprocessor Architecture'],['CS 574 - Computer Security'],['CS 576 - Computer Networks and Distributed Systems'],['CS 578 - Wireless Networks'],['--B. Intelligent Systems'],['CS 549 - Machine Learning'],['CS 553 - Neural Networks'],['CS 556 - Robotics'],['CS 559 - Computer Vision'],['CS 561 - Deep Learning for Natural Language Processing'],['CS 583 - 3D Game Programming'],['--C. Data Sciences'],['CS 503 - Scientific Database Techniques'],['CS 514 - Database Theory and Implementation'],['CS 537 - Programming for GIS'],['CS 558 - Computer Simulation'],['CS 577 - Principles and Techniques of Data Science'],['CS 581 - Computational Linguistics'],['CS 582 - Introduction to Speech Processing'],['--D. Special Courses'],['CS 497 - Undergraduate Research Seminar'],['CS 498 - Undergraduate Honors Thesis'],['CS 596 - Advanced Topics in Computer Science (1-4.00)']]"
+San Diego State,Total units: 78.0
+San Jose State,[['MATH 30 - Calculus I (3.00)']]
+San Jose State,[['MATH 31 - Calculus II (4.00)']]
+San Jose State,[['MATH 42 - Discrete Mathematics (3.00)']]
+San Jose State,[['MATH 39 - Linear Algebra I (3.00)']]
+San Jose State,"[['MATH 32 - Calculus III (3.00)'], ['MATH 142 - Introduction to Combinatorics (3.00)'], ['MATH 161A - Applied Probability and Statistics I (3.00)']]"
+San Jose State,"[['--Students must complete a total of 8 units of science electives. At least six of those units must be fulfilled by the courses listed below. The remaining units may be satisfied by GE Areas B1, B2, B3. (8.00)'],['BIOL 30 - Principles of Biology I (4.00)'],['BIOL 31 - Principles of Biology II (4.00)'],['CHEM 1A - General Chemistry (5.00)'],['GEOL 1 - General Geology (4.00)'],['GEOL 4L - Earth Systems Lab (1.00)'],['GEOL 7 - Earth, Time and Life (4.00)'],['METR 10 - Weather and Climate (3.00)'],['PHYS 50 - General Physics I - Mechanics (4.00)'],['PHYS 51 - General Physics II - Electricity and Magnetism (4.00)']]"
+San Jose State,"[['CS 46A - Introduction to Programming (4.00)'], ['CS 46AX - Introduction to Programming (4.00)']]"
+San Jose State,[['CS 46B - Introduction to Data Structures (4.00)']]
+San Jose State,[['CS 47 - Introduction to Computer Systems (3.00)']]
+San Jose State,[['CS 146 - Data Structures and Algorithms (3.00)']]
+San Jose State,[['CS 147 - Computer Architecture (3.00)']]
+San Jose State,[['CS 149 - Operating Systems (3.00)']]
+San Jose State,[['CS 151 - Object-Oriented Design (3.00)']]
+San Jose State,[['CS 152 - Programming Paradigms (3.00)']]
+San Jose State,[['CS 154 - Formal Languages and Computability (3.00)']]
+San Jose State,[['CS 160 - Software Engineering (3.00)']]
+San Jose State,[['CS 157A - Introduction to Database Management Systems (3.00)']]
+San Jose State,[['CS 166 - Information Security (3.00)']]
+San Jose State,"[['PHIL 134 - Computers, Ethics and Society (3.00)']]"
+San Jose State,[['--ELECTIVE: Major Electives: See catalog (14.00)']]
+San Jose State,Total units: 79.0
+CP Pomona,[['BIO 1110 - Life Science (2.00)']]
+CP Pomona,[['BIO 1110L - Life Science Laboratory (1.00)']]
+CP Pomona,[['CS 1300 - Discrete Structures (3.00)']]
+CP Pomona,[['CS 1400 - Introduction to Programming and Problem Solving (4.00)']]
+CP Pomona,[['CS 2400 - Data Structures and Advanced Programming (4.00)']]
+CP Pomona,[['CS 2600 - Systems Programming (3.00)']]
+CP Pomona,[['CS 2610 - Introduction to Cyber Security and Network Communications (3.00)']]
+CP Pomona,[['CS 2640 - Computer Organization and Assembly Programming (3.00)']]
+CP Pomona,[['MAT 1140 - Calculus I (4.00)']]
+CP Pomona,[['MAT 1150 - Calculus II (4.00)']]
+CP Pomona,[['PHY 1510 - Introduction to Newtonian Mechanics (3.00)']]
+CP Pomona,[['PHY 1510L - Newtonian Mechanics Laboratory (1.00)']]
+CP Pomona,[['STA 2260 - Probability and Statistics for Computer Scientists and Engineers (3.00)']]
+CP Pomona,[['CS 3010 - Numerical Methods and Computing (3.00)']]
+CP Pomona,[['CS 3110 - Formal Languages and Automata (3.00)']]
+CP Pomona,[['CS 3310 - Design and Analysis of Algorithms (3.00)']]
+CP Pomona,[['CS 3560 - Object-Oriented Design and Programming (3.00)']]
+CP Pomona,[['CS 3650 - Computer Architecture (4.00)']]
+CP Pomona,[['CS 3750 - Computers and Society (3.00)']]
+CP Pomona,[['CS 4080 - Concepts of Programming Languages (3.00)']]
+CP Pomona,[['CS 4310 - Operating Systems (3.00)']]
+CP Pomona,[['CS 4630 - Undergraduate Seminar (1.00)']]
+CP Pomona,[['CS 4800 - Software Engineering (3.00)']]
+CP Pomona,"[['--ELECTIVE: At least 9 units from the following (9.00)'],['CS 3520 - Symbolic Programming (3.00)'],['CS 3700 - Parallel Processing (3.00)'],['CS 3800 - Computer Networks (3.00)'],['CS 4110 - Compilers and Interpreters (3.00)'],['CS 4200 - Artificial Intelligence (3.00)'],['CS 4210 - Machine Learning and Its Applications (3.00)'],['CS 4250 - Web Search and Recommender Systems (3.00)'],['CS 4350 - Database Systems (3.00)'],['CS 4450 - Computer Graphics (3.00)'],['CS 4500 - Computability (3.00)'],['CS 4600 - Cryptography and Information Security (3.00)'],['CS 4640 - Network and Web Security (3.00)'],['CS 4650 - Big Data Analytics and Cloud Computing (3.00)'],['CS 4660 - Wireless and Mobile Security (3.00)'],['CS 4700 - Game Development (3.00)'],['CS 4750 - Mobile Application Development (3.00)'],['CS 4810 - Software Engineering Practice (3.00)'],['CS 4990 - Special Topics for Upper Division Students 1-3']]"
+CP Pomona,"[['--ELECTIVE: No more than 6 units from the following (6.00)'],['CS 2250 - Introduction to Web Science and Technology (3.00)'],['CS 2410 - Fundamentals of Data Science (3.00)'],['CS 2450 - User Interface Design and Programming (3.00)'],['CS 2520 - Python for Programmers (3.00)'],['CS 2560 - C++ Programming (3.00)'],['CS 2990 - Special Topics for Lower Division Students 1-3']]"
+CP Pomona,"[['--ELECTIVE: No more than 2 units from the following (2.00)'],['CS 2000 - Special Study for Lower Division Students 1-3'], ['CS 4000 - Special Study for Upper Division Students 1-3'], ['CS 4410 - Internship in Computer Science 1-2'], ['CS 4610 - Senior Project (1.00)'], ['CS 4620 - Senior Project (1.00)']]"
+CP Pomona,Total units: 84.0
+Chico State,[['CSCI 111 - Programming and Algorithms I (4.00)']]
+Chico State,[['CSCI 211 - Programming and Algorithms II (4.00)']]
+Chico State,[['CSCI/MATH 217 - Discrete Mathematics (3.00)']]
+Chico State,[['MATH 120 - Analytic Geometry and Calculus (4.00)']]
+Chico State,[['MATH 121 - Analytic Geometry and Calculus (4.00)']]
+Chico State,"[['CSCI 221 - Assembly Language Programming (3.00)'], ['EECE 237 - Embedded Systems Development (3.00)']]"
+Chico State,"[['--Select two of the following (8.00)'],['CHEM 107 - General Chemistry for Applied Sciences (4.00)'], ['CHEM 111 - General Chemistry I (4.00)'],['CHEM 108 - Organic Chemistry for Applied Sciences (4.00)'],['CHEM 112 - General Chemistry II (4.00)'],['PHYS 204A - Physics for Students of Science and Engineering - Mechanics (4.00)'],['PHYS 204B - Physics for Students of Science and Engineering - Electricity and Magnetism (4.00)']]"
+Chico State,[['CINS 370 - Introduction to Databases (3.00)']]
+Chico State,[['CINS 448 - Computer Security (3.00)']]
+Chico State,[['CINS 467 - Web and Mobile Application Development (3.00)']]
+Chico State,[['CSCI 301W - Computer's Impact on Society (W) (3.00)']]
+Chico State,[['CSCI 311 - Algorithms and Data Structures (4.00)']]
+Chico State,[['CSCI 411 - Advanced Algorithms and Complexity (4.00)']]
+Chico State,[['CSCI 430 - Software Engineering (3.00)']]
+Chico State,[['CSCI 440 - Operating Systems (4.00)']]
+Chico State,[['CSCI/EECE 446 - Introduction to Computer Networks and Network Management (3.00)']]
+Chico State,[['CSCI 490 - Computer Science Capstone (3.00)']]
+Chico State,[['CSCI 551 - Numerical Methods and Parallel Programming (3.00)']]
+Chico State,[['MATH 314 - Probability and Statistics for Science and Technology (4.00)']]
+Chico State,"[['CSCI 315 - Programming Languages (3.00)'], ['CSCI 515 - Compiler Design (3.00)']]"
+Chico State,"[['CSCI 580 - Artificial Intelligence (3.00)'], ['CSCI 581 - Machine Learning (3.00)']]"
+Chico State,[['--ELECTIVE: Select 11 units from the following: See catalog (11.00)']]
+Chico State,Total units: 87.0
+CSU Northridge,[['COMP 110/L - Introduction to Algorithms and Programming and Lab (4.00)']]
+CSU Northridge,[['COMP 122/L - Computer Architecture and Assembly Language and Lab (2.00)']]
+CSU Northridge,[['COMP 182/L - Data Structures and Program Design and Lab (4.00)']]
+CSU Northridge,[['COMP 222 - Computer Organization (3.00)']]
+CSU Northridge,[['COMP 256/L - Discrete Structures for Computer Science and Lab (4.00)']]
+CSU Northridge,[['COMP 282 - Advanced Data Structures (3.00)']]
+CSU Northridge,[['MATH 150A - Calculus I (5.00)']]
+CSU Northridge,[['MATH 150B - Calculus II (5.00)']]
+CSU Northridge,[['MATH 262 - Introduction to Linear Algebra (3.00)']]
+CSU Northridge,[['PHIL 230 - Introduction to Formal Logic (3.00)']]
+CSU Northridge,"[['BIOL 106/BIOL 106L - Biological Principles I and Lab (4.00)', 'BIOL 107/BIOL 107L - Biological Principles II and Lab (4.00)'], ['CHEM 101/CHEM 101D/CHEM 101L - General Chemistry I and Discussion and Lab (5.00)', 'CHEM 102/CHEM 102D/CHEM 102L - General Chemistry II and Discussion and Lab (5.00)'], ['PHYS 220A/PHYS 220AL - Mechanics and Lab (4.00)', 'PHYS 220B/PHYS 220BL - Electricity and Magnetism and Lab (4.00)']]"
+CSU Northridge,"[['BIOL 106/BIOL 106L - Biological Principles I and Lab (4.00)'],['CHEM 101/CHEM 101D/CHEM 101L - General Chemistry I and Discussion and Lab (5.00)'],['GEOG 101/GEOG 102 - The Physical Environment and Lab (4.00)'],['GEOG 103/GEOG 105 - Weather and Lab (4.00)'],['GEOL 101/GEOL 102 - Geology of Planet Earth and Lab (4.00)'],['GEOL 110/GEOL 112 - Earth and Life through Time and Lab (4.00)'],['PHYS 220A/PHYS 220AL - Mechanics and Lab (4.00)']]"
+CSU Northridge,"[['COMP 310 - Automata, Languages and Computation (3.00)']]"
+CSU Northridge,[['COMP 322/L - Introduction to Operating Systems and System Architecture and Lab (4.00)']]
+CSU Northridge,[['COMP 333 - Concepts of Programming Languages (3.00)']]
+CSU Northridge,[['COMP 380/L - Introduction to Software Engineering and Lab (3.00)']]
+CSU Northridge,[['COMP 482 - Algorithm Design and Analysis (3.00)']]
+CSU Northridge,[['COMP 490/L - Senior Design Project and Lab (4.00)']]
+CSU Northridge,[['COMP 491L - Senior Project Lab (1.00)']]
+CSU Northridge,"[['MATH 340 - Probability (3.00)'], ['MATH 341 - Applied Statistics I (3.00)']]"
+CSU Northridge,[['--ELECTIVE: Computer Science majors are required to take 15 units of senior electives. See catalog (15.00)']]
+CSU Northridge,Total units: 87.0
+CSU Bakersfield,[['CMPS 2010 - Programming I - Programming Fundamentals (4.00)']]
+CSU Bakersfield,[['CMPS 2020 - Programming II - Data Structures and Algorithms (4.00)']]
+CSU Bakersfield,[['CMPS 2120 - Discrete Structures (4.00)']]
+CSU Bakersfield,[['CMPS 2240 - Computer Architecture I - Assembly Language Programming (4.00)']]
+CSU Bakersfield,"[['MATH 2510 - Single Variable Calculus I (4.00)'], ['MATH 2310 - Single Variable Calculus I for Engineers (4.00)']]"
+CSU Bakersfield,"[['MATH 2520 - Single Variable Calculus II (4.00)'], ['MATH 2320 - Single Variable Calculus II for Engineers (4.00)']]"
+CSU Bakersfield,[['PHYS 2210 - Calculus-Based Physics I (4.00)']]
+CSU Bakersfield,[['PHYS 2220 - Calculus-Based Physics II (4.00)']]
+CSU Bakersfield,"[['BIOL 1009 - Perspectives in Biology (3.00)'], ['BIOL 1039 - Principles of Ecology (3.00)'], ['BIOL 2010 - Introductory Biology - Cells (4.00)'], ['CHEM 1000 - Foundations of Chemistry (3.00)'], ['GEOL 2010 - Physical Geology (4.00)'], ['MATH 2200 - Introduction to Statistical Concepts and Methods (4.00)'], ['MATH 2533 - Multivariable and Vector Calculus (4.00)'], ['MATH 2540 - Ordinary Differential Equations (4.00)'], ['MATH 2610 - Linear Algebra I (4.00)'], ['MATH 3500 - 3500 Complex Variables (4.00)'],['PHYS 2230 - Physics for Scientists and Engineers III (4.00)'], ['SCI 1409 - Introduction to Scientific Thinking (3.00)']]"
+CSU Bakersfield,[['CMPS 3120 - Algorithm Analysis (3.00)']]
+CSU Bakersfield,[['CMPS 3140 - Theory of Computation (3.00)']]
+CSU Bakersfield,[['CMPS 3240 - Computer Architecture II - Organization (4.00)']]
+CSU Bakersfield,[['CMPS 3350 - Software Engineering (4.00)']]
+CSU Bakersfield,[['CMPS 3420 - Database Systems (4.00)']]
+CSU Bakersfield,[['CMPS 3500 - Programming Languages (3.00)']]
+CSU Bakersfield,[['CMPS 3560 - Artificial Intelligence (3.00)']]
+CSU Bakersfield,[['CMPS 3600 - Operating Systems (4.00)']]
+CSU Bakersfield,[['CMPS 3620 - Computer Networks (4.00)']]
+CSU Bakersfield,[['CMPS 3640 - Distributed and Parallel Computation (3.00)']]
+CSU Bakersfield,[['CMPS 4910 - Senior Project I (2.00)']]
+CSU Bakersfield,[['CMPS 4928 - Senior Project II (2.00)']]
+CSU Bakersfield,[['--ELECTIVE: Select 8 units of courses from the following. At least one course must be at the 4000-level: See catalog (8.00)']]
+CSU Bakersfield,[['MATH 3200 - Probability Theory (4.00)']]
+CSU Bakersfield,[['PHIL 3318 - Professional Ethics (3.00)']]
+CSU Bakersfield,Total units: 89.0
+CSU San Bernardino,[['CSE 2010 - Computer Science I (4.00)']]
+CSU San Bernardino,[['CSE 2020 - Computer Science II (4.00)']]
+CSU San Bernardino,[['CSE 2130 - Machine Organization (3.00)']]
+CSU San Bernardino,[['MATH 2720 - Discrete Mathematics (3.00)']]
+CSU San Bernardino,[['MATH 2210 - Calculus I (4.00)']]
+CSU San Bernardino,[['MATH 2220 - Calculus II (4.00)']]
+CSU San Bernardino,[['MATH 2265 - Statistics with Applications (3.00)']]
+CSU San Bernardino,[['MATH 2310 - Applied Linear Algebra (4.00)']]
+CSU San Bernardino,[['PHYS 2500 - General Physics I (4.00)']]
+CSU San Bernardino,[['PHYS 2500L - General Physics I Lab (1.00)']]
+CSU San Bernardino,[['PHYS 2510 - General Physics II (4.00)']]
+CSU San Bernardino,[['PHYS 2510L - General Physics II Lab (1.00)']]
+CSU San Bernardino,[['CSE 3100 - Digital Logic (4.00)']]
+CSU San Bernardino,[['CSE 4010 - Contemporary Computer Architecture (4.00)']]
+CSU San Bernardino,[['CSE 4100 - Computer Networking and Security (3.00)']]
+CSU San Bernardino,[['CSE 4310 - Algorithm Analysis (3.00)']]
+CSU San Bernardino,[['CSE 4550 - Software Engineering (3.00)']]
+CSU San Bernardino,[['CSE 4600 - Operating Systems (3.00)']]
+CSU San Bernardino,[['CSE 4880 - Ethics Senior Seminar (3.00)']]
+CSU San Bernardino,[['CSE 5000 - Introduction to Formal Languages and Automata Theory (3.00)']]
+CSU San Bernardino,"[['CSE 5120 - Introduction to Artificial Intelligence (3.00)'], ['CSE 5140 - Computational Intelligence (3.00)'], ['CSE 5160 - Machine Learning (3.00)']]"
+CSU San Bernardino,[['CSE 5250 - Parallel Algorithms and Programming (3.00)']]
+CSU San Bernardino,[['CSE 5700 - Compilers (3.00)']]
+CSU San Bernardino,[['CSE 5720 - Database Systems (3.00)']]
+CSU San Bernardino,[['--ELECTIVE: Twelve units chosen from CSE 4000-level and above courses and not previously taken. (12.00)']]
+CSU San Bernardino,Total units: 89.0
+CSU Long Beach,[['CECS 105 - Introduction to Computer Engineering and Computer Science (1.00)']]
+CSU Long Beach,[['CECS 174 - Introduction to Programming and Problem Solving (3.00)']]
+CSU Long Beach,[['CECS 225 - Digital Logic and Assembly Programming (3.00)']]
+CSU Long Beach,[['CECS 228 - Discrete Structures with Computing Applications (3.00)']]
+CSU Long Beach,[['CECS 229 - Discrete Structures with Computing Applications II (3.00)']]
+CSU Long Beach,[['CECS 274 - Data Structures (3.00)']]
+CSU Long Beach,[['CECS 277 - Object Oriented Application Development (3.00)']]
+CSU Long Beach,[['ENGR 101 - Introduction to the Engineering Profession (1.00)']]
+CSU Long Beach,[['ENGR 102 - Academic Success Skills (1.00)']]
+CSU Long Beach,[['MATH 122 - Calculus I (4.00)']]
+CSU Long Beach,[['MATH 123 - Calculus II (4.00)']]
+CSU Long Beach,"[['--Take a minimum of 8 units of approved science-electives to include a two-semester science sequence chosen from the following groups of courses (8.00)'],['PHYS 151 - Mechanics and Heat (4.00)'], ['CHEM 111A - General Chemistry (5.00)'],['--Remaining units to be chosen from the following:'],['BIOL 200 - General Biology (4.00)'],['BIOL 205 - Human Biology (4.00)'],['BIOL 207 - Human Physiology (4.00)']]"
+CSU Long Beach,[['CECS 323 - Database Fundamentals (3.00)']]
+CSU Long Beach,[['CECS 325 - System Programming (3.00)']]
+CSU Long Beach,[['CECS 326 - Operating Systems (3.00)']]
+CSU Long Beach,[['CECS 327 - Introduction to Networks and Distributed Computing (3.00)']]
+CSU Long Beach,[['CECS 328 - Algorithms (3.00)']]
+CSU Long Beach,[['CECS 329 - Concepts of Computer Science Theory (3.00)']]
+CSU Long Beach,[['CECS 341 - Computer Architecture and Organization (3.00)']]
+CSU Long Beach,[['CECS 342 - Principles of Programming Languages (3.00)']]
+CSU Long Beach,[['CECS 343 - Introduction to Software Engineering (3.00)']]
+CSU Long Beach,[['CECS 378 - Introduction to Computer Security Principles (3.00)']]
+CSU Long Beach,[['E E 381 - Probability and Statistics with Applications to Computing (3.00)']]
+CSU Long Beach,"[['ENGR 350 - Computers, Ethics and Society (3.00)']]"
+CSU Long Beach,[['CECS 491A - Computer Science Senior Project I (3.00)']]
+CSU Long Beach,[['CECS 491B - Computer Science Senior Project II (3.00)']]
+CSU Long Beach,"[['ENGR 361 - Scientific Research Communication (3.00)'], ['ENGR 390 - Information and Communication Technology for Sustainability (3.00)']]"
+CSU Long Beach,[['--ELECTIVE: Take 9 units from Group 1 and an additional 3 units from either Group 1 or Group 2. See catalog (9.00)']]
+CSU Long Beach,Total units: 91.0
+CSU Los Angeles,[['CS 1222 - Introduction to Relational Databases (3.00)']]
+CSU Los Angeles,[['CS 2011 - Introduction to Programming I (4.00)']]
+CSU Los Angeles,[['CS 2012 - Introduction to Programming II (4.00)']]
+CSU Los Angeles,[['CS 2013 - Programming with Data Structures (4.00)']]
+CSU Los Angeles,[['CS 2148 - Discrete Structures (4.00)']]
+CSU Los Angeles,[['CS 2445 - Introduction to Computer Systems (3.00)']]
+CSU Los Angeles,[['CS 2470 - Fundamentals of Network Systems and Cybersecurity (3.00)']]
+CSU Los Angeles,[['ENGL 2030 - Introduction to Technical Writing (3.00)']]
+CSU Los Angeles,[['MATH 2110 - Calculus I (4.00)']]
+CSU Los Angeles,[['MATH 2120 - Calculus II (4.00)']]
+CSU Los Angeles,[['MATH 2550 - Introduction to Linear Algebra (3.00)']]
+CSU Los Angeles,[['PHYS 2100 - General Physics I - Mechanics (5.00)']]
+CSU Los Angeles,[['CS 3035 - Programming Paradigms(3.00)']]
+CSU Los Angeles,[['CS 3112 - Analysis of Algorithms (3.00)']]
+CSU Los Angeles,[['CS 3186 - Introduction to Automata Theory (3.00)']]
+CSU Los Angeles,[['CS 3220 - Web and Internet Programming (4.00)']]
+CSU Los Angeles,[['CS 3337 - Software Engineering (3.00)']]
+CSU Los Angeles,[['CS 3801 - Societal and Ethical Issues in Computing (3.00)']]
+CSU Los Angeles,[['CS 4440 - Introduction to Operating Systems (3.00)']]
+CSU Los Angeles,[['CS 4961 - Software Design Laboratory I (3.00)']]
+CSU Los Angeles,[['CS 4962 - Software Design Laboratory II (3.00)']]
+CSU Los Angeles,[['CS 4963 - Computer Science Recapitulation (3.00)']]
+CSU Los Angeles,"[['--ELECTIVE: Select 18 units of upper division courses. (18.00)'],['CS 4075 - Concurrent and Distributed Programming (3.00)'],['CS 4112 - Competitive Programming (3.00)'],['CS 4188 - Compilers (3.00)'],['CS 4220 - Current Trends in Web Design and Development (3.00)'],['CS 4222 - Principles of Data Base Systems (3.00)'],['CS 4470 - Computer Networking Protocols (3.00)'],['CS 4471 - Computer Networks Configuration and Management (3.00)'],['CS 4540 - Topics in Advanced Computer Science [1-3]'],['CS 4550 - Computer Graphics (3.00)'],['CS 4551 - Multimedia Software Systems (3.00)'],['CS 4555 - Introduction to 3D Computer Game Programming (3.00)'],['CS 4635 - Modeling and Simulation (3.00)'],['CS 4660 - Artificial Intelligence (3.00)'],['CS 4661 - Introduction to Data Science (3.00)'],['CS 4662 - Advanced Machine Learning and Deep Learning (3.00)'],['CS 4780 - Cryptography and Information Security (3.00)'],['EE 3445 - Computer Organization (3.00)']]"
+CSU Los Angeles,Total units: 93.0
+CSU Fullerton,[['CPSC 120 - Introduction to Programming (3.00)']]
+CSU Fullerton,[['CPSC 121 - Object-Oriented Programming (3.00)']]
+CSU Fullerton,[['CPSC 131 - Data Structures (3.00)']]
+CSU Fullerton,"[['CPSC 223C - C Programming (3.00)'], ['CPSC 223J - Java Programming (3.00)'], ['CPSC 223N - Visual C# Programming (3.00)'], ['CPSC 223P - Python Programming (3.00)']]"
+CSU Fullerton,[['CPSC 240 - Computer Organization and Assembly Language (3.00)']]
+CSU Fullerton,[['CPSC 253 - Cybersecurity Foundations and Principles (3.00)']]
+CSU Fullerton,[['MATH 150A - Calculus I (4.00)']]
+CSU Fullerton,[['MATH 150B - Calculus II (4.00)']]
+CSU Fullerton,[['MATH 170A - Mathematical Structures I (3.00)']]
+CSU Fullerton,[['MATH 170B - Mathematical Structures II (3.00)']]
+CSU Fullerton,[['MATH 338 - Statistics Applied to Natural Sciences (4.00)']]
+CSU Fullerton,"[['--ELECTIVE MATH/SCI: 12 Units from the following (12.00)'],['BIOL 101 - Elements of Biology (3.00)'],['BIOL 101L - Elements of Biology Laboratory (1.00)'],['BIOL 151 - Cellular and Molecular Biology (4.00)'],['BIOL 152 - Evolution and Organismal Biology (4.00)'],['CHEM 120A - General Chemistry (5.00)'],['CHEM 120B - General Chemistry (5.00)'],['CHEM 123 - Chemistry for Engineers (3.00)'],['CHEM 125 - General Chemistry B Lecture (3.00)'],['GEOL 101 - Introduction to Geology (3.00)'],['GEOL 101L - Introduction to Geology Laboratory (1.00)'],['GEOL 201 - Earth History (3.00)'],['GEOL 201L - Earth History Supplemental Lab (1.00)'],['MATH 250A - Calculus III (4.00)'],['MATH 250B - Introduction to Linear Algebra and Differential Equations (4.00)'],['PHYS 225 - Fundamental Physics - Mechanics (3.00)'],['PHYS 225L - Fundamental Physics - Laboratory (1.00)'],['PHYS 226 - Fundamental Physics - Electricity and Magnetism (3.00)'],['PHYS 226L - Fundamental Physics - Laboratory (1.00)'],['PHYS 227 - Fundamental Physics - Waves, Optics, and Modern Physics (1-3)'],['PHYS 227L - Fundamental Physics - Laboratory (1.00)']]"
+CSU Fullerton,[['CPSC 315 - Professional Ethics in Computing (3.00)']]
+CSU Fullerton,[['CPSC 323 - Compilers and Languages (3.00)']]
+CSU Fullerton,[['CPSC 332 - File Structures and Database Systems (3.00)']]
+CSU Fullerton,[['CPSC 335 - Algorithm Engineering (3.00)']]
+CSU Fullerton,[['CPSC 351 - Operating Systems Concepts (3.00)']]
+CSU Fullerton,[['CPSC 362 - Foundations of Software Engineering (3.00)']]
+CSU Fullerton,[['CPSC 471 - Computer Communications (3.00)']]
+CSU Fullerton,[['CPSC 481 - Artificial Intelligence (3.00)']]
+CSU Fullerton,[['CPSC 490 - Undergraduate Seminar in Computer Science (3.00)']]
+CSU Fullerton,[['CPSC 491 - Senior Capstone Project in Computer Science (3.00)']]
+CSU Fullerton,[['--ELECTIVE: 15 units of the following (15.00)']]
+CSU Fullerton,Total units: 93.0
+CP San Luis Obispo,[['CSC/CPE 101 - Fundamentals of Computer Science (4.00)']]
+CP San Luis Obispo,[['CSC/CPE 123 - Introduction to Computing 1 (4.00)']]
+CP San Luis Obispo,[['CSC/CPE 202 - Data Structures (4.00)']]
+CP San Luis Obispo,[['CSC/CPE 203 - Project-Based Object-Oriented Programming and Design (4.00)']]
+CP San Luis Obispo,[['CSC 225 - Introduction to Computer Organization (4.00)']]
+CP San Luis Obispo,[['CSC 248 - Discrete Structures (4.00)']]
+CP San Luis Obispo,[['MATH 141 - Calculus I (4.00)']]
+CP San Luis Obispo,[['MATH 142 - Calculus II (4.00)']]
+CP San Luis Obispo,[['MATH 143 - Calculus III (4.00)']]
+CP San Luis Obispo,"[['MATH 206 - Linear Algebra I (4.00)'], ['MATH 244 - Linear Analysis I (4.00)']]"
+CP San Luis Obispo,"[['PHIL 230 - Philosophical Classics - Knowledge and Reality (4.00)'], ['PHIL 231 - Philosophical Classics - Ethics and Political Philosophy (4.00)']]"
+CP San Luis Obispo,"[['BIO 111 - General Biology (4.00)'], ['BIO 161 - Introduction to Cell and Molecular Biology (4.00)'], ['BIO 213 & BMED 213 - Life Science for Engineers and Bioengineering Fundamentals (4.00)'], ['BOT 121 - General Botany (4.00)'], ['MCRO 221 - Microbiology (4.00)']]"
+CP San Luis Obispo,"[['CHEM 124 & CHEM 125 & CHEM 126 - General Chemistry for Physical Science and Engineering I and General Chemistry for Physical Science and Engineering II and General Chemistry for Physical Science and Engineering III (12.00)'], ['PHYS 141 & PHYS 142 & PHYS 143 - General Physics I and General Physics II and General Physics III (12.00)']]"
+CP San Luis Obispo,"[['BIO 111 - General Biology (4.00)'], ['BIO 161 - Introduction to Cell and Molecular Biology (4.00)'], ['BOT 121 - General Botany (4.00)'], ['CHEM 124 - General Chemistry for Physical Science and Engineering I (4.00)'], ['MCRO 221 - Microbiology (4.00)'], ['PHYS 141 - General Physics I (4.00)']]"
+CP San Luis Obispo,"[['ES/WGQS 350 - Gender, Race, Culture, Science & Technology (4.00)'], ['ES 351 - Gender, Race, Class, Nation in Global Engineering, Technology & International Development (4.00)']]"
+CP San Luis Obispo,[['STAT 312 - Statistical Methods for Engineers (4.00)']]
+CP San Luis Obispo,"[['CSC 300 - Professional Responsibilities (4.00)'], ['PHIL 323 - Ethics, Science and Technology (4.00)']]"
+CP San Luis Obispo,"[['CSC 307 - Introduction to Software Engineering (4.00)'], ['CSC 308 - Software Engineering II (4.00)', 'CSC 309 - Software Engineering II (4.00)']]"
+CP San Luis Obispo,"[['CSC 321 - Introduction to Computer Security (4.00)'], ['CSC 323 - Cryptography Engineering (4.00)'], ['CSC 325 - Introduction to Privacy - Policy and Technology (4.00)']]"
+CP San Luis Obispo,[['CSC 349 - Design and Analysis of Algorithms (4.00)']]
+CP San Luis Obispo,[['CSC/CPE 357 - Systems Programming (4.00)']]
+CP San Luis Obispo,"[['CSC 364 - Introduction to Networked, Distributed, and Parallel Computing (4.00)'], ['CSC 308 - Software Engineering I (4.00)', 'CSC 309 - Software Engineering II (4.00)']]"
+CP San Luis Obispo,[['CSC 365 - Introduction to Database Systems (4.00)']]
+CP San Luis Obispo,[['CSC 430 - Programming Languages (4.00)']]
+CP San Luis Obispo,[['CSC 445 - Theory of Computation I (4.00)']]
+CP San Luis Obispo,[['CSC/CPE 453 - Introduction to Operating Systems (4.00)']]
+CP San Luis Obispo,"[['CSC 491 - Senior Project I (2.00)', 'CSC 492 - Senior Project II (2.00)'], ['CSC 497 - Research Senior Project I (2.00)', 'CSC 498 - Research Senior Project II (2.00)']]"
+CP San Luis Obispo,[['--ELECTIVE: Concentration or General Curriculum in Computer Science (24.00)']]
+CP San Luis Obispo,Total units: 140.0

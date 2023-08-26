@@ -1,0 +1,17 @@
+Curriculum,Computer Science,,,,,,,,
+Institution,Cal_Poly_Humboldt,,,,,,,,
+Degree Type,BS,,,,,,,,
+System Type,semester,,,,,,,,
+CIP,11.0701,,,,,,,,
+Courses,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name
+1,Algebra & Elementary Functions,MATH,102,,,,4,,
+2,Computer Science Foundations 1,CS,111,1,,,4,,
+3,Computer ScienceFoundations 2,CS,112,2,,,4,,
+4,Data Structures,CS,211,3;5,,,4,,
+5,Discrete Mathematics,MATH,253,1;2,,,3,,
+6,Architecture,CS,243,3;5,,,4,,
+7,Elementary Statistics,STAT,108,,,,3,,
+8,"Calculus for the BiologicalSciences and Natural
+Resources ",MATH,105,1,,,3,,
+9,,,,,,,,,

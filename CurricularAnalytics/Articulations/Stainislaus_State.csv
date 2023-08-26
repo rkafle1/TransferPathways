@@ -1,0 +1,18 @@
+Curriculum,Stainislaus_State,,,,,,,,,
+Institution,"Stainislaus",,,,,,,,,
+Degree Type,"BS",,,,,,,,,
+System Type,"semester",,,,,,,,,
+CIP,"11.0701",,,,,,,,,
+Courses,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+1,"College Algebra","MATH","1070",,,,4,"","",3.0,1,2.0,0
+2,"Precalculus","MATH","1100",,,,4,"","",6.0,3,3.0,0
+3,"Calculus I","MATH","1410","2",,,4,"","",5.0,2,3.0,6
+4,"Calculus II","MATH","1420","3",,,4,"","",3.0,0,3.0,0
+5,"Probability and Statistics","MATH","1620","3",,,4,"","",3.0,0,3.0,0
+6,"Discrete Structures","MATH","2300","1",,,4,"","",2.0,0,2.0,0
+7,"General Biology I","BIOL","1050",,,,4,"","",3.0,1,2.0,0
+8,"General Biology II","BIOL","1150","7",,,4,"","",2.0,0,2.0,0
+9,"Computer Programmming I","CS","1500",,,,3,"","",5.0,2,3.0,0
+10,"Computer Programmming II","CS","2500","9",,,3,"","",4.0,1,3.0,3
+11,"Assembly Language and Computer Architecture","CS","2700","10",,,3,"","",3.0,0,3.0,0

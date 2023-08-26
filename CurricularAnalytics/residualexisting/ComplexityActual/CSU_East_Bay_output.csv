@@ -1,0 +1,17 @@
+,EastBayActual,,,,,,,,,,,,
+,CSU East Bay,,,,,,,,,,,,
+,BS,,,,,,,,,,,,
+,semester,,,,,,,,,,,,
+,11.0701,,,,,,,,,,,,
+Residual Complexity Total:,31.0,,,,,,,,,,,,,
+Graduation Complexity Total:,179.0,,,,,,,,,,,,,
+Residual Difference:,148.0,,,,,,,,,,,,,,
+
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality,Source
+1.0,Computer Science 1,CS,101,,,,4.0,,,19.0,15.0,4.0,0.0,Graduation
+2.0,Computer Science II,CS,201,1,,,4.0,,,14.0,10.0,4.0,35.0,Graduation
+3.0,Discrete Structures,CS,211,4,,,3.0,,,16.0,11.0,5.0,52.0,Graduation
+4.0,Calculus I,MATH,130,5,,,4.0,,,21.0,16.0,5.0,63.0,Graduation
+5.0,Precalculus with Algebra,MATH,125,,,,5.0,,,22.0,17.0,5.0,0.0,Graduation
+11.0,Data Structures and Algorithms,CS,301,2;3,,,3.0,,,13.0,8.0,5.0,72.0,Graduation
+11.0,Data Structures and Algorithms,CS,301,,,,3.0,,,10.0,8.0,2.0,0.0,Residual

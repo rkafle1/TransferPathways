@@ -1,0 +1,21 @@
+Curriculum,CSULosAngelesActual,,,,,,,,,
+Institution,"CSU_Los_Angeles",,,,,,,,,
+Degree Type,"BS",,,,,,,,,
+System Type,"semester",,,,,,,,,
+CIP,"11.0701",,,,,,,,,
+Courses,,,,,,,,,,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Complexity,Blocking,Delay,Centrality
+1," Introduction to Relational Databases ","CS","1222","2",,,3,"","",2.0,0,2.0,0
+2,"Introduction to Higher Education for Computer Science Majors","CS","1010",,,,3,"","",9.0,6,3.0,0
+3,"Introduction to Programming I","CS","2011","4;2",,,4,"","",8.0,4,4.0,28
+4,"Calculus I","MATH","2110","12",,,4,"","",10.0,6,4.0,22
+5,"Introduction to Programming II","CS","2012","3",,,4,"","",4.0,0,4.0,0
+6," Programming with Data Structures","CS","2013",,,,4,"","",1.0,0,1.0,0
+7,"Discrete Structures","CS","2148","4;3",,,4,"","",4.0,0,4.0,0
+8,"Introduction to Computer Systems","CS","2445","3",,,3,"","",4.0,0,4.0,0
+9,"Fundamentals of Network Systems and Cybersecurity","CS","2470","3",,,3,"","",4.0,0,4.0,0
+11,"Accelerated College Writing","ENGL","1010",,,,3,"","",1.0,0,1.0,0
+12,"Precalculus: Functions and Trigonometry","MATH","1040",,,,6,"","",11.0,7,4.0,0
+13,"Calculus II","MATH","2120",,,,4,"","",3.0,1,2.0,0
+14," Introduction to Linear Algebra","MATH","2550","13",,,3,"","",2.0,0,2.0,0
+15,"General Physics I: Mechanics","PHYS","2100","4",,,5,"","",3.0,0,3.0,0
