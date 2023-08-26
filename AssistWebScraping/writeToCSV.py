@@ -1,6 +1,8 @@
 import csv
 from AssistAPIInformationGetter import *
-
+'''
+This file is used to write agreement data to csvs
+'''
 def generateCSVfromAgreement(dict, UniversityName, CCName):
     fileName = "csvs/agreements/from" + CCName + "to" + UniversityName + ".csv"
     with open(fileName, 'w', newline='') as f:

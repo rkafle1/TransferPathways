@@ -3,35 +3,23 @@ from Requirements import *
 import os
 import ast
 import pandas as pd
-# import AssistAPIInformationGetter
 
-def delete_empty_rows(csv_file, output_file):
-    # Read the CSV file into a pandas DataFrame
-    df = pd.read_csv(csv_file, sep='\t')
+'''
+This file has various functions that are needed to analyze the assist scraped csvs that have been validated
+'''
 
-    # Drop rows with all NaN (empty) values
-    df.dropna(how='all', inplace=True)
-
-    # Write the modified DataFrame back to a new CSV file
-    df.to_csv(output_file, index=False, sep='\t')
-
-
-
-
-CCsdups = {"Compton Colleg": "Compton Community College", "Santa Ana College": "Rancho Santiago College", "Reedley College":"Kings River College",
+# various lists and dictionaries of information
+# CCsdups shows the known as CCs
+CCsdups = {"Compton College": "Compton Community College", "Santa Ana College": "Rancho Santiago College", "Reedley College":"Kings River College",
            "Berkeley City College":"Vista Community College"}
 UniNameShort = ["CSUF", "Sonoma","CPSLO", "Chico", "CSUSM", "SDSU", "SJSU", "CSULA", "CSUMB", "CSUN", "CSUB", "CSUSB", "CSUDH", "CSUEB", "CSUStan", "CSUS"
                 , "SFSU", "Humboldt", "CSUFresno", "CSULB", "CSUCI", "CPP", "UCI", "UCB", "UCSD", "UCM", "UCSC", "UCSB", "UCD", "UCLA", "UCR"]
+# list of universities on the quarter and semester system
 quarter = ["CPSLO", "UCI", "UCSD", "UCSC", "UCSB", "UCD", "UCLA", "UCR"]
 semester = ["UCB", "UCM", "CSUF", "Sonoma", "Chico", "CSUSM", "SDSU", "SJSU", "CSULA", "CSUMB", "CSUN", "CSUB", "CSUSB", "CSUDH", "CSUEB", "CSUStan", "CSUS"
                 , "SFSU", "Humboldt", "CSUFresno", "CSULB", "CSUCI", "CPP"] 
-# # if in semester multiply by 1.5
-UnisQuarter = []
-UnisSemester = []
-CCsQuarter = []
-CCsSemester = []
-# CCsName = AssistAPIInformationGetter.getUniqueCCNamelst()
-# print(CCsName)
+# if in semester multiply units by 1.5
+# List of unique CCs
 CCsName = ['Evergreen Valley College', 'Los Angeles City College', 'College of Marin', 'College of San Mateo', 'College of the Sequoias', 'Butte College',
             'Cerro Coso Community College', 'Columbia College', 'Merritt College', 'Cuesta College', 'Merced College', 'Las Positas College',
             'Victor Valley College', 'Barstow Community College', 'Los Angeles Trade Technical College', 'American River College', 'Contra Costa College',
@@ -140,32 +128,29 @@ def FixCSV(uniName, CSVFileName):
                     continue
                 writer.writerow(row)
                 prevCC = row[0]
-    delete_empty_rows("csvs/UniSheets/" + uniName + "temp.csv", "csvs/UniSheets/" + uniName + ".csv")
     os.remove("csvs/UniSheets/" + uniName + "temp.csv")    
+
+# Fixes all universities
 def Fixall(UniList):
     for i in UniList:
         # print(i)
         FixCSV(i, "csvs/csvs/Assist PDF scraped agreements - " + i)
         
-# [['CSE 12 - Basic Data Structures and Object-Oriented Design (4.00)', 'somthing']]
-# Fixall(UniNameShort)
+# CSVs have lists which are stored as strings so this takes in that string and returns the list
 def getListfromString(str):
-    
     return ast.literal_eval(str)
 
-
+# Gets a list of the requirements on assist that are also grad reqs
 def getrelList(UniName):
     Reqs = []
     with open("csvs/ReqRelationships.csv", 'r') as f:
         reader = csv.reader(f, delimiter='\t')
         for row in reader:
-            # print(row[0])
             if row[0] == UniName:
-                # print(row[1])
-                # print(row[1])
                 Reqs.append(getListfromString(row[1]))
     return Reqs
-# print(getrelList("UCI"))
+# Gets a list of courses contained in these requirments
+# 1 req can be multiple courses
 def getallRelatedCourses(reqlist):
     courses = []
     for i in reqlist:
@@ -173,8 +158,8 @@ def getallRelatedCourses(reqlist):
             for z in j:
                 courses.append(z)
     return courses
-# Fixes the format of the csv to capture full requirements
-# relList format: [[cse 8A, CSE 8B], [CSE 11]]
+# Writes to csvs/UniSheets/"+ UniName + "Gradreqs.csv" the requirements, as they appear on 
+# the graduation reqs and adds the articulating CC courses
 def ConvertToGradReqs(CSVFileName, relList, UniName):
     # create a new CSV file for the final sheet
     AddedFromrelList = []
@@ -188,10 +173,6 @@ def ConvertToGradReqs(CSVFileName, relList, UniName):
             reader = csv.reader(csvr, delimiter='\t')
             # iterate through the scraped csv file
             for row in reader:
-                # if row[1] == "MATH 3B - Calculus with Applications, Second Course (4.00)":
-                #     print("I see it")
-                # print(row, UniName)
-                isrepeat = False
                 if row[0] != prevCC:
                     # print(AddedFromrelList)
                     for i in range(len(AddedFromrelList)):
@@ -216,17 +197,13 @@ def ConvertToGradReqs(CSVFileName, relList, UniName):
                             else:
                                 if row[1] == "MATH 3B - Calculus with Applications, Second Course (4.00)":
                                     print("being added to end of one")
-                                artslist[len(artslist) - 1].append(getListfromString(row[2]))
-                # if UniName == "CSUFresno" and "Evergreen" in row[0]:
-                #     print(artslist)
-                                
+                                artslist[len(artslist) - 1].append(getListfromString(row[2]))                  
                 prevCC = row[0]
             for i in range(len(AddedFromrelList)):
                 writer.writerow([prevCC, AddedFromrelList[i], artslist[i]])
-# ConvertToGradReqs("csvs/UniSheets/" + "CSUFresno", getrelList("CSUFresno"), "CSUFresno")
+# Generates grad req mapping csvs for all universities
 def ConvertAllUniToGradReqs(uniList):
     for uni in uniList:          
-        ConvertToGradReqs("csvs/UniSheets/" + uni, getrelList(uni), uni)
-ConvertAllUniToGradReqs(UniNameShort)                               
+        ConvertToGradReqs("csvs/UniSheets/" + uni, getrelList(uni), uni)                              
 
 
